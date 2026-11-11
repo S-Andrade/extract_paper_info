@@ -1,0 +1,222 @@
+{
+  "key": "S4XJDYTN",
+  "title": "Identifying the Focus of Attention in Human-Robot Conversational Groups",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical system description with evaluation: an HMM-based focus-of-attention method tested on the public Babble dataset and in a live laboratory experiment with a Fetch robot.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Evaluating our method in both a laboratory experiment and on a publicly available dataset."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "A laboratory for the live experiment, plus a publicly available recorded dataset (Babble) evaluated offline.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "The experiment took place in our lab and lasted approximately 45 minutes."
+        },
+        {
+          "page": 2,
+          "text": "To evaluate our approach, we conducted experiments on a dataset of more than 1500 annotated frames of different conversational groups and a live laboratory setting using a Fetch robot."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "8 participants took part in the live laboratory experiment.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "we recruited 8 participants (7 females, 1 male) from our university campus, all of whom volunteered for the study and were not paid for their participation."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "The live experiment participants were 8 volunteers from the authors' university campus (7 females, 1 male) who were not paid.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "we recruited 8 participants (7 females, 1 male) from our university campus, all of whom volunteered for the study and were not paid for their participation."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "In the live experiment, the robot acted as an active listener within an F-formation while participants held informal conversation about topics such as favorite movies and restaurants. A researcher moderator randomly selected a participant to leave the group every 4-5 minutes, and a poster was later brought near the group to test focus shifts to outside objects.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "The experiment aimed to create a social experience where the robot acted as an active listener within an F-formation formed by the robot and the participants."
+        },
+        {
+          "page": 6,
+          "text": "During the experiment, the participants engaged in an informal conversation with each other and the robot."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Live sessions were reported with group sizes ranging from 3 to 7 including the robot. F-formations of size 2 were excluded from testing.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "This approach enabled us to assess our system’s performance under different group sizes, ranging from 7 to 3 participants (including the robot)."
+        },
+        {
+          "page": 8,
+          "text": "We excluded F-formations of size 2 from our testing because it involves only one person and the robot."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "One robot (Fetch) per session, which acts as a member of the F-formation.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "We implemented our HMM model and deployed it on a mobile ground robot called"
+        },
+        {
+          "page": 6,
+          "text": "The experiment aimed to create a social experience where the robot acted as an active listener within an F-formation formed by the robot and the participants."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "The paper reports group sizes of 3 to 7 including the robot, which implies 2 to 6 humans per session. The paper does not state the human count per session explicitly.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "This approach enabled us to assess our system’s performance under different group sizes, ranging from 7 to 3 participants (including the robot)."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Accuracy of predicted focus of attention compared with annotated ground truth, using the Babble dataset and manually annotated live-session frames, with a naive voting baseline. Inter-rater agreement between two annotators was also measured with Cohen's kappa.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "This metric provides insights into the performance of our system in predicting the current focus of attention based on the head orientations of the participants."
+        },
+        {
+          "page": 7,
+          "text": "Two members of the research team manually determined the focus of attention in each of these frames."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "On the Babble dataset the HMM achieved 81.6% accuracy versus 53.8% for the naive voting baseline. In the live experiment the system reached 94.00% accuracy, and all errors were false negatives.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "Our method achieved an accuracy of 81.6%, compared to a baseline accuracy of 53.8%."
+        },
+        {
+          "page": 7,
+          "text": "Our system achieved an accuracy of 94.00%, indicating the high performance of our predictions."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames the concept as the group's focus of attention: the visual point at which a majority of participants direct their gaze in a conversation, which the robot detects. It does not use the term robotic gaze-based attention.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We propose a method for detecting the group’s focus of attention: the visual point at which a majority of participants direct their gaze in a conversation."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The group's focus of attention is defined as the person or object that receives the majority of the attention within or outside the conversational group. It can be a person inside the group, an object inside the group, a person outside the group, or an object outside the group.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "the person or object that receives the majority of the attention within or outside the conversational group"
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Knowing the group's focus of attention lets the robot adjust its gaze to the conversational dynamics and behave more naturally. It also gives context that can reduce ambiguity in conversations, such as when two people share a name.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "By looking at the group’s focus of attention, the robot can adjust its gaze to align with the conversational dynamics."
+        },
+        {
+          "page": 2,
+          "text": "Moreover, the focus of attention provides context to the robot in the conversational group, especially in situations where the context is ambiguous."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The authors state that the algorithm enabled the robot to exhibit more natural gaze behavior in realistic group interactions. The paper reports no measured effects on human participants or interaction outcomes.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Our algorithm successfully detected the focus of attention and enabled the robot to exhibit more natural gaze behavior in a range of realistic group interactions"
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "Autonomous pipeline: Vicon motion capture tracks head position and orientation, REFORM detects F-formations, and an HMM with forward-algorithm updates infers the focus of attention among candidate targets using normally distributed head-orientation likelihoods. A PID controller then turns Fetch's head toward the inferred focus.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "These inputs are then fed into a Hidden Markov Model (HMM) to detect one of the possible candidates as the focus of attention."
+        },
+        {
+          "page": 5,
+          "text": "We implemented a PID controller as a ROS node that controls Fetch’s head."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Fetch, a mobile ground robot with a manipulator. Its head rotates left and right and up and down, and depth and RGB cameras on the head make it look somewhat like it has eyes.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The Fetch’s head can rotate to the left and right, as well as up and down."
+        },
+        {
+          "page": 5,
+          "text": "Depth and RGB cameras are placed on the head so that it looks like the robot has eyes, which is roughly similar to a human head"
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The paper does not analyze how the robot's body shaped the study or its effects. Its only embodiment-related remark concerns the built-in attention engines of Nao and Pepper, which the authors judged unsuitable for their research.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "For example, the Nao and Pepper robots incorporate a built-in attention engine that reacts to people in its field of view."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper proposes a hidden Markov model that estimates a group's focus of attention from participants' head positions and orientations, so a robot can direct its gaze to the group's focal point, including objects and people outside the group. It reached 81.6% accuracy on the Babble dataset versus a 53.8% baseline, and 94% accuracy in a live Fetch robot experiment with groups of 3 to 7 including the robot.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ4; RQ5 — The paper defines the group's focus of attention and its categories (RQ1), explains why detecting it matters for multiparty conversational groups (RQ2), describes an HMM and head-control implementation (RQ4), and uses the Fetch robot as its platform (RQ5). It does not study effects of gaze on people (RQ3) or embodiment influence (RQ6).",
+      "quotes": []
+    }
+  ]
+}

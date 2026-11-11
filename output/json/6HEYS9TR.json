@@ -1,0 +1,257 @@
+{
+  "key": "6HEYS9TR",
+  "title": "Multi-party Interaction with a Robot Receptionist",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Within-subjects video-based experiment comparing four robot engagement policies, followed by an online questionnaire.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The experiment was within-subjects by design and the independent variable is the engagement interaction policy with 4 levels."
+        },
+        {
+          "page": 3,
+          "text": "The participants viewed 4 video recordings of the demonstration of the robot interacting with 2 users in a randomised order. After each video they filled out a questionnaire."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Online questionnaire study using video demonstrations; the interaction depicted is a robot receptionist scenario.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The experimental set-up consisted of video demonstrations of the robot receptionist [30]."
+        },
+        {
+          "page": 3,
+          "text": "This video-based set-up was chosen due to the restrictions on in-person human experiments as a result of the pandemic."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "110 submissions were considered in the analysis, from 120 recruited participants.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "A total of 120 participants were recruited from a crowd-sourcing platform Prolific"
+        },
+        {
+          "page": 3,
+          "text": "In total 110 submissions where considered."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Participants were aged 18–65 and recruited through Prolific. The paper states they had no health issues that might affect their feedback, including bad vision, bad hearing, cognitive impairment, or mental illness.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "A total of 120 participants were recruited from a crowd-sourcing platform Prolific between the age of 18 and 65 with no health issues that might affect their feedback such as bad vision, bad hearing, cognitive impairment or mental illness."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants watched four randomized video recordings of a robot receptionist interacting with two users under four engagement policies, then completed a questionnaire after each video.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The participants viewed 4 video recordings of the demonstration of the robot interacting with 2 users in a randomised order. After each video they filled out a questionnaire."
+        },
+        {
+          "page": 3,
+          "text": "There are thus in total four different policies (Table I):"
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three entities in the depicted interaction: one robot and two users.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The participants viewed 4 video recordings of the demonstration of the robot interacting with 2 users in a randomised order."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The robot receptionist, as illustrated in Figure 1, was built using Furhat robot"
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2 users in the depicted interaction.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The participants viewed 4 video recordings of the demonstration of the robot interacting with 2 users in a randomised order."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Custom online questionnaire with five-point Likert ratings, based on Godspeed questionnaire items for anthropomorphism, animacy, and perceived intelligence; analyzed using Friedman tests and pairwise Mann–Whitney U tests.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Specifically, we use a 5 points Likert scale questions based on the Godspeed questionnaire for anthropomorphism, animacy and perceived intelligence."
+        },
+        {
+          "page": 3,
+          "text": "We measured the participants’ perceptions of the robot’s: intelligence, consciousness, politeness, behaviour with respect to social norms."
+        },
+        {
+          "page": 3,
+          "text": "To check if there is a significant difference amongst the ratings across all four policies, we used a Friedman test, testing each dependent variable separately."
+        },
+        {
+          "page": 3,
+          "text": "To explore further, we performed Post-Hoc comparisons using Mann-Whitney U to see if there are significant differences between the different policies in a pairwise comparison"
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Ratings differed across all four policies for all eight measured variables (Friedman p < .001). Policy 4, combining eye gaze, head pose, and speech, was rated more positively than Policy 1 for intelligence and respect for social norms (both pairwise p = 0.01); the paper also reports consciousness higher for Policy 3 than Policy 1 (p = 0.03), though the results paragraph inconsistently describes the comparison as Policy 2. Policy 3 received the lowest politeness rating, while Policy 4 was rated as polite as Policy 1.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The results of all the Friedman tests were p-value <.001 for all 8 variables in Table II."
+        },
+        {
+          "page": 4,
+          "text": "Fig. 2 shows p-value 0.01, therefore we can reject the null hypothesis."
+        },
+        {
+          "page": 4,
+          "text": "Fig. 2 shows p-value 0.03, therefore we can reject the null hypothesis."
+        },
+        {
+          "page": 4,
+          "text": "The results indicate that the robot that uses only varying head pose when a new user enters the scene might be considered impolite, as Policy 3 was rated the lowest in terms of politeness."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames eye gaze and head pose as cues used with speech to manage attention and coordinate turn-taking in multiparty interaction; it does not provide a formal definition of robotic gaze or robotic attention.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The objective is to create a multi-user engagement policy to manage turn-taking using the robot’s gaze, head pose, and verbal communication as parameters"
+        },
+        {
+          "page": 2,
+          "text": "This work addresses these questions and fills this gap by comparing different multi-party engagement policies using gaze, face gestures, head pose and speech for managing turn-taking in a situated interaction."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze and head pose acknowledge a newly arriving user and, together with speech, help coordinate turn-taking and manage multiparty engagement.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "In this policy, the robot glances at User 2 as soon as they enter the scene using eye gaze, then it looks back at User 1 and continues the conversation."
+        },
+        {
+          "page": 3,
+          "text": "In this policy, the robot changes its head pose, turns towards User 2 as soon as they enter the scene, and looks at them briefly before turning back to User 1 and continuing the conversation."
+        },
+        {
+          "page": 3,
+          "text": "In this policy, the robot changes its head pose, turns toward User 2 as soon as they enter the scene, looks at them and says “I will be with you shortly\" before turning back to User 1 and continuing the conversation."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Eye gaze was associated with higher perceived intelligence than the neutral policy; head pose was associated with higher perceived consciousness than the neutral policy. The combined gaze, head pose, and speech policy was associated with greater perceived adherence to social norms. Head pose without speech was rated lowest for politeness, while the combined policy was perceived as polite as the neutral policy.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The robot is perceived as more intelligent when it uses varying eye gaze once a new user enters the scene (i.e. in Policy 2) compared to not varying the eye gaze (i.e. in Policy 1)."
+        },
+        {
+          "page": 4,
+          "text": "A robot that uses speech, varying eye gaze and head pose when a new user enters the scene to coordinate turn-taking (i.e. in Policy 4) adheres to human social norms more than a robot that does not use speech and gestures to coordinate turn-taking (i.e. in Policy 1)."
+        },
+        {
+          "page": 4,
+          "text": "The results indicate that the robot that uses only varying head pose when a new user enters the scene might be considered impolite, as Policy 3 was rated the lowest in terms of politeness."
+        },
+        {
+          "page": 4,
+          "text": "The result for H4 indicates that even when the robot uses both speech and non-verbal cues to coordinate turn-taking, it was perceived just as polite as the robot that uses the baseline policy."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The system uses robot vision and speech-recognition input for scene analysis, reasons about the physical surroundings and engagement choices, then executes coordinated gestures, facial expressions, and head movements synchronized with speech. Policies vary whether eye gaze, head pose, and speech are used when a second user enters; Furhat is the robot platform.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The robot vision and speech recognition input is used for scene analysis and drives the engagement policy."
+        },
+        {
+          "page": 2,
+          "text": "Using this information, the robot is able to reason about its physical surrounding."
+        },
+        {
+          "page": 2,
+          "text": "Finally, these decisions are interpreted as a set of coordinated low-level behaviours that the robot can execute."
+        },
+        {
+          "page": 2,
+          "text": "Thus, the robot receptionist uses gestures, facial expressions, head movement synchronised with verbal communication."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Furhat robot; the paper describes it as a robot receptionist but does not state further physical features.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The robot receptionist, as illustrated in Figure 1, was built using Furhat robot"
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors contrast their three-dimensional robot with an earlier on-screen avatar, noting that the avatar inhibits certain social cues such as mutual gaze and can create confusion about where the system is looking. They do not report an embodiment comparison in this study.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "However, the system was an avatar on screen and thus was not three dimensional, which inhibits the use of certain social cues, such as mutual gaze, and can create confusion about where exactly the system is looking."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper compares four video-based robot receptionist policies for coordinating turn-taking with two users, varying eye gaze, head pose, and speech. The combined gaze, head pose, and speech policy was rated more favorably on several social and cognitive traits, while using head pose alone without speech was rated least polite.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper describes gaze and head pose as engagement cues for managing attention and turn-taking, tests their effects on participant ratings, and reports the Furhat platform. It briefly discusses how a screen avatar’s embodiment constrains mutual gaze, but does not compare embodiments in its own study.",
+      "quotes": []
+    }
+  ]
+}

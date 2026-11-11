@@ -1,0 +1,194 @@
+{
+  "key": "W96NU9GE",
+  "title": "Preliminary Implementation of Context-Aware Attention System for Humanoid Robots",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description with preliminary testing.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "This contribution presents a modular context-aware attention system which drives the robot gaze."
+        },
+        {
+          "page": 3,
+          "text": "Preliminary tests have been conducted within a social interaction between three subjects while the robot was a bystander."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "sample_size",
+      "value": "Three human subjects.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Preliminary tests have been conducted within a social interaction between three subjects while the robot was a bystander."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "A social interaction among three subjects, with the robot as a bystander; the paper does not specify a more detailed task or duration.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Preliminary tests have been conducted within a social interaction between three subjects while the robot was a bystander."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Four total: one robot and three human subjects.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Preliminary tests have been conducted within a social interaction between three subjects while the robot was a bystander."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "One robot (FACE).",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The system has been implemented in a human-like social robot called FACE (Facial Automaton for Conveying Emotions) [2], in order to drive its dynamic attention and gaze in a multiparty social interaction."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "Three subjects.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Preliminary tests have been conducted within a social interaction between three subjects while the robot was a bystander."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "significant_measures",
+      "value": "Preliminary qualitative findings: the robot followed the conversation and identified human targets at the appropriate time, and switched to non-human targets when no subject showed a specified feature. No statistical results are reported.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The results showed that the robot properly followed the conversation and identified human target at the right time."
+        },
+        {
+          "page": 3,
+          "text": "The robot switched to non-human targets when none of the subjects showed at least one specific feature such as speech, motion, smile and gesture."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "Context-aware attention system that drives robot gaze, combining low-level visual saliency and high-level social features.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "This paper presents a modular context-aware attention system that considers both low-level visual features and high-level social relevant features in the robot’s attention."
+        },
+        {
+          "page": 1,
+          "text": "A context-aware attention system is fundamental for regulating the robot behaviour in a social interaction since it enables social robots to actively select the right environmental stimuli at the right time during a multiparty social interaction."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The system enables the robot to select relevant environmental stimuli at the right time during multiparty social interaction. The paper does not give a separate formal definition of robotic gaze or robotic attention.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "A context-aware attention system is fundamental for regulating the robot behaviour in a social interaction since it enables social robots to actively select the right environmental stimuli at the right time during a multiparty social interaction."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Selects which human or non-human target the robot should watch, supporting conversation following and dynamic gaze behavior.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The winner is the target with the highest amount of EAt which should be watched by the robot."
+        },
+        {
+          "page": 3,
+          "text": "The presence of the non-human target allows the robot to have a dynamic gaze behaviour."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "In preliminary tests, the robot followed the conversation, identified human targets at the appropriate time, and shifted gaze to non-human targets when no subject displayed a specified feature.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The results showed that the robot properly followed the conversation and identified human target at the right time."
+        },
+        {
+          "page": 3,
+          "text": "The robot switched to non-human targets when none of the subjects showed at least one specific feature such as speech, motion, smile and gesture."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "A modular scene analyzer extracts visual saliency and social features, stores them in a meta-scene, and passes them to an attention module. The module weights elicited attention for features, selects the highest-scoring human or non-human target, then sends its 3D position to the behavior engine for head-eye gaze control.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The pre-processing unit employs a software layer in order to extract: a 2D map of the the visual saliency of the scene (based on the FastSUN algorithm [3]); social relevant features such as the subject’s distance and orientation, body shape, skeletal information and gesture (through the Microsoft Kinect SDK); facial expressions and subject’s name (through a facial analysis engine and a PCA engine."
+        },
+        {
+          "page": 3,
+          "text": "The 3D position of the target is sent to the behaviour engine which controls the robot’s gaze in term of amplitude and velocity of head-eye movement on the base of human-like gaze model [4]."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "FACE, described as a human-like social robot; it controls gaze through head-eye movement.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The system has been implemented in a human-like social robot called FACE (Facial Automaton for Conveying Emotions) [2], in order to drive its dynamic attention and gaze in a multiparty social interaction."
+        },
+        {
+          "page": 3,
+          "text": "The 3D position of the target is sent to the behaviour engine which controls the robot’s gaze in term of amplitude and velocity of head-eye movement on the base of human-like gaze model [4]."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The paper describes a context-aware gaze system for the human-like FACE robot, which uses visual saliency and social cues to choose where to look. In preliminary tests with three human subjects, the robot followed the conversation and shifted its gaze to environmental targets when people showed no specified attention cues.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5 — The paper frames attention as context-aware selection of environmental stimuli, describes its role in target selection and reports preliminary observed behavior. It also details the sensing and control architecture and identifies the FACE humanoid platform; it does not report how embodiment influenced the study.",
+      "quotes": []
+    }
+  ]
+}

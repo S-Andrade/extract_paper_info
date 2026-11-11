@@ -1,0 +1,269 @@
+{
+  "key": "RQRWF33X",
+  "title": "Meet me where i'm gazing: how shared attention gaze affects human-robot handover timing",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Human-human observational handover study followed by a controlled human-robot paired-comparison experiment.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Through a frame-by-frame analysis, we annotated the givers’ gaze patterns from video recordings of the 120 handovers, and found the following two dominant gaze patterns."
+        },
+        {
+          "page": 4,
+          "text": "We conducted a paired-comparison handover study in a controlled room."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Controlled room during a university orientation event.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The study took place on the day of a university orientation event such that many and diverse naïve participants could be rapidly recruited during the public event."
+        },
+        {
+          "page": 4,
+          "text": "We conducted a paired-comparison handover study in a controlled room."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "The human-robot experiment recruited 102 volunteers; data from 96 participants were analyzed. The human-human study included 12 volunteers.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The robot handed over water bottles to a total of 102 naïve subjects while varying its gaze behaviour: no gaze, gaze designed to elicit shared attention at the handover location, and the shared attention gaze complemented with a turn-taking cue."
+        },
+        {
+          "page": 3,
+          "text": "Twelve volunteers (10 male, 2 female) participated in this study."
+        },
+        {
+          "page": 5,
+          "text": "A total of 102 volunteers participated in our experiment. We rejected six records (instruction not followed), and analyzed data from 96 participants (63 male, 33 female; age M=23, SD=5.59)."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "The human-robot experiment analyzed 96 participants (63 male, 33 female; mean age 23, SD 5.59); participants were recruited as naïve volunteers. The human-human study had 12 volunteers (10 male, 2 female).",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The robot handed over water bottles to a total of 102 naïve subjects while varying its gaze behaviour: no gaze, gaze designed to elicit shared attention at the handover location, and the shared attention gaze complemented with a turn-taking cue."
+        },
+        {
+          "page": 3,
+          "text": "Twelve volunteers (10 male, 2 female) participated in this study."
+        },
+        {
+          "page": 5,
+          "text": "A total of 102 volunteers participated in our experiment. We rejected six records (instruction not followed), and analyzed data from 96 participants (63 male, 33 female; age M=23, SD=5.59)."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants received a water bottle handed over by the PR2 under two gaze conditions per participant, then placed the bottle in a box and returned for a second handover. The experiment compared no gaze, shared-attention gaze toward the handover location, and turn-taking gaze that shifted from the handover location to the participant’s face.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "They were told to stand at a marked area facing the robot, and informed they would participate in a handover interaction."
+        },
+        {
+          "page": 4,
+          "text": "They were asked to take the bottle from the robot whenever they felt it was the right time to do so."
+        },
+        {
+          "page": 4,
+          "text": "After receiving the first bottle, participants placed the bottle in a box approximately 3 meters behind him/her."
+        },
+        {
+          "page": 4,
+          "text": "In the Turn-Taking gaze condition, when the handover trajectory begins, the robot smoothly transfers its gaze to the handover location, as in the Shared Attention condition, but then shifts its gaze up to the human’s face in a quick motion, reaching the final gaze position at approximately the same time that the handover motion completes."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Two per human-robot interaction: one robot and one participant.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "They were told to stand at a marked area facing the robot, and informed they would participate in a handover interaction."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "To examine the impact of robot gaze on human receiver behavior, we used a PR2 humanoid mobile robotic platform (Willow Garage Inc., Menlo Park, CA) with a pan-tilt head and two 7-DOF arms, each with a two-fingered, 1-DOF gripper."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "1 participant per human-robot handover interaction.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "They were told to stand at a marked area facing the robot, and informed they would participate in a handover interaction."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Measures included video-based frame-by-frame coding of human-human giver gaze; infrared motion sensors for participant reach time; robot event timestamps; and a custom post-handover questionnaire comparing preference, naturalness, and perceived timing communication.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Through a frame-by-frame analysis, we annotated the givers’ gaze patterns from video recordings of the 120 handovers, and found the following two dominant gaze patterns."
+        },
+        {
+          "page": 5,
+          "text": "During each handover, we timestamped the following events: start of robot motion (start time), end of robot motion (end of motion time), start of release of the robot’s gripper (release time), and the participant’s first reach for the object (reach time) as measured by the motion sensor array described in Section 4.4."
+        },
+        {
+          "page": 5,
+          "text": "After the second handover, participants left the room and completed a short questionnaire comparing the two handovers on three subjective metrics: overall preference, naturalness, and timing communication."
+        },
+        {
+          "page": 5,
+          "text": "An array of three passive infrared motion sensors (SEN-08630, SparkFun Electronics, Boulder, CO) configured as a light curtain was placed at the edge of the table (Figure 3), and was used to detect the start of the participant’s reach (reach time) triggered by the participant’s hand crossing the table edge."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Participants reached for the object earlier with shared-attention gaze than with no gaze (M=1.91 vs. 2.54 seconds; p<.005). No significant reach-time differences were found between shared-attention and turn-taking gaze or between turn-taking and no gaze. Subjective comparisons showed trends favoring turn-taking gaze, but no significant overall differences.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Participants reached for the object significantly earlier with Shared Attention (M=1.91, SD=0.52) than with No Gaze (M=2.54, SD= 0.76) (p<.005)."
+        },
+        {
+          "page": 5,
+          "text": "No significant differences were found between Shared Attention and Turn-Taking (M=2.26, SD=0.79), or between Turn-Taking and No Gaze."
+        },
+        {
+          "page": 6,
+          "text": "We did not find a significant difference in user preference across the three gaze conditions (T2=2.04, p=0.14). However, one-tailed pairwise comparisons demonstrate a trend for preference toward Turn-Taking over No Gaze (p<0.10) and Shared Attention (p<0.10) conditions."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames its behavior as robot gaze during handovers, including shared-attention gaze at the projected handover location and turn-taking gaze that adds a look toward the receiver’s face.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The Shared Attention (Attn) gaze condition models the most frequently observed gaze pattern from our human-human handover study."
+        },
+        {
+          "page": 4,
+          "text": "The Turn-Taking (Turn) gaze condition is also derived from our human-human handover study, and is analogous to the second most frequently observed gaze pattern."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper defines deictic gaze or shared visual attention as one person following another’s direction of attention to look at a fixed point in space.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Gaze can be named differently in different social situations [31]; for example, mutual gaze or eye contact is defined as two people looking into each other’s face or eye region [41], while deictic gaze or shared visual attention is defined as one person following the other’s direction of attention to look at a fixed point in space [7]."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Shared-attention gaze is intended to direct the human’s attention to the projected handover location and convey where the handover will take place. The added look to the receiver’s face was tested as a timing cue and as a way to improve subjective experience.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "With this condition, we test the hypothesis that shared attention can be established through gaze during handovers, and that doing so benefits the handover interaction."
+        },
+        {
+          "page": 4,
+          "text": "Here we test two hypotheses: that (a) this gaze shift can cue handover timing, and (b) looking at the face can improve the subjective experience of the handover."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Shared-attention gaze led participants to reach for the offered object significantly earlier than no gaze, with mean reach occurring before the robot finished moving. Turn-taking gaze showed trends toward better preference, naturalness, and timing judgments in some comparisons.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Note that the mean reach time for Shared Attention occurs before the robot has stopped moving at the handover location (reach time end of motion time)."
+        },
+        {
+          "page": 6,
+          "text": "However, participants tended to choose Turn-Taking as more natural than Shared Attention (p<0.10) but not over the No Gaze condition."
+        },
+        {
+          "page": 6,
+          "text": "However, participants tended to choose Turn-Taking over Shared Attention (p<0.10), but not over No Gaze, as easiest to communicate handover timing."
+        },
+        {
+          "page": 7,
+          "text": "Once the intention to handover is established, providing a gaze cue to the projected handover location seems to offer rich gestural information about the handover event, and allows users to reach for the proffered object sooner, even before the robot arrives at the location."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The PR2 expressed gaze through head orientation. The robot tracked its end-effector while acquiring the bottle, then changed gaze during the transition from ready position to handover location; software modules controlled the arm and head, and a sensor array detected participant reach.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "In this study, the PR2 robot expressed gaze through head orientation."
+        },
+        {
+          "page": 4,
+          "text": "Only when the robot arm transitions between the ready position to handover location does the robot transfer its gaze according to the following gaze patterns."
+        },
+        {
+          "page": 5,
+          "text": "To control the PR2, we extended the Robot Operating System (ROS) [35] with a series of software modules coordinated via the Blackboard architectural design pattern [16] (Figure 4)."
+        },
+        {
+          "page": 5,
+          "text": "The head-control module provided object tracking functionality for bringing the object to the ready position, and a smooth, fast gaze transition (average 90 degrees/second) functionality to enable the Shared Attention gaze and Turn-Taking gaze conditions during the handover motion."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "The study used a PR2 humanoid mobile robotic platform with a pan-tilt head and two 7-DOF arms, each with a two-fingered, 1-DOF gripper.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "To examine the impact of robot gaze on human receiver behavior, we used a PR2 humanoid mobile robotic platform (Willow Garage Inc., Menlo Park, CA) with a pan-tilt head and two 7-DOF arms, each with a two-fingered, 1-DOF gripper."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The authors tested three PR2 gaze conditions during one-to-one bottle handovers: no gaze, gaze toward the handover location, and gaze that then shifted to the participant’s face. Participants reached significantly earlier with shared-attention gaze than with no gaze; turn-taking gaze showed some nonsignificant favorable trends in subjective ratings.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ3; RQ4; RQ5 — The paper defines shared visual attention, measures effects of gaze during handovers, describes gaze implementation, and identifies the PR2 embodiment. Its study is one-to-one rather than multiparty, so it does not directly answer questions about gaze in multiparty interaction.",
+      "quotes": []
+    }
+  ]
+}

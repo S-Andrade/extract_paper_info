@@ -1,0 +1,300 @@
+{
+  "key": "EZJIL7VZ",
+  "title": "Assisting Group Discussions Using Desktop Robot Haru",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Experimental user study and technical/system description.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this paper, we developed a system with desktop robot Haru to assist group discussions."
+        },
+        {
+          "page": 4,
+          "text": "To assess the effectiveness of the three modules (i.e., Haru’s behaviors) in our system in the group dialogue, we set up three conditions and conducted a real dialogue experiment with human users:"
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "University campus recruitment; in-person group discussions at a table with Haru positioned between participants; the gaze policy was trained in Gazebo simulation and evaluated on the physical robot.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "24 participants were recruited from a university campus, ranging in age from 20 to 25 years old."
+        },
+        {
+          "page": 4,
+          "text": "The two participants of each group received a topic to talk from a staff with role of “teacher” and engaged in a discussion on the topic in front of a table, with Haru positioned on the table between them."
+        },
+        {
+          "page": 4,
+          "text": "We built a simulation environment for autonomous gazing behavior training with simulated Haru on Gazebo."
+        },
+        {
+          "page": 4,
+          "text": "Then, we tested Haru with transferred autonomous gazing behavior policy and our designed system in a real dialogue experiment with human users."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "40 participants total: 24 in the group-discussion study and 16 teacher-role video evaluators.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We conducted a with-subject user study with 40 participants to evaluate the effectiveness of our system."
+        },
+        {
+          "page": 4,
+          "text": "24 participants were recruited from a university campus, ranging in age from 20 to 25 years old."
+        },
+        {
+          "page": 4,
+          "text": "We recruited 16 participants to watch the recorded videos of the three experimental conditions in the first part."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "The discussion participants were 20–25 years old (mean 23.3, SD 1.127); 54.17% male, 33.33% female, and 12.5% undisclosed. They were paired as a “talkative” and a “shy” student. The video evaluators were 21–25 years old (mean 23.5, SD 1.212); 68.75% male, 25% female, and 6.25% undisclosed.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The mean age was 23.3 years old, with a standard deviation of 1.127."
+        },
+        {
+          "page": 4,
+          "text": "Among the participants, 54.17% were male, 33.33% were female, and 12.5% opted not to disclose their gender."
+        },
+        {
+          "page": 4,
+          "text": "All participants took part in the three experimental conditions and the order of each group participating the three conditions was randomly assigned."
+        },
+        {
+          "page": 4,
+          "text": "All participants are between 21 and 25 years old, with a mean age of 23.5 years old and a standard deviation of 1.212."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Two participants discussed a topic supplied by a staff member acting as a teacher, with Haru assisting. Each group completed three conditions: chatting only; chatting plus dialogue balancing; and chatting, dialogue balancing, and autonomous gaze. Participants familiarized with one another for five minutes beforehand; no discussion duration is specified.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The two participants were allowed to familiarize with each other for five minutes before the experiment started."
+        },
+        {
+          "page": 4,
+          "text": "The two participants of each group received a topic to talk from a staff with role of “teacher” and engaged in a discussion on the topic in front of a table, with Haru positioned on the table between them."
+        },
+        {
+          "page": 4,
+          "text": "All participants took part in the three experimental conditions and the order of each group participating the three conditions was randomly assigned."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three per interaction session: two human participants and one Haru robot.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "All participants provided consent to participate in the study and were divided into 12 groups with each group consisting two participants: one is assumed to be a “talkative” student and the other to be a “shy” one."
+        },
+        {
+          "page": 4,
+          "text": "The two participants of each group received a topic to talk from a staff with role of “teacher” and engaged in a discussion on the topic in front of a table, with Haru positioned on the table between them."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The two participants of each group received a topic to talk from a staff with role of “teacher” and engaged in a discussion on the topic in front of a table, with Haru positioned on the table between them."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2 discussion participants per group; the paper considers two users conversing with Haru.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "For simplicity, we consider two users conversing with each other and Haru is taken as an assistant."
+        },
+        {
+          "page": 4,
+          "text": "All participants provided consent to participate in the study and were divided into 12 groups with each group consisting two participants: one is assumed to be a “talkative” student and the other to be a “shy” one."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Godspeed-derived ratings of anthropomorphism, animacy, likability, and perceived intelligence; a custom four-question, 7-point Likert scale; teacher evaluations of discussion videos using the questionnaires; and recorded video. The paper reports no gaze-tracking or behavioral coding instrument.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The effectiveness of Haru was evaluated from four perspectives: anthropomorphic, animacy, likability, and perceived intelligence, which were adopted from Godspeed’s questionnaire [27]."
+        },
+        {
+          "page": 4,
+          "text": "In addition, a customized scale with four questions was administered to asses the participants’ experience: “Does Haru’s presence make you feel uneasy?” “How satisfied are you with Haru?”, “Would you like to continue using Haru for the next discussion?”, and “Do you think Haru could be introduced into the classroom in the future?” All questions are on a 7-point Likert scale."
+        },
+        {
+          "page": 4,
+          "text": "A camera was mounted on a tripod to record the process of the dialogue."
+        },
+        {
+          "page": 4,
+          "text": "Azure Kinect was used to get the skeleton and sound location of users."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Student ratings showed significant condition differences across all assessed perspectives (p < 0.01); Condition 3 outperformed Conditions 2 and 1 on Haru’s effectiveness and discussion quality, and Condition 2 outperformed Condition 1 (p < 0.01). Teacher ratings showed the same pattern, except Condition 2 versus 1 differences in animacy and perceived intelligence were near significance (p = 0.03 and p = 0.02).",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Our ANOVA analysis shows that there is a significant difference between conditions across all perspectives (p <0.01) Post-hoc tests show that the effectiveness of Haru and the quatlity of students’ discussion in Condition 3 were significantly better than those in Condition 2 and 1 (p<0.01 and p<0.01, respectively)."
+        },
+        {
+          "page": 5,
+          "text": "Moreover, the effectiveness of Haru and quality of students’ discussion in Condition 2 were also significantly better than those in Condition 1 (p<0.01)."
+        },
+        {
+          "page": 6,
+          "text": "Post-hoc tests show that the effectiveness of Haru and quality of students’ discus- sion in Condition 3 were also significantly better than those in Condition 2 and 1 (p<0.01 and p<0.01, respectively)."
+        },
+        {
+          "page": 6,
+          "text": "Moreover, the effectiveness of Haru and quality of students’ discussion in Condition 2 were also significantly better than those in Condition 1 (p<0.01), except in terms of ‘Animacy’ and ‘Perceived Intelligence’ where the differences are close to significance (p 0.03 and p 0.02)."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The authors frame the behavior as “autonomous gazing behavior” and non-verbal gazing behavior, which they associate with politeness and assistance in group discussion. They do not explicitly define “robotic gaze,” “robotic attention,” or “robotic gaze-based attention.”",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "an autonomous gazing behavior module trained via deep reinforcement learning in simulation and deployed on physical Haru in reality, which can show politeness during group discussion"
+        },
+        {
+          "page": 2,
+          "text": "The Autonomous Gazing Behavior module aims to realise the politeness of Haru by learning autonomously during a multi-party conversation."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "The gaze behavior directs Haru toward the current speaker, toward the middle when both participants are silent or speak simultaneously, and toward the least-spoken participant when Haru encourages her. The authors present this as politeness and as part of assisting group discussion.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "gazing to the speaking member, looking to the middle when both members are talking or silent, looking at the least spoken person when encouraging her."
+        },
+        {
+          "page": 3,
+          "text": "If α falls outside the reward interval, the reward received by Haru will always be -1."
+        },
+        {
+          "page": 3,
+          "text": "when both users are silent or speaking simultaneously, αn α0 the angle from Haru’s initial direction to the middle point of user 1 and 2."
+        },
+        {
+          "page": 5,
+          "text": "From Fig. 8 we can see that, in Condition 3 where all three modules are activated, Haru will shift its gaze to the talking participant and try to look at the shy participant (autonomous gazing behavior) and encourage her to speak with the Dialogue Balance module."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "With dialogue balancing and autonomous gaze together, participants rated Haru’s effectiveness and discussion quality higher than in the other conditions. The paper attributes increased perceived politeness and discussion quality to the system, but does not isolate gaze’s effect from dialogue balancing in Condition 3.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Results of user study show that the encouraging verbal-behavior via our dialogue balance module can significantly increase the perceived politeness of Haru by participants and quality of discussion compared to a voice assistant with robot body."
+        },
+        {
+          "page": 2,
+          "text": "In addition, Haru performing both non-verbal gazing behavior and verbal encouraging be- havior via autonomous gazing behavior module and dialogue balance module can further improve Haru’s effectiveness in assisting group discussion."
+        },
+        {
+          "page": 6,
+          "text": "Moreover, activating both Dialogue Balance Module and Autonomous Gazing Behavior Module (Condition 3) can further increase the effectiveness of Haru and quality of discussion signifi- cantly."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The gaze policy used soft actor-critic deep reinforcement learning, trained in Gazebo simulation and transferred to physical Haru. It used user positions and engagement state to select a motor movement angle; Azure Kinect supplied user skeletons and sound locations in the study. The paper describes the behavior as autonomous.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Specifically, we employed the deep reinforcement learn- ing soft actor-critic (SAC) [16] method as the learning algorithm for the Autonomous Gazing Behavioral module."
+        },
+        {
+          "page": 2,
+          "text": "The state representation consists of the three-dimensional coordinate (x,y,z) of Haru and the two conversing human users in the Cartesian coordinate system, which is then transformed into a spherical coordinate system."
+        },
+        {
+          "page": 2,
+          "text": "We set the angle to move as the output action of our reinforcement learning model which will be used to directly control the robot motor."
+        },
+        {
+          "page": 4,
+          "text": "The Autonomous Gazing Behaviour Module works by trans- ferring the trained simulation policy to physical Haru."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Haru is an experimental multimodal desktop robot with five degrees of freedom: base rotation, neck tilt, eye movement, eye rotation, and eye tilt. Its body has addressable LEDs for mouth movements; its eyes contain a 3-inch TFT display bordered by LED strips.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Haru is an experimental multi-modal desktop robot with rich emotional capabilities [8], which enable verbal and non-verbal interactions with human users."
+        },
+        {
+          "page": 2,
+          "text": "As a desktop social robot, Haru offers five degrees of freedom to control limb movement, allowing for base rotation, neck tilt, eye movement, eye rotation and eye tilt."
+        },
+        {
+          "page": 2,
+          "text": "A matrix of addressable LEDs is embedded in the robot’s body, which is capable of various combinations to simulate realistic mouth movements."
+        },
+        {
+          "page": 2,
+          "text": "Haru’s eyes are enclosed within a sturdy shell, featuring a 3-inch TFT display bordered by addressable LED strips [9]."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The authors built a desktop robot system that combines autonomous gaze, dialogue assistance, and verbal prompts to balance participation in two-person discussions. In the study, the combined gaze and dialogue-balancing condition received higher ratings for Haru’s effectiveness and discussion quality, though the study does not isolate gaze’s contribution from the verbal prompts.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5 — The paper describes gaze as autonomous non-verbal behavior associated with politeness, specifies how it directs the robot’s attention during two-person discussion, reports outcomes across system conditions, details the sensing and reinforcement-learning implementation, and describes the desktop robot embodiment. It does not directly explain how embodiment influences the study.",
+      "quotes": []
+    }
+  ]
+}

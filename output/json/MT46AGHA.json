@@ -1,0 +1,230 @@
+{
+  "key": "MT46AGHA",
+  "title": "Are you talking to me? Improving the Robustness of Dialogue Systems in a Multi Party HRI Scenario by Incorporating Gaze Direction and Lip Movement of Attendees",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Experimental proof-of-concept user study with a humanoid robot in a multiparty interaction, in which addressee recognition approaches were evaluated against ground-truth annotation.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "A multi party interaction study was carried out and the recordings annotated with ground truth information."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Laboratory-style smart-home apartment (Cognitive Service Robotics Apartment, CSRA), with participants seated around a table, on a sofa, and in armchairs.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Three participants are sitting around the table in the CSRA, one participant is sitting on the sofa and two in the armchairs."
+        },
+        {
+          "page": 5,
+          "text": "All interactions were recorded via two network-enabled Basler cameras and one Rode NT55 omni-directional microphone mounted at the ceiling of the apartment to cover the whole interaction area."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "15 participants (2 female and 13 male) took part, across 5 trials totalling about 53 minutes of interaction.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "In total, we recorded approximately 53 minutes of interaction in 5 trials with 2 female and 13 male participants in total."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Participants were German native speakers; 2 were female and 13 male. No age or prior robot experience is reported.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The study has been carried out with German native speakers."
+        },
+        {
+          "page": 5,
+          "text": "In total, we recorded approximately 53 minutes of interaction in 5 trials with 2 female and 13 male participants in total."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants picked a task slip from the table (e.g., turn lights on/off, ask the time, request information), told another participant to issue it to the robot, and that participant had to gain the robot's attention and repeat the request. A typical trial took about 10 minutes.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The multi party interaction consists of two parts: interpersonal communication and human robot interaction."
+        },
+        {
+          "page": 5,
+          "text": "A typical trial takes approximately 10 minutes."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "One robot (Meka) with six people per session, as described for the experimental setup (three at the table, one on the sofa, two in armchairs).",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In this contribution we present our humanoid Meka (Figure 1), participating in a multi party human robot dialogue scenario."
+        },
+        {
+          "page": 4,
+          "text": "Three participants are sitting around the table in the CSRA, one participant is sitting on the sofa and two in the armchairs."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1 (the humanoid robot Meka).",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In this contribution we present our humanoid Meka (Figure 1), participating in a multi party human robot dialogue scenario."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "6 participants per session, per the described setup (three at the table, one on the sofa, two in armchairs).",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Three participants are sitting around the table in the CSRA, one participant is sitting on the sofa and two in the armchairs."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Addressee recognition classifications were compared with a ground-truth annotation of each dialogue act, using a 2x2 confusion matrix to compute accuracy, recall, precision, and the diagnostic odds ratio (DOR). Recordings were annotated in ELAN.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Comparing the classification results of the different approaches yields the corresponding 2x2 confusion matrix, which can be used to calculate accuracy, recall and precision (cf. Figure 5)."
+        },
+        {
+          "page": 5,
+          "text": "We therefore calculated the diagnostic odds ratio (DOR) for all conditions."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "No statistical tests are reported. Mutual gaze kept recall at 93% and raised accuracy to 89%, against an 84% baseline, while lips-or-gaze reached 91% accuracy and the highest DOR (91.1 versus 5 for the baseline).",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "As depicted in Figure 5 it is evident that mutual gaze can preserve a high recall (93%) compared to the baseline."
+        },
+        {
+          "page": 5,
+          "text": "In contrast, the accuracy of Cg (89%) and Cx (91%) is higher than the baseline’s accuracy."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "Robotic gaze-based attention",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "In this work we investigated the impact of attention management and addressee recognition on a robot’s capability to distinguish utterances directed at it from communication between humans."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The authors do not give a general definition of gaze or attention. Operationally, mutual gaze is assumed when a person's gaze direction stays within a range of α around the robot's head, and the attention management system is based on hierarchical prioritization of multi-modal sensor input streams.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Mutual gaze is assumed when a person keeps its gazing direction within a range of α around the robots head."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Mutual gaze at the end of an utterance serves as a turn-yielding cue that helps the robot decide whether an utterance was addressed to it. Attention management lets the robot observe and turn toward persons outside its field of view.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Mutual gaze, as a means of yielding a turn to someone, can be used to facilitate the decision to whom an utterance was directed."
+        },
+        {
+          "page": 1,
+          "text": "Based on the results of a user study, we show that mutual gaze at the end of an utterance, as a means of yielding a turn, is a substantial cue for addressee recognition."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Effects were measured only on addressee recognition performance, not on the people themselves. Attention management was reported to facilitate addressee recognition when not all participants are visible, and lip-movement verification decreased false positive addressee recognitions.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "Based on the evaluated results, we can show that attention management facilitates addressee recognition, especially in situations where it is not possible for the robot to see all participants of the interaction at the same time."
+        },
+        {
+          "page": 7,
+          "text": "Verification of a speaker through the observation of lip movements decreases false positive addressee recognitions."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "Autonomous system on the Meka robot: an attention manager arbitrates prioritized input streams (face detection, then sound source, then saliency) with override and gaze controllers over ROS/RSB. Addressee recognition uses a gaze detector with facial landmarks, classifying speaking from inner-lip distance variance and mutual gaze; speech recognition uses Sphinx and dialogue uses InproTK and Pamini.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The highest priority were face detection results, the second highest priority were sound source localization results and the third highest priority were results produced by the visual saliency component."
+        },
+        {
+          "page": 4,
+          "text": "Finally, the robot is classified as addressee if the person is speaking while maintaining mutual gaze with it."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Meka, a humanoid M1 Mobile Manipulator with an omni-directional base, lift-controlled torso, two arms with four-fingered hands, and 37 motor-powered joints (including 2 in the head).",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "In total, the robot is equipped with 37 motor-powered joints. It has 7 per arm, 5 per hand, 2 in the head, 2 in the torso and 9 joints actuate the base including the z-lift."
+        },
+        {
+          "page": 3,
+          "text": "An omni-directional base and lift-controlled torso enables navigating in complex environments."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "Head movements of the robot caused motion blur, so gaze and lip features were sometimes not detected at the relevant moment. The attention system was designed to be exchangeable across platforms, such as NAO or iCub.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "One explanation for this is that either of these features could not be recognized at the relevant moment due to movements of the robots head and the resulting motion blur."
+        },
+        {
+          "page": 4,
+          "text": "The robot driver can be easily exchanged for a desired target platform, e.g., for NAO or iCub."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper presents the humanoid robot Meka with an attention management system that prioritizes face, sound, and saliency cues so it can look at people, including those outside its view. In a multiparty study with 15 participants in 5 trials, mutual gaze at utterance end improved addressee recognition accuracy and precision, while lip movements alone performed poorly. Combining gaze OR lip movement gave the best accuracy and odds ratio.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ2a; RQ2b; RQ3b; RQ4a; RQ4b; RQ5a; RQ5b — The paper shows mutual gaze at utterance end as a turn-yielding cue for addressee recognition (RQ2a, RQ4a) and an attention management system with prioritized input streams (RQ2b, RQ4b). It reports that attention management facilitates addressee recognition (RQ3b) and uses the humanoid Meka robot (RQ5a, RQ5b).",
+      "quotes": []
+    }
+  ]
+}

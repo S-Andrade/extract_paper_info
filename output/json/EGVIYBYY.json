@@ -1,0 +1,286 @@
+{
+  "key": "EGVIYBYY",
+  "title": "Are you looking at me? Perception of robot attention is mediated by gaze type and group size",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Experimental mixed between- and within-subjects study, with a technical platform description.",
+      "quotes": [
+        {
+          "page": 391,
+          "text": "The experiment was a mixed 3 (group size) x 4 (gaze duration) between- and within-subjects design."
+        },
+        {
+          "page": 391,
+          "text": "In this section, we describe how we converted MyKeepon toys into programmable research tools."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Laboratory experiment.",
+      "quotes": [
+        {
+          "page": 392,
+          "text": "MyKeepon robots were placed side-by-side in a containment apparatus which was covered in a black cloth (Figure 2)."
+        },
+        {
+          "page": 392,
+          "text": "Participants were seated about 152cm away from and centered on the midpoint of the apparatus."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "53 participants took part; 51 were analyzed after two were excluded.",
+      "quotes": [
+        {
+          "page": 392,
+          "text": "Fifty-three participants (20 male, 33 female) took part in the experiment."
+        },
+        {
+          "page": 393,
+          "text": "We analyzed the results of 51 participants (25 in the eight-robot group, 19 in the six-robot group, and 7 in the four-robot group)"
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "20 male and 33 female participants; age, population, and prior robot experience are not stated.",
+      "quotes": [
+        {
+          "page": 392,
+          "text": "Fifty-three participants (20 male, 33 female) took part in the experiment."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants watched groups of robots perform random movements and occasional gaze fixations, then identified which robot appeared to be paying attention to them and rated their confidence. They completed 30 trials, each lasting 30 seconds, across fixation durations of 0, 1, 3, or 6 seconds.",
+      "quotes": [
+        {
+          "page": 392,
+          "text": "Each participant viewed 30 trials, and each trial was comprised of 30 seconds of pre-scripted movement."
+        },
+        {
+          "page": 392,
+          "text": "For the target robot in a trial, the fixation location was always the participant; other robots oriented toward various points in the room during their fixations."
+        },
+        {
+          "page": 393,
+          "text": "At the conclusion of each 30 second trial, a screen appeared on which participants selected which robot they believed was paying attention to them."
+        },
+        {
+          "page": 393,
+          "text": "They assigned a confidence value (from 0 to 100) to their choice by using a slider bar with whole-number increments."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Each session included one participant and either 4, 6, or 8 robots.",
+      "quotes": [
+        {
+          "page": 391,
+          "text": "Participants viewed a group of robots (four, six, or eight, between-subjects) making simultaneous random motions."
+        },
+        {
+          "page": 392,
+          "text": "Each participant was randomly assigned to one group size condition (four, six, or eight robots)."
+        },
+        {
+          "page": 392,
+          "text": "Participants were seated about 152cm away from and centered on the midpoint of the apparatus."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "4, 6, or 8 robots per session.",
+      "quotes": [
+        {
+          "page": 391,
+          "text": "Participants viewed a group of robots (four, six, or eight, between-subjects) making simultaneous random motions."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "One participant per session.",
+      "quotes": [
+        {
+          "page": 392,
+          "text": "Each participant was randomly assigned to one group size condition (four, six, or eight robots)."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Custom trial-level robot-choice responses and a 0–100 confidence rating; accuracy of identifying the target robot was analyzed.",
+      "quotes": [
+        {
+          "page": 392,
+          "text": "After each trial, participants recorded which robot they thought was paying attention to them, as well as their confidence in that decision."
+        },
+        {
+          "page": 393,
+          "text": "They assigned a confidence value (from 0 to 100) to their choice by using a slider bar with whole-number increments."
+        },
+        {
+          "page": 391,
+          "text": "To quantitatively examine the effects of these two gaze types on the perception of attention, we measure the detection rate of attention fixations (i.e., fixations directed at the user) over three conditions on the spectrum of gaze types."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Identification accuracy was significantly higher for 1- and 3-second fixations than for 0- or 6-second fixations. Accuracy differed by group size; the four-robot group outperformed the eight-robot group, with four versus six robots marginal. Overall accuracy across fixation durations was 37%, 28%, and 26% for groups of four, six, and eight robots, respectively.",
+      "quotes": [
+        {
+          "page": 393,
+          "text": "There is significance for fixation time (F(3, 144) 17.503, p 0.001) and group size (F(2, 48) 5.105, p 0.010). There is also a significant interaction effect (F(6, 144) 3.554, p 0.003)."
+        },
+        {
+          "page": 393,
+          "text": "Pairwise comparisons of fixation duration reveal that one- and three-second fixations led to significantly higher accuracy than either zero- or six-second fixations (p ≤0.001 in all cases)."
+        },
+        {
+          "page": 393,
+          "text": "Post-hoc analysis of group size using a Bonferroni correction found that accuracy in the four robot group was significantly better than accuracy in the eight robot group (p 0.007) and marginally better than accuracy in the six robot group (p 0.054)."
+        },
+        {
+          "page": 394,
+          "text": "Results show significant differences in accuracy rates between the four-robot group and the other groups, with accuracy rates of 37%, 28%, and 26% over all fixation durations, respectively."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The authors frame the study as perception and detection of robot visual attention, operationalized through robot gaze fixations directed at the participant. They call their approach a “sociophysical level of analysis.”",
+      "quotes": [
+        {
+          "page": 389,
+          "text": "This paper investigates two types of gaze behaviors—short, frequent glances and long, less frequent stares—to find which behavior is better at conveying a robot’s visual attention."
+        },
+        {
+          "page": 389,
+          "text": "To measure the detection rate of fixations, we present the target (the robot displaying attention fixations) among a number of distractors (identical robots displaying fixations not directed at the user)."
+        },
+        {
+          "page": 390,
+          "text": "We call this a sociophysical level of analysis because the measurement techniques (accuracy of identification) and methods (target-amidst-distractors) is drawn from psychophysics, but the task (identifying attention through gaze) is a social one."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper operationalizes an attention fixation as a gaze fixation directed at the user; it does not provide a broader formal definition of robotic gaze or attention.",
+      "quotes": [
+        {
+          "page": 389,
+          "text": "To quantitatively examine the effects of these two gaze types on the perception of attention, we measure the detection rate of attention fixations (i.e., fixations directed at the user) over three conditions on the spectrum of gaze types."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Robot gaze fixations are used to convey or indicate that the robot is attending to the participant; the experiment tests whether participants can detect that attention among distractor robots.",
+      "quotes": [
+        {
+          "page": 389,
+          "text": "We use gaze to indicate attention, whether toward a speaker or toward an object of mutual interest."
+        },
+        {
+          "page": 394,
+          "text": "Because frequent short glances were more easily recognized in this experiment, looking at a user to initiate or maintain an interaction may be most effective using short, frequent glances, rather than an extended stare."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Multiple short fixations were more accurately recognized as attention than fewer, longer fixations. Increasing the number of distractor robots reduced accuracy.",
+      "quotes": [
+        {
+          "page": 394,
+          "text": "Since total fixation time in a single trial was held constant, this suggests that multiple short fixations are better at conveying attention than fewer longer fixations."
+        },
+        {
+          "page": 394,
+          "text": "H2 predicted that group size would have a negative effect on accuracy, which was also supported."
+        },
+        {
+          "page": 394,
+          "text": "More distractors made this task more difficult, with accuracy decreasing for larger group sizes."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The researchers modified MyKeepon toys for computer control using Arduino Uno boards and motor shields. Robot motions were pre-scripted and sent over USB/serial; motor commands were cached on the boards and played sequentially. Target robots were hand-calibrated to orient toward participants.",
+      "quotes": [
+        {
+          "page": 391,
+          "text": "Each MyKeepon robot is attached to one Arduino Uno and one Arduino Motor Shield, which plugs into the Arduino Uno and is designed to run up to four DC motors."
+        },
+        {
+          "page": 391,
+          "text": "To ensure replicability between participants, robot motions are pre-scripted, though they can be calculated and sent in real time."
+        },
+        {
+          "page": 391,
+          "text": "Commands are cached on the board until execution time, at which point the commands are played back sequentially, causing the motors (and the robot) to move."
+        },
+        {
+          "page": 392,
+          "text": "Each robot’s movements were hand-calibrated to assure fixation toward the participant’s location"
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Programmable MyKeepon toys: small, yellow, snowman-like robots with two eyes and a nose and four degrees of freedom, controlled by three DC motors.",
+      "quotes": [
+        {
+          "page": 391,
+          "text": "Keepon is a small, yellow, snowman-like robot with two eyes and a nose, but no other facial features."
+        },
+        {
+          "page": 391,
+          "text": "MyKeepon has four degrees of freedom (DOFs) using three DC motors."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The robots’ imprecise motors made perfectly direct gaze difficult, so target gaze was oriented toward or near participants; the authors note that gaze offset may have contributed to generally low accuracy. The body moves as a whole to orient gaze.",
+      "quotes": [
+        {
+          "page": 392,
+          "text": "MyKeepon motor control is somewhat imprecise, so perfectly direct gaze toward participants is difficult to achieve."
+        },
+        {
+          "page": 392,
+          "text": "In the experiment we report below, target robots fixated on or near participants on the target trials."
+        },
+        {
+          "page": 393,
+          "text": "Although the size of an individual robot’s eye is quite small, the eyes are fixed to its body, so the robot moves its entire body to orient its gaze."
+        },
+        {
+          "page": 393,
+          "text": "On the other hand, these gaze offset may explain generally low accuracy rates."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The authors built programmable MyKeepon robots and tested whether people could identify which robot was looking toward them in groups of four, six, or eight. Participants identified attention more accurately when fixations were short and frequent, and accuracy declined as robot group size increased.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper operationalizes attention through gaze fixations directed at the participant, tests attention detection in multi-robot groups, and reports effects of fixation timing and group size. It also describes the robot control implementation and platform, including how motor imprecision and whole-body gaze affected the study.",
+      "quotes": []
+    }
+  ]
+}

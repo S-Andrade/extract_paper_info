@@ -1,0 +1,297 @@
+{
+  "key": "MKX5E27Y",
+  "title": "Towards Robot Autonomy in Group Conversations: Understanding the Effects of Body Orientation and Gaze",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "A 2×2 between-subjects experiment, with automated orientation and gaze behaviors and wizard-managed speech and study sequencing.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We conducted a 2×2 between-subjects experiment to examine the effects of two orientation and two gaze behaviors during group conversations for a mobile, low degree-of-freedom robot."
+        },
+        {
+          "page": 5,
+          "text": "We designed a 2 2 between-subjects experiment to test orientation (middle vs. attentive) and gaze (random vs. attentive) behaviors."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Laboratory room set up for group brainstorming, with 4.4 × 4.4 meters of free space.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The experiment was conducted in a room with a free space of 4.4 4.4 meters (Fig. 1(d))."
+        },
+        {
+          "page": 2,
+          "text": "In this protocol, the robot asks the participants to help it solve a problem in a brainstorming session in the laboratory."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "69 participants in 20 groups (5 groups per condition).",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "We recruited 20 groups (5 per condition) of 3 or 4 people using a participant pool, word of mouth, and fliers."
+        },
+        {
+          "page": 5,
+          "text": "Table 1 shows details of the 69 participants that interacted with our robot."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Adults (18 or older), fluent in English, raised in the U.S.; mostly university students. Mean age 24.8 years (SE 1.0); most used computers daily and reported limited robot familiarity. Seven sessions included participants who knew one another.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The participants were at least 18 years of age, fluent in English, and had grown up in the U.S."
+        },
+        {
+          "page": 5,
+          "text": "In general, most participants were university students, and their average age was 24.8 years old (SE 1.0)."
+        },
+        {
+          "page": 5,
+          "text": "In 7 sessions, two or more participants knew each other."
+        },
+        {
+          "page": 5,
+          "text": "Most participants used computers daily (M 6.97, SE 0.02) but were not very familiar with robots (M 3.38, SE 0.20)."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants joined a robot-led brainstorming session about useful tasks the robot could perform in the lab. The robot introduced itself, facilitated six minutes of brainstorming, and closed the session; participants wrote ideas on slips and deposited them in color-coded boxes, which prompted natural departures and re-entries. Four conditions crossed middle or attentive orientation with random or attentive gaze.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "During the experiment, the robot led and participated in a brainstorming session with a small group of participants."
+        },
+        {
+          "page": 5,
+          "text": "The robot encouraged the group to brainstorm tasks that it could do in the lab for 6 min."
+        },
+        {
+          "page": 5,
+          "text": "Each session was performed under one of four conditions: MO+RG condition. The robot oriented towards the middle of its conversational group and randomized its gaze."
+        },
+        {
+          "page": 5,
+          "text": "The experimenter also explained that the requests to deposit paper slips on boxes were an excuse to induce people to leave the robot’s conversation and re-enter in natural ways."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Each session involved one robot and three or four human participants (four or five group members total).",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "We recruited 20 groups (5 per condition) of 3 or 4 people using a participant pool, word of mouth, and fliers."
+        },
+        {
+          "page": 3,
+          "text": "We studied two orientation and two gaze behaviors during group conversations with the furniture platform Chester."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "We studied two orientation and two gaze behaviors during group conversations with the furniture platform Chester."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "3 or 4 participants per session.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "We recruited 20 groups (5 per condition) of 3 or 4 people using a participant pool, word of mouth, and fliers."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Post-test survey, including the Inclusion of Other in Self (IOS) scale and Williams et al. survey on belongingness and ostracism; Likert ratings of robot impressions. Objective measures included participant–robot distance, group membership, and idea-slip counts. Researchers also used coder annotations of group membership, speaker/addressee transcription, robot eye-fixation inspection, system logs, and teleoperation records.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The post-test survey asked people about their impressions of: the robot’s motion and gaze; closeness to the robot using the IOS scale [8]; the robot’s and the participants’ feelings of belongingness and ostracism in the brainstorming group [74];"
+        },
+        {
+          "page": 6,
+          "text": "Objective measures included the distance that the participants kept from the robot, the participants’ membership in the robot’s conversational group, and the number of paper slips collected during the brainstorming activity."
+        },
+        {
+          "page": 6,
+          "text": "To confirm that the robot oriented as expected during the brainstorming phase, two coders annotated the members of the robot’s conversation."
+        },
+        {
+          "page": 6,
+          "text": "We transcribed when people spoke in the robot’s group and its specific addressees in 2 sessions per condition."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Attentive gaze (AG) made the robot’s motion seem more natural than random gaze (RG) (M=4.71 vs. 4.00; p<.05). Attentive orientation (AO) increased ratings that the robot looked at participants compared with middle orientation (MO) (M=4.72 vs. 4.11; p<.01). Participants stood farther away with RG than AG during the final brainstorming minute (2.29 m vs. 2.09 m; p=.02); the MO+RG group was farther from the robot than MO+AG (2.40 m vs. 2.03 m; interaction p=.04).",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "Gaze had a significant effect on the ratings for “Chester’s motion looked natural during the interaction” (F[1, 68] 4.08, p 0.05). As shown in Fig. 8, the AG behavior elicited significantly higher agreement with the statement relative to RG (M 4.71, SE 0.28 vs. M 4.00, SE 0.23)."
+        },
+        {
+          "page": 6,
+          "text": "The robot’s orientation led to significant differences on how much the participants felt that Chester looked at them (F[1, 68] 7.47, p 0.01). As shown in Fig. 7, the AO behavior (M 4.72, SE 0.18) had significantly higher ratings than the MO behavior (M 4.11, SE 0.15) in this respect."
+        },
+        {
+          "page": 8,
+          "text": "Gaze was significant (F[1, 68] 5.67, p 0.02): participants stood significantly farther away from the robot with RG (M 2.29, SE=0.05) than with AG (M 2.09, SE 0.06)."
+        },
+        {
+          "page": 8,
+          "text": "The interaction between Gaze and Orientation was also significant (F[3, 66] 4.27, p 0.04). The members of the robot’s group were significantly farther away from it with MO+RG than with MO+AG (M 2.40, SE=0.07 vs. M 2.03, SE=0.10), as shown in Fig. 9."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames gaze as a way for the robot’s eyes to communicate mental states and attention, and examines gaze and body orientation as coupled behaviors in group conversations.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Gaze was manipulated because the robot that we used has a fixed head, but the direction of its eyes could still communicate mental states and attention [7, 2]."
+        },
+        {
+          "page": 1,
+          "text": "This mutual dependency implies that robot gaze and body motion must be designed and controlled jointly, rather than independently of each other."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "Attentive gaze attempts to establish mutual gaze with the person who is the robot’s addressee or current speaker, or with a moving group member when the group is silent. The authors present gaze as communicating attention and contributing to perceived naturalness of robot motion.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "When no animation was scheduled, the robot attempted to establish mutual gaze with the person who was the focus of attention."
+        },
+        {
+          "page": 3,
+          "text": "That is, the person that the robot addressed in particular, the current speaker if the robot was quiet, or anybody who moved with a speed of at least 0.5 m/s in the group when everybody was silent."
+        },
+        {
+          "page": 1,
+          "text": "This behavior could convey attentiveness to the interaction and make users perceive the robot as more active or responsive."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Attentive gaze improved perceived naturalness of robot motion and was associated with participants standing closer to the robot than under random gaze. Attentive orientation increased the perception that the robot looked at participants. Gaze and body motion influenced perceptions of one another. The orientation behaviors did not significantly change feelings of inclusion or belonging; the authors report similar feelings for MO and AO.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "The gaze of the robot affected the participants’ perception of its motion and its motion affected the perception of its gaze."
+        },
+        {
+          "page": 8,
+          "text": "With Attentive Orientation, the participants perceived that the robot looked at them more."
+        },
+        {
+          "page": 8,
+          "text": "Opinions on how close the participants felt to the robot and whether they perceived it as part of their group were not significantly affected by the orientation behaviors, as hypothesized in H3."
+        },
+        {
+          "page": 8,
+          "text": "The members of the robot’s group were significantly farther away from it with MO+RG than with MO+AG (M 2.40, SE=0.07 vs. M 2.03, SE=0.10), as shown in Fig. 9."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The study used an integrated multimodal perception system to track people and the robot, detect conversational groups and the current speaker, and control orientation and gaze. Participants wore baseball caps with UWB beacons; a Kinect contributed skeleton and audio data. The behavior conditions ran autonomously for most of the interaction, while a hidden wizard managed speech and event sequencing and occasionally repositioned or corrected the robot. MO oriented toward the mean direction of group members; AO biased orientation toward the addressee or speaker. AG directed pupils toward the focus of attention, while RG used random small pupil shifts when no scripted eye animation was scheduled.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "This system relied on several off-the-shelf sensors and data fusion techniques to (1) track the users and the robot, (2) detect conversational groups by reasoning about spatial behavior, and (3) detect the current speaker in the environment."
+        },
+        {
+          "page": 4,
+          "text": "The system required instrumenting the environment with ultra wide-band (UWB) localization beacons and a Kinect."
+        },
+        {
+          "page": 5,
+          "text": "The experiment followed a Wizard with Oz arrangement [59] in which the manipulated behaviors were autonomous, but the sequencing of events within the study and the robot’s speech were managed by a hidden operator or “wizard”."
+        },
+        {
+          "page": 6,
+          "text": "During the brainstorming phase the main part of the experiment sporadic reconfigurations of this sort happened in 16 sessions out of 20. In these sessions, total teleoperation time while brainstorming was 9.37 sec on average (SE 2.04), which represented only 2.4% of the duration of this phase (M 383.53 sec, SE 5.43, N 16)."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Chester, a mobile furniture platform with a differential-drive base, fixed face, and back-projected eyes.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "This robot has a differential drive base, a fixed face, and back-projected eyes, as shown in Fig. 1(d)."
+        },
+        {
+          "page": 1,
+          "text": "We conducted a 2×2 between-subjects experiment to examine the effects of two orientation and two gaze behaviors during group conversations for a mobile, low degree-of-freedom robot."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The fixed head meant gaze was manipulated through eye direction, while the robot’s design constrained the behaviors studied. The authors state that its physical appearance and capabilities may have influenced results and behavior design; its differential-drive base limited spatial-behavior complexity and may have affected motion perceptions.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Gaze was manipulated because the robot that we used has a fixed head, but the direction of its eyes could still communicate mental states and attention [7, 2]."
+        },
+        {
+          "page": 3,
+          "text": "Even though the robot’s design led to specific decisions for the orientation and gaze behaviors, they can be easily adapted to other mobile platforms with expressive eyes."
+        },
+        {
+          "page": 8,
+          "text": "Second, the physical appearance and capabilities of our robot could have influenced our results and biased some aspects of the design of the behaviors under consideration."
+        },
+        {
+          "page": 8,
+          "text": "For example, the differential drive base of the robot constrained the complexity of its spatial behavior and, in turn, this could have affected the perception of its motion."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The authors tested middle versus attentive body orientation and random versus attentive eye gaze with Chester, a mobile robot interacting with groups of three or four people during laboratory brainstorming. Attentive gaze made the robot’s motion seem more natural and led participants to stand closer, while attentive orientation made participants feel that the robot looked at them more; orientation did not significantly alter feelings of group inclusion.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper describes gaze and attention as communicative cues, specifies how gaze serves the group interaction, and reports effects on perceptions and participant distance. It details sensing and control, the Chester platform, and how its fixed face and differential-drive base shaped the study.",
+      "quotes": []
+    }
+  ]
+}

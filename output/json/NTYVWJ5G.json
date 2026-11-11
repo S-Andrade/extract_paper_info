@@ -1,0 +1,233 @@
+{
+  "key": "NTYVWJ5G",
+  "title": "Social Robot Haru Imitating Human Gaze for Attention and Turn-Taking Coordination in Multi-party Conversation",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical system description combined with an experimental within-subjects user study in which all 22 participants experienced both conditions (dialogue only vs. dialogue plus autonomous gaze).",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "Condition 1: Only the dialogue assistance module is active, like an e mbodied chatbot Haru;"
+        },
+        {
+          "page": 7,
+          "text": "All participants took part in the two experimental conditions and the order of each group participating in the two conditions was randomly assigned."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Real-world user study with participant pairs recruited from a university campus; gaze policy was trained beforehand in a Gazebo simulation.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "We recruited 22 participants from a university campus for our study, including 15 males and 7 females, aged from 22 to 27 years old."
+        },
+        {
+          "page": 7,
+          "text": "In the study, to simulate multiparty conversation in the real world, we developed a simulation environment on Gazebo, where Haru interacts with two human users face to face."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "22 participants (11 groups of 2).",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "We recruited 22 participants from a university campus for our study, including 15 males and 7 females, aged from 22 to 27 years old."
+        },
+        {
+          "page": 7,
+          "text": "These participants were divided into 11 groups with each group consisting of two participants."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Aged 22 to 27 years, 15 males and 7 females, university campus recruits; 59.1% had experience in social robotics and 40.9% had no relevant experience.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "59.1% had experience in social robotics, and 40.9% had no relevant experience."
+        },
+        {
+          "page": 7,
+          "text": "We recruited 22 participants from a university campus for our study, including 15 males and 7 females, aged from 22 to 27 years old."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Pairs of participants talked on a topic assigned by an instructor while interacting with Haru; each group experienced both the dialogue-only condition and the dialogue plus autonomous gaze condition in randomized order, with a short break between them.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "All participants took part in the two experimental conditions and the order of each group participating in the two conditions was randomly assigned."
+        },
+        {
+          "page": 8,
+          "text": "There was short break between participating the two conditions."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "2 humans plus 1 robot (Haru) per session.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "These participants were divided into 11 groups with each group consisting of two participants."
+        },
+        {
+          "page": 7,
+          "text": "In the study, to simulate multiparty conversation in the real world, we developed a simulation environment on Gazebo, where Haru interacts with two human users face to face."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1 (the Haru robot).",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In this paper, we designed a system integrating a dialogue assistance module and an autonomous gaze module and deployed on the embodied robot Haru [33]."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2 per session.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "These participants were divided into 11 groups with each group consisting of two participants."
+        },
+        {
+          "page": 7,
+          "text": "In the study, to simulate multiparty conversation in the real world, we developed a simulation environment on Gazebo, where Haru interacts with two human users face to face."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Godspeed questionnaire (anthropomorphism, animacy, likeability, perceived intelligence, perceived safety), selected PSI items, four custom satisfaction questions and two custom willingness-to-use questions, all on 5-point Likert scales, analysed with Cronbach's alpha and paired t-tests.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "Additionally, A couple of questions were selected from the PSI [3] to further evaluate Haru’s social intelligence."
+        },
+        {
+          "page": 8,
+          "text": "All questions were rated on a 5-point Likert scale."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Haru was rated significantly better in Condition 2 than Condition 1 on all GODSPEED and PSI dimensions (paired t-tests, p<0.01; e.g., anthropomorphism t = -8.737). Participants also reported significantly higher enjoyment, perceived attentive listening, overall satisfaction, willingness to re-engage, and willingness to use and recommend Haru in Condition 2 (p<0.01).",
+      "quotes": [
+        {
+          "page": 12,
+          "text": "Results in Fig. 7(a) and Table 1 show that Haru’s performance in Condition 2 was significantly better across all dimensions than Condition 1 (p 0.01)"
+        },
+        {
+          "page": 12,
+          "text": "The results in Table 2 show that participants reported significantly higher enjoyment when interacting with Haru in Condition 2 compared to Condition 1 (Q1, p 0.01)."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "Robotic gaze-based attention",
+      "quotes": [
+        {
+          "page": 14,
+          "text": "participants show a clear preference for Haru maintaining gaze contact during conversations, and perceives such behavior as more socially appropriate and indicative of stronger social competence."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "Haru's gaze is used to follow the current speaker and to orient toward the middle between users when both are talking or silent, coordinating attention and turn-taking in the group conversation.",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "Figure 4 shows that during interactions in the conversation, Haru can autonomously gaze at the user who is speaking and to the middle between users when both users are talking or being silent, demonstrating that the learned autonomous gaze behavior aligns with human social norms."
+        },
+        {
+          "page": 10,
+          "text": "The results of Fig. 6 show that in Condition 2 where both the dialogue assistance module and the autonomous gaze module worked in unison, Haru could direct its gaze towards the speaking user; when a user attempted to interact with Haru, it gazed following the user and provided appropriate responses."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Participants rated Haru more favourably with gaze behaviour: they preferred it when it maintained mutual gaze, and were more inclined to use it in daily life and to recommend it to others in Condition 2 (p<0.01).",
+      "quotes": [
+        {
+          "page": 13,
+          "text": "As shown in Fig. 8, users were more inclined to use Haru in Condition 2 in everyday scenarios (Question 1, p 0.01), and were also more willing to recommend it to others (Question 2, p 0.01)."
+        },
+        {
+          "page": 1,
+          "text": "Results of a user study show that participants preferred Haru when it maintained mutual gaze during conversation, and perceived it as more polite, socially aware, and engaging."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "Gaze policy learned with GAIL from human expert demonstrations, using relative azimuth angles and speaking status as state and head-rotation change as action; trained in a Gazebo simulation for 1500 episodes and transferred to the real robot. Users were tracked with an Azure Kinect for skeleton and sound localization, and dialogue used ASR, ChatGPT and TTS.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The GAIL algorithm optimizes a generator and a discriminator to imitate the human user’s gaze behavior."
+        },
+        {
+          "page": 6,
+          "text": "As it takes a long time for Haru to learn a good gaze behavior policy via the Generative Adversarial Imitation Learning (GAIL) algorithm, we trained Haru to learn the autonomous gazing behavior via GAIL from collected human expert demonstrations in our simulation platform."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Haru, a desktop social robot placed on a tabletop; its gaze direction is produced by rotation restricted to a predefined range of [−90°, 90°].",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The social robot Haru is typically placed on a tabletop, with its spatial position defined as the origin of the coordinate system."
+        },
+        {
+          "page": 5,
+          "text": "However, due to hardware constraints and the limitations of the interaction environment, the range of Haru’s rotational movement is restricted to a predefined angular range of [−90◦, 90◦]."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "Hardware constraints restricted Haru's rotational movement to [−90°, 90°], which defined the range of its gaze actions in the study.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "However, due to hardware constraints and the limitations of the interaction environment, the range of Haru’s rotational movement is restricted to a predefined angular range of [−90◦, 90◦]."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper presents the social robot Haru, which learns human-like gaze from real-world demonstrations using GAIL (trained in simulation and transferred to the robot) and uses ChatGPT for open-domain dialogue, so that gaze coordinates attention and turn-taking between two users. In a 22-participant study (11 pairs), adding the autonomous gaze module made Haru significantly better rated on social intelligence, satisfaction, and willingness to use than dialogue alone.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ2a; RQ2b; RQ3a; RQ4a; RQ5a — The paper describes gaze as coordinating attention and turn-taking among two users, reports rated effects of the combined gaze and dialogue system on perceived social intelligence and satisfaction, and details a GAIL-based gaze implementation on the Haru robot.",
+      "quotes": []
+    }
+  ]
+}

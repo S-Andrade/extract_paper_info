@@ -1,0 +1,265 @@
+{
+  "key": "PYN2FHXT",
+  "title": "Cooperative gazing behaviors in human multi-robot interaction",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Experimental behavioral study with a real-time gaze-contingent platform; includes a technical system description.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "For this study, we implemented a multimodal gaze-contingent platform with two Nao humanoid robots manufactured by Aldebaran Robotics (Gouaillier et al. 2009)."
+        },
+        {
+          "page": 12,
+          "text": "We employed a word learning task where the human participants were asked to teach two robots the names of a set of objects."
+        },
+        {
+          "page": 13,
+          "text": "10 undergraduate students at Indiana University were recruited and participated for the active-following condition and 11 for the passive-following condition (an additional 5 participants were excluded due to technical issues)."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "University laboratory setting; participants interacted with robots at a table. The paper does not explicitly label the study as a laboratory study.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Using this platform, we asked human participants to interact with two robots at the same time to accomplish a joint task involving multiple objects on a table."
+        },
+        {
+          "page": 13,
+          "text": "10 undergraduate students at Indiana University were recruited and participated for the active-following condition and 11 for the passive-following condition (an additional 5 participants were excluded due to technical issues)."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "21 participants included in the two conditions: 10 in the active-following condition and 11 in the passive-following condition. Five additional participants were excluded due to technical issues.",
+      "quotes": [
+        {
+          "page": 13,
+          "text": "10 undergraduate students at Indiana University were recruited and participated for the active-following condition and 11 for the passive-following condition (an additional 5 participants were excluded due to technical issues)."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Undergraduate students at Indiana University; age and gender are not reported in the provided paper text.",
+      "quotes": [
+        {
+          "page": 13,
+          "text": "10 undergraduate students at Indiana University were recruited and participated for the active-following condition and 11 for the passive-following condition (an additional 5 participants were excluded due to technical issues)."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants taught two robots the names of four novel, single-colored objects per trial, using artificial two-syllable names. They completed three trials of about three minutes each. The active-following condition paired a stereotype robot with an active robot; the passive-following condition paired a stereotype robot with a passive robot.",
+      "quotes": [
+        {
+          "page": 12,
+          "text": "The participants were given four novel single-colored objects in each trial and each novel object was given an artificial two-syllable name (for example, gasser or kaki)."
+        },
+        {
+          "page": 13,
+          "text": "Each trial lasted for about three minutes. There were three teaching trials in total after which an experimenter signaled the participants to stop and exchange the objects at the end of each trial."
+        },
+        {
+          "page": 9,
+          "text": "The active-following condition (AFC) included one stereotype robot learner and one active robot learner (Figure 3a and 3c); and the passive-following condition (PFC) includes one stereotype robot and one passive robot."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three agents per session: one human participant and two robots.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Using this platform, we asked human participants to interact with two robots at the same time to accomplish a joint task involving multiple objects on a table."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "2",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "For this study, we implemented a multimodal gaze-contingent platform with two Nao humanoid robots manufactured by Aldebaran Robotics (Gouaillier et al. 2009)."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "1 human participant per session; the paper describes each participant interacting with the two robots.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Using this platform, we asked human participants to interact with two robots at the same time to accomplish a joint task involving multiple objects on a table."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Head-mounted Eye-Trac 6000 eye tracker and real-time gaze/ROI tracking; recorded first-person videos, robot head movements and gaze directions, and participant speech. Utterances were segmented by a speech-silence endpoint detection algorithm and transcribed by three human coders. Robot gaze behavior and successful gaze-following rates were also evaluated. Post-experiment interviews are mentioned, with no instrument specified.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "To track the participant’s eye movements, a head-mounted eye tracker (Eye-Trac 6000, ASL LLC) was positioned on the participant’s forehead."
+        },
+        {
+          "page": 13,
+          "text": "In addition, we also recorded the participant’s speech during the experiment. An endpoint detection algorithm based on speech silence was implemented to segment a speech stream into spoken utterances. Each utterance may contain one or several words. Spoken utterances were transcribed by three human coders."
+        },
+        {
+          "page": 14,
+          "text": "We also calculated the successful following rates of both robots in each condition."
+        },
+        {
+          "page": 7,
+          "text": "During our post-experiment interviews, most participants reported that the whole interaction was smooth and the robotic agents were engaging and actively following their attention."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Participants looked more frequently at the active robot than at the passive robot (p = 0.03); they produced more spoken utterances in the active-following condition (26.45 vs. 20.71; p = 0.03). Around naming events, participants in the passive-following condition made more shifts between different objects than those in the active-following condition (before: F(1,59) = 127.69, p < 0.0001; after: F(1,59) = 350.52, p < 0.0001).",
+      "quotes": [
+        {
+          "page": 15,
+          "text": "We also compared the active and passive robots in the two experimental conditions as they shared the same social peer (the stereotype robot). There was a large difference in the frequency of face looks to the two robots (t(19) 2.29, p 0.03)."
+        },
+        {
+          "page": 16,
+          "text": "However, the human teachers did generate fewer spoken utterances in the passive-following condition (Mpassive 20.71) compared to the active condition (Mactive 26.45; t(19) 2.36, p 0.03)."
+        },
+        {
+          "page": 19,
+          "text": "There were significantly more attentional switches between different objects in the passive-following condition than in the active-following condition (Fbefore(1,59) 127.69, p 0.0001; Fafter(1,59) 350.52, p 0.0001)."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The authors frame the topic as cooperative gazing behavior in human multi-robot interaction, including robot gaze behaviors contingent on the human’s attention. They identify following the user’s gaze, actively directing the user’s gaze, and encouraging attention toward other robots as possible cooperative behaviors.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We define cooperative behavior as the action performed by the robots that are not capturing the user’s direct attention."
+        },
+        {
+          "page": 3,
+          "text": "There are different possible cooperative gazing behaviors in the context of a human multi-robot interaction: robots can follow the human user’s gaze; robots can actively direct the human user to look at itself or another location; or robots can encourage the user to pay more attention toward other robots."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "Cooperative behavior is defined as an action performed by robots that are not capturing the user’s direct attention. The paper does not provide a distinct formal definition of robotic gaze, robotic attention, or robotic gaze-based attention.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We define cooperative behavior as the action performed by the robots that are not capturing the user’s direct attention."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Robot gaze behaviors can elicit or redirect the user’s attention, coordinate attention between the human and robots, and shape group communication and teaching behaviors. The active robot’s face looks were intended to attract the teacher’s attention when the teacher looked at its peer.",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "The active robot, in addition to following the participant’s attentional switches in real time as the stereotype robot, generated additional face looks toward the human teacher to attract the teacher’s attention when the teacher was looking at its robot peer (e.g. a stereotype robot)."
+        },
+        {
+          "page": 20,
+          "text": "This suggests that actively eliciting the human teacher’s attention in a multiparty interaction is beneficial to engaging the teacher in the interaction."
+        },
+        {
+          "page": 3,
+          "text": "During face-to-face interaction, people use eye gaze to monitor every member’s attention within the group, show whom they are addressing, and suggest the next speaker during turn-takings (Kendon 1967; Isaacs Tang 1994; Vertegaal et al. 2000)."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Participants were sensitive to distinct robot cooperative gaze behaviors: active gaze elicited more frequent face looks and more speech utterances, while passive gaze did not direct more attention to its robot peer and was associated with less attention to the passive robot. Active-following participants also showed fewer object-to-object attention shifts around naming events, which the authors characterize as better teaching signals. No significant difference was found in object-look duration or naming-event counts between conditions.",
+      "quotes": [
+        {
+          "page": 22,
+          "text": "The results revealed that different cooperative gaze behaviors can significantly influence the participants’ gaze and speech acts."
+        },
+        {
+          "page": 22,
+          "text": "The active cooperative gazing behavior has attracted the most visual attention out of all three robot learners."
+        },
+        {
+          "page": 19,
+          "text": "Thus, compared with the passive-following condition, human teachers in the active-following condition provided better teaching signals with fewer attention switches between the target and irrelevant objects."
+        },
+        {
+          "page": 21,
+          "text": "For the third hypothesis, we did observe that on average, the users generated fewer looks at the objects in the active-following condition, but the difference was not statistically significant."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "A gaze-contingent system used a head-mounted eye tracker and first-person video to detect the participant’s gaze target among four objects and two robots. A robot control unit received the target ROI; each robot’s control was independent. Robots followed gaze after a buffer of 30 gaze data points, requiring more than 50% to indicate the same ROI. Reported mean response time was 657 ms. Robot behaviors were programmed as stereotype, active, or passive strategies; no Wizard-of-Oz control is described.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "In this system, the robot’s gaze behavior is triggered by the participant’s eye gaze in real-time."
+        },
+        {
+          "page": 6,
+          "text": "The eye gaze location was integrated with the detected objects and robot head blobs in the first-person view to compute the target of attention a Region-Of-Interest (ROI) at each moment indicating which target the participant was looking at."
+        },
+        {
+          "page": 7,
+          "text": "Only after more than 50% of data points in the buffer indicated the same ROI would the control system send a motor command to switch the robot’s attention."
+        },
+        {
+          "page": 7,
+          "text": "By taking all the lags in this real-time control system into account, a thorough test revealed that the robot’s response time was 657 ms on average."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Two Nao humanoid robots manufactured by Aldebaran Robotics; the Nao has 25 degrees of freedom and a CMOS eye camera.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "For this study, we implemented a multimodal gaze-contingent platform with two Nao humanoid robots manufactured by Aldebaran Robotics (Gouaillier et al. 2009)."
+        },
+        {
+          "page": 5,
+          "text": "The Nao robot has 25 degrees of freedom."
+        },
+        {
+          "page": 5,
+          "text": "Its eye unit is made of a CMOS camera with an image resolution of 640 480 pixels at a sample rate of 30 frames per second with a view angle of 61° horizontally and 47° vertically."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The authors tested two Nao robots interacting with one human who taught them object names, while the robots used different gaze strategies triggered by the human’s attention. Participants responded to those strategies: the active robot received more face looks, and active-following sessions produced more speech utterances and fewer attention shifts between objects around naming events.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5",
+      "quotes": []
+    }
+  ]
+}

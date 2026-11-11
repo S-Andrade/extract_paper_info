@@ -1,0 +1,276 @@
+{
+  "key": "NELT773Z",
+  "title": "A considerate care robot able to serve in multi-party settings",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description with a controlled comparative experiment and ethnographic observations.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Over the course of four years, we recorded more than 200 hours of video footage at an elderly day-care center located in Nara Prefecture, Japan."
+        },
+        {
+          "page": 4,
+          "text": "To confirm the effectiveness of the proposed robot behavior we conducted further experiments by using our robot, CCR."
+        },
+        {
+          "page": 4,
+          "text": "Although we confirmed our robot works autonomously in such situations, we performed the experiments in comparison with the WoZ to avoid request recognition errors."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "An experimental room with participants seated in chairs; the robot’s mobility was also tested moving around tables and obstacles. The paper additionally reports observations at a Japanese elderly day-care center.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Over the course of four years, we recorded more than 200 hours of video footage at an elderly day-care center located in Nara Prefecture, Japan."
+        },
+        {
+          "page": 4,
+          "text": "We considered a situation where the robot delivers snacks to two people in a room."
+        },
+        {
+          "page": 4,
+          "text": "As shown in Figure 7, two people sat in chairs at the same distance (about 5m) from the robot."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "40 participants.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "We had 40 participants, all of whom were undergraduate students in the Faculty of Liberal Arts at our university."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Undergraduate students in the university’s Faculty of Liberal Arts; the paper does not state their age, gender, or prior robot experience.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "We had 40 participants, all of whom were undergraduate students in the Faculty of Liberal Arts at our university."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants played person B, called the robot by raising a hand after it began moving to person A, and experienced either gaze acknowledgment or no gaze acknowledgment. The robot delivered snacks to two people, serving A before B.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "We considered a situation where the robot delivers snacks to two people in a room."
+        },
+        {
+          "page": 4,
+          "text": "We asked the participants to play the role of person B and gave them instructions such as “This robot will bring a snack to you when you call it by raising your hand. Please call the robot after it starts to move.”"
+        },
+        {
+          "page": 4,
+          "text": "The participants experienced the robot behavior alternatively, meaning 20 participants experienced the robot gazing at them and the others did not."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Two humans and one robot per experimental interaction.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "We considered a situation where the robot delivers snacks to two people in a room."
+        },
+        {
+          "page": 4,
+          "text": "As shown in Figure 7, two people sat in chairs at the same distance (about 5m) from the robot."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "As shown in Figure 7, two people sat in chairs at the same distance (about 5m) from the robot."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "We considered a situation where the robot delivers snacks to two people in a room."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Four custom 1–7 response questions; a 28-pair Semantic Differential impression evaluation on seven-degree scales; video analysis/counting of hand raises and observed calling behaviors; statistical comparison of question scores. WoZ was used to avoid request recognition errors.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "After this experience with the robot, we asked the participants to answer the following four questions by giving a value from 1 to 7 (where 7 is “definitely yes” and 1 is “definitely no”)."
+        },
+        {
+          "page": 4,
+          "text": "In addition, we also asked the participants to check 28 bipolar adjective pairs with seven scales to analyze their impressions."
+        },
+        {
+          "page": 5,
+          "text": "We counted the number of times they raised their hands while the robot was moving toward person A."
+        },
+        {
+          "page": 5,
+          "text": "An impression evaluation employing the Semantic Differential Method was conducted after the experiment."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Gaze acknowledgment produced higher average scores on all four questions, with significant differences for perceived recognition (Q2) and ease of calling (Q3), p<0.05; Q4 satisfaction did not differ significantly. Participants without gaze acknowledgment raised their hands more than once, while the participant shown after gaze acknowledgment put her hand down.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Participants who experienced the robot gazing give higher scores for all questions. Particularly significant differences were found in questions 2 and 3 (p<0.05)."
+        },
+        {
+          "page": 4,
+          "text": "On the other hand, no significant difference was found for question 4."
+        },
+        {
+          "page": 5,
+          "text": "When the robot did not display acknowledgement, the participants raised their hands more than once."
+        },
+        {
+          "page": 5,
+          "text": "Panel #3 on the left shows that the participant put her hand down after the robot gazed at her."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames gaze as a nonverbal acknowledgment that projects the order of service provision and signals which requester will be served next.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In this situation, we found that the gaze of the nurses plays an important role to arrange the order of service provision."
+        },
+        {
+          "page": 2,
+          "text": "In other words, the nurse successfully projects the order to the elderly visitors by only turning her gaze."
+        },
+        {
+          "page": 6,
+          "text": "Based on these concerns, we proposed a new robot system that can display acknowledgements by turning its gaze toward each person who wants to initiate interaction."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze acknowledges a subsequent request, projects the service order, and communicates to the waiting person that they will be served next, allowing the robot to continue serving the first person while the second waits.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Significantly, we learned that this behavior pattern performs the function of projecting the order of service to the next person as well as others."
+        },
+        {
+          "page": 3,
+          "text": "The next person will then sense that the robot will bring tea to him next, and is more likely to accept the order of service provision."
+        },
+        {
+          "page": 3,
+          "text": "(3) if the robot detects the next person's request while approaching the first person, the robot displays an acknowledgement by stopping momentary and turning its gaze toward the next person;"
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Gaze acknowledgment improved perceived robot recognition and ease of calling; participants gave higher scores across all four questions, though satisfaction did not differ significantly. Without acknowledgment, participants repeated hand raises and some used emphatic waving or said “excuse me.” Impression ratings also suggested more positive evaluation with the nonverbal gesture.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Participants who experienced the robot gazing give higher scores for all questions. Particularly significant differences were found in questions 2 and 3 (p<0.05)."
+        },
+        {
+          "page": 5,
+          "text": "In the group of participants which experienced the robot without gazing, we observed some participants making emphatic gestures such as waving their hands widely and frequently, or issuing an utterance such as “excuse me.”"
+        },
+        {
+          "page": 5,
+          "text": "These results suggest that the CCR's nonverbal gesture may create a positive evaluative attitude."
+        },
+        {
+          "page": 6,
+          "text": "This result therefore confirms that nonverbal communication by a service provider in a multi-party setting is crucial to create an atmosphere in which people can accept the situation and wait until they are served."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "CCR autonomously circulates while looking around, detects hand-raising requests using a body-mounted laser range finder and human-shape tracking, and, when a second request is detected en route to the first person, momentarily stops and turns its gaze toward the second person before continuing. The comparative experiment used WoZ to avoid request-recognition errors.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "(3) if the robot detects the next person's request while approaching the first person, the robot displays an acknowledgement by stopping momentary and turning its gaze toward the next person;"
+        },
+        {
+          "page": 3,
+          "text": "Another LRF is placed on the middle of the robot’s body slightly higher than the table tops, as shown in Fig. 3. This LRF is used to detect requests from people nearby, based on them calling the robot by raising a hand or a similar motion."
+        },
+        {
+          "page": 3,
+          "text": "The system monitor tracks changes in human shape in an image sequence, which is generated by mapping the range data on 2D images while considering the robot’s position and orientation."
+        },
+        {
+          "page": 4,
+          "text": "Although we confirmed our robot works autonomously in such situations, we performed the experiments in comparison with the WoZ to avoid request recognition errors."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "CCR used a Segway RMP50 mobile platform, an upper body with eight arm-motion joints, and a pan-tilt mount in the neck for head movement.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "We adapted a Segway mobile robot (RMP50 by Segway Japan) as the mobile platform so that the robot can move smoothly."
+        },
+        {
+          "page": 3,
+          "text": "In the upper body 8 joints were installed to enable the robot to move its arms in a way similar to humans."
+        },
+        {
+          "page": 3,
+          "text": "A pan-tilt mount (PTU-D46-17 by Directed Perception) was installed inside the neck for head motion."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The authors developed a mobile care robot that acknowledges a second person’s request by turning its gaze toward them while it is serving someone else. In a two-person snack-delivery experiment, gaze acknowledgment improved perceived recognition and ease of calling, while satisfaction ratings did not differ significantly.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5 — The paper describes gaze as a nonverbal signal that acknowledges requests and projects service order, tests its role and effects in a two-person interaction, details the sensing and gaze behavior, and specifies the robot platform and physical features.",
+      "quotes": []
+    }
+  ]
+}

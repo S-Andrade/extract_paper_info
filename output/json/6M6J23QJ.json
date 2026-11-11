@@ -1,0 +1,230 @@
+{
+  "key": "6M6J23QJ",
+  "title": "A study of a single robot interacting with groups of children in a rotation game scenario",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Experimental study.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The behaviour of the children was scored at various distances to the robot and compared under all the possible combinations of the state of camera (\"static\" or \"active searching\") and pointer (\"permanent pointing\" or \"selective pointing\")."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "University rooms set up for the experiment.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The study took place in June 2004, taking advantage of a larger event run by the FP5 European Project VICTEC [2003]."
+        },
+        {
+          "page": 2,
+          "text": "The two rooms to be used for the study were both 1Om long by 6m wide."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "194 children participated in the experimental sessions; the analyzed dataset used one child from each of 16 sessions.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "For the VICTEC project, about 400 school children (all but two born and raised in the U.K., aged between 9 and 11 year and chosen from 10 schools in the Hertfordshire area) visited the university and 194 of these participated in the experimental sessions described in this paper."
+        },
+        {
+          "page": 3,
+          "text": "From each videoed session, one child was selected for analysis, thus guaranteeing independence of data."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "School children aged 9–11; all but two were born and raised in the U.K.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "For the VICTEC project, about 400 school children (all but two born and raised in the U.K., aged between 9 and 11 year and chosen from 10 schools in the Hertfordshire area) visited the university and 194 of these participated in the experimental sessions described in this paper."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Children played a six-round rotation game in which the robot rotated, selected a child, and allowed that child to take a present; the remaining children moved 0.5 m closer after each round. Sessions lasted up to 30 minutes.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The sessions took a maximum time of 30 minutes and were run in parallel in two separate rooms."
+        },
+        {
+          "page": 2,
+          "text": "The chosen child was allowed to pick up a small present from a basket carried by the robot and then left the game The remaining children moved 0.5m closer (to the next zone) to the robot and the game was repeated for a total of six rounds."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "One robot and groups of children, typically around 10; games selected six children over six rounds.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "These sessions were used to run interactive games with groups of children and a single robot."
+        },
+        {
+          "page": 3,
+          "text": "(Each lasted for six rounds, i.e. six children from each typical group of ten children were selected by the robot in the course of a game)"
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "These sessions were used to run interactive games with groups of children and a single robot."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "Groups of up to 10 children per interaction session.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Hereto, 16 groups of up to 10 children each were engaged in a play scenario in which they had to move closer to a robot over 6 successive rounds."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Video recording and behavioral coding with ANNOTATOR at one-second intervals; observer notes were also taken.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "During the experiment, behaviour of the children was recorded by the video camera and another observer took notes of any particularly interesting interactions."
+        },
+        {
+          "page": 3,
+          "text": "ANNOTATOR enables the interactive recording of behavioural variables at fixed time intervals: coded activities can be scored and saved in a worksheet during the simultaneous display of a video clip of an experiment."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Overall attentive behavior was higher with permanent pointing than selective pointing (F(1,12)=5.73, p=0.034). The camera-pointer interaction significantly affected looking toward the robot: children looked more when the cues were consistent (F(1,12)=7.81, p=0.016); no significant distance effect was found.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "A significant effect for the state of the pointer was found (Fl. 12 5.73, p 0.034) and indicated that subjects exhibited more attentive behaviour (including towards each other) when the pointer was permanent as compared to the selective pointer (Fig. 4)."
+        },
+        {
+          "page": 5,
+          "text": "The results show the significant effect of the interaction between State of Camera and State of Pointer (Fig. 5) for AttentionBy-Looking."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames apparent robot interest as an attention-attraction cue, implemented through camera movement and pointing gestures; it also discusses eye gaze and deictic gestures as part of embodied interaction.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "These considerations have lead to the following working hypothesis: humans are more attentive towards the robot if the robot appears to be \"interested\" in the people present."
+        },
+        {
+          "page": 1,
+          "text": "Eye-gaze direction and deictic gestures such as pointing with the hand play important early roles in the ontogeny of inter-subjectivity and shared attention as well as linguistic and cognitive abilities in the development of human children; and they continue to play a crucial role in non-verbal communication in adults, depending crucially on embodied interaction"
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The authors do not provide a formal definition of robotic gaze or robotic attention; they describe the cues as giving the appearance of interest from an observer's perspective.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We are not claiming that our robot was genuinely interested in the children, but refer to the usage of cues that give the appearance of \"interest\" from an observer perspective."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "The robot's apparent interest was intended to attract and maintain children's attention; camera searching and selective pointing signaled apparent interest or focus on a child.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Critical for the latter is that an agent makes its presence and actions known to the human. For this, attracting (and keeping) attention by the agent is of principal importance"
+        },
+        {
+          "page": 2,
+          "text": "The camera on top of the robot was engineered so that it could either remain immobile (\"static\") or move around its axis and thus give the impression of being a searching \"eye\"."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Permanent pointing increased overall attentive behavior, while consistent camera and pointer cues increased looking at the robot. The authors found no demonstrable effect of distance on overall attentive behavior.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The mean frequency of overall attentive behaviour by the children (including attention towards other children) was significantly higher when the robot was not selectively pointing at the children and independent of the state of the camera."
+        },
+        {
+          "page": 1,
+          "text": "There was an interaction effect between the state of the camera and of the pointer: looking at the robot by the children occurred significantly more often when the camera and the arm were consistent in signalling apparent interest"
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "A camera was either stationary or panned side to side in a random manner; an arm and hand were either permanently extended or raised selectively when the robot stopped facing a child. Operators controlled game starts and ensured the robot selected a child.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The robots were controlled in a semi- autonomous manner, with the operators retaining control of starting the games, and also making sure that the robots did not point to an empty space when selecting (by stopping the tuming robot when it was facing) a child."
+        },
+        {
+          "page": 3,
+          "text": "The camera was either stationary (\"static\") or panning from side to side in a random manner (\"active searching\") (Fig. 2)."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Commercially available, human-scaled PeopleBot robots equipped with a camera eye, arm, human-shaped hand, and basket.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The study was conducted using commercially available, human-scaled. PeopleBot robots [ActivMedia, 2005]."
+        },
+        {
+          "page": 1,
+          "text": "The robot was endowed with a \"camera eye\" and an arm and hand."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors suggest the human hand shape may have directed children's attention, and that the pointer's movement may have been more conspicuous than the camera's movement.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "A possible explanation is that its movement was more conspicuous than that of the camera. Alternatively, the fact that the pointer's shape included the form of a human hand might have directed the attention."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The study tested how camera movement and pointing cues affected children's attention to a robot during a group rotation game. Children showed more overall attentive behavior with permanent pointing, while consistent camera and pointer cues led them to look at the robot more often; distance showed no demonstrable effect on overall attention.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper frames attention cues as apparent robot interest, describes their role in attracting attention and selecting a child, measures effects on children's behavior, details the camera and pointing implementation, and reports the PeopleBot's embodiment and possible influence of its hand shape.",
+      "quotes": []
+    }
+  ]
+}

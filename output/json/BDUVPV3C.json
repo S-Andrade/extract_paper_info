@@ -1,0 +1,245 @@
+{
+  "key": "BDUVPV3C",
+  "title": "Entrainment Effect Caused by Joint Attention of Two Robots",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Experimental study with two experiments.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We performed two experiments in this study."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "In-person laboratory-style experiment; the paper describes a controlled setup but does not explicitly name the setting.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We used the following environment for both experiments (Fig. 2). We placed two robots (Robovie-R) across the field of view of one participant wearing SMI eye tracing glasses [3]."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "20 participants.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Twenty participants were asked to take part in the experiments (male: 17, female: 3)"
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "17 male and 3 female participants; no age or prior robot experience is stated.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Twenty participants were asked to take part in the experiments (male: 17, female: 3)"
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Experiment 1: participants watched two robots converse and then jointly gaze at an object, then guessed the object's color and conversation content. Experiment 2: participants watched synchronous or asynchronous joint gaze and identified the target object's color over 13 trials. Duration is not stated.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "After the end of the conversation, we gave each participant a questionnaire. In the questionnaire, participants were asked to guess 1) the color of the object that had been the target of conversation and 2) the content of the conversation."
+        },
+        {
+          "page": 2,
+          "text": "The participant watched the joint attention and guessed which object the two robots gazed at. When the participant decided the object, he/she verbalized the object's color."
+        },
+        {
+          "page": 2,
+          "text": "The above procedure was repeated 13 times."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three individuals per interaction: two robots and one human participant.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this study, we investigate the two effects of joint attention, building relationships and sharing recognition, in group interaction consisting of two robots and one person."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "2",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We placed two robots (Robovie-R) across the field of view of one participant wearing SMI eye tracing glasses [3]."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We placed two robots (Robovie-R) across the field of view of one participant wearing SMI eye tracing glasses [3]."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "SMI eye-tracking glasses; custom questionnaires; participant responses identifying target colors and conversation content; target identification accuracy and distance from the correct object.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We placed two robots (Robovie-R) across the field of view of one participant wearing SMI eye tracing glasses [3]."
+        },
+        {
+          "page": 2,
+          "text": "After the end of the conversation, we gave each participant a questionnaire."
+        },
+        {
+          "page": 2,
+          "text": "In the questionnaire, participants were asked to guess 1) the color of the object that had been the target of conversation and 2) the content of the conversation."
+        },
+        {
+          "page": 2,
+          "text": "This is also evidenced from the distance (the number of objects) between the correct object and the object that participants guessed (p .01, Fig. 5)."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Participants in Condition 1-A (robots gazed at the participant before shifting to an object) followed the robots' gaze more than in Condition 1-B (p .05) and tended to be more immersed in communication. In Experiment 2, synchronous gaze yielded more correct target guesses than asynchronous gaze (p .01); guessed-object distance also differed (p .01). Participants reported Condition 2-B was easier to understand (p .05).",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Participants in Condition 1-A tended to follow the gaze of the two robots more than those in Condition 1-B (p .05, Fig. 3)."
+        },
+        {
+          "page": 2,
+          "text": "Overall, the participants in Condition 1-A tended to be more immersed in communication with the robots."
+        },
+        {
+          "page": 2,
+          "text": "Next, in experiment 2, the participants in Condition 2-A were better at guessing the target more correctly (p .01, Fig. 4)."
+        },
+        {
+          "page": 2,
+          "text": "However, in the questionnaire, participants felt a storong impression of difference and answered that Condition 2-B was more easy to understand (p .05, Fig. 6)."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "Joint attention, considered through two effects: sharing recognition and building relationships via communication entrainment.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this study, we focus on two effects of joint attention, sharing recognition and building relationships in group interaction (Fig. 1)."
+        },
+        {
+          "page": 1,
+          "text": "First, sharing recognition is an original effect of joint attention."
+        },
+        {
+          "page": 1,
+          "text": "Second, building relationships is focused on the entrainment of communication."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "Sharing recognition means people share individuals' focus on an object; building relationships concerns communication entrainment, including drawing a person into a group through joint gaze.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this effect, people share the focus of individuals on an object."
+        },
+        {
+          "page": 1,
+          "text": "Second, building relationships is focused on the entrainment of communication."
+        },
+        {
+          "page": 1,
+          "text": "After that, he/she is entrained into the group without feeling there is anything amiss."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Joint gaze is framed as supporting shared recognition of a target and entraining or immersing a person in group communication.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Therefore, we conclude that it is easy for people to recognize the target correctly due to the intersection."
+        },
+        {
+          "page": 1,
+          "text": "Therefore, the effect of building relationships in joint attention is important for entraining and immersing a person in the group."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "When both robots gazed at a person before gazing at an object, participants followed their gaze more and tended to be more immersed in communication. Synchronous robot gaze improved target identification compared with asynchronous gaze, although participants said asynchronous gaze was easier to understand.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Participants in Condition 1-A tended to follow the gaze of the two robots more than those in Condition 1-B (p .05, Fig. 3)."
+        },
+        {
+          "page": 2,
+          "text": "Overall, the participants in Condition 1-A tended to be more immersed in communication with the robots."
+        },
+        {
+          "page": 2,
+          "text": "Next, in experiment 2, the participants in Condition 2-A were better at guessing the target more correctly (p .01, Fig. 4)."
+        },
+        {
+          "page": 2,
+          "text": "However, in the questionnaire, participants felt a storong impression of difference and answered that Condition 2-B was more easy to understand (p .05, Fig. 6)."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The robots' gaze behavior was presented in synchronous or asynchronous conditions; asynchronous gaze used a 1.17-second delay. The paper does not state the sensing or control architecture, or whether behavior was autonomous or Wizard-of-Oz.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In Condition 2-A, two robots gazed at the same target synchronously, and in Condition 2-B, the two robots gazed at the same target asynchronously with a delay of 1.17 sec."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Two Robovie-R robots; physical features are not described.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We placed two robots (Robovie-R) across the field of view of one participant wearing SMI eye tracing glasses [3]."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The study tested joint attention in interactions between two Robovie-R robots and one person. Gaze toward the person was associated with greater gaze following and immersion in robot communication, while synchronous robot gaze helped participants identify the shared target more accurately.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5 — The paper frames joint attention as shared recognition and communication entrainment, tests its role and effects in a two-robot, one-person interaction, describes synchronous and asynchronous gaze conditions, and names the Robovie-R platform. It does not explain how embodiment influenced the study.",
+      "quotes": []
+    }
+  ]
+}

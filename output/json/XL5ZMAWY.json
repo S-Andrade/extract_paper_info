@@ -1,0 +1,294 @@
+{
+  "key": "XL5ZMAWY",
+  "title": "Model for controlling a target human's attention in multi-party settings",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Experimental study with two experiments and a technical system description.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We conducted two experiments to validate our model in human-robot interaction scenarios."
+        },
+        {
+          "page": 4,
+          "text": "The purpose of this experiment is to evaluate the degree to which the participant felt their attention was attracted by the robot’s head motions when the latter was orientated toward a different viewing direction (i.e., when the robot and human are not face-to-face)."
+        },
+        {
+          "page": 6,
+          "text": "We conducted an experiment to verify that the eye blinks, attention avoidance, and gaze back functions are useful for directing the target human’s attention in the direction intended by the robot."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "University experimental setting; the paper describes participant pairs seated and interacting with robot heads in an arranged room setup. It does not explicitly label the setting as a laboratory.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Ten pairs of participants (15 males and 5 females with an average age of 27.92 years) were recruited from Saitama University."
+        },
+        {
+          "page": 6,
+          "text": "A pair of participants were asked to sit down on chairs and asked to look around at the paintings."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "Experiment 1: 20 participants in 10 pairs. Experiment 2: 36 graduate students.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Ten pairs of participants (15 males and 5 females with an average age of 27.92 years) were recruited from Saitama University."
+        },
+        {
+          "page": 6,
+          "text": "To carry out the necessary experiments, we recruited 36 graduate students (M 26.5,SD 3.4) for this study."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Experiment 1 participants were 15 males and 5 females, average age 27.92 years, recruited from Saitama University. Experiment 2 participants were graduate students, mean age 26.5 years (SD 3.4).",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Ten pairs of participants (15 males and 5 females with an average age of 27.92 years) were recruited from Saitama University."
+        },
+        {
+          "page": 6,
+          "text": "To carry out the necessary experiments, we recruited 36 graduate students (M 26.5,SD 3.4) for this study."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Experiment 1: pairs played a card game while perceiving a robot head’s turning or shaking motions. Experiment 2: pairs looked around at paintings while the robot attempted to attract a selected target’s attention and direct it toward a left or right table object; there were two trials per pair.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "We asked two participants to take their seats and play a game using cards."
+        },
+        {
+          "page": 5,
+          "text": "During the game, the moving robot performed two kinds of head motions."
+        },
+        {
+          "page": 6,
+          "text": "A pair of participants were asked to sit down on chairs and asked to look around at the paintings."
+        },
+        {
+          "page": 6,
+          "text": "The participants took part in two trials."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Each interaction session involved two humans and two robot heads: one moving or attention-control robot and one stationary robot.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "To produce the stimuli, we prepared two robot heads with the same appearance."
+        },
+        {
+          "page": 6,
+          "text": "Two robots were placed in the participant’s left and right monocular fields of view."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "2 robot heads per session.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "To produce the stimuli, we prepared two robot heads with the same appearance."
+        },
+        {
+          "page": 6,
+          "text": "Two robots were placed in the participant’s left and right monocular fields of view."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2 participants per session.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "We asked two participants to take their seats and play a game using cards."
+        },
+        {
+          "page": 6,
+          "text": "A pair of participants were asked to sit down on chairs and asked to look around at the paintings."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Custom 1–7 rating questionnaires; paired t-tests for the first experiment; video observation for time to attention shift and success ratio; ANOVA and post-hoc Tukey tests for experiment 2 questionnaire and timing results.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "After interacting with both motions in each trial, they were asked to answer the question: Did you feel [your attention] attracted by the robot’s head motion? on a scale of 1 -to -7, where 7 stands for the highest degree of attention attraction."
+        },
+        {
+          "page": 5,
+          "text": "For each position of the robot, we used a paired t-test to compare the two motions."
+        },
+        {
+          "page": 7,
+          "text": "We measured the following two items by observing the experimental videos."
+        },
+        {
+          "page": 7,
+          "text": "We asked participants to fill out a questionnaire after both interactions were complete. The measurement was a simple rating on a Likert scale of 1 to 7."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "In experiment 1, head shaking attracted more attention than head turning in the far peripheral field of view (FPFOV; p < .0001 for both participants); head turning was sufficient in the near peripheral field of view, and neither motion attracted attention out of view. In experiment 2, the proposed method had shorter time to attention shift (1.72 s) and higher success ratio (58.3%) than methods 2 (2.71 s; 25%) and 3 (1.80 s; 33%); timing differences were significant between methods 1 and 2 (p = .0076) and methods 2 and 3 (p < .05), but not methods 1 and 3. Proposed method ratings supported eye contact, intended attention direction, and conveying non-communicative intention to non-targets.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The difference between the two motions was statistically significant in some instances, specifically for H1 in positions P13 and P14, and for H2 in positions P16 and P17."
+        },
+        {
+          "page": 5,
+          "text": "The results of the analysis reveal that when the participants observed the robot in their NPFOV, a head turning action on the robot’s part was sufficient to gain their attention."
+        },
+        {
+          "page": 7,
+          "text": "These results mean that the attention control performance of the robot is clearly more effective, in terms of taking less time and producing a higher success ratio, when it employs the blinking and gaze back actions."
+        },
+        {
+          "page": 7,
+          "text": "The results support hypothesis 2."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames its approach as a five-phase attention control process for directing a particular human’s attention among multiple people, using non-verbal robot behaviors.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this paper, we propose a conceptual model of attention control with five phases: attention attraction, eye contact, attention avoidance, gaze back, and attention shift."
+        },
+        {
+          "page": 8,
+          "text": "The primary focus of our work is to develop a robot that can control a particular person’s attention among multiple persons by non-verbal means."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The authors define attention control as gaze (head) control that shifts someone’s gaze from one direction to another intended by the initiator.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Thus, we may define attention control as a means of gaze (i.e., head) control in which one can shift someone’s gaze from one direction to another that the initiator intends."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "The process selects and engages a target person, establishes eye contact, signals non-communicative intent to non-targets, and directs the target’s attention to a referential object.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Attention attraction: This refers to one’s ability to capture another’s attention, shifting it from its existing direction towards him/her for establishing a communication channel through eye contact."
+        },
+        {
+          "page": 3,
+          "text": "The robot should therefore be capable of behavior by which non-target agents can easily and readily infer that it is not willing to start interaction with them."
+        },
+        {
+          "page": 3,
+          "text": "The robot carries out an attention shift request by switching the target agent’s attention (via eye gaze, head turn, shift in body orientation, pointing gesture, or reference terms [23]) to the object which needs to be addressed."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Robot head motions attracted attention depending on the target’s viewing position: turning worked in near peripheral view, shaking was needed in far peripheral view, and non-verbal motions could not attract someone out of view. In the second experiment, eye blinking and gaze back were associated with faster, more successful attention shifts and stronger perceived eye contact; looking away helped non-targets perceive less communicative intent.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The results of the analysis reveal that when the participants observed the robot in their NPFOV, a head turning action on the robot’s part was sufficient to gain their attention."
+        },
+        {
+          "page": 5,
+          "text": "Finally, it is not possible to attract someone’s attention using non-verbal actions (except touch) when the robot is present in the participant’s OFOV because in that context the non-verbal actions can no longer be perceived by the human’s eyes."
+        },
+        {
+          "page": 7,
+          "text": "A substantial 58% of target participants’ attention was controlled by the proposed method, while only 25% and 33% of their attention was controlled by methods 2 and 3 respectively."
+        },
+        {
+          "page": 8,
+          "text": "Moreover, the robot was successful at conveying its non-communicative intention to the non-target participants using the gaze avoidance function."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The system uses a finite-state-machine model, head and body tracking, situation and face detection, eye blinking, and pan-tilt control. It turns toward the target, shakes its head if needed, waits about four seconds for a response, blinks after face detection, avoids a non-target by turning away, returns its gaze if the target responds, and shifts gaze/head toward the object.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "An Attention control event is executed by a finite-state-machine model as shown in Fig. 3."
+        },
+        {
+          "page": 3,
+          "text": "The robot avoids the attention of non-target agent (NTA) by turning its head away by −1200 in the event that an NTA looks at the robot before the TA does."
+        },
+        {
+          "page": 3,
+          "text": "The robot performs a blinking action to display gaze awareness."
+        },
+        {
+          "page": 4,
+          "text": "The head consists of a spherical 3D mask, an LED projector (3M pocket projector, MPro150), a laser range sensor (URG-04LX by Hokuyo Electric Machinery), three USB cameras (Logicool Inc., Qcam), and a pan-tilt unit (Directed Perception Inc., PTU-D46)."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "A custom robot head with spherical 3D mask, projected CG eyes, laser range sensor, three USB cameras, and pan-tilt unit.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The head consists of a spherical 3D mask, an LED projector (3M pocket projector, MPro150), a laser range sensor (URG-04LX by Hokuyo Electric Machinery), three USB cameras (Logicool Inc., Qcam), and a pan-tilt unit (Directed Perception Inc., PTU-D46)."
+        },
+        {
+          "page": 4,
+          "text": "The LED projector projects CG-generated eyes on the mask as in [26]."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors state that the robot heads’ human-face-like appearance could itself attract participants, even without robot actions; the study used a static robot as a comparison for this reason.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The mere existence of such robots in an environment may prompt participants to be attracted to them because of their human-face-like appearance, even if they do not perform any actions."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper proposes and tests a five-phase, non-verbal model for directing one person’s attention in a multiparty interaction. Experiments with paired participants and robot heads indicate that head motion effectiveness depends on viewing position, while blinking, gaze avoidance, and gaze back can help the robot engage a target, shift their attention, and signal disinterest in non-targets.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper defines attention control as head/gaze control and describes its roles in selecting a target, establishing eye contact, avoiding non-target engagement, and shifting attention. It reports experimental effects, details the sensing and control implementation, and describes a custom projected-eye robot head, including how its human-face-like appearance could attract attention.",
+      "quotes": []
+    }
+  ]
+}

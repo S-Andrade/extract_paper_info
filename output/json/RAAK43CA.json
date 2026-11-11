@@ -1,0 +1,282 @@
+{
+  "key": "RAAK43CA",
+  "title": "Regulating Turn-Taking in Multi-child Spoken Interaction",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Experimental study comparing programmed robot gaze cues with a human moderator.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In this study, we explore the use of coordinated eye and head movement in the regulation of turn-taking during a verbal quiz game played by two children and either a robot or human moderator."
+        },
+        {
+          "page": 6,
+          "text": "As a result, all pairs played the first quiz game with the human moderator, followed by a non-quiz activity of about ten minutes, then the second quiz game with Sammy."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Laboratory setting.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "Because the children were unfamiliar with the lab space and the experimental form of the quiz activity, we expected some learning and performance change over time and chose to embed that phase in the more familiar context of the human moderator; we discuss the potential bias this introduces in the next section."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "44 children (22 pairs recruited); 19 pairs were included in analysis.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "Forty-four children (20 female), age five to nine, participated in pairs."
+        },
+        {
+          "page": 7,
+          "text": "Hardware failure during three games reduced the available data for analysis to the 19 pairs of children with recorded sessions for both moderators."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Children aged five to nine; 20 female among 44 participants. Children in each pair were familiar siblings or friends and generally similar in age.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "Forty-four children (20 female), age five to nine, participated in pairs."
+        },
+        {
+          "page": 6,
+          "text": "Recruited families were asked to bring a same-age sibling or friend to participate with their child so that children playing together were familiar and comfortable with each other, developmentally similar, and likely to share the same level of knowledge about the subject matter."
+        },
+        {
+          "page": 6,
+          "text": "Twenty-one of the 22 pairs met the friend-or-sibling criteria; the mean difference in age between paired players was seven months."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Pairs played a Disney trivia quiz with directed and open questions, first with a human moderator and then with the robot. Robot questions used either eyes-only or coordinated head-eye cues.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In this study, we explore the use of coordinated eye and head movement in the regulation of turn-taking during a verbal quiz game played by two children and either a robot or human moderator."
+        },
+        {
+          "page": 3,
+          "text": "The game has two types of questions: open and directed."
+        },
+        {
+          "page": 6,
+          "text": "As a result, all pairs played the first quiz game with the human moderator, followed by a non-quiz activity of about ten minutes, then the second quiz game with Sammy."
+        },
+        {
+          "page": 6,
+          "text": "As noted above, each game consisted of two rounds of eight questions each."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three participants per session: two children and one moderator, human or robot.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In this study, we explore the use of coordinated eye and head movement in the regulation of turn-taking during a verbal quiz game played by two children and either a robot or human moderator."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "One robot in robot-moderated sessions.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The programmed movement condition was implemented using an anthropomorphic robot head, named Sammy, as the game moderator (Furhat Robotics, furhatrobotics. com)."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "Two children per session; the moderator was either human or robot. Robot sessions also involved a human wizard/experimenter.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In this study, we explore the use of coordinated eye and head movement in the regulation of turn-taking during a verbal quiz game played by two children and either a robot or human moderator."
+        },
+        {
+          "page": 4,
+          "text": "Although the robot has an integrated speech recognizer, the robot’s natural language understanding was wizarded by a human experimenter using an interface similar to the human moderator’s, allowing the wizard to provide high-level input to guide the robot throughout its interaction."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Behavioral video/audio coding by two study-blind annotators; turn-taking, response type, and moderator interruption measures; interface event logs and recordings.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "Audio-visual data was hand-coded independently by two study-blind annotators to ensure that the analysis reflected accurate values."
+        },
+        {
+          "page": 7,
+          "text": "In particular, the annotators coded each question for the following features: First responder: defined to be the player(s) who first gave an answer to the question."
+        },
+        {
+          "page": 7,
+          "text": "Response type: defined with respect to the answer to the question."
+        },
+        {
+          "page": 7,
+          "text": "All events, conditions, and questions were time-logged by the support interfaces, and all audio-visual recordings were manually synchronized with the event logs post hoc."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "For directed questions, correct turn-taking was 70.0% with robot head-eye cues versus 51.4% with eyes-only; eyes-only produced significantly more errors than head-eyes (χ²=9.272, p=.002) and human natural movement (χ²=8.73, p=.003). In open questions, head-eyes produced the most even participation distribution; the paper does not report a significance test for that comparison.",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "Children made accurate turn-taking decisions in answering directed questions 67.8 of the time with the human moderator, 70.0 of the time with head-eyes cues, and only 51.4 of the time in the eyes-only condition."
+        },
+        {
+          "page": 10,
+          "text": "The eyes-only condition resulted in significantly more errorful turn-taking behavior than the head-eyes condition (X2 9.272, p .002) and the natural movement condition (X2 8.73, p .003), but Sammy’s coordinated gaze was no more or less effective than the full set of human cues for this measure."
+        },
+        {
+          "page": 9,
+          "text": "We note that the most even distribution of effort occurs in the programmed head-eyes condition."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "Gaze is framed as the combination of eye and head movement and as a nonvocal cue for regulating turn-taking and identifying addressees.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Early research identified several functions of gaze (the combination of eye and head movement) in interaction."
+        },
+        {
+          "page": 2,
+          "text": "Research in the area has focused on visual signals such as eye and head movements as central to addressee identification, and as modulating influences on turn-holding, turn-releasing, and speaker prediction."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper explicitly defines gaze as the combination of eye and head movement; it does not give a separate definition of robotic attention.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Early research identified several functions of gaze (the combination of eye and head movement) in interaction."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze cues regulate turn-taking and signal the intended addressee or inclusion of both children.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The game has two types of questions: open and directed. Open questions are addressed to both players and both children have the right to take the turn to answer. Directed questions, on the other hand, are meant for a specific child."
+        },
+        {
+          "page": 3,
+          "text": "Because our goal is to examine the usefulness and power of nonverbal visual cues for regulating turn-taking, the moderators in our quiz game did not use linguistic cues to indicate addressee, but instead began each question with a neutral phrase such as, “Ok, next question”."
+        },
+        {
+          "page": 5,
+          "text": "Additionally, the intended addressee(s) could be cued either with full gaze (coordinated eye and head movement) or through eye movement alone."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Coordinated head-eye movement improved children’s directed turn-taking accuracy over eyes-only cues, reaching performance comparable to the human moderator. In open questions, head-eyes yielded the most balanced participation; eye-only cues were associated with more imbalance and fewer ties.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "The eyes-only condition resulted in significantly more errorful turn-taking behavior than the head-eyes condition (X2 9.272, p .002) and the natural movement condition (X2 8.73, p .003), but Sammy’s coordinated gaze was no more or less effective than the full set of human cues for this measure."
+        },
+        {
+          "page": 9,
+          "text": "We note that the most even distribution of effort occurs in the programmed head-eyes condition."
+        },
+        {
+          "page": 10,
+          "text": "The imbalance in participation along with the reduced percentage of ties in questions where ties would have been acceptable suggests that some other factor may be relevant."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "A dialog system used a Kinect person-tracking module to locate the two players and direct robot gaze. A human wizard supplied high-level input; programmed cues were eyes-only or coordinated eye and head movement.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Although the robot has an integrated speech recognizer, the robot’s natural language understanding was wizarded by a human experimenter using an interface similar to the human moderator’s, allowing the wizard to provide high-level input to guide the robot throughout its interaction."
+        },
+        {
+          "page": 4,
+          "text": "The dialog system employed a person-tracking module using Microsoft Kinect™to provide accurate coordinates of the two players in real-time, which in turn allowed the robot to gaze accurately at the intended player."
+        },
+        {
+          "page": 6,
+          "text": "In this case, Sammy’s head moved exactly in-between the two players’ sensed locations while the eyes of the robot were rotated toward the player that the question was intended for."
+        },
+        {
+          "page": 6,
+          "text": "In this case, the head was used in combination with the eyes to signal the addressee(s) of each question."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Sammy, an anthropomorphic robot head with an adult-like form, rear-projected facial animation on a 3D-printed mask, and a two-degree-of-freedom neck.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The head has proportions similar to that of an average adult, and uses rear-projected facial animation on a 3D-printed mask, giving fine-grained control and natural movement to the eyes in synchrony with the head."
+        },
+        {
+          "page": 4,
+          "text": "It is powered by a neck with two degrees of freedom, allowing for accurate head pose on the vertical and horizontal axes."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors report that eye movement alone on this anthropomorphic head did not reliably signal addressee to young children, while prominent head rotation in coordinated gaze supported turn regulation. They compare this with adult studies using the same robot head.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "Eye gaze is learned early in development as a signal for co-reference and regulating turn-taking, but its use alone, as instantiated on this particular anthropomorphic head, does not seem to demand the same joint attention."
+        },
+        {
+          "page": 11,
+          "text": "In this study, we explore the use of coordinated eye and head movement in the regulation of turn-taking during a verbal quiz game played by two children and either a robot or human moderator."
+        },
+        {
+          "page": 11,
+          "text": "We found that in directed questions, a simple but visually-prominent movement such as a head rotation was as successful as the more complex turn-regulatory movements performed by the human."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The study tested gaze cues during trivia games with pairs of children and a human or robot moderator. Robot head-eye cues supported directed turn-taking as well as the human moderator, while eye movement alone led to more errors; head-eye cues also produced the most balanced participation on open questions.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper frames gaze as coordinated eye and head movement, studies its role in turn-taking and addressee signaling, and measures effects on children’s responses and participation. It describes the robot’s gaze implementation and physical form, and discusses how head rotation and eye-only cues performed in that embodiment.",
+      "quotes": []
+    }
+  ]
+}

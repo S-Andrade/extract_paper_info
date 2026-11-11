@@ -1,0 +1,210 @@
+{
+  "key": "CGBTELXJ",
+  "title": "The Power of a Glance: Evaluating Embodiment and Turn-Tracking Strategies of an Active Robotic Overhearer",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Experimental video-rating study in which participants judged videos of a NAO robot overhearing recorded conversations under six behaviour models.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "In order to test our gaze-capable NAO robot as a participant in a multi-party interaction we designed a behaviour evaluation experiment that we describe in this section."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Participants watched the robot videos one at a time on a computer screen with headphones, using a GUI with a single play button; the paper does not name a lab or field setting.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "After reading the instructions and signing a consent form, the participant sat in front of a computer screen showing a GUI with a single ”play” button. They wore a set of headphones, and were given a scoresheet on which to write their ratings."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "29 participants.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "In total, 29 participants students or otherwise affiliated with Bielefeld University, and all native German speakers participated in the study."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Students or otherwise affiliated with Bielefeld University, all native German speakers; mostly female (six male), aged 17-55 (mean 24, median 23). Two had prior HRI study experience and three had other robot experience.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The vast majority were female (only six were male), aged 17-55 years (mean: 24, median: 23). Two participants had previously participated in Human-Robot interaction studies and three had other previous experience with robots."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants watched 18 videos (six per audio part) of a NAO robot acting as an active overhearer of recorded dyadic conversations, then rated how well it followed the discussion and how close its behaviour was to a human's. Each video covers an interaction part of about 60-65 seconds.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "In our study, the participants then watch videos of the robot performing this function (see Figure 3), and are asked to rate the quality along two dimensions, expressed as follows:"
+        },
+        {
+          "page": 5,
+          "text": "Each interaction part extracted is about 60-65 seconds in duration."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Two humans in the recorded conversation plus one NAO robot as overhearer; the robot is not a live participant and the raters are not part of the interaction.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "A pre-recorded dyadic human/human interaction is replayed through loudspeakers (where each human participant in the interaction is assigned their own loudspeaker)."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "One NAO robot per session, taking the role of an active overhearer.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The robot then takes the role of what we call an ‘active overhearer’"
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "Two humans per interaction (a dyadic conversation); the stimuli were drawn from three dyadic interactions.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "In order to construct the stimuli for our experiments we extracted audio parts of three dyadic interactions from the Dream APartment Corpus (Kousidis, Pfeiffer, and Schlangen 2013)."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Two custom questions rated on unbounded scales (how well the robot followed the discussion; how close its behaviour was to a human's), analysed with ranking and z-scores, Friedman and Wilcoxon tests; a post-experiment questionnaire included a 0-5 task difficulty rating.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Instead we asked participants to use unbouded ratings: they could assign any number of their choice in order to rate each stimulus."
+        },
+        {
+          "page": 4,
+          "text": "“What do you believe, how well was the robot able to follow the discussion?”"
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Moving-eye models were rated significantly higher than their fixed-eye counterparts for all pairs (Friedman χ2=75.88, p<0.001; Wilcoxon post-hoc, Bonferroni-adjusted α=0.0033). Oracle models (PRD, RCT) clearly outperformed the random baseline (RND), most strongly with moving eyes, while PRD and RCT did not differ significantly.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "As expected, the moving eyes make a big difference in both ratings, as behaviour models with eyes are rated con- sistently higher than the respective models with fixed eyes (the difference is significant for all these pairs)."
+        },
+        {
+          "page": 7,
+          "text": "Finally, both Oracle models clearly outperform RND, and the difference becomes even more pronounced in the pres- ence of moving eyes."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "Robotic gaze",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Rather, the eyes are perceived as looking towards absolute targets in the room (such as conversation partners), regardless of the observer’s position."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper gives no formal definition of gaze or attention; it describes gaze as the eyes rotating so the pupil turns toward a target, which is distinct from head turning.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "When human eyes look at targets around them, they rotate so that the pupil is turned towards the target."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "As an active overhearer, the robot turns its head and eyes toward the currently active speaker, following the turn-taking structure so that it signals to other observers that it is attentive and engaged.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "In pilots performed with human volunteers in NAO’s place, we have observed similar behaviour, i.e. turning of the head and eyes mostly towards the currently active speaker."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Moving eyes considerably increased ratings of the robot's attentiveness, ability to follow the discussion, and naturalness. The randomly timed model with moving eyes was rated higher than the fixed-eye reactive and predictive models, though these differences were not statistically significant.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "We have found that the eyes add considerably to the impression that the robot is an attentive overhearer of an interaction and can understand it, especially when combined with Oracle models that guide the timing of the robot’s gaze and head turns towards the speakers."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "Eyes are two Arduino-driven TFT screens showing pupils; pupil displacement is computed from a linear regression fitted to eye-tracker data, with separate head and eye controllers. Overhearer models (RND, RCT, PRD) use turn timing from transcripts, so they are oracle models rather than autonomous.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The processor draws the eyes on the screen based on the coordinates it receives from a serial connection."
+        },
+        {
+          "page": 4,
+          "text": "Clearly, this is not information one has in a live system."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Aldebaran NAO humanoid robot with a pair of small displays (1.77 inch) as eyes behind a paper mask with a 3D nose. The NAO head has only yaw and pitch degrees of freedom and cannot tilt.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We have designed a pair of eyes for our NAO robot, using two small displays (1.77′′ diagonally), with a paper mask"
+        },
+        {
+          "page": 3,
+          "text": "We do not model the pupil displacement in case of a tilted head, because the NAO head has only two degrees of freedom (yaw and pitch) and cannot be tilted."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The physical 3D mask and eyes placed in physical space let the robot avoid the Mona Lisa effect, and the NAO head's lack of tilt meant the pupil model ignored tilted head posture.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "A crucial difference between ECAs and robots is that the latter can more readily avoid the so-called Mona Lisa effect"
+        },
+        {
+          "page": 3,
+          "text": "We do not model the pupil displacement in case of a tilted head, because the NAO head has only two degrees of freedom (yaw and pitch) and cannot be tilted."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The authors equipped a NAO robot with moving-pupil eyes and tested, through a video-rating study with 29 participants, how an active overhearer of recorded dyadic conversations should time gaze and head turns. Moving eyes were rated significantly higher than fixed eyes, and oracle-timed models beat random turning, while reactive and predictive timing did not differ significantly.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ2a; RQ3a; RQ3b; RQ4a; RQ5a; RQ6a — The paper covers gaze's role in overhearer turn-tracking, the effects of moving eyes on perceived attentiveness, gaze implementation with NAO eyes, and how the NAO's physical features shape the eyes' effect.",
+      "quotes": []
+    }
+  ]
+}

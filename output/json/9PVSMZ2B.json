@@ -1,0 +1,208 @@
+{
+  "key": "9PVSMZ2B",
+  "title": "Combining dynamic head pose-gaze mapping with the robot conversational state for attention recognition in human-robot interactions",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/experimental: the authors propose a dynamic Bayesian (IO-HMM) model for visual focus of attention recognition and evaluate it experimentally on the Vernissage dataset.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Experiments on a public dataset where the humanoid robot NAO plays the role of an art guide and quiz master demonstrate the benefit of the two contributions."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Art exhibition (vernissage) guide scenario with the NAO robot, using a recorded dataset of natural interactions realized with a Wizard of Oz approach.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "To illustrate the above, the main robotic setup which we have considered is based on the Vernissage scenario shown in Fig. 1."
+        },
+        {
+          "page": 6,
+          "text": "It contains 10 natural interactions with a humanoid robot ”Nao”, realized using a Wizard of Oz approach."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "14 persons (about 140 minutes of data) were retained for the experiments, drawn from the Vernissage dataset of 10 interactions.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "Ultimately, this resulted in a dataset of 14 persons, amounting to around 140 minutes of data for our experiments."
+        },
+        {
+          "page": 6,
+          "text": "It contains 10 natural interactions with a humanoid robot ”Nao”, realized using a Wizard of Oz approach."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "Nao first engages with the participants and explains three paintings (about 10 minutes per recording on average), then gives the participants a quiz in which they can discuss before answering.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "In each recording (10 minutes on average), Nao first engages with the participants and explains them three paintings."
+        },
+        {
+          "page": 6,
+          "text": "Then, he gives them a quiz in which participants can discuss before the person to whom a question was addressed gives the answer."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Two human participants and one robot (NAO) per interaction session.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "Each interaction involves two participants standing in front of Nao and free to walk around and look at different objects."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "One robot (NAO) per interaction session.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Experiments on a public dataset where the humanoid robot NAO plays the role of an art guide and quiz master demonstrate the benefit of the two contributions."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "Two human participants per interaction session.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "Each interaction involves two participants standing in front of Nao and free to walk around and look at different objects."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Frame-based Recognition Rate (percentage of frames with correctly recognized VFOA), with ground truth from annotations and a Vicon motion capture system for head poses and gaze directions.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "As performance measure we use “Frame based Recognition Rate (FRR)” which corresponds to the percentage of frames during which the VFOA has been correctly recognized."
+        },
+        {
+          "page": 6,
+          "text": "In addition, a Vicon motion capturing system was deployed, with markers placed on the participant’s heads (they are visible in Fig. 8a), Nao’s head, and near painting locations."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "The dynamic midline model G2 was the best dynamic model, with an average gain of about 13% over the geometric baseline on Vicon head poses (66.6% vs 53.8% full). Using all context cues with G2 reached 72.6% on Vicon data.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "Among the different dynamic models, G2 which implements the midline model is the best, leading to an average gain of 13% over the baseline."
+        },
+        {
+          "page": 9,
+          "text": "Altogether, the use of all context cues brings a considerable improvement of more than 10%."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "Visual focus of attention (VFOA) of people, i.e. what or whom a person is looking at, recognized from head pose.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The ability to recognize the Visual Focus of Attention (VFOA, i.e. what or whom a person is looking at) of people is important for robots or conversational agents interacting with multiple people"
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The authors define VFOA as what or whom a person is looking at, and frame the goal as monitoring people's visual attention relying on head pose.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Our objective is to monitor the visual attention of people in a given environment relying on head pose."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "VFOA recognition is described as playing a key role in turn-taking, engagement, intention monitoring, and identifying the addressee in multi-person interaction.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "plays a key role in turn-taking, engagement or intention monitoring."
+        },
+        {
+          "page": 1,
+          "text": "gaze is a good indicator of the addressee (to whom a person is speaking) which is an important information to know for robots or ECAs interacting with multiple people."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "implementation",
+      "value": "An Input-Output HMM decodes VFOA from head pose, using dynamic gaze-to-head mapping models and robot dialog context (speaking state, addressee, topic). Head poses come from Vicon or a particle filter tracker on the NAO camera view.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "We build our VFOA recognition model based on the HMM illustrated in the middle part of Figure 2, without exploiting the context at this stage."
+        },
+        {
+          "page": 6,
+          "text": "As input head poses, we used both poses derived from the Vicon system and pose estimates obtained by applying to Nao’s camera view (see above) a particle filter tracker performing the joint head tracking and pose estimation with appearance head pose modeling (Khalidov and Odobez, 2013)."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Humanoid robot NAO, with a camera in its head used for head pose estimation and an art-guide/quiz-master role.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Experiments on a public dataset where the humanoid robot NAO plays the role of an art guide and quiz master demonstrate the benefit of the two contributions."
+        },
+        {
+          "page": 6,
+          "text": "It contains 10 natural interactions with a humanoid robot ”Nao”, realized using a Wizard of Oz approach."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "Because NAO's head rotates over time, the camera view changes, so head poses had to be transformed into the camera's time-dependent coordinate system.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "which is time-dependent since Nao sometimes rotates its head."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper proposes a dynamic head-pose-to-gaze mapping and a robot dialog-context prior to improve recognition of people's visual focus of attention in a NAO art-guide scenario with two participants. On a 14-person dataset, the dynamic mapping and context together raised recognition accuracy substantially over a geometric baseline. The work addresses human attention recognition rather than measuring effects of the robot's own gaze.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ4; RQ5 — The paper defines VFOA (RQ1), uses the robot's conversational context such as addressee and speaking state to recognize attention in multiparty interaction (RQ2), implements head-pose-based VFOA recognition with gaze models (RQ4), and uses a NAO humanoid (RQ5). It does not measure effects of attention on people (RQ3) or how embodiment influences the study (RQ6).",
+      "quotes": []
+    }
+  ]
+}

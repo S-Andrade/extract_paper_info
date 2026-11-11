@@ -1,0 +1,267 @@
+{
+  "key": "UYLXBD3P",
+  "title": "When a Robot Is Your Teammate",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Conceptual framework paper presenting four use cases from previous work, including experimental user studies and a technical system description.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "We examine four use cases of our previous work in Sections 4–7."
+        },
+        {
+          "page": 18,
+          "text": "The evaluation was done through a third-person perspective over an online recruitment platform, in which participants were asked to watch videos of human–robot team interaction and to rate their perceptions of teamwork regarding each video."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "The paper describes multiple settings: an online video-rating study and game-based human–robot interaction studies; the setting for all studies is not specified.",
+      "quotes": [
+        {
+          "page": 18,
+          "text": "The evaluation was done through a third-person perspective over an online recruitment platform, in which participants were asked to watch videos of human–robot team interaction and to rate their perceptions of teamwork regarding each video."
+        },
+        {
+          "page": 13,
+          "text": "We conducted a user study using the “For The Record” game, where a team of one human participant and two robotic teammates played on a touch screen (Fig. 1b)."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "Tasks included playing a four-player trick-taking card game in two human–robot teams, a collective-risk musical-band game, and watching scripted videos of a silent coordination task to rate teamwork. Durations are not stated.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "The setup uses a Portuguese trick-taking card game called “Sueca” that is played by four elements, two humans and two robots, split into two teams."
+        },
+        {
+          "page": 13,
+          "text": "In this game, a team of two social robots and one person formed a musical band and had a goal of avoiding the band’s collapse."
+        },
+        {
+          "page": 17,
+          "text": "We created a silent coordination task by envisioning a shared workspace between humans and robots for example, an assembly line in which coordinated behavior is mainly achieved through nonverbal behaviors for example, due to a noisy environment."
+        },
+        {
+          "page": 18,
+          "text": "We created video scripts with gaze instructions for the human teammates for 10 short scenes, in which the goal was to illustrate possible situations that may occur in the silent coordination task."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Groups varied by use case: four members (two humans and two robots) or three members (one human and two robots). The gaze study used a triadic team of one robot and two humans.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "The setup uses a Portuguese trick-taking card game called “Sueca” that is played by four elements, two humans and two robots, split into two teams."
+        },
+        {
+          "page": 13,
+          "text": "In this game, a team of two social robots and one person formed a musical band and had a goal of avoiding the band’s collapse."
+        },
+        {
+          "page": 21,
+          "text": "Specifically, in a triadic team with one robot and two humans, we investigated whether a robotic teammate should perceive gaze behaviors between the two human teammates or if it should only perceive gaze behaviors toward itself."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "Two robots per group in the card-game and musical-band studies; one robot in the gaze study.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "The setup uses a Portuguese trick-taking card game called “Sueca” that is played by four elements, two humans and two robots, split into two teams."
+        },
+        {
+          "page": 13,
+          "text": "In this game, a team of two social robots and one person formed a musical band and had a goal of avoiding the band’s collapse."
+        },
+        {
+          "page": 21,
+          "text": "Specifically, in a triadic team with one robot and two humans, we investigated whether a robotic teammate should perceive gaze behaviors between the two human teammates or if it should only perceive gaze behaviors toward itself."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "Two humans in the card-game study; one human in the musical-band study; two humans in the gaze study.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "The setup uses a Portuguese trick-taking card game called “Sueca” that is played by four elements, two humans and two robots, split into two teams."
+        },
+        {
+          "page": 13,
+          "text": "In this game, a team of two social robots and one person formed a musical band and had a goal of avoiding the band’s collapse."
+        },
+        {
+          "page": 21,
+          "text": "Specifically, in a triadic team with one robot and two humans, we investigated whether a robotic teammate should perceive gaze behaviors between the two human teammates or if it should only perceive gaze behaviors toward itself."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "For the gaze study, participants rated coordination, fluency, teammate traits, and work alliance using Hoffman’s measure. The paper also describes other use-case measures, including the Godspeed questionnaire, trust and group-identification scales, preference choices, and behavioral coding based on Bales Interaction Process Analysis.",
+      "quotes": [
+        {
+          "page": 18,
+          "text": "For each video they saw, they had to report their perception of teamwork, in terms of coordination, fluency, teammate traits, and work alliance (Hoffman, 2019)."
+        },
+        {
+          "page": 16,
+          "text": "Participants were randomly assigned to one robotic partner and, after playing a session of the card game, they were asked to report their subjective evaluation of their robotic teammate, using the Godspeed questionnaire (Bartneck, Kuli´c, Croft, Zoghbi, 2009), and of their whole team, using trust (Allen Bergin, 2004) and group identification (Leach et al., 2008)."
+        },
+        {
+          "page": 11,
+          "text": "Lastly, we performed a behavioral analysis on the data collected in the aforementioned (Raque et al., 2018; Oliveira, Arriaga, Correia, Paiva, 2020), using a coding scheme based on Bales Interaction Process Analysis (Bales, 1950)."
+        },
+        {
+          "page": 14,
+          "text": "Finally, they were also asked which of the two robots (prosocial vs. selfish) would they prefer for a hypothetical future game."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "In the gaze study, both responsive and attentive gaze improved perceived teammate perception and team fluency versus baseline; attentive gaze was rated more fluent than responsive gaze. Teams where both humans displayed gaze were rated more coordinated, fluent, and united than teams where only one human did so. Statistical values are not provided.",
+      "quotes": [
+        {
+          "page": 18,
+          "text": "The results of our user study revealed that the robot’s gaze behaviors in both RG and AG conditions positively affected how the robot is perceived as a teammate, as well as the perceived fluency of its team."
+        },
+        {
+          "page": 18,
+          "text": "The perception of fluency was sensitive to the difference between the two experimental conditions with attentive gazes being rated as more fluid than responding gazes."
+        },
+        {
+          "page": 18,
+          "text": "Specifically, a human–robot team in which the two humans display gaze behaviors is perceived as more coordinated, more fluent, and more united than a human–robot team in which only one human teammate displays gaze behaviors."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "Robotic teammate gaze behavior is framed as a nonverbal behavior supporting task cohesion through joint attention and structural cohesion through signaling roles and communication structures.",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "Gaze is another example of a powerful nonverbal behavior that can communicate common goals (i.e., task cohesion) through joint attention cues, or even roles (i.e., structural cohesion), such as leader/subordinate (Capozzi et al., 2019) or addressee/bystander (Mutlu et al., 2012)."
+        },
+        {
+          "page": 17,
+          "text": "The last use case has addressed these research questions by focusing on the nonverbal gaze behavior of a robotic teammate in a multiparty team setting."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper does not give a standalone definition of robotic gaze or robotic gaze-based attention; it describes responsive and attentive gaze strategies by what gaze targets they detect and how the robot responds.",
+      "quotes": [
+        {
+          "page": 18,
+          "text": "The system perceives the gaze behaviors of human teammates and either responds only to gazes toward the robot itself —Responding Gazes—, or additionally responds to any gaze between the human teammates —Attentive Gazes."
+        },
+        {
+          "page": 18,
+          "text": "The Responding Gaze of the robotic teammate attempts to establish mutual gaze, while the Attentive Gaze additionally attempts to establish joint attention behaviors."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze supports mutual gaze and joint attention, conveys communication structure and roles, and is examined as a means to affect team coordination and fluency.",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "Gaze is another example of a powerful nonverbal behavior that can communicate common goals (i.e., task cohesion) through joint attention cues, or even roles (i.e., structural cohesion), such as leader/subordinate (Capozzi et al., 2019) or addressee/bystander (Mutlu et al., 2012)."
+        },
+        {
+          "page": 18,
+          "text": "The Responding Gaze of the robotic teammate attempts to establish mutual gaze, while the Attentive Gaze additionally attempts to establish joint attention behaviors."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Responsive and attentive gaze positively affected perceived teammate quality and team fluency; attentive gaze yielded higher perceived fluency than responsive gaze. More human teammates displaying gaze was associated with higher perceived coordination, fluency, and unity.",
+      "quotes": [
+        {
+          "page": 18,
+          "text": "The results of our user study revealed that the robot’s gaze behaviors in both RG and AG conditions positively affected how the robot is perceived as a teammate, as well as the perceived fluency of its team."
+        },
+        {
+          "page": 18,
+          "text": "The perception of fluency was sensitive to the difference between the two experimental conditions with attentive gazes being rated as more fluid than responding gazes."
+        },
+        {
+          "page": 18,
+          "text": "Specifically, a human–robot team in which the two humans display gaze behaviors is perceived as more coordinated, more fluent, and more united than a human–robot team in which only one human teammate displays gaze behaviors."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "An autonomous gaze system detects human teammates’ gaze. In the responding-gaze condition, the robot detects gaze toward itself and looks back at that person. In the attentive-gaze condition, it also detects gaze between human teammates and looks at the same person they are looking at. The baseline only blinks.",
+      "quotes": [
+        {
+          "page": 18,
+          "text": "The system perceives the gaze behaviors of human teammates and either responds only to gazes toward the robot itself —Responding Gazes—, or additionally responds to any gaze between the human teammates —Attentive Gazes."
+        },
+        {
+          "page": 18,
+          "text": "The robot perceives human gaze behaviors toward itself and responds by gazing back at that team member."
+        },
+        {
+          "page": 18,
+          "text": "The robot perceives human gaze behaviors toward any target and responds by either gazing back at the gazer, in the case of the robot being the target, or by gazing at the same team member that is currently being gazed at by another."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The paper states that gaze response depends on the communication structure the robot perceives, and more generally that embodiment affords different ways of expressing emotion. It does not describe a specific robot platform or explain how the gaze-study robot’s body affected the study or results.",
+      "quotes": [
+        {
+          "page": 18,
+          "text": "The Responding Gaze of the robotic teammate attempts to establish mutual gaze, while the Attentive Gaze additionally attempts to establish joint attention behaviors."
+        },
+        {
+          "page": 16,
+          "text": "This process must take into account the different possibilities that are afforded by the robot’s embodiment."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "This paper presents cohesion as a framework for designing, developing, and evaluating robotic teammates and reviews four prior use cases. In its multiparty gaze study, autonomous responsive and attentive gaze improved perceived teamwork, with attentive gaze rated as more fluent than responsive gaze.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ6 — The paper frames robot gaze as a nonverbal cue for joint attention, common goals, roles, and team communication structure. It reports effects of autonomous gaze strategies on perceived teammate quality, fluency, coordination, and unity, and discusses how embodiment affords behavior expression, but it does not identify the platform or a body-specific influence.",
+      "quotes": []
+    }
+  ]
+}

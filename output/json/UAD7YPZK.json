@@ -1,0 +1,238 @@
+{
+  "key": "UAD7YPZK",
+  "title": "Exploring Turn-taking Cues in Multi-party Human-robot Discussions about Objects",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical system description combined with a field-trial analysis of 373 museum interactions, including systematic manipulation of the robot's turn-taking cues and attention.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this paper, we present a dialog system that was exhibited at the Swedish National Museum of Science and Technology."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Field deployment in the Swedish National Museum of Science and Technology over 9 days in November 2014, with visitors playing in groups of two.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The system was exhibited at the Swedish National Museum of Science and Technology, in November 15-23, 2014."
+        },
+        {
+          "page": 5,
+          "text": "Due to the setting in a museum, the dataset contains mixed user groups: both adults playing with each other (40%), children playing with adults (27%), and children playing with each other (33%)."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "Data were recorded from 373 interactions with the system, averaging 4.5 minutes each; the total number of individual participants is not explicitly stated.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "we recorded data from 373 interactions with the system, with an average length of 4.5 minutes"
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Museum visitors of mixed ages: adults playing with adults (40%), children playing with adults (27%), and children playing with children (33%) of interactions.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Due to the setting in a museum, the dataset contains mixed user groups: both adults playing with each other (40%), children playing with adults (27%), and children playing with each other (33%)."
+        },
+        {
+          "page": 8,
+          "text": "The exhibition at the museum also showed that both children and adults enjoyed the game, with several of them coming back to play more."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Two visitors and Furhat played a collaborative card-sorting game, discussing and sorting five cards by a criterion (e.g., invention order or running speed), with an average interaction length of 4.5 minutes.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Two visitors at a time could play a collaborative card sorting game together with the robot head Furhat"
+        },
+        {
+          "page": 1,
+          "text": "The two visitors and Furhat are given the task of sorting the cards according to some criterion."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three per session: two visitors plus one Furhat robot head.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Two visitors at a time could play a collaborative card sorting game together with the robot head Furhat"
+        },
+        {
+          "page": 1,
+          "text": "The two visitors and Furhat are given the task of sorting the cards according to some criterion."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1 (one Furhat robot head per session).",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Although we only use one system agent here, the model allows for multi-agent systems"
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2 visitors per session.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "When two visitors are seated, Furhat starts the interaction by asking them for their names and whether they know each other."
+        },
+        {
+          "page": 1,
+          "text": "Two visitors at a time could play a collaborative card sorting game together with the robot head Furhat"
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Kinect-based tracking of users' head pose, speech recognition word and concept error rates on 9 transcribed and annotated dialogs, manual annotation of speech segments on a four-grade scale, and chi-square tests on user speech after turn-taking cues.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The location and rotation of the users' heads, as well as their hand movements, are tracked using a Kinect camera (v2)."
+        },
+        {
+          "page": 6,
+          "text": "In another study on the same data set [25], we have also manually annotated the end of each user speech segment depending on whether the system should have responded to them or not, on a four grade scale: DON’T, IFNEEDED, GOOD, and OBLIGED."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Gazing away during a turn-taking cue significantly reduced the likelihood of user speech (main effect of gaze, p<0.001). Without cues, users continued speaking 33.8% of the time, versus 14.8% with the right combined cues. Furhat's attention target also strongly influenced which user responded (p<0.001).",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "A chi-square test shows that there is a significant main effect on the use of gaze (p<0.001), where gazing away has an inhibiting effect on the likelihood that the user will continue speaking."
+        },
+        {
+          "page": 6,
+          "text": "Whereas no cue gives a fairly high probability of the user continuing speaking (33.8%), this can be reduced to 14.8% with the right cues."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "Robotic gaze-based attention",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In this study we will also investigate the effect of the system’s target of attention on who will respond."
+        },
+        {
+          "page": 2,
+          "text": "The speaker’s gaze can therefore be used by the listener as a cue to the speaker’s current focus of attention, so-called joint attention [19]."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper does not explicitly define robotic gaze or attention. It operationalises attention as Furhat's target (idle, item, user, or all), maintained by an Attention Flow that moves its gaze and neck.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "whereas the Attention Flow keeps Furhat’s attention to a specific target."
+        },
+        {
+          "page": 5,
+          "text": "There are four states the Attention Flow can be in (as instructed by the Dialog Flow):"
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze and attention serve turn-taking: the robot signals it is claiming the floor with gaze-away plus a cue (filled pause, breath, or smile), and gaze selects the next speaker (addressee selection). The robot also acts as a passive side participant through backchannels.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The most obvious signal is to use gaze to select the next speaker [11]."
+        },
+        {
+          "page": 7,
+          "text": "Thus, mutual gaze between the speaker and addressee should increase the likelihood of turn-transition."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Furhat's attention target strongly influenced which user responded after its questions (p<0.001). When the targeted user was looking back at Furhat, that user was more likely to take the turn (p<0.05).",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "As can be seen, Furhat’s attention has a strong influence on who will respond (p<0.001)."
+        },
+        {
+          "page": 7,
+          "text": "As can be seen, if the targeted user is looking back at Furhat, that user is more likely to take the turn."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "Built in IrisTK with two parallel controllers: a Dialog Flow for turn-taking and an Attention Flow that maps 3D target positions to neck and gaze movements. A Situation model fuses Kinect head tracking, close-talking microphones with two parallel cloud ASR recognizers, and touch-table events; a randomized belief model drives responses.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "In the Listening state, the Dialog Flow instructs the two speech recognizers to start listening for speech using a certain silence timeout threshold."
+        },
+        {
+          "page": 5,
+          "text": "The 3D position of the target is transformed into neck and gaze movement of Furhat"
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Furhat robot head: an animated face back-projected on a translucent mask, with a mechanical neck.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "which has an animated face back-projected on a translucent mask"
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The paper argues that 2D animated agents suffer from the Mona Lisa effect because agent and user do not share physical space. Citing prior work, it states Furhat's back-projection on a 3D mask improves turn-yielding accuracy.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "This is because the agent and user don’t share the same physical space."
+        },
+        {
+          "page": 2,
+          "text": "Thus, in a multi-party setting, this means that the agent cannot establish exclusive mutual gaze with one of the users, and in situated interaction the object that is the target of the gaze cannot be inferred."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper presents a multi-party card-sorting dialog system built on the Furhat robot head, which was exhibited in a museum and used by 373 interactions. Field data showed that gaze-away plus a filled pause, smile, or breath reduced users' likelihood of continuing to speak, and that Furhat's attention target strongly influenced which user responded.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ2a; RQ2b; RQ3a; RQ3b; RQ4a; RQ4b; RQ5a; RQ5b — The paper examines gaze and attention roles in turn-taking and addressee selection, measures their effects on users' turn-taking, describes how gaze and attention are controlled, and uses the Furhat robot head.",
+      "quotes": []
+    }
+  ]
+}

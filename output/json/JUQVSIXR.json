@@ -1,0 +1,278 @@
+{
+  "key": "JUQVSIXR",
+  "title": "Embodied Mediation in Group Ideation – A Gestural Robot Can Facilitate Consensus-Building",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Exploratory mixed-methods comparative group study.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "This implies a mixed analytical approach, with a focus on observations of how the presence and actions of a robotic mediator affect group interaction (RQ1) as well as on the subjective experiences of group members (RQ2)."
+        },
+        {
+          "page": 3,
+          "text": "These reference groups served as a source of inspiration for the design of the robot and as a control group for later comparisons."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "University laboratory; collaborative vacation-planning sessions conducted in front of a whiteboard.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Participants were led into the laboratory as a group by the investigator."
+        },
+        {
+          "page": 4,
+          "text": "The robot was mounted on a magnetic whiteboard that was positioned for human group members to face and take notes while engaged in the collaborative task."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "21 participants: 6 in two reference groups without a robot and 15 in five study groups with a robot.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Twenty-one individuals recruited from the doctoral and graduate student population of a German university’s business and law faculty participated in the study (11 male, 10 female, 0 non-binary or diverse individuals, mean age 31, SD 6.5)."
+        },
+        {
+          "page": 3,
+          "text": "First, six participants were randomly assigned to two groups without robot (three individuals each)."
+        },
+        {
+          "page": 3,
+          "text": "The remaining fifteen participants were then randomly split into five study groups with the robot (three individuals each, cf. Figure 1)."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Doctoral and graduate students from a German university’s business and law faculty; 11 male and 10 female, mean age 31 (SD 6.5). Participants did not know their assigned group members, had no prior experience with similar robotic systems, and were familiar with brainstorming.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Twenty-one individuals recruited from the doctoral and graduate student population of a German university’s business and law faculty participated in the study (11 male, 10 female, 0 non-binary or diverse individuals, mean age 31, SD 6.5)."
+        },
+        {
+          "page": 2,
+          "text": "We verified beforehand that the participants assigned to the groups did not know each other, had no prior experience with similar robotic systems, but were familiar with the collaborative ideation method of brainstorming."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Groups collaboratively planned a feasible five-day vacation trip, generating diverse destinations and activities. Sessions lasted about 30 minutes; individual post-session interviews lasted about 10–15 minutes.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Each group was tasked with planning a 5-day vacation trip."
+        },
+        {
+          "page": 4,
+          "text": "The group was further encouraged to generate as many diverse travel destination suggestions and memorable trip activities as possible."
+        },
+        {
+          "page": 5,
+          "text": "The investigator reentered the laboratory to conclude the session when they saw that the participants had a first draft and a good grasp of their 5-day vacation plan, which was usually after about 30 minutes."
+        },
+        {
+          "page": 5,
+          "text": "Subsequently, we interviewed the participants individually, each for about 10 to 15 minutes."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Four entities per robot session: three human participants and one robot. Reference sessions had three human participants and no robot.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The remaining fifteen participants were then randomly split into five study groups with the robot (three individuals each, cf. Figure 1)."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "One robot in each study group session; none in reference group sessions.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The remaining fifteen participants were then randomly split into five study groups with the robot (three individuals each, cf. Figure 1)."
+        },
+        {
+          "page": 3,
+          "text": "First, six participants were randomly assigned to two groups without robot (three individuals each)."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "Three participants per session.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "First, six participants were randomly assigned to two groups without robot (three individuals each)."
+        },
+        {
+          "page": 3,
+          "text": "The remaining fifteen participants were then randomly split into five study groups with the robot (three individuals each, cf. Figure 1)."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Video recordings coded with an extended Interaction Dynamics Notation; individual structured post-session interviews analyzed thematically. No named questionnaire or gaze-tracking instrument is reported.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "To be able to quantitatively analyze the interaction in the group session, we coded the respective video recordings with the Interaction Dynamics Notation (IDN) [19, 20]."
+        },
+        {
+          "page": 5,
+          "text": "The videos were coded by two coders using MaxQDA."
+        },
+        {
+          "page": 5,
+          "text": "The method employed for analysis was thematic analysis [3]."
+        },
+        {
+          "page": 5,
+          "text": "The questions covered three distinct topics to gather insights into the interviewee’s experience of their group session with the robot."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Groups with the robot spent a greater share of time consensus-building (80% vs. 55%) and less time dissenting (17% vs. 38%) or neutral (3% vs. 7%); group-state distributions differed significantly, χ²(2)=12.9, p<.001. Average session duration did not differ (29.5 vs. 29 minutes).",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "A chi-square test (j2(2)=12.9, p<.001) confirmed that the groups with the robot spent more time with consensus building and less with dissent and in neutral than groups without the robot, while the average time spent in the groups did not differ (29.5 minutes with robot, 29 minutes without robot)."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames gaze as one of the robot’s nonverbal, gestural mediation behaviors, describing it as directing attention to the active speaker and providing positive attention. It does not give a formal definition of “robotic gaze,” “robotic attention,” or “robotic gaze-based attention.”",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "First and foremost, participants spoke with each other, during which the robot “directed its attention” to the active speaker and followed them with its gaze (RobotFollowsSpeakingGroupMemberwithGaze)."
+        },
+        {
+          "page": 11,
+          "text": "Second, and more importantly, the robot provided social support through positive attention."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper does not provide a formal definition of robotic gaze or attention. It describes the gaze behavior operationally as following the active speaker and, in the design, turning the robot’s head and moving it toward that speaker.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The robot moves its head and gazes in the direction of the currently active speaker;"
+        },
+        {
+          "page": 14,
+          "text": "The robot visibly follows the active speaker with its gaze by tilting its ‘head’ and driving towards the speaker."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze directed group attention toward the active speaker, offered positive attention and social support, and was intended to encourage participation. Gaze to a less-active member was designed to signal a shift in speaking turns.",
+      "quotes": [
+        {
+          "page": 11,
+          "text": "The gaze acted as a spotlight, which directed the group’s collective focus and motivated members to actively participate."
+        },
+        {
+          "page": 4,
+          "text": "The robot addresses the least active group member with its gaze when other members take their turns speaking for an extended period to indicate that participation should be more balanced."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Following speakers with gaze was associated with participants moving ideation forward, supporting contributions, and asking clarifying questions. Interviewees described feeling supported and validated, though some felt monitored or judged. Across groups, the robot condition showed more consensus-building and less dissent than the no-robot condition.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "The most frequently triggered robot behavior, RobotFollowsSpeakingGroupMemberwithGaze, was followed by further participant contributions that moved the group ideation ahead (Move, 20%), support for such contributions (SupportforMove, 14%), and sought out clarification from each other by asking follow-up question (Question, 12%)."
+        },
+        {
+          "page": 9,
+          "text": "Participants reported that they felt validated and supported by this when being the active speaker and that this led to a more positive atmosphere."
+        },
+        {
+          "page": 8,
+          "text": "A chi-square test (j2(2)=12.9, p<.001) confirmed that the groups with the robot spent more time with consensus building and less with dissent and in neutral than groups without the robot, while the average time spent in the groups did not differ (29.5 minutes with robot, 29 minutes without robot)."
+        },
+        {
+          "page": 9,
+          "text": "In summary, some participants experienced the robot as socio-emotional support, while others felt monitored and judged."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "A human operator used Wizard-of-Oz control over a wireless connection, triggering predefined robot gestures based on observed behaviors in a camera feed. The robot’s behaviors included speaker-following gaze and gaze toward the least-active participant.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "To control the timing and occurrence of these behaviors, we utilized a wireless connection and employed the Wizard-of-Oz (WoZ) technique [22]."
+        },
+        {
+          "page": 4,
+          "text": "The participants were observed and recorded through a camera and a human operator in a separate control room triggered the robot interactions when certain, previously defined human behavior patterns occurred (refer to Table A1 in the Appendix for a full description of trigger conditions)."
+        },
+        {
+          "page": 14,
+          "text": "The robot visibly follows the active speaker with its gaze by tilting its ‘head’ and driving towards the speaker."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "A small, non-humanoid robot built from Lego Mindstorms components with a 3D-printed shell, mounted on a magnetic whiteboard. Its moving head and gaze were used to orient toward people and board entries.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The robot was built from Lego Mindstorms components and a 3D-printed shell (see Figure 3). It featured a non-humanoid shape."
+        },
+        {
+          "page": 4,
+          "text": "The robot was mounted on a magnetic whiteboard that was positioned for human group members to face and take notes while engaged in the collaborative task."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors state that mounting the robot on the whiteboard gave it a clear vantage point and enabled it to observe and engage with participants; the setup also made its behavior perceptible and able to impact group interaction. The paper does not isolate effects of embodiment from other design features.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "We placed our robot on top of the whiteboard to provide an optimal vantage point for observing and engaging with the participants."
+        },
+        {
+          "page": 3,
+          "text": "This configuration facilitates the interaction between the human participants, but at the same time ensures that the robot’s behavior is perceived by the participants and can thus impact group interaction."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The authors studied groups of three planning a five-day vacation with a small, non-humanoid whiteboard-mounted robot that used gestures including following speakers with gaze. Participants often described the gaze as supportive, and groups with the robot spent more time consensus-building than groups without it; some participants also felt monitored or judged.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper describes gaze-following as a nonverbal mediation behavior, reports its role in directing attention and supporting participation, and presents observed behavioral and interview effects. It also details Wizard-of-Oz implementation and the robot’s physical form and whiteboard placement, including how that setup supported observation and engagement.",
+      "quotes": []
+    }
+  ]
+}

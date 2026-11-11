@@ -1,0 +1,238 @@
+{
+  "key": "U3QYG4DH",
+  "title": "On the Benefit of Independent Control of Head and Eye Movements of a Social Robot for Multiparty Human-Robot Interaction",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "The study combines an analysis of human pilot gaze and head behaviour in a recorded three-party conversation with an online crowdsourced subjective evaluation of four head-eye coordination policies on a Furhat robot.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Using an online crowdsourced test, we show that the human-like policy, which uses decoupled head and eye movements, is perceived significantly more natural than the others."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "The evaluation was conducted online as a third-party video rating study. The interaction data come from the RoboTrio corpus of a collaborative word game recorded with an iCub robot.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "To evaluate these policies, we have decided to perform an on-line evaluation by third parties."
+        },
+        {
+          "page": 11,
+          "text": "Participants were recruited via the Prolific2 platform. Access to this experience was restricted to French speakers residing in France, Belgium or Switzerland, so that participants can fully understand the verbal context of the videos."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "50 participants' submissions were analysed in the online evaluation, after 51 people completed it and one submission was rejected.",
+      "quotes": [
+        {
+          "page": 11,
+          "text": "A total of 51 people, aged between 18 and 60, completed the evaluation. One submission was rejected, the completion time being too short. In the end, 50 submissions are considered, with a balanced number of Female and Male."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Online evaluation participants were French speakers aged 18 to 60 residing in France, Belgium or Switzerland, with a balanced number of females and males. The recorded human players in the corpus were pairs of men.",
+      "quotes": [
+        {
+          "page": 11,
+          "text": "Access to this experience was restricted to French speakers residing in France, Belgium or Switzerland, so that participants can fully understand the verbal context of the videos."
+        },
+        {
+          "page": 4,
+          "text": "For this study only five sequences of men pairs were fully annotated and used for the experiment."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Players played a collaborative word game (Unanimo) with a robot animator in the recorded corpus. In the evaluation, subjects rated 15 short clips (about 10.5 seconds on average) selected from five annotated sequences.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The interaction takes part through a collaborative game (see Fig. 1) called Unanimo® and involves two human players and a robot teleoperated by a human (animator)."
+        },
+        {
+          "page": 10,
+          "text": "In order not to make the experiment too long, a total of 15 interaction clips were chosen, 3 clips for each of the 5 annotated sequences of the corpus."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Each interaction session involved two human players and one robot teleoperated by a human animator. The evaluation clips show only the virtual robot with the participants' soundtracks in stereo.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The interaction takes part through a collaborative game (see Fig. 1) called Unanimo® and involves two human players and a robot teleoperated by a human (animator)."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "One robot per interaction session. In the corpus this was an iCub teleoperated by a pilot, and in the evaluation clips a virtual Furhat robot.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The interaction takes part through a collaborative game (see Fig. 1) called Unanimo® and involves two human players and a robot teleoperated by a human (animator)."
+        },
+        {
+          "page": 9,
+          "text": "In order to keep environmental conditions identical, we recorded animations with the Furhat simulator. For all the clips, only the virtual robot is visible, the soundtracks of the RoboTrio’s participants are broadcasted in stereo."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "Two human players per interaction session, plus the human animator who teleoperates the robot.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The interaction takes part through a collaborative game (see Fig. 1) called Unanimo® and involves two human players and a robot teleoperated by a human (animator)."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Participants rated the perceived naturalness of each clip on a 0 to 100 slider scale in the HEMVIP interface and then completed a general questionnaire about their familiarity with robots. Gaze and head focal points were also annotated from the corpus using GMM classification and OpenFace.",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "Subjects have to play each video clip at least once and give a score between 0 and 100 based on how natural they perceive the robot’s behavior."
+        },
+        {
+          "page": 9,
+          "text": "At the end of the evaluation, subjects have to fill a general questionnaire about their familiarity with robots and can comment about the seen video clips."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Policy significantly affected naturalness ratings (chisq(3)=744.53, p<0.0001). The EyesHead policy was rated significantly higher than the others, while Furhat and EyesOnly did not differ from each other but were rated significantly lower than HeadOnly and EyesHead.",
+      "quotes": [
+        {
+          "page": 12,
+          "text": "The EyesHead policy is significantly higher rated than the other policies. The closest coordination strategy from the human behavior is clearly perceived as more natural."
+        },
+        {
+          "page": 12,
+          "text": "Ratings of Furhat and EyesOnly are not statistically different but significantly lower than the two preceding ones."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The authors frame robotic gaze as a combination of head and eye movements, where the robot's gaze generation involves identifying where to focus attention and a control policy that directs attention through body segments, with the head treated as an attention vector.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Gaze generation can be decomposed into two parts, the identification of where the robot should focus its attention, and the control policy that determines how body segments (from feet, trunk, and head to eyes [5]) direct and signal that attention."
+        },
+        {
+          "page": 2,
+          "text": "However, the head should be considered as a vector of attention like the eyes [14], and each of them conveys redundant as well as complementary communicative information."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The authors state that gaze is essentially a combination of eye and head movements with their own kinematics, and that gaze is the addition of head and eye movements whose kinematics differ.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The gaze is essentially a combination of eye and head movements, and these two vectors have their own kinematics [6]."
+        },
+        {
+          "page": 3,
+          "text": "The gaze is the addition of head and eye movements, whose kinematics are different."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze and head orientation regulate multiparty conversation, contributing to addressee identification and next speaker identification, and the head orientation helps communicate to whom the robot is addressing.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In a multi-party conversation, the gaze is even more important to regulate the flow: it strongly contributes to addressee identification [3] or next speaker identification [4]."
+        },
+        {
+          "page": 15,
+          "text": "Indeed, the orientation of the head seems to be a key element in the regulation of multiparty conversations, for example to communicate to whom we are addressing."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Driving only the eyes or only the head was rated less natural than replaying the original human behaviour with both channels. The Default Furhat policy, which aligns eyes and head at the end of the movement, obtained low scores compared with the other policies.",
+      "quotes": [
+        {
+          "page": 13,
+          "text": "We show with a subjective online evaluation that driving only eyes or only head is less natural than the simulation of the original data involving both channels."
+        },
+        {
+          "page": 13,
+          "text": "Surprisingly, the Furhat policy using both eyes and head movements that align at the end doesn’t obtained very good scores compared to the other policies."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "Gaze targets and head movements were taken from a teleoperated iCub recording and replayed on a Furhat robot under four head-eye policies. The Furhat controller computes eye trajectories toward targets, and clips were rendered with the Furhat simulator and presented via HEMVIP.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The immersive teleoperation platform used in this study is the one proposed by Cambuzat et al [26]."
+        },
+        {
+          "page": 8,
+          "text": "The trajectory of the eyes is computed by Furhat, according to the target that the robot must look at."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "The data were collected with an iCub robot, which reproduces three degrees of freedom each for head and eyes plus articulated lips and jaw. The evaluation used a virtual Furhat robot head.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The robot is an iCub robot [9] with extended communicative capabilities [27], such as speech generation with synchronized articulated lips and jaw."
+        },
+        {
+          "page": 2,
+          "text": "We then produced videos in which a virtual Furhat robot [15] mimics the recorded human attention behavior, with different eyes-head coordination strategies."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors note that some robots cannot move their eyes or neck freely, which limits gaze models to head-only or eye-only vectors. They also attribute the poor Furhat policy results partly to the Furhat head moving slowly with a large amplitude.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "However, in Human-Robot Interaction (HRI) gaze is not always supported by these two vectors since some robots do not have the ability to reproduce human movements and cannot move their eyes freely Nao robot [7] for example or their neck many telepresence robots for example [8]."
+        },
+        {
+          "page": 13,
+          "text": "Moreover, the head movement of the Furhat policy is quite slow, with a large amplitude."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The authors analysed a three-party teleoperated conversation and found that the pilot's head contribution to gaze was weaker when addressing both players than when addressing one. An online evaluation with 50 participants on a Furhat robot showed that a policy replaying the human's decoupled head and eye movements was rated most natural.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ2; RQ3; RQ4; RQ5; RQ6 — The paper shows that head orientation signals addressee in multiparty conversation (RQ2) and reports naturalness effects of head-eye coordination policies (RQ3). It also describes how the policies were implemented on a Furhat robot using iCub-based data (RQ4), names the iCub and Furhat embodiments (RQ5), and discusses how Furhat head speed and amplitude affected results (RQ6).",
+      "quotes": []
+    }
+  ]
+}

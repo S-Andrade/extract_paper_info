@@ -1,0 +1,286 @@
+{
+  "key": "SDY4NFVW",
+  "title": "Deliberate delays during robot-to-human handovers improve compliance with gaze communication",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Experimental study",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We test the effect of a handover delay on a simplified collaborative task (Figure 1)."
+        },
+        {
+          "page": 4,
+          "text": "There were 32 participants (18 females), eight in each of the four conditions, with a mean age of 34."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "In-person human–robot interaction experiment in Pittsburgh; the paper does not explicitly label the setting as a laboratory.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Participants were recruited from the Pittsburgh area using an online participant pool website through Carnegie Mellon University."
+        },
+        {
+          "page": 4,
+          "text": "The human-robot interactions lasted approximately 2 minutes and 20 seconds, though the particular amount of time varied by how long the participant took to sort the block."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "32 participants",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "There were 32 participants (18 females), eight in each of the four conditions, with a mean age of 34."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "18 female participants; mean age 34; recruited from the Pittsburgh area through Carnegie Mellon University's online participant pool.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "There were 32 participants (18 females), eight in each of the four conditions, with a mean age of 34."
+        },
+        {
+          "page": 4,
+          "text": "Participants were recruited from the Pittsburgh area using an online participant pool website through Carnegie Mellon University."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants took part in a block-sorting handover task. HERB handed them five colored blocks; participants sorted each into a yellow or blue box according to their preference. For ambiguous and semi-ambiguous blocks, HERB suggested a box by looking toward it. The interaction lasted about 2 minutes 20 seconds.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Users engage in a simple collaborative manipulation task with HERB: the robot hands blocks to participants, who are asked to sort these blocks into either a yellow box or a blue box on the table in front of them."
+        },
+        {
+          "page": 4,
+          "text": "Each participant engaged in five block handovers."
+        },
+        {
+          "page": 4,
+          "text": "The human-robot interactions lasted approximately 2 minutes and 20 seconds, though the particular amount of time varied by how long the participant took to sort the block."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "One robot and one participant per interaction session.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Participants were told that they would play a sorting game with HERB."
+        },
+        {
+          "page": 4,
+          "text": "Each participant engaged in five block handovers."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Participants were told that they would play a sorting game with HERB."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "1 participant per interaction session",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Each participant engaged in five block handovers."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Task performance (whether participants followed HERB’s suggestions); custom written post-task questionnaires, including free-response and Likert-scale items; semi-structured interviews; and video recordings coded for looking at HERB’s face/head and noticing suggestions. No named standardized questionnaire or eye tracker is reported.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "First, task performance was evaluated by whether participants followed HERB’s suggestion on ambiguous and semi-ambiguous block trials."
+        },
+        {
+          "page": 4,
+          "text": "Immediately after the interaction, participants completed written questionnaires that asked about their experiences and decisions during the task."
+        },
+        {
+          "page": 5,
+          "text": "After completing the survey, participants also engaged in a semi-structured interview with an experimenter."
+        },
+        {
+          "page": 5,
+          "text": "Finally, the interaction with HERB was video recorded, and these videos were coded for information such as amount of time spent looking at HERB’s face and whether or not the participant looked at HERB’s head as it executed a suggestion behavior."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Handover delay increased compliance with HERB’s semi-ambiguous-block suggestion (19% without delay versus 63% with delay; χ²(1, N=32)=6.77, p=0.0092), increased head-looking time (24.7 versus 50.6 seconds; F(1,31)=12.9828, p=0.0012), and increased self-reported recognition of suggestions (75% versus 38%; p=0.0302). Gaze type did not significantly affect compliance.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Without delay, only 19% of users sorted the semi-ambiguous block according to HERB’s suggestion; delaying the release leads to 63% of users matching HERB’s suggestion (Figure 5a)."
+        },
+        {
+          "page": 6,
+          "text": "The handover delay more than doubled the mean looking time, from 24.7 seconds to 50.6 seconds (Figure 5d)."
+        },
+        {
+          "page": 6,
+          "text": "A nominal logistic regression with gaze and delay as factors shows that delay significantly affects whether participants thought HERB had a sorting suggestion (χ2(1, N 32) 4.69, p 0.0302, Wald test χ2(1, 32) 4.32, p 0.0377)."
+        },
+        {
+          "page": 5,
+          "text": "Gaze type (joint attention versus mirrored) did not significantly affect compliance, and there was no significant interaction effect."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames robotic eye gaze as a non-verbal communication channel that can provide information and influence human motor behavior. Its focal use is a gaze cue that suggests where a handed-over object should be sorted.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Eye gaze is an alternative means of communication that can be used when speech isn’t practical."
+        },
+        {
+          "page": 2,
+          "text": "Robot eye gaze, however, is an important communication mode in HRI."
+        },
+        {
+          "page": 3,
+          "text": "HERB provides a non-verbal sorting suggestion by looking (i.e., orienting its head) toward one of the boxes on the table."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The authors do not provide a formal definition of robotic gaze or robotic attention. They describe gaze communication as non-verbal communication and operationalize the cue as the robot orienting its head toward a box.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "HERB provides a non-verbal sorting suggestion by looking (i.e., orienting its head) toward one of the boxes on the table."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "The robot’s gaze communicates a sorting suggestion about where to put the object after the handover. A deliberate release delay is used to redirect human attention toward the robot’s head so people notice the gaze cue.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "For example, the robot might want to indicate where to put an object after giving it."
+        },
+        {
+          "page": 2,
+          "text": "By manipulating the force profile during a handover—deliberately making the robot hold on to an object longer—we can draw attention to other channels like head direction."
+        },
+        {
+          "page": 3,
+          "text": "HERB provides a non-verbal sorting suggestion by looking (i.e., orienting its head) toward one of the boxes on the table."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The delay increased attention to HERB’s head, recognition of gaze suggestions, and compliance with counterintuitive suggestions. The social-gaze manipulation (joint attention versus mirrored gaze) did not significantly affect attention or compliance.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "Handover delays increased the amount of attention participants paid to HERB’s head, which increased participants’ awareness of HERB’s non-verbal gaze cues."
+        },
+        {
+          "page": 7,
+          "text": "In addition to increasing recognition of HERB’s suggestions, the handover delay also increased compliance with those suggestions."
+        },
+        {
+          "page": 7,
+          "text": "Thus, hypothesis H2 was not supported."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "HERB used pre-scripted trajectories and a force/torque sensor to detect when the participant grasped the block. On each trial it turned its head toward a box; in the delay condition it released only after completing the head turn, while in the no-delay condition release and head turn began simultaneously. The experiment ran autonomously with real-time force feedback; no real-time vision was used.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "HERB’s hand has a 6-axis force/torque sensor that can detect external forces applied to the joints, for instance when a participant gently pulls on an object in HERB’s hand."
+        },
+        {
+          "page": 4,
+          "text": "The experiment ran fully autonomously using pre-scripted trajectories for block pick-ups, block handovers, and head movements."
+        },
+        {
+          "page": 4,
+          "text": "There was real-time force feedback to measure when participants grasped the block during the transfer phase of the handover."
+        },
+        {
+          "page": 3,
+          "text": "On “delay” trials, HERB first looks at one of the boxes, and only then releases the block to the participant."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "HERB (Home Exploring Robot Butler) is a bimanual assistive robot with two 7-DOF WAM arms, each with a 4-DOF three-finger Barrett hand. It has a pan-tilt head with a Microsoft Kinect and camera; the visible round cameras on the Kinect front serve as its eyes. Only the right arm was used.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Our robot HERB (Home Exploring Robot Butler) is a bimanual robot developed for assistive tasks in home environments [26]."
+        },
+        {
+          "page": 4,
+          "text": "HERB has two 7-DOF WAM arms, each with a 4-DOF BH8-series Barrett hand with three fingers."
+        },
+        {
+          "page": 4,
+          "text": "HERB also has a pan-tilt head outfitted with a Microsoft Kinect and a camera, though no real-time vision was used in this experiment."
+        },
+        {
+          "page": 4,
+          "text": "The front of the Kinect has two visible round cameras which serve as HERB’s “eyes.”"
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors suggest that HERB’s relatively abstract, non-anthropomorphic head may have affected how well participants perceived joint attention; they propose that a robot with more defined eyes might yield different results. The paper reports no significant effect of gaze type in this study.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "Furthermore, HERB’s “face”, as seen in Figure 1a, is relatively abstract: the entire head consists of a flat platform with a pair of cameras for perception and a microphone."
+        },
+        {
+          "page": 7,
+          "text": "It is possible that HERB’s non-anthropomorphic head affected how well people actually perceived joint attention, and that the joint attention condition would have yielded different results on a robot with more defined eyes."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "In a one-person block-sorting task with HERB, the robot suggested a box by looking toward it during an object handover. Delaying release increased participants’ attention to HERB’s head, recognition of the gaze suggestions, and compliance; the joint-attention versus mirrored-gaze manipulation had no significant effect.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper describes robotic gaze as a non-verbal communication cue, uses it to suggest where to sort objects, measures its effects on attention and compliance, and reports the robot’s implementation and embodiment. Its single-human sessions do not directly study multiparty interaction, so its relevance to the review’s multiparty questions is indirect.",
+      "quotes": []
+    }
+  ]
+}

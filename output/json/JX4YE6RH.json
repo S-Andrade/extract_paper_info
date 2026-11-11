@@ -1,0 +1,203 @@
+{
+  "key": "JX4YE6RH",
+  "title": "Developing an Interactive Gaze Algorithm for Android Robots",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical system description: the authors implemented an autonomous gaze algorithm on an android robot and informally observed people's reactions to it at an exhibition.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We observed peoples reactions to our implementation at an exhibition and made note of how we can improve the overall system to be more life-like and realistic."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "The demonstration took place at the Robot-world 2015 international robot exhibition in South Korea, in a noisy exhibition center that prevented voice interaction.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The exhibition center at which the demonstration took place was noisy, which prevented voice interaction."
+        },
+        {
+          "page": 3,
+          "text": "Robotworld is one of the three largest international robot shows and featured exhibitions from twelve countries visited by over 74,000 attendees and buyers."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "Around 500 people in total came to observe the robot.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Around 500 people in total came."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "The autonomous gaze algorithm was demonstrated to visiting observers at a robot exhibition, where the robot gazed at detected faces and occasionally gave an introduction, sang and danced to entertain groups.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The robot was capable of other actions including giving a brief introduction, singing and dancing."
+        },
+        {
+          "page": 6,
+          "text": "Newly detected faces were acknowledged and gazed at in the presence of closer or previously seen faces as planned."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "The paper describes groups of observers including single observers with onlookers, large groups, and parents with children, but does not report exact people or robot counts per session.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "As shown in Fig. 3, many different groups of people came to observe the robot."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "One robot was used: the EveR-4 android.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The android robot EveR-4, developed at the Korea Institute of Industrial Technology for human-robot interaction (HRI) applications was used."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Only system and technical metrics are reported, including the system frame rate and face detector processing time. Observer reactions were noted informally, and no questionnaire or formal coding is reported.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Note the system ran at about 3 frames per second."
+        },
+        {
+          "page": 3,
+          "text": "The main bottleneck was the face detector, which took between 0.1 to 0.2 s."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "The system ran at about 3 frames per second, and the head and eyes converged on the target after 0.5 and 0.2 s respectively. In the single-observer example, a newly detected face received importance 0.96 while the earlier observer dropped to 0.04.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Different velocity profiles were used for the head and the eyes leading to convergence on the target after 0.5 and 0.2 s, respectively."
+        },
+        {
+          "page": 6,
+          "text": "Since new faces are given very high importance values to ensure being greeted by the robot, Person 2 has a value of 0.96 while Person 1 drops to 0.04 (Fig. 6b)."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames its gaze algorithm as a way to acknowledge multiple participants and use attention shifts to support proper turn-taking, as a precursor to multi-party conversation.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "By acknowledging multiple participants in a natural manner, we seek to set the stage for smoother and more effective human-robot conversations"
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper does not give a formal definition of gaze-based attention. It states that an importance value is assigned to each detected face based on how long it was detected and its distance to the robot.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "An importance value was assigned to each detected face based on the length of time it was detected and its distance to the robot."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze divides attention among everyone present to acknowledge them and set up a platform for inviting conversation. It also helps ensure smooth transitions as people enter and leave the conversation.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "By beginning with appropriate division of attention to those present with the robot, a platform can be established for inviting people to engage in conversation."
+        },
+        {
+          "page": 7,
+          "text": "Furthermore, as people enter and leave the conversation, the gaze algorithm described in this paper can help to ensure a smooth transition and keep conversation flowing at all times."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The authors report that the robot gazed at observers as expected and engaged them according to proximity and duration, but interaction was somewhat limited. They also report that randomly used facial expressions led to a greater sense of interaction overall.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "Although the robot gazed at observers as expected, interaction was somewhat limited."
+        },
+        {
+          "page": 7,
+          "text": "Although this led to a greater sense of interaction overall, the fact that they were random meant these facial gestures did not have any special meaning."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The system is autonomous: an RGB-D camera with a face detector and tracker finds faces, 3D centroids are taken from the point cloud, and importance is a linear combination of distance and frames tracked. The highest-importance centroid becomes the gaze target, sent from a gaze PC to the robot onboard PC, which drives head and eye motion. An operator could switch the robot between interactive and non-interactive modes.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Both the face detector and tracker were implemented using the Dlib C++ library [4]."
+        },
+        {
+          "page": 2,
+          "text": "An RGB-D camera was used to calculate and update targets for attention."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "The robot is the EveR-4 android, which wore a dress and was made up to resemble a real woman. Its body remained still while its head and eyes gazed at people and its face made random expressions such as winking, smiling and blinking.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The robot wore a dress and was made up to replicate interacting naturally with a real woman as much as possible."
+        },
+        {
+          "page": 4,
+          "text": "The robots body remained still while looking at people that were detected, but facial expressions such as winking, showing surprise, smiling and blinking were used at random."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The authors implemented an autonomous gaze algorithm on the EveR-4 android that gives each detected face an importance value based on its distance and how long it has been tracked, then gazes at the highest-importance person. They demonstrated it at a robot exhibition with around 500 visitors, where the robot gazed at new and close faces as planned, though interaction was limited without voice and random facial expressions were used.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ2; RQ4; RQ5 — The paper describes gaze-based attention division among multiple observers to set up turn-taking, details how the gaze algorithm was implemented, and uses the EveR-4 android as the embodiment studied.",
+      "quotes": []
+    }
+  ]
+}

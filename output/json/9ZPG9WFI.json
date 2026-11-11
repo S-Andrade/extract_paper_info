@@ -1,0 +1,242 @@
+{
+  "key": "9ZPG9WFI",
+  "title": "Implementing a gaze control system on a social robot in multi-person interactions",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "A technical system description of a gaze control system on the RASA robot, supported by experiments: two calibration experiments with volunteers watching animations and an evaluation with a new group of volunteers comparing robot gaze with participant gaze plus a questionnaire.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this paper, implementing a social gaze control system suitable for multi-person interactions with a RASA social robot is discussed."
+        },
+        {
+          "page": 1,
+          "text": "After this was completed, another group of volunteers were employed to examining the performance of the RASA robot equipped with this system."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Laboratory setting. Calibration used computer-animated videos shown on a screen, and the evaluation involved participants interacting freely with the robot and a researcher in the laboratory.",
+      "quotes": [
+        {
+          "page": 11,
+          "text": "Another significant observation was that when the participants were told that the robot is aware of pointing, they also pointed to objects in the laboratory and expected the robot to pay attention to them."
+        },
+        {
+          "page": 7,
+          "text": "Following that, we let each participant interact freely with the robot and one of the researchers, while the GCS was the only active module running on the robot."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "23 volunteers took part in the calibration experiment and 21 different volunteers took part in the evaluation experiment.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "A total of 23 volunteer Iranian students from Sharif University of Technology, consisting of 11 males and 12 females ranging in age from 19 to 29 years were asked to watch"
+        },
+        {
+          "page": 7,
+          "text": "To evaluate the performance of the system, in a separate experiment, we asked a new group of 21 volunteers to watch an 80-s video."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Students of Sharif University of Technology in Iran. The calibration group had 11 males and 12 females aged 19 to 29, and the evaluation group was aged 19 to 23.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "A total of 23 volunteer Iranian students from Sharif University of Technology, consisting of 11 males and 12 females ranging in age from 19 to 29 years were asked to watch"
+        },
+        {
+          "page": 7,
+          "text": "The volunteers were also students of Sharif University of Technology ranging in age from 19 to 23 years old."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "In the evaluation, participants watched an 80-second video of two real people entering a room and interacting, then interacted freely with the robot and a researcher while only the gaze control system was active. Calibration used 90-second animations of two characters interacting or telling a story.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "This time, as presented in Fig. 5c, the video shows two real persons entering the room separately and then interacting freely with each other at various distances and orientations from the camera."
+        },
+        {
+          "page": 7,
+          "text": "Following that, we let each participant interact freely with the robot and one of the researchers, while the GCS was the only active module running on the robot."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Each evaluation session included one robot (RASA) and two humans: the participant and one researcher.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "The presence of one other person in the experiments had two goals. First, the participants could fully evaluate the capabilities of GCS in a multi-person interaction scenario (not a single human–robot interaction)."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "One robot: the RASA humanoid robot.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Finally, the gaze control system was implemented on RASA humanoid robot and was also tested in action."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "Two humans per evaluation session: the participant and one researcher. The evaluation video showed two real people.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "This time, as presented in Fig. 5c, the video shows two real persons entering the room separately and then interacting freely with each other at various distances and orientations from the camera."
+        },
+        {
+          "page": 7,
+          "text": "The presence of one other person in the experiments had two goals."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "WebGazer webcam eye tracking was used to record participants' gaze during the animations, and a custom questionnaire built on standard instruments included the Godspeed anthropomorphism questionnaire. Robot gaze was also compared with participants' average gaze pattern.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "While watching the videos, participants’ eye gazes were recorded using a webcam gaze recorder software called WebGazer [33]."
+        },
+        {
+          "page": 7,
+          "text": "In the end, an anthropomorphism Godspeed questionnaire [34] was held to allow students to rate the human-like characteristics of the robot shown in Table 1, Part III using 5-point Likert scales."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "The robot's gaze matched the average participant gaze pattern for 10 of 13 attention shifts (76.9%) in the 80-second scenario. In the questionnaire, 86% of participants gave a positive score on the statement that the robot sometimes really looked at them, with a mean of 4.33 out of 5.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We indicated that the gaze generated by the robotic system matched the average gaze pattern of the participants 76.9% in an 80-s real-life scenario."
+        },
+        {
+          "page": 11,
+          "text": "On the other hand, with the highest mean value of 4.33 (SD .73), 86 percent of participants gave a positive score to the statement that they felt the robot sometimes really looked at them (Q2)."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames robotic attention as a gaze control system that directs the robot's attention to the most appropriate target in multi-party interactions by selecting an attention target and adjusting the head and eyes.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Empowering a robot to direct its attention to the most appropriate target at all times during multi-party interactions is an interesting and useful challenge to establish natural communication between the robot and users."
+        },
+        {
+          "page": 1,
+          "text": "A mechanism called the gaze control system (GCS) is needed to identify humans in front of the robot, select the attention target, and continuously adjust the robot’s head and eyes position."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The authors define gaze as the head and eye movements through which the center of human attention is moved to a specific target.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The term “Gaze” is often used as the head and eyes movements through which the center of human attention is moved to a specific target."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "The gaze behaviour selects which person the robot looks at in a multi-person scene, based on social cues and proximity and orientation. It also serves as a deliberate redirection away from the audience and rotates attention so the robot does not fixate on one person.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "This intentional redirection away from the face of the audience is an important non-verbal cue that serves cognitive functions and it is useful for developing effective interactions between humans and robots [29]."
+        },
+        {
+          "page": 5,
+          "text": "Thus, the robot does not look only at one person for a long time."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "In the evaluation, the robot's gaze matched participants' average gaze pattern on 10 of 13 attention shifts (76.9%). Also, 86% of the 21 participants gave a positive score that the robot sometimes really looked at them, with a mean of 4.33 out of 5.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "From the 13 attention picks in the humans’ gaze behavior (including the start and end points), the GCS followed 10 of them (i.e. 76.9%) which can be acceptable."
+        },
+        {
+          "page": 11,
+          "text": "On the other hand, with the highest mean value of 4.33 (SD .73), 86 percent of participants gave a positive score to the statement that they felt the robot sometimes really looked at them (Q2)."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The gaze control system runs as a ROS package within a cognitive architecture. Kinect sensor inputs feed a Perception Unit for social cues, a rule-based Logic Unit selects the target using an elicited attention score, and an Action Unit moves the head and eyes. The gaze shifts are controlled autonomously, with a PID controller for the neck.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The presented GCS was implemented into the designed cognitive architecture of RASA as shown in Fig. 1."
+        },
+        {
+          "page": 5,
+          "text": "The desired head angle for performing the gaze shift is sent to a PID controller designed for the robot’s neck actuators and the eyes angle sets the eyes position on the screen."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "RASA is a humanoid robot designed for teaching Persian Sign Language. It has 32 degrees of freedom, including 3 neck DOF, and a face projected on an 8-inch screen with adjustable eyes, plus a Kinect sensor in its chest.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "RASA has a total of 32 degrees of freedom (DOF), including the 3 natural DOF of a human neck."
+        },
+        {
+          "page": 3,
+          "text": "The robot’s face is projected on an 8-in. screen located at the front of the robot’s head with the ability to adjust the eyes direction."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors suggest that the robot's limited embodiment, which performed only eye and head movements, likely explains the average ratings on items about being a living creature, having real feelings, and following social norms.",
+      "quotes": [
+        {
+          "page": 11,
+          "text": "This could be anticipated since the robot was only performing eyes and head movements."
+        },
+        {
+          "page": 11,
+          "text": "There are lots of other features required to make the robot behave more social and alive."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The authors implemented a gaze control system on the RASA humanoid robot that chooses which person to look at in multi-person interactions, using social cues and proximity and orientation weights calibrated from human gaze data. In an 80-second real-life scenario the robot's gaze matched participants' average gaze pattern 76.9% of the time, and most participants felt the robot sometimes really looked at them.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5 — The paper defines gaze as moving the centre of attention to a target, describes the role of selecting the attention target among multiple humans, reports effects on matching and perceived looking, details the implementation, and uses the RASA humanoid as the embodiment. It does not explore how embodiment shapes the study beyond a brief remark, so RQ6 is only weakly addressed.",
+      "quotes": []
+    }
+  ]
+}

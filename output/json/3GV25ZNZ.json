@@ -1,0 +1,254 @@
+{
+  "key": "3GV25ZNZ",
+  "title": "The furhat back-projected humanoid head–lip reading, gaze and multi-party interaction",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Experimental: three lab-based experiments (lip reading perception, gaze perception, and multi-party turn-taking), plus a technical description of the Furhat back-projected head and an uncontrolled public museum deployment.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "These three experiments were all done in the lab, which provides the possibility to do controlled comparisons with di®erent conditions."
+        },
+        {
+          "page": 1,
+          "text": "Three experiments are presented where we investigate how the head might facilitate human�robot face-to-face interaction."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Controlled lab environments for the three experiments, and a public museum setting (London Science Museum Robotville exhibition) for the field observation.",
+      "quotes": [
+        {
+          "page": 19,
+          "text": "The three studies presented above were all done in controlled lab environments."
+        },
+        {
+          "page": 5,
+          "text": "The exhibition was seen by thousands of visitors (including many children), resulting in a corpus of about 10,000 user utterances."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "Study I used 10 normal hearing subjects, Study II used 18 subjects, and Study III used two sets of five subjects (ten subjects in total). The museum exhibition involved thousands of visitors.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "The conditions were systematically permutated among 10 normal hearing subjects, with normal or corrected to normal vision."
+        },
+        {
+          "page": 11,
+          "text": "Six di®erent conditions (described below) were presented in random order to 18 subjects."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Study I subjects were normal hearing with normal or corrected to normal vision; Study II subjects had normal or corrected to normal vision. Museum visitors included many children. The paper does not report further demographic details.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "The conditions were systematically permutated among 10 normal hearing subjects, with normal or corrected to normal vision."
+        },
+        {
+          "page": 5,
+          "text": "The exhibition was seen by thousands of visitors (including many children), resulting in a corpus of about 10,000 user utterances."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "In the lab, participants identified acoustically degraded Swedish sentences with a lip-synced head, placed a tagging object on the grid square they believed Furhat was gazing at, and answered route questions from an agent in a multi-party dialog. In the museum, visitors answered Furhat's survey questions about the future of robots over four days.",
+      "quotes": [
+        {
+          "page": 19,
+          "text": "During the four days of the exhibition, Furhat's task was to collect information on peoples' beliefs about the future of robots, in the form of a survey."
+        },
+        {
+          "page": 10,
+          "text": "The subjects are instructed to place a small object (a glass disk, shown in Fig. 4) on the square where they best believe the robot is gazing at."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Study III: five human subjects plus one animated agent per session. Public exhibition: Furhat interacted with two users at a time, with two podiums and microphones.",
+      "quotes": [
+        {
+          "page": 17,
+          "text": "Two sets of ¯ve subjects were asked to take part in the experiment."
+        },
+        {
+          "page": 20,
+          "text": "With two users present, Furhat could either ask a directed question"
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "One robot head (Furhat) or one animated agent per interaction session.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Here, we present Furhat,8 a robot head that deploys an animated face that is realistic and human-like in anatomy."
+        },
+        {
+          "page": 17,
+          "text": "The agent addressed the subjects by directing its gaze in their direction (without any head rotation)."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "Study III: five subjects per session. Public exhibition: two users present at a time in the two-user condition.",
+      "quotes": [
+        {
+          "page": 17,
+          "text": "Two sets of ¯ve subjects were asked to take part in the experiment."
+        },
+        {
+          "page": 20,
+          "text": "With two users present, Furhat could either ask a directed question"
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Sentence intelligibility accuracy (words correctly identified) in Study I; perceived gaze location on a grid, with angles and distances computed from a geometric model in Study II; manually annotated video turn-taking data, confusion matrix and response times in Study III.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "The audio- visual intelligibility rate (accuracy) of each sentence was calculated as the number of words correctly identified by the subject, divided by the number of content words in the sentence."
+        },
+        {
+          "page": 18,
+          "text": "The interactions were logged and the recorded videos were manually annotated."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Study III: turn-taking accuracy targeting the intended subject was 53% in the 2D condition and 84% in the 3D condition. Response time was significantly shorter in 3D (1.38 s) than in 2D (1.85 s), F(1)=15.821, p<0.001. Study I found Furhat significantly more intelligible than the flat screen.",
+      "quotes": [
+        {
+          "page": 18,
+          "text": "The accuracy for targeting the intended subject in the 2D condition was 53% and 84% for the 3D condition."
+        },
+        {
+          "page": 19,
+          "text": "The results show a signi¯cant main e®ect (Fð1Þ ¼ 15:821; p 0:001), with a mean response-time of 1.85 s for the 2D condition, and of 1.38 s for the 3D condition."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper does not give a formal definition of robotic gaze-based attention. It frames the topic as robotic gaze and its perception, with Furhat directing its attention using eye gaze and head pose and the Mona Lisa effect as the central concept.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The mask and the projector are then rigged onto a pan-tilt-roll unit (neck) allowing Furhat to direct its attention using eye gaze and head pose."
+        },
+        {
+          "page": 4,
+          "text": "This phenomenon, known as the Mona Lisa e®ect, has been investigated in previous experiments at our lab."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "No explicit definition is given. The paper describes the Mona Lisa effect: because a 2D agent is not spatially co-present, either all observers perceive it as looking at them or none do.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Since the agent is not spatially co-present with the user, it is impossible to establish exclusive mutual gaze with one of the observers:"
+        },
+        {
+          "page": 4,
+          "text": "either all observers will perceive the agent as looking at them, or no one will."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze serves turn-taking control, addressee selection and deictic reference. Gaze is used to address a particular person and to regulate multiparty dialogue turn-taking.",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "Gaze direction and dynamics have been found to serve several di®erent functions, including turn-taking control, deictic reference, and attitudes."
+        },
+        {
+          "page": 16,
+          "text": "a process that involves multiparty dialogue regulation using cues such as gaze, mutual gaze and head direction."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "On 2D displays, the Mona Lisa effect limits gaze-based turn-taking. A 3D back-projected head improved turn-taking accuracy and reduced response time. In the museum, open questions were answered by the addressee in 92.2% of cases, and Furhat's lip-synced face was more intelligible than a flat screen.",
+      "quotes": [
+        {
+          "page": 19,
+          "text": "The results show that the use of gaze for turn-taking control on 2D displays is limited due to the Mona Lisa e®ect."
+        },
+        {
+          "page": 21,
+          "text": "In the case of open questions (as de¯ned above), the addressee answered the question in 92.2% of the cases, with a response time of 1.7 s."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "In Study III gaze shifts were controlled by a Wizard-of-Oz setup. In the museum, Furhat's behavior was autonomous, using handheld microphones, ultrasound proximity sensors and audio-level comparison to choose the addressee, with the IrisTK toolkit.",
+      "quotes": [
+        {
+          "page": 17,
+          "text": "The conversational behavior of the animated agent was controlled using a Wizard- of-Oz setup."
+        },
+        {
+          "page": 20,
+          "text": "To sense whether someone was standing close to a microphone, we mounted ultrasound proximity sensors on the podiums."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Furhat is a back-projected, human-like robot head: a micro projector projects an animated face onto a 3D-printed mask, mounted on a pan-tilt-roll neck. The animated eyes have separately controllable pupils, irises and eyelids.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Using a micro projector, an animated face is back-projected on a three-dimen- sional mask that is a 3D printout of the head used in the animation software, as illustrated in Fig 1."
+        },
+        {
+          "page": 3,
+          "text": "The animation has a three-dimensional model of both eyes with a pupil, iris and eyelids that can be controlled separately."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The physical 3D mask, compared with a flat screen, eliminated the Mona Lisa effect and made gaze exclusive to one person. The static mask also enlarged the perceived lips, which may explain the higher intelligibility. Calibration of gaze may need to differ by robot design.",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "Because of this the size of the lips, when projected, is perceived slightly larger than the lips visualized on the screen."
+        },
+        {
+          "page": 15,
+          "text": "Another important implication is that it seems like di®erent psychometric calibration functions should be used depending on the design of the robot, for example depending on whether the eyelids are dynamic and move with vertical gaze shifts or not."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper presents Furhat, a back-projected humanoid head, and three experiments on lip reading, gaze perception and multi-party turn-taking, plus a museum deployment. It found that a 3D head avoids the Mona Lisa effect, giving much better turn-taking accuracy (84% vs 53%) and shorter response times than a flat-screen agent in a five-person setting.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ2; RQ3; RQ4; RQ5; RQ6 — The paper examines gaze for turn-taking and addressee selection in multiparty dialog, reports effects on accuracy and response time, describes how gaze control was implemented (Wizard-of-Oz and autonomous), and compares a 3D back-projected head with a 2D screen agent, showing how embodiment changes the gaze effect.",
+      "quotes": []
+    }
+  ]
+}

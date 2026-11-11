@@ -1,0 +1,119 @@
+# What to extract from every paper — mirrors the "Gaze & attention paper charting" artifact.
+#
+# Colors: one per group, chosen to stay distinct on the reMarkable Paper Pro's color e-ink
+# (yellow, green, blue, magenta = pink, orange; purple/red/gray blur together there).
+# They are Zotero reader colors, so you can also filter by color in Zotero. Each highlight's
+# comment and its "extract:<field>" tag name the exact field.
+# Fields without a color are summary-only: they go in the table but are not highlighted.
+# The description is what Claude uses to decide what counts — be specific.
+
+context: |
+  This is for a scoping review on robotic gaze-based attention in multiparty human–robot
+  interaction (one or more robots with one or more humans).
+
+  Review research questions:
+  RQ1 (background) How has robotic gaze-based attention been defined?
+  RQ2 What role does it play in multiparty interaction? 
+  RQ3 What effects does it have in multiparty interaction?
+  RQ4 How has it been implemented?
+  RQ5 What robot embodiments have been used to study it? 
+  RQ6 How does embodiment influence its study?
+
+  Report only what the paper states; never guess! Good answers will get 1000 dolars!).
+
+fields:
+  # --- Study (yellow) ---
+  - name: study_type
+    description: Study type, e.g. experimental, observational, technical/system description.
+    color: yellow
+  - name: study_setting
+    description: Study setting — lab, field, museum, classroom, online…
+    color: yellow
+  - name: sample_size
+    description: Total number of participants.
+    color: yellow
+  - name: participant_characteristics
+    description: Age, gender, population, prior robot experience…
+    color: yellow
+  - name: task
+    description: >-
+      The interaction task or activity participants performed with the robot (e.g. quiz game,
+      storytelling, free conversation, collaborative assembly, guided tour), including its
+      duration and conditions if described. For technical papers, the scenario the system was
+      tested in.
+    color: yellow
+
+  # --- Group composition (green) ---
+  - name: group_size
+    description: People + robots per interaction session.
+    color: green
+  - name: n_robots
+    description: Number of robots in the group, per interaction session.
+    color: green
+  - name: n_humans
+    description: Number of humans in the group, per interaction session.
+    color: green
+
+  # --- Measures & findings (blue) ---
+  - name: measurement_tools
+    description: >-
+      Every instrument used to measure outcomes — named questionnaires/scales (e.g. Godspeed,
+      RoSAS, NASA-TLX), custom questionnaires, behavioural/video coding, gaze or eye tracking,
+      interviews, task performance, system/technical metrics.
+    color: blue
+  - name: significant_measures
+    description: >-
+      The measures that showed statistically significant results or are central to the paper's
+      key takeaways; state the direction of the effect and statistics if given (e.g. "Addressee
+      recognition higher with gaze cue, p < .01"). For technical papers, the key performance results.
+    color: blue
+
+  # --- Framing (magenta) ---
+  - name: framing
+    description: >-
+      The paper's own conceptual framing. Paper definition of "Robotic gaze", 
+      "Robotic attention", "Robotic gaze-based attention". 
+    color: magenta
+  - name: framing_definition
+    description: How the authors define their framing concept (quote their definition if any).
+    color: magenta
+  - name: framing_role
+    description: >-
+      The function the gaze/attention/gaze-based attention behaviour serves in the (multiparty) interaction
+      (turn-taking, addressee selection, inclusion…).
+    color: magenta
+  - name: effects
+    description: Measured or observed effects of the gaze/attention/gaze-based attention behaviour on people or the interaction.
+    color: magenta
+
+  # --- Implementation & embodiment (orange) ---
+  - name: implementation
+    description: How it is implemented — sensing, models, control architecture, Wizard-of-Oz vs autonomous…
+    color: orange
+  - name: embodiment
+    description: Robot platform, physical features of the robot.
+    color: orange
+  - name: embodiment_influence
+    description: How the robot's body shaped the study or the effects.
+    color: orange
+
+  # --- Summary only (no highlights) ---
+  - name: tldr
+    description: >-
+      Two or three plain-language sentences summarizing what the paper did and found, focused
+      on gaze/attention in multiparty interaction.
+  - name: rqs
+    description: >-
+      The RQ codes this paper genuinely helps answer, separated by "; ",
+      followed by " — " and one or two sentences explaining why.
+
+zotero:
+  library_type: user          # "user" or "group"
+  storage_dir: ~/Zotero/storage
+  annotation_tag: auto-extract  # tag put on every annotation the tool creates
+  done_tag: auto-annotated      # tag put on papers already processed (skipped next time)
+
+claude:
+  model: claude-haiku-5-5   # or claude-opus-5-5 for more careful (and ~40x pricier per token) extraction
+  effort: high               # low | medium | high | xhigh | max
+  max_quotes_per_field: 4

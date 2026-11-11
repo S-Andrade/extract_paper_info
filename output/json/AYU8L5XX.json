@@ -1,0 +1,238 @@
+{
+  "key": "AYU8L5XX",
+  "title": "Social Robot Haru Assisting Dynamic Group Discussion with Autonomous Eye Gaze Behavior",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical system development combined with an experimental user study comparing three conditions using physical Haru. The autonomous gaze policy was trained in a Gazebo simulation before being transferred to the robot.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "we set up three experimental conditions and conducted a user study with our physical Haru:"
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Simulated Gazebo environment for policy training, and a user study with physical Haru in which groups discussed a topic seated beside Haru on a table. The paper does not name a specific room or venue beyond recruiting from a university campus.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "During the study, each group received a topic to discuss from the instructor and was asked to discuss on the topic beside Haru positioned on a table."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "50 participants in total: 27 recruited for the user-perspective part (21 valid responses analysed) and 23 third-party evaluators.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Results of our user study with 50 subjects show the significant performance of our system in assisting dynamic group discussion."
+        },
+        {
+          "page": 6,
+          "text": "21 valid responses were collected from the questionnaire of the first part (2 groups failed to complete the experiment due to problems with the machine) and 23 from the questionnaire of the second part in our study."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "University campus participants. User-perspective group: aged 21-28 (mean 23.70, SD 1.438), 51.86% male, 40.74% female, 7.40% undisclosed. Third-party group: aged 20-27 (mean 23.41, SD 1.343), 60.87% male, 34.78% female, 4.35% undisclosed.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "In the first part, we recruited 27 participants from a university campus, aged from 21 to 28 years old, with a mean age of 23.70 years old and a standard deviation of 1.438."
+        },
+        {
+          "page": 5,
+          "text": "51.86% of participants were male and 40.74% were female, and 7.40% chose not to disclose their gender."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Groups of three discussed a topic given by the instructor beside Haru, with one assumed extroverted, one introverted and one new user joining. Each group experienced three conditions: chatbot only, chatbot plus balancing and welcoming, and chatbot plus balancing, welcoming and autonomous gaze. Discussion duration is not stated.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "All participants consent to participate in our study and were randomly assigned to nine groups with each group composed of three participants: one is assumed to be an extroverted user, the other to be an introverted one and the left one to be a new user joining the conversation."
+        },
+        {
+          "page": 5,
+          "text": "Condition 1: only the Dialogue Assistant module (i.e., chatting behavior) is activated, which is like an embodied chatbot;"
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three people plus one robot per session: two conversing users and one new comer joining, with Haru.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "randomly assigned to nine groups with each group composed of three participants"
+        },
+        {
+          "page": 2,
+          "text": "For simplicity, we consider two human users conversing with each other and one new comer joining them, and Haru will be assiting their discussion."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "One robot (Haru) per session.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "was asked to discuss on the topic beside Haru positioned on a table."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "Three human participants per session in the user study (two conversing users plus one new comer). In simulation, Haru randomly observed 2-4 users per training episode.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "For simplicity, we consider two human users conversing with each other and one new comer joining them, and Haru will be assiting their discussion."
+        },
+        {
+          "page": 4,
+          "text": "we allowed Haru to randomly observe 2-4 users in each episode of training, and Haru can appear at different positions"
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Godspeed questionnaire for anthropomorphism, animacy, likability and perceived intelligence, plus satisfaction and eight custom conversation-experience items, all rated on 7-point Likert scales. Also two open-ended questions, Cronbach's alpha reliability checks, and ANOVA with Fisher LSD post-hoc tests.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "using the Godspeed’s questionnaire [27]."
+        },
+        {
+          "page": 5,
+          "text": "All items were rated on a 7-point Likert scale."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "User ratings: Condition 3 scored significantly higher than Conditions 1 and 2 on all five measures (p<0.01), while Condition 2 beat Condition 1 only on satisfaction. Third-party ratings: Condition 3 beat both on all five measures, and Condition 2 beat Condition 1 on satisfaction, animacy and likability.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "Results of ANOVA show that there is a significant difference between conditions across all perspectives (p<0.01)."
+        },
+        {
+          "page": 6,
+          "text": "Post-hoc tests show that Haru’s performance in terms of ‘anthropomorphism’, ‘animacy’, ‘likability’, ‘perceived intelligence’, and ‘satisfaction’ in Condition 3 were significantly better than that in Condition 2 and 1 (p<0.01)."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "Robotic gaze",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "an Autonomous Eye Gazing module to show politeness during group discussion"
+        },
+        {
+          "page": 2,
+          "text": "Haru’s non-verbal eye gazing behavior via body rotation and eyeball movement"
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper gives no formal definition of gaze or attention. It describes Haru's gaze behaviours as designed to replicate human gaze movements, including vestibulo-ocular movement, during face-to-face interaction.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Haru’s eye and head gaze behaviors are designed to replicate human gaze movements with Vestibulo-Ocular Movement (VOM) during face-to-face interaction."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze is used to show politeness and to direct gaze to the current speaker, a less-engaged user (to encourage participation) or a new joiner. Haru shifts gaze between speakers via eyeball movement when they are close, and via body rotation otherwise.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "gazing to the talking user or the less-engaging user to encourage her, looking to the new comer when she joins the discussion"
+        },
+        {
+          "page": 6,
+          "text": "Furthermore, Haru can shift its gaze from one user to another via eyeball movement, when the angle between the current and previous speaking users is small, as shown in Fig. 10."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Compared with chatbot-only Haru, adding balancing and welcoming behaviour improved satisfaction and some perceptions, and adding autonomous gaze further improved anthropomorphism, animacy, likability, perceived intelligence and satisfaction in both user and third-party ratings.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "Results of user study show that our system can significantly improve Haru’s politeness and user’s experience compared to embodied chatbot (chatting Haru)."
+        },
+        {
+          "page": 7,
+          "text": "Results of ANOVA show that there is also a significant difference between conditions across all perspectives (p<0.01)."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "Gaze policy learned autonomously with soft actor-critic deep reinforcement learning in a Gazebo simulation, with a state of user positions, speaking indicators and motor angle, and actions of body rotation or eyeball movement, then transferred to physical Haru. Speech uses Google ASR, the Kimi LLM and TTS, and user positions and speaking are detected with Azure Kinect.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "To be specific, deep reinforcement learning soft actor-critic (SAC) [22] algorithm was used as our learning method in the Autonomous Eye Gazing module."
+        },
+        {
+          "page": 5,
+          "text": "An Azure kinect was used to detect the skeleton and sound location of users."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Tabletop social robot Haru with five degrees of freedom: base rotation, neck tilt, eye movement, eye rotation and eye tilt. Each eye is a 3-inch TFT screen bordered by addressable LED strips, and an LED matrix simulates mouth movements.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Haru has five degrees of freedom: base rotation, neck tilt, eye movement, eye rotation and eye tilt."
+        },
+        {
+          "page": 2,
+          "text": "Haru has two eyes and each was equipped with a 3-inch TFT screen display bordered by addressable LED strips enclosed within a sturdy shell [13]."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "Eye-screen geometry limits the eye centre to a range to avoid an impolite whites-of-eyes look, and eye positions reset during body turns. Because Haru is fixed on a desktop, the state uses only the azimuth direction, and motor rotation is limited to a safe range.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "in order to keep the eye from moving beyond the edge of the screen, the center point of the eye Pe is limited to be within the range of [280, 440] to prevent the impolite expression as human showing the whites of eyes."
+        },
+        {
+          "page": 3,
+          "text": "Note that, during Haru’s body maneuvers, the positions of eyeballs must be reset to their initial state to ensure action coordination"
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The authors built a system for the social robot Haru to assist dynamic group discussion, combining LLM-based chat, a balancing and welcoming module, and an autonomous eye-gaze module learned by deep reinforcement learning in simulation and transferred to the physical robot. In a study with 50 participants in groups of three, adding balancing and welcoming improved satisfaction and perceived politeness over a chatbot-only Haru, and adding autonomous gaze further improved anthropomorphism, animacy, likability, perceived intelligence and satisfaction.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ2a; RQ3a; RQ4a; RQ5a — The paper shows gaze used to show politeness and direct gaze to speakers, newcomers and less-engaged users (RQ2a), reports user and third-party effects of adding autonomous gaze (RQ3a), describes an RL-based gaze implementation (RQ4a), and uses the Haru tabletop embodiment (RQ5a).",
+      "quotes": []
+    }
+  ]
+}
