@@ -1,0 +1,285 @@
+{
+  "key": "CJJWARSJ",
+  "title": "Opportunities to Talk, Negotiate, and Laugh: Robot Behaviors That Shape Repeated Interactions in Groups of Older Adults",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Exploratory mixed-method field study with repeated interactions; semi-autonomous robot system.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We invited 34 older adults aged 65+ to play the game in groups of three or four, three times over two to five weeks."
+        },
+        {
+          "page": 1,
+          "text": "An explorative mixed-method analysis, combining quantitative metrics with Ethnomethodological Conversation Analysis (EMCA), shows that robot gaze and verbal behaviors as well as negotiations around “wrangling” the guesser robot encouraged participation in the game."
+        },
+        {
+          "page": 4,
+          "text": "We designed the experiment to investigate how different robots and behaviors would affect groups of older adults in real-world settings over repeated interactions."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Local community centers in real-world settings.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We explored how robots and their behaviors can support group interactions and foster social participation among older adults in a community center setting over repeated interactions."
+        },
+        {
+          "page": 4,
+          "text": "We recruited local community centers through a newsletter and discussed study details with the management."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "34 older adults recruited; 25 sessions were conducted, and 21 were included in the analysis after four exclusions.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "34 participants (25F, 9M) were recruited from the 4 local community centers."
+        },
+        {
+          "page": 4,
+          "text": "In total, we ran 25 sessions with three (9 sessions) to four (16 sessions) participants."
+        },
+        {
+          "page": 5,
+          "text": "From the 25 sessions, we excluded 4 sessions due to errors either in the recording of the data or the behavior of the robot."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Adults aged 65 and older (25 women, 9 men); age bands ranged from 65–69 to 90+.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "34 participants (25F, 9M) were recruited from the 4 local community centers."
+        },
+        {
+          "page": 4,
+          "text": "Participants were aged 65+ years, with two being 65–69, ten being 70–74, seven being 75–79, nine being 80–84, four being 85–89 and two being 90+."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Groups collaboratively discussed how to describe a target word, then described it to a robot guesser. Participants played for at least 20 minutes per trial, across up to three trials over two to five weeks.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Participants first enter the discussion phase after the word is given on the tablet. Participants discuss and decide on the description together. In the description phase, participants describe the word to the guesser robot, which attempts to guess."
+        },
+        {
+          "page": 4,
+          "text": "Participants then played for a minimum of 20 minutes, after which the facilitator robot announced the end of the game."
+        },
+        {
+          "page": 1,
+          "text": "We invited 34 older adults aged 65+ to play the game in groups of three or four, three times over two to five weeks."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three or four human participants and two robots per session.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We developed a semi-autonomous collaborative and discussion-based variant of the game “With Other Words” for groups of three to four older adults and two robots."
+        },
+        {
+          "page": 4,
+          "text": "In total, we ran 25 sessions with three (9 sessions) to four (16 sessions) participants."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "2",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We developed a semi-autonomous collaborative and discussion-based variant of the game “With Other Words” for groups of three to four older adults and two robots."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "3–4 participants per session.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "In total, we ran 25 sessions with three (9 sessions) to four (16 sessions) participants."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Social Connectedness Scale; UBC State Social Connection Scale; self-reported familiarity ratings and frequency of meeting; individual close-talk microphones with voice activity detection for speech share; video coding in ELAN; game logs; Ethnomethodological Conversation Analysis.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Social Connectedness Measured prior to every first trial and also in the post-experiment questionnaire using the Social Connectedness scale [42] to explore if the deployed robot system could improve social connectedness over repeated trials."
+        },
+        {
+          "page": 4,
+          "text": "Social connection in interaction Measured in the post-experiment questionnaire using the UBC State Social Connection Scale [46] to understand how connected participants felt during the interaction."
+        },
+        {
+          "page": 4,
+          "text": "We used automatically extracted speech activity through Voice Activity Detection (VAD) from individual close-talk microphones to extract the utterances of individual participants during the discussion."
+        },
+        {
+          "page": 5,
+          "text": "Four annotators used ELAN (v7.0) [57] to code for the following: Laughter."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Speech share was higher after robot interventions than before (M=.26 vs .14; b=.12, p=.001). No significant improvement in social connectedness or in-interaction social connection was found across trials. Intervention strategy did not significantly affect the change in speech share.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "We did not find any significant main effects."
+        },
+        {
+          "page": 6,
+          "text": "Additionally, speech share was significantly higher after the intervention (𝑀= 0.26, 𝑆𝐷= 0.23) compared to before (𝑀= 0.14, 𝑆𝐷= 0.14) across intervention strategies, 𝑏= 0.12, 𝑆𝐸= 0.02, 𝑡(335) 5.66, 𝑝 .001, 𝑑= 0.71, 95% CI [−0.17, 1.59]."
+        },
+        {
+          "page": 6,
+          "text": "The analysis revealed no significant effect of intervention strategy, 𝐹(2, 187.37) 0.38,𝑝= .685."
+        },
+        {
+          "page": 1,
+          "text": "While no direct significant improvement in social connectedness was observed, this work contributes to our understanding of how robot behaviors might shape interactions among older adults."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames robotic gaze as reactive active-listening behavior and proactive support for participation, with proactive gaze directed toward the least active participant during silence.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The robot performed reactive gaze to demonstrate active listening, i.e., by turning to the speaker, and proactive gaze to encourage participation in the discussion."
+        },
+        {
+          "page": 3,
+          "text": "When the group was silent for at least 1 s, the facilitator robot proactively gazed at the participant with the lowest speaking share in the current discussion phase."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze demonstrates listening and encourages participation; the proactive gaze targets the least active participant to support participation balance.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The robot performed reactive gaze to demonstrate active listening, i.e., by turning to the speaker, and proactive gaze to encourage participation in the discussion."
+        },
+        {
+          "page": 3,
+          "text": "When the group was silent for at least 1 s, the facilitator robot proactively gazed at the participant with the lowest speaking share in the current discussion phase."
+        },
+        {
+          "page": 2,
+          "text": "Given the insights from prior work, we designed the gaze behaviors of the facilitator robot to gaze toward the least active participant."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Speech share increased after interventions, and the authors report that gaze behaviors encouraged participation in groups beyond dyads and across repeated trials. The paper does not report a significant difference in the increase between gaze and verbal strategies. No significant social-connectedness improvement was found.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "Additionally, speech share was significantly higher after the intervention (𝑀= 0.26, 𝑆𝐷= 0.23) compared to before (𝑀= 0.14, 𝑆𝐷= 0.14) across intervention strategies, 𝑏= 0.12, 𝑆𝐸= 0.02, 𝑡(335) 5.66, 𝑝 .001, 𝑑= 0.71, 95% CI [−0.17, 1.59]."
+        },
+        {
+          "page": 8,
+          "text": "Our results extend these prior works by showing that gaze behaviors are also effective in groups larger than dyads, in combination with supporting verbal behavior, and over repeated trials."
+        },
+        {
+          "page": 6,
+          "text": "The analysis revealed no significant effect of intervention strategy, 𝐹(2, 187.37) 0.38,𝑝= .685."
+        },
+        {
+          "page": 5,
+          "text": "We did not find any significant main effects."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The facilitator's reactive and proactive gaze behaviors were fully autonomous. Reactive gaze turned to the speaker; proactive gaze was triggered after one second of group silence and targeted the participant with the lowest speaking share in that discussion phase. Minimum gaze duration was one second. Verbal support was wizard-selected.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "When the group was silent for at least 1 s, the facilitator robot proactively gazed at the participant with the lowest speaking share in the current discussion phase."
+        },
+        {
+          "page": 3,
+          "text": "For all gaze, we set the minimum gaze length to 1 s to avoid rapid and irritating robot movements."
+        },
+        {
+          "page": 3,
+          "text": "We developed a semi-autonomous system in which both the reactive and proactive gaze behaviors of the facilitator robot, as well as the behaviors of the guesser robot, were fully autonomous."
+        },
+        {
+          "page": 3,
+          "text": "A wizard took control over the verbal supporting utterances described in Sec. 3.1."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "The study used Furhat as facilitator and Misty as guesser. Furhat used the “Titan” facial appearance; Furhat and Misty used low-pitched Swedish voices.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "We used Furhat [1] as the facilitator robot and Misty [77] as the guesser."
+        },
+        {
+          "page": 3,
+          "text": "Furhat used the facial appearance “Titan” due to its robotic appearance."
+        },
+        {
+          "page": 3,
+          "text": "To improve accessibility [6] and better support mild hearing impairments, Furhat used a low-pitched Swedish male voice (“Erik”, Acapela Group), and Misty’s fixed female Swedish voice was adjusted to a low pitch (0.75)."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "Pilot studies informed the choice of Furhat and Misty because older adults had difficulty understanding or hearing other robot platforms. The paper does not describe an effect of robot body form on gaze findings.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "We decided for Furhat and Misty during pilot studies which showed that older adults had problems understanding/hearing other robot platforms, e.g., the Nao robot"
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "In community centers, groups of three or four older adults played a word-guessing game with a facilitator robot and a guesser robot over repeated sessions. The facilitator’s autonomous gaze, which looked toward the speaker or the least active participant, was part of interventions associated with increased speech share; the study found no significant improvement in social connectedness.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper describes gaze as active listening and proactive encouragement, and examines its role in participation in a multiparty game and associated speech-share effects. It details autonomous gaze implementation and the Furhat/Misty embodiments, including pilot-informed platform selection.",
+      "quotes": []
+    }
+  ]
+}

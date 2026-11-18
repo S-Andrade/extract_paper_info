@@ -1,0 +1,257 @@
+{
+  "key": "5XLZWYU3",
+  "title": "Learning to Gaze: Bio-Inspired Attention Adaptation Strategy for Social Robots",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description with simulation ablation experiments and real-world deployment validation.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "We present 54 independent experiments (3 methods 2 exploration modes 9 runs) with rigorous statistical analysis including paired t-tests, one-way ANOVA, and Cohen’s d effect sizes, revealing the differential impact of habituation across learning architectures."
+        },
+        {
+          "page": 10,
+          "text": "We subsequently deployed the trained model on the ARI humanoid robot to assess its real-world applicability, transitioning from the controlled precision of simulation to the messy complexity of physical embodiment."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Simulation training and evaluation, followed by a structured real-world deployment with the ARI humanoid robot; the paper identifies the deployment setting as a laboratory.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "We utilised IsaacSim [38] for simulation-based pre-training, constructing environments featuring humans and a social robot receptionist with scenarios including person entry, interaction activities such as hand-waving and speech, and multiparty conversations."
+        },
+        {
+          "page": 10,
+          "text": "The experiment involved three experimenters, all affiliated with the university, engaged in structured social interactions with the robot."
+        },
+        {
+          "page": 12,
+          "text": "environmental distribution shift (lighting and spatial layout differences between simulation and laboratory) accounts for 1.5 points"
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "Three experimenters in the real-world validation; the cited prior eye-tracking study had 11 participants.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "The experiment involved three experimenters, all affiliated with the university, engaged in structured social interactions with the robot."
+        },
+        {
+          "page": 3,
+          "text": "In our previous work, we conducted an eye-tracking study with 11 participants at the Technical University of Munich, who viewed a 7-minute video of a dyadic conversation recorded with synchronised HD and Kinect RGB-D cameras [3]."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "The real-world experimenters were affiliated with the university; ages, genders, and prior robot experience are not specified.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "The experiment involved three experimenters, all affiliated with the university, engaged in structured social interactions with the robot."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Structured social interaction with a robot across scenarios including environmental scanning, person entry and interaction, passive and active engagement, departure and re-entry, and multiparty interaction. The paper does not specify session duration.",
+      "quotes": [
+        {
+          "page": 11,
+          "text": "The experimental protocol progressed through increasingly complex scenarios: environmental scanning without human presence, single-person entry and interaction, passive human behaviour (attending to objects rather than the robot), active engagement (speech, gestures, direct gaze), person departure and re-entry, and multi-party interaction with competing social stimuli."
+        },
+        {
+          "page": 10,
+          "text": "Each trial consisted of a unique combination of experimenter positions, activities, and engagement levels, with ground truth determined by the EA formula (Equation 3) applied to the observed social cues."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "One robot and one to three experimenters in real-world interaction scenarios; the model supports up to six people.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "The experiment systematically progressed through 448 distinct trials over diverse state categories: single-experimenter interactions (n 112, 25%), two-experimenter scenarios (n 157, 35%), three-experimenter scenarios (n 112, 25%), and low-saliency environmental states (n 67, 15%)."
+        },
+        {
+          "page": 12,
+          "text": "Whilst real-world validation involved up to 3 experimenters, the architecture imposes no inherent limitation on interaction complexity."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "We subsequently deployed the trained model on the ARI humanoid robot to assess its real-world applicability, transitioning from the controlled precision of simulation to the messy complexity of physical embodiment."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "One to three experimenters in the real-world interaction trials; the model's action space supports up to six people.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "The experiment systematically progressed through 448 distinct trials over diverse state categories: single-experimenter interactions (n 112, 25%), two-experimenter scenarios (n 157, 35%), three-experimenter scenarios (n 112, 25%), and low-saliency environmental states (n 67, 15%)."
+        },
+        {
+          "page": 4,
+          "text": "The robot’s gaze control is defined over a discrete action space comprising eight options: focusing on person 1 through person 6 (the maximum number of humans that can be detected using a Kinect), an object, or the environment."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Task performance/accuracy against ground truth derived from the Elicited Attention formula; per-class precision, recall, and F1; softmax confidence, Q-value margin, and their correlation with correctness; simulation metrics include success rate, average steps, transfer score, and habituation reset frequency. Statistical analyses include paired t-tests, one-way ANOVA, Cohen’s d, and confidence intervals.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "To comprehensively assess system performance, we employ six complementary metrics that capture different aspects of learned behaviour."
+        },
+        {
+          "page": 10,
+          "text": "Despite inevitable real-world challenges, sensor noise, tracking failures, lighting variations, occlusions, and unpredictable human behaviour, RLBAM successfully identified salient regions with an accuracy of 95.1% (95% CI: [92.7%, 96.7%]), determined by comparing predicted attention targets against ground truth based on the EA formula."
+        },
+        {
+          "page": 11,
+          "text": "The strong correlation between confidence and correctness (Spearman ρ=0.42, p<0.001) suggests well-calibrated uncertainty estimates that could enable adaptive behaviours"
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Real-world gaze-target prediction accuracy was 95.1% across 448 trials. In simulation, habituation significantly degraded MOL success rate (99.9% to 97.8%; p=0.001, Cohen’s d=2.28), increased average steps (7.84 to 16.14; p<0.001, d=2.24), and reduced transfer score (0.717 to 0.684; p=0.007, d=1.67); DQL and VQL success rates remained 100%.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "Despite inevitable real-world challenges, sensor noise, tracking failures, lighting variations, occlusions, and unpredictable human behaviour, RLBAM successfully identified salient regions with an accuracy of 95.1% (95% CI: [92.7%, 96.7%]), determined by comparing predicted attention targets against ground truth based on the EA formula."
+        },
+        {
+          "page": 10,
+          "text": "For MOL, the statistics are unambiguous. All three metrics show highly significant differences (p 0.01) with large effect sizes (d 1.67-2.28)."
+        },
+        {
+          "page": 7,
+          "text": "The paired t-test (t -5.40, p 0.001) and large effect size (Cohen’s d 2.24) confirm that this is a robust, replicable phenomenon."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames its approach as stimulus-driven, policy-based allocation of robotic gaze/attention to salient targets, integrating perceptual saliency, social context, and learned preferences. It distinguishes this from joint attention, which coordinates shared focus between agents.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "In our framework, attention refers to the policy-driven allocation of gaze direction toward salient targets in the environment."
+        },
+        {
+          "page": 2,
+          "text": "Our work addresses a related but distinct problem: stimulus-driven attention allocation, where the robot must determine which social stimulus to attend to based on perceptual saliency and learned social priorities, rather than establishing mutual attentional engagement with a specific partner."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "Attention is defined as policy-driven allocation of gaze direction toward salient environmental targets, with saliency determined by learned policy and integrating perceptual, social, and policy-driven selection.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "In our framework, attention refers to the policy-driven allocation of gaze direction toward salient targets in the environment."
+        },
+        {
+          "page": 3,
+          "text": "Formally, let T {t1, t2, tk} denote the set of potential attention targets. The attention function A S →T maps the current state s ∈S to the most salient target, where saliency is determined by the learned policy π(a|s)."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Attention allocates the robot's gaze among available social stimuli, prioritising targets and enabling redirection as people enter, disengage, or compete for attention. The authors describe it as supporting gaze control in multiparty social interaction.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "RLBAM answers, “among all available social stimuli, which deserves attention now?”"
+        },
+        {
+          "page": 11,
+          "text": "Across this progression, RLBAM demonstrated sev- eral key capabilities: immediate gaze redirection upon person entry (average 2.3 steps, consistent with simulation), appro- priate disengagement when humans adopted passive stances (attending to the object of the human’s focus rather than the person), seamless recovery following person departure (redirecting to the next most salient stimulus rather than fixating on space), and dynamic priority adjustment in multi- party scenarios based on the integration of proximity and activity saliency."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The system produced 95.1% real-world target-prediction accuracy and showed immediate gaze redirection, disengagement, recovery after departures, and dynamic priority adjustment in multiparty scenarios. The paper reports effects on system performance, not measured participant-level or interaction-quality outcomes.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "Despite inevitable real-world challenges, sensor noise, tracking failures, lighting variations, occlusions, and unpredictable human behaviour, RLBAM successfully identified salient regions with an accuracy of 95.1% (95% CI: [92.7%, 96.7%]), determined by comparing predicted attention targets against ground truth based on the EA formula."
+        },
+        {
+          "page": 11,
+          "text": "Across this progression, RLBAM demonstrated sev- eral key capabilities: immediate gaze redirection upon person entry (average 2.3 steps, consistent with simulation), appro- priate disengagement when humans adopted passive stances (attending to the object of the human’s focus rather than the person), seamless recovery following person departure (redirecting to the next most salient stimulus rather than fixating on space), and dynamic priority adjustment in multi- party scenarios based on the integration of proximity and activity saliency."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "Autonomous value-based reinforcement learning with a habituation-modulated epsilon-greedy exploration rate; DQL uses a neural network and experience replay. Kinect sensing supplies activity, proximity, and person-count state features; gaze actions select among up to six people, an object, or the environment. Reward uses the Elicited Attention model and proxemics. The policy was pretrained in IsaacSim and deployed on ARI.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "DQL employs a neural network function approximator with two hidden layers of 128 and 64 units, respectively, using ReLU activation functions and experience replay."
+        },
+        {
+          "page": 4,
+          "text": "Each state s ∈Rn encodes person activities, proximity measurements, and count, derived from Kinect-based sensing."
+        },
+        {
+          "page": 4,
+          "text": "The robot’s gaze control is defined over a discrete action space comprising eight options: focusing on person 1 through person 6 (the maximum number of humans that can be detected using a Kinect), an object, or the environment."
+        },
+        {
+          "page": 5,
+          "text": "To develop a socially grounded reward structure, we incor- porate the Elicited Attention (EA) model [3], which quantifies the salience of person behaviours such as speech initiation, personal space entry, and gaze cues."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "ARI humanoid robot; further physical features are not specified.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Fig. 1: A triadic Human–Robot Interaction with the ARI humanoid robot."
+        },
+        {
+          "page": 10,
+          "text": "We subsequently deployed the trained model on the ARI humanoid robot to assess its real-world applicability, transitioning from the controlled precision of simulation to the messy complexity of physical embodiment."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The paper presents a reinforcement-learning system that selects where a humanoid robot should direct its gaze among people and other salient targets in multiparty scenarios. In simulation, habituation improved DQL modestly, had little effect on tabular Q-learning, and impaired multi-objective Q-learning; on the ARI robot, gaze-target prediction accuracy was 95.1% across 448 trials.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5 — The paper defines robotic attention as learned gaze allocation toward salient targets, describes its role in prioritising stimuli and adjusting gaze in multiparty interaction, reports system-level performance effects, explains the sensing and learning implementation, and identifies the ARI humanoid embodiment. It does not explain how embodiment influenced the study.",
+      "quotes": []
+    }
+  ]
+}

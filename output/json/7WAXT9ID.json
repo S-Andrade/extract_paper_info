@@ -1,0 +1,310 @@
+{
+  "key": "7WAXT9ID",
+  "title": "Effects of Observing Eye Contact between a Robot and Another Person",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Experimental study with two experiments.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We examined how the feelings of the subjects were affected by the existence of eye-contact between the other agents by using a post-interaction questionnaire in two different situations: The subject is biased to have a positive feeling toward the confederate in one situation (experiment 1) and a negative feeling toward him in the other situation (experiment 2)."
+        },
+        {
+          "page": 3,
+          "text": "We hired thirty Japanese adults (ages: Mean (M) 21.2, Standard Deviation (SD) 2.0[y]) through a temporary employment agency."
+        },
+        {
+          "page": 8,
+          "text": "We hired 30 Japanese adults (ages: Mean 21.2, SD 2.01[y]) from a temporary employment agency."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Controlled laboratory setting.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The room used for the experiment was 3 meters wide and 3.7 meters long."
+        },
+        {
+          "page": 3,
+          "text": "It was surrounded by curtains and soundproof partitions in order to allow subjects to concentrate on the experiment."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "60 participants total: 30 in each experiment; each experiment initially assigned 15 participants to each of two conditions.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "We hired thirty Japanese adults (ages: Mean (M) 21.2, Standard Deviation (SD) 2.0[y]) through a temporary employment agency."
+        },
+        {
+          "page": 3,
+          "text": "Condition 1 was performed with fifteen subjects (eight males and seven females), and condition 2 with the remaining fifteen subjects (eight males and seven females)."
+        },
+        {
+          "page": 8,
+          "text": "We hired 30 Japanese adults (ages: Mean 21.2, SD 2.01[y]) from a temporary employment agency."
+        },
+        {
+          "page": 8,
+          "text": "Fifteen subjects were assigned to condition 1 (eight males and seven females), and the remaining fifteen subjects were assigned to condition 2 (eight males and seven females)."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Japanese adults, mean age 21.2 years (SD 2.0 in Experiment 1; SD 2.01 in Experiment 2); each experiment included 16 men and 14 women. Participants were recruited through a temporary employment agency. No prior robot experience is stated.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "We hired thirty Japanese adults (ages: Mean (M) 21.2, Standard Deviation (SD) 2.0[y]) through a temporary employment agency."
+        },
+        {
+          "page": 3,
+          "text": "Condition 1 was performed with fifteen subjects (eight males and seven females), and condition 2 with the remaining fifteen subjects (eight males and seven females)."
+        },
+        {
+          "page": 8,
+          "text": "We hired 30 Japanese adults (ages: Mean 21.2, SD 2.01[y]) from a temporary employment agency."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "A simulated job interview: the subject acted as interviewer and asked eight prepared questions, listening to and scoring the confederate’s answers; the android was presented as an Intelligent Android recorder and acted as sub-listener. The confederate either established eye contact with the android while answering or looked away at the same times. The interaction duration is not stated.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "A subject was asked to play the role of interviewer, the confederate played the role of interviewee, and the android was described to the subject as being an “Intelligent Android” (IA) recorder whose purpose was to record the interview."
+        },
+        {
+          "page": 4,
+          "text": "Eight questions were prepared that were likely to appear in a real job interview."
+        },
+        {
+          "page": 4,
+          "text": "The subject was also told to grade answers from the confederate on a scale from one to seven."
+        },
+        {
+          "page": 4,
+          "text": "In both conditions, when the confederate answered questions, he established eye contact with the subject. However, in condition 1, the confederate also established eye contact with the android."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three agents per session: two humans and one android.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Experiments were conducted with groups of two humans and an android."
+        },
+        {
+          "page": 3,
+          "text": "The scene of a job interview was replicated as an example of a situation involving interaction between three agents."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1 android per session.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "A subject was asked to play the role of interviewer, the confederate played the role of interviewee, and the android was described to the subject as being an “Intelligent Android” (IA) recorder whose purpose was to record the interview."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2 humans per session: a subject and a confederate.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Experiments were conducted with groups of two humans and an android."
+        },
+        {
+          "page": 3,
+          "text": "A subject was asked to play the role of interviewer, the confederate played the role of interviewee, and the android was described to the subject as being an “Intelligent Android” (IA) recorder whose purpose was to record the interview."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Custom post-interaction questionnaire measuring impressions of the android, the confederate, and their perceived relationship, plus perceived eye contact; video observation/coding measured looking time, subject-android eye-contact duration and frequency, and synchronized nods. Inter-rater reliability was assessed with Cohen’s kappa.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "After the subject asked all of the questions, they answered a post-interaction questionnaire designed to evaluate their feelings about the interaction, including impressions of the confederate and the android."
+        },
+        {
+          "page": 5,
+          "text": "Therefore, we measured the amount of time subjects spent looking at the android, the number of times subjects looked at the android, the amount of time and the number of times for which (mutual) eye contact occurred between the subject and the android, and the number of synchronized nods which took place between the subject and the android."
+        },
+        {
+          "page": 6,
+          "text": "We calculated the average of Cohen’s kappa from the data the author measured and data two other observers measured in order to confirm the reliability of the author’s observation."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "In both experiments, subjects who observed confederate-android eye contact reported a more positive impression of the android than those who did not (Experiment 1: mean 5.50 vs. 4.14, p < .01; Experiment 2: mean 5.27 vs. 4.43, p < .05). The perceived relationship between confederate and android was also more positive in the eye-contact conditions. No significant condition differences were found in subject gaze or synchronized behavior toward the android.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "A two-tailed unpaired t-test revealed a significant difference between conditions (t(26) 0.0008, .01), while the assumption for equivalence of variances was not violated (F(13,13) 2.58, p 0.09). The score in condition 1 was significantly higher than that in condition 2; therefore, it seemed that subjects who observed eye-contact between the confederate and the android formed more positive impressions toward the android than did those who did not observe it."
+        },
+        {
+          "page": 10,
+          "text": "A two-tailed unpaired t-test revealed a significant difference between conditions (t(24) 2.306, p .05), while the assumption for equivalence of variances was not violated (F(11,13) 2.17, p .10). The score in condition 3 was significantly higher than that in condition 4; therefore, it seemed that subjects who observed eye-contact between the confederate and the android formed more positive impressions toward the android than did those who did not observe it."
+        },
+        {
+          "page": 7,
+          "text": "The score in condition 1 was significantly higher than that in condition 2; therefore, we could conclude that we succeeded in influencing subjects’ feelings about the relationship between the confederate and the android by having both the android and the confederate establish or not establish eye contact."
+        },
+        {
+          "page": 6,
+          "text": "As a result, there is no significant difference between the conditions for the subject’s behavior and synchronized behavior between the subjects and the android."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames the behavior as observing eye contact between a robot and another person, a form of non-verbal interaction that may influence an observer’s impression of the robot in triadic interaction.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "This paper explores a potential merit offered by the latter form of interaction: specifically, how one form of non-verbal interaction occurring between a robot and humans, eye contact, can be utilized to make the robot appear more acceptable to humans."
+        },
+        {
+          "page": 2,
+          "text": "In this paper, as one type of such non-verbal behavior, we focus on eye contact, since such synchronized behavior has been widely viewed as playing an important role in dyadic interaction [4, 14]."
+        },
+        {
+          "page": 2,
+          "text": "One’s impression toward a robot can be influenced by whether another person appears to be performing non-verbal communication with it."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper does not provide a formal definition of robotic gaze, robotic attention, or robotic gaze-based attention. It describes eye contact as synchronized non-verbal behavior.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In this paper, as one type of such non-verbal behavior, we focus on eye contact, since such synchronized behavior has been widely viewed as playing an important role in dyadic interaction [4, 14]."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "The robot’s gaze toward the current speaker, combined with a confederate’s gaze toward the robot, creates observable apparent eye contact. The authors study whether witnessing this non-verbal interaction affects an observer’s impression of the robot and its potential mediation role.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Therefore, we could lead a person to feel as if the robot were establishing eye contact with another person by making it turn to the second person when that person directs their gaze toward it."
+        },
+        {
+          "page": 4,
+          "text": "It looked at the current speaker during the interview."
+        },
+        {
+          "page": 10,
+          "text": "Therefore, we might assume that observing the android’s eye contact with another person led subjects to highly evaluate the android’s mediation ability (its ability to contribute toward establishing an atmosphere conducive to communication) and thus have positive feelings, as indicated in the score for question (a)."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Observing eye contact between the confederate and android was associated with more positive impressions of the android in both experiments, regardless of whether subjects were directed to feel positively or negatively toward the confederate. The authors suggest it may also raise perceived mediation ability, while noting an alternative interpretation; evidence for Heider’s balance theory was only partial overall.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "Based on the results of evaluation of impression toward the android (question (a)), regardless of whether subjects were directed to have a positive impression toward the confederate (experiment 1) or a negative impression toward him (experiment 2), they seemed to strengthen their positive impressions toward the android when they observed eye contact between the confederate and the android."
+        },
+        {
+          "page": 10,
+          "text": "Therefore, we might assume that observing the android’s eye contact with another person led subjects to highly evaluate the android’s mediation ability (its ability to contribute toward establishing an atmosphere conducive to communication) and thus have positive feelings, as indicated in the score for question (a)."
+        },
+        {
+          "page": 10,
+          "text": "For these reasons, the results only partially support a consistency with Heider’s balance theory."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "Wizard-of-Oz control: an operator monitored the interaction remotely and triggered the android’s predesigned actions. The operator triggered greeting nods and gaze toward the current speaker; the confederate was trained to look at the android in one condition or away from it in the other.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The actions were triggered with appropriate timing by an operator who monitored the interaction from a remote room."
+        },
+        {
+          "page": 4,
+          "text": "These motions were triggered by an operator who monitored the interview from a remote control station, (i.e., a Wizard of Oz technique was employed)."
+        },
+        {
+          "page": 4,
+          "text": "Between the two conditions, only the gaze movements of the confederate were different."
+        },
+        {
+          "page": 5,
+          "text": "The confederate was trained to be able to establish eye contact at the same timing for all subjects."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Repliee Q2, a human-like android resembling an actual Japanese woman, with duplicated facial details and pneumatic actuators to reduce motor noise.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "An android called Repliee Q2 was used in this experiment (Fig. 1)."
+        },
+        {
+          "page": 3,
+          "text": "It has a very human-like appearance which resembles an actual Japanese woman."
+        },
+        {
+          "page": 3,
+          "text": "Features as detailed as frown lines have been duplicated."
+        },
+        {
+          "page": 3,
+          "text": "Pneumatic actuators are used to produce its body movement in order to reduce motor-driving noise, which might make subjects feel uncomfortable in interaction."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors selected a human-like android because they expected its appearance to make it easier for subjects to recognize when it established eye contact with the confederate. They state that a human-like appearance may not be necessary for the proposed effect and recommend studying mechanical-looking robots.",
+      "quotes": [
+        {
+          "page": 11,
+          "text": "Therefore, we used an android because its human-like appearance was expected to allow subjects to easily recognize when it establish eye contact with the confederate."
+        },
+        {
+          "page": 11,
+          "text": "However, since we suppose that such a human-like appearance is not a necessary requirement for the balancing effect, experiments using those with mechanical appearances should be considered to utilize this effect for making more acceptable robots."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The authors ran two controlled job-interview experiments with two people and a human-like android, varying whether a confederate appeared to make eye contact with the robot. In both experiments, observers who saw the eye contact rated the android more positively; the study used Wizard-of-Oz robot control and did not find differences in subjects’ own gaze behavior toward the android.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper frames eye contact as non-verbal behavior in triadic interaction, tests its effects on observers’ robot impressions, and describes a Wizard-of-Oz implementation using the Repliee Q2 android. It also explains that the android’s human-like appearance helped participants recognize the apparent eye contact and discusses future tests with mechanical-looking robots.",
+      "quotes": []
+    }
+  ]
+}

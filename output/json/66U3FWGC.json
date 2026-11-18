@@ -1,0 +1,269 @@
+{
+  "key": "66U3FWGC",
+  "title": "Learning Gaze Behaviors for Balancing Participation in Group Human-Robot Interactions",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Between-subject experimental user study comparing learned gaze policies with heuristic policies, alongside offline policy evaluation.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Second, we evaluate the different learned behavior policies in a between-subject study (N 50) whilst keeping the interaction scenario similar to that of [11]."
+        },
+        {
+          "page": 6,
+          "text": "We conducted a between-subject study with two conditions to compare the IL and the RL gaze policies chosen via our offline evaluation (Section VI)."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "University campus and surrounding areas for recruitment; interactions took place in a conference room.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "For the present study, 50 participants were recruited at a university campus and surrounding areas through flyers, posters, word of mouth and social media platforms."
+        },
+        {
+          "page": 7,
+          "text": "Participants were then invited to a conference room to meet the Furhat robot."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "50 newly recruited participants; analyses also included participants from the prior study, yielding 102 valid participants (51 dyads).",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "For the present study, 50 participants were recruited at a university campus and surrounding areas through flyers, posters, word of mouth and social media platforms."
+        },
+        {
+          "page": 6,
+          "text": "This meant that we had a total of 102 valid participants, corresponding to 51 dyads."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Participants were 18–67 years old; 27 identified as female, 22 as male, and 1 preferred not to say. Thirty-two had never interacted with a robot before, and 8 reported interacting with robots regularly. Dyads paired a native Swedish speaker with a Swedish language learner.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "Participants’ ages ranged from 18 to 67 years (M 28.02, SD 10.53), and 27 participants identified as female, 22 as male and 1 would rather not say."
+        },
+        {
+          "page": 6,
+          "text": "Thirty-two participants reported that they had never interacted with a robot before, and 8 indicated interacting with robots regularly."
+        },
+        {
+          "page": 7,
+          "text": "We assigned participant dyads (one native Swedish speaker, one language learner) through blocked randomization to one of the IL or RL conditions."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Dyads played the With Other Words language game with the robot for 15–20 minutes. Participants described words using hints, and the robot guessed the words; gaze policy conditions were IL, RL, and prior heuristic conditions GA and SL.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "In each round of the game, two human players describe a word via hints and the robot has to guess which word it is in a limited amount of time."
+        },
+        {
+          "page": 7,
+          "text": "Afterwards, the participants played With Other Words with Furhat for 15-20 minutes and, finally, completed a post-game questionnaire away from the robot."
+        },
+        {
+          "page": 7,
+          "text": "We collected data for two conditions: IL and RL, using the policies obtained from our offline evaluation (Section VI). Further, we considered the data collected in [11] as two additional conditions: SL and GA."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three participants per interaction session: two human participants and one robot.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "We focus on learning gaze policies for a robot that interacts with two humans while playing a variant of the With Other Words game [11]."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "We focus on learning gaze policies for a robot that interacts with two humans while playing a variant of the With Other Words game [11]."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "We focus on learning gaze policies for a robot that interacts with two humans while playing a variant of the With Other Words game [11]."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Behavioral measures included active participation from voice activity detection using individual close-talk microphones, turn-taking frequency from speaker changes lasting over a one-second backchannel threshold, and speech-time participation unevenness. Questionnaires assessed demographics, Big Five extroversion and agreeableness, willingness to communicate, Swedish proficiency, RoSAS warmth and discomfort, and custom ratings of intimidation, being ignored, and staring.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "We collected the amount of active participation through voice activity detection for each participant using individual close-talk microphones."
+        },
+        {
+          "page": 7,
+          "text": "The system assumes that a turn was taken when the binary voice activation signal indicated a change in speaker that lasted longer than a backchannel threshold of 1 second."
+        },
+        {
+          "page": 7,
+          "text": "We measured impressions of the robot with the Warmth and Discomfort scales from the Robotic Social Attributes Scale (RoSAS) [49]."
+        },
+        {
+          "page": 7,
+          "text": "Lastly, because we wanted to understand if the learned gaze behaviors are perceived as unpleasant, we asked the participants to rate on a 5-point scale the degree to which they found the robot intimidating, if they thought it was ignoring them, or whether it was staring at them."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Condition significantly affected participation unevenness, turn-taking frequency, and active participation. Unevenness differed between GA and SL (SL lower); RL participants took more turns than GA; IL participants were more actively participatory than SL. No condition effect was found on robot perception measures.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "The analysis yielded a main effect of condition for the unevenness of participation measure, F (3, 146) 2.98, p 0.034."
+        },
+        {
+          "page": 8,
+          "text": "A post-hoc pairwise comparison test with Tukey HSD correction indicated that the participants in the RL condition took more turns than those in the GA condition, p 0.024 (RL (M SD): 2.86 0.86, GA: 2.27 1.05)."
+        },
+        {
+          "page": 8,
+          "text": "A post- hoc pairwise comparison test with Tukey HSD correction indicated that the participants in the IL condition participated more actively (e.g., speech, laughter, back-channeling) than participants in the SL condition, p 0.007 (IL (M SD): 0.234 0.086, SL: 0.217 0.088)."
+        },
+        {
+          "page": 8,
+          "text": "The analysis showed no effect of condition on the perceptual measures."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames the work as learning robot gaze behaviors to balance human participation in group HRI, with gaze treated as a nonverbal behavior and policy action.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Thus, this work explores learning robot gaze behaviors that balance human participation in conversational interactions."
+        },
+        {
+          "page": 2,
+          "text": "We pose the problem of shaping participation through gaze in group HRI as a sequential decision-making problem."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper operationalizes participation unevenness as the summed absolute difference between each participant’s share of total human speech and the mean share. It does not provide a general definition of robotic gaze or attention.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Following [17], we define unevenness in the whole interaction as: uneven X i2[1,2] |sp i −sp| (1) with sp i representing the amount of time that participant i has spoken over the total amount of speech of the two human players."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze is used to shape and balance participation, including by directing attention between the speaker and listener, and the RL formulation aims to subtly incentivize conversational floor switches and turn-taking.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Our goal is to learn a gaze policy s t 7! a t that enables the robot to balance participation between human group members."
+        },
+        {
+          "page": 4,
+          "text": "Intuitively, we wanted the robot to subtly incentivize switches in the conversational floor so that all human interactants get a chance to express themselves."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The learned policies did not compromise interaction quality. RL increased participants’ turns relative to GA, while IL increased active participation relative to SL. Learned policies did not improve participation balance over prior work; robot perception ratings did not differ by condition.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "We did not find that the learned behav- iors improved the balance in the interactions with respect to prior work [11] (H1) nor that RL led to lower unevenness than IL (H2)."
+        },
+        {
+          "page": 8,
+          "text": "In particular, the RL gaze policy led to more turns than the GA behavior from [11]."
+        },
+        {
+          "page": 8,
+          "text": "Interestingly, we also found that IL led to more active participation than the SL condition, showing potential for this method as well."
+        },
+        {
+          "page": 8,
+          "text": "The analysis showed no effect of condition on the perceptual measures."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The robot operated autonomously. Gaze policies were learned offline from data in 26 prior groups using behavioral cloning (decision tree, SGD, or KNN) and batch reinforcement learning with Double Deep Q-learning and a turn-based reward. State features were collected at 2 Hz; actions were gaze at speaker, gaze at listener, gaze aversion, or do nothing.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "All of these features are collected at 2 Hz."
+        },
+        {
+          "page": 3,
+          "text": "The action space A comprises four actions: Look at speaker, Look at listener, Perform gaze aversion, and Do nothing."
+        },
+        {
+          "page": 4,
+          "text": "We learned the policy using behavioral cloning [12]. That is, we used supervised learning to map observed states s t to actions a t given paired input-target data from [11]."
+        },
+        {
+          "page": 4,
+          "text": "We learn a policy using the Double Deep Q-learning algo- rithm [40], which approximates the optimal Q-value function:"
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Furhat robot; the paper describes its use but does not provide physical feature details in the supplied text.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The other 15 groups experienced the gaze aversion condition (GA, originally control condition), where the robot performed the actions Look at speaker, Perform gaze aversion, and Do nothing."
+        },
+        {
+          "page": 6,
+          "text": "In general, our study protocol followed the protocol from [11], including the recruitment of native Swedish speakers and Swedish language learners to play the With Other Words game with a Furhat robot (as depicted in Fig. 1)."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The paper learned autonomous robot gaze policies from prior group game interactions using imitation learning and batch reinforcement learning, then compared them with heuristic gaze behaviors in a user study. The RL policy increased participant turn-taking relative to one heuristic, and the IL policy increased active participation relative to another; neither improved participation balance, and perceived robot attributes did not differ by condition.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5 — The paper frames gaze as a learned nonverbal behavior for balancing participation, describes its role in turn-taking, reports behavioral and perception effects, and details the autonomous learning and gaze-action implementation. It identifies Furhat as the robot platform but gives no evidence about how embodiment influenced the study.",
+      "quotes": []
+    }
+  ]
+}

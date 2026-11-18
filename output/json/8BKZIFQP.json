@@ -1,0 +1,261 @@
+{
+  "key": "8BKZIFQP",
+  "title": "The Robot in the Room: Influence of Robot Facial Expressions and Gaze on Human-Human-Robot Collaboration",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Experimental study",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In the current work, we investigate how a humanoid robot’s non-verbal social cues, specifically facial expressions and gaze communication, affect triadic collaboration."
+        },
+        {
+          "page": 2,
+          "text": "50 participants (female 13, male 37, non-binary 0, prefer not to say 0) took part in this experiment."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Laboratory study at the University of Hamburg; the paper describes a controlled experimental setup with a round table and iCub robot.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "This study was conducted following the principles expressed in the Declaration of Helsinki."
+        },
+        {
+          "page": 3,
+          "text": "The experimental setup consisted of a round table where the iCub head was placed, and two human participants were seated."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "50 participants total; the reported repeated-measures analyses include 25 pairs (degrees of freedom 1, 23 and 24).",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "50 participants (female 13, male 37, non-binary 0, prefer not to say 0) took part in this experiment."
+        },
+        {
+          "page": 5,
+          "text": "The participants’ RT differs significantly between different facial expression conditions, F (1, 23) 15.73, p .01, η2 p .40."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "50 adults: 13 female and 37 male; ages 21–55 years (mean 29.02, SD 5.60). Participants reported no history of neurological conditions and had normal or corrected-to-normal vision and hearing.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Participants were between 21 to 55 years of age, with a mean age of 29.02 5.60 years."
+        },
+        {
+          "page": 2,
+          "text": "All participants reported no history of neurological conditions (seizures, epilepsy, stroke, etc.) and had either normal or corrected-to-normal vision and hearing."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "A triadic collaborative shape-sorter game: a robot instructor gave a target object, one person guided a blind-to-the-objects actor using speech and gestures, and the actor inserted the object. Pairs played 10 rounds, switching roles after five rounds; rounds had a 30-second completion threshold and robot facial-expression and gaze conditions.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The participants played a total of 10 rounds."
+        },
+        {
+          "page": 3,
+          "text": "One of the two participants played the role of an actor and was capable of manipulating the objects and the shape sorter, which were obscured from their view."
+        },
+        {
+          "page": 3,
+          "text": "The other participant, having an unobstructed view of the objects and shape sorter, guided the actor in placing the right object into its designated hole."
+        },
+        {
+          "page": 3,
+          "text": "If the participants finished one round within 30 seconds, the iCub robot kept its final facial expression as the initial one. If the participants failed to complete the task within 30 seconds, the iCub robot displayed a sad final facial expression and shifted its gaze either toward the actor or the guide."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "3 participants/entities per interaction session: two human participants and one robot.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this study, we designed a collaborative triadic HRI game scenario, where two participants worked together to insert objects into a shape sorter."
+        },
+        {
+          "page": 3,
+          "text": "We made two participants play a collaboration game while the iCub robot joined them as an observer in the experiment."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "We made two participants play a collaboration game while the iCub robot joined them as an observer in the experiment."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this study, we designed a collaborative triadic HRI game scenario, where two participants worked together to insert objects into a shape sorter."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Task completion time; the guide participant’s per-round two-button rating of the robot as intelligent or random; and the Godspeed questionnaire after all rounds. Analyses used ANOVAs, paired/independent t-tests, and correlations.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Each round completion time was recorded as the collaboration time for each pair."
+        },
+        {
+          "page": 3,
+          "text": "Using two separate buttons to categorize the iCub robot as either intelligent or random, we acquired their responses following each round, along with their round completion time."
+        },
+        {
+          "page": 3,
+          "text": "After completing all 10 rounds, the participants filled in the Godspeed questionnaire [19] to report their impression of the iCub robot based on its appearance and behavior."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Happy initial facial expression was associated with faster completion than neutral (38.66 vs. 54.22 seconds; F(1,23)=15.73, p<.01, ηp²=.40). Initial gaze toward the guide led to higher intelligence ratings than gaze toward the actor (means .70 vs .59; F(1,23)=4.94, p<.05, ηp²=.17). Final happy expression led to higher intelligence ratings than sad (means .81 vs .61; t(24)=−2.46, p<.05).",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Post hoc tests show that the participants finished the game significantly faster under the happy condition (mean SE 38.66 2.04 ms) than the neutral condition (mean SE 54.22 4.15 ms)."
+        },
+        {
+          "page": 5,
+          "text": "Post hoc tests show that the participants perceived the robot significantly more intelligent when the robot initially looked at the guide (mean SE .70 .05) than when looking at the actor (mean SE .59 .06)."
+        },
+        {
+          "page": 5,
+          "text": "Results in Figure 4d showed that participants rated the iCub robot significantly more intelligent when the robot displayed happiness (mean SE .81±.07) than sadness (mean SE .61 .05), t (24) −2.46, p .05."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames gaze as a non-verbal social cue and as gaze communication used by a humanoid robot in triadic collaboration; it does not provide a formal definition of robotic gaze, robotic attention, or gaze-based attention.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In the current work, we investigate how a humanoid robot’s non-verbal social cues, specifically facial expressions and gaze communication, affect triadic collaboration."
+        },
+        {
+          "page": 2,
+          "text": "This research aims to explore humanoid robots’ potential as collaborators in human-human teams and their ability to communicate effectively through non-verbal social cues."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "The robot directs its gaze toward either the actor or guide as a social cue in the triadic interaction; the study tests whether that direction changes collaboration and perceptions of the robot. The authors report that gaze toward the guide increased perceived robot intelligence, while gaze direction did not significantly affect completion time.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "A humanoid robot was incorporated into the setup, displaying facial expressions while directing its gaze toward either the actor or the guide."
+        },
+        {
+          "page": 5,
+          "text": "There was no significant difference in participants’ game performances, whether or not the robot’s initial gaze was toward the actor or the guide, F (1, 23) .93, p .35, η2 p .04."
+        },
+        {
+          "page": 5,
+          "text": "Post hoc tests show that the participants perceived the robot significantly more intelligent when the robot initially looked at the guide (mean SE .70 .05) than when looking at the actor (mean SE .59 .06)."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Initial gaze toward the guide increased perceived robot intelligence compared with gaze toward the actor, but initial gaze direction did not significantly affect task completion time. Final gaze direction did not significantly change robot ratings. Happy facial expressions also affected collaboration and robot ratings.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "There was no significant difference in participants’ game performances, whether or not the robot’s initial gaze was toward the actor or the guide, F (1, 23) .93, p .35, η2 p .04."
+        },
+        {
+          "page": 5,
+          "text": "Post hoc tests show that the participants perceived the robot significantly more intelligent when the robot initially looked at the guide (mean SE .70 .05) than when looking at the actor (mean SE .59 .06)."
+        },
+        {
+          "page": 5,
+          "text": "No significant difference was found between the two conditions (actor: mean SE .68±.05, guide: mean SE .65±.05, t (24) .52, p .61, see Figure 4c)."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The robot controller sent control signals to iCub to direct its head gaze toward the actor or guide based on predefined estimated positions, and sent emotion templates through the emotion interface. The experiment manager coordinated the game and controllers over ZeroMQ/Wrapyfi; the robot controller communicated with iCub through YARP.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The Robot Controller (RC) sends control signals to the iCub robot to make it gaze toward the guide or the actor based on predefined estimated positions."
+        },
+        {
+          "page": 4,
+          "text": "It also sends emotion templates to the robot through the emotion interface."
+        },
+        {
+          "page": 4,
+          "text": "Since the iCub robot runs YARP [22], we utilize both YARP and ZeroMQ on the RC to communicate with the iCub robot and the EM, respectively."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "iCub humanoid robot; the experiment used its head, which displayed facial expressions and moved its gaze toward the actor or guide.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The experimental setup consisted of a round table where the iCub head was placed, and two human participants were seated."
+        },
+        {
+          "page": 1,
+          "text": "A humanoid robot issued instructions, observed the interaction, and displayed social cues to elicit changes in the two participants’ behavior."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The paper does not report that the robot’s physical embodiment shaped the study or the observed effects. It states that the child voice used for instructions was selected to match the iCub’s appearance.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "These instructions were uttered using Amazon Polly speech synthesis, spoken with a child voice labeled as ‘Justin’ to match the iCub robot’s appearance."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The study tested one iCub humanoid robot with two people playing a collaborative shape-sorter game. Looking at the guide increased the robot’s perceived intelligence, while gaze direction did not significantly affect completion time; happy facial expressions were associated with faster collaboration and higher intelligence ratings.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5",
+      "quotes": []
+    }
+  ]
+}

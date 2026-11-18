@@ -1,0 +1,248 @@
+{
+  "key": "H6YS7AWN",
+  "title": "Multi-person human-robot interaction system for android robot",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical system description and field experiment.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We conducted multi-person HRI experiments for over 500 subjects in total."
+        },
+        {
+          "page": 5,
+          "text": "Experiments were conducted for three weekdays in the Heijo palace site on the 1300th Anniversary of Nara Heijo-kyo Capital, Japan."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Field study at the Heijo palace site during the 1300th Anniversary of Nara Heijo-kyo Capital, Japan.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Experiments were conducted for three weekdays in the Heijo palace site on the 1300th Anniversary of Nara Heijo-kyo Capital, Japan."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "570 subjects across three conditions (226 + 165 + 179).",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "467 226 0.48 2 interruptible and non-parametric 432 165 0.38 3 interruptible and parametric 289 179 0.62"
+        },
+        {
+          "page": 1,
+          "text": "We conducted multi-person HRI experiments for over 500 subjects in total."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Visitors of various age groups; age, sex, and character were discussed as sources of variation. The paper does not state further participant demographics.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "There were over 150 visitors and subjects who are in various age groups, for each condition."
+        },
+        {
+          "page": 6,
+          "text": "This result leads that the way of communication is completely dissimilar among age, sex, and character."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Visitors could approach and speak with Actroid-SIT using a microphone. The study compared three conditions: non-interruptible/non-parametric, interruptible/non-parametric, and interruptible/parametric interaction. Residence time ran from when a subject started speaking until returning the microphone to its stand; consecutive speakers without a break counted as one duration.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The residence time of communication is defined as the duration from the moment which subject starts speaking to the moment which subject puts his/her microphone back to its stand (i.e. subject loses interest in Actroid)."
+        },
+        {
+          "page": 5,
+          "text": "There are three experimental conditions 1 2 3. Each conditions are shown in Table II."
+        },
+        {
+          "page": 5,
+          "text": "When someone who starts speaking after current subject finishes speaking without a break, we measured as one residence time."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "One robot interacted with visitors; the number of humans in each interaction group/session is not stated.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In this research, we use the android robot Actroid-SIT made by Kokoro company Ltd."
+        },
+        {
+          "page": 6,
+          "text": "This system can communicate with multiple people by rapid switching with each person, and adjustment gestures based on user or object location, and action for multi-person."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In this research, we use the android robot Actroid-SIT made by Kokoro company Ltd."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "measurement_tools",
+      "value": "The study counted visitors and subjects to calculate induction rate, and measured residence time using the microphone return as the endpoint. It reports comparisons and t-tests for residence time.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Visitors and subjects mean that the former is people who approach Actroid, and the latter is people who speak to Actroid."
+        },
+        {
+          "page": 5,
+          "text": "The residence time of communication is defined as the duration from the moment which subject starts speaking to the moment which subject puts his/her microphone back to its stand (i.e. subject loses interest in Actroid)."
+        },
+        {
+          "page": 6,
+          "text": "Condition 1 and 2, and 1 and 3 have 1[%] level of significant difference by t-tests."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Induction rate was highest in the interruptible, parametric condition (62%, versus 48% and 38%); residence time was longest in that condition (52.5 s versus 33.3 s and 48.6 s). Residence-time differences between conditions 1 and 2, and 1 and 3, were significant at the 1% level; the authors attribute improved induction to the home-position idling motion and longer communication to interruptibility.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "3 interruptible and parametric 289 179 0.62"
+        },
+        {
+          "page": 6,
+          "text": "This table shows that the ratio of condition 3 was over 60[%] and more than the others which are less than 50[%]."
+        },
+        {
+          "page": 6,
+          "text": "Condition 3 was the best time, 52.5[sec] than the others, Condition 1: 33.3[sec], condition 2: 48.6[sec]."
+        },
+        {
+          "page": 6,
+          "text": "Condition 1 and 2, and 1 and 3 have 1[%] level of significant difference by t-tests."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper describes gaze motion planning alongside gesture adjustment for multiparty communication. It presents gaze as coordinated head and eye direction and as a way to look toward talkers or object locations.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "we propose gesture adjustment suitable for human’s demand through parameterization and gaze motion planning which can communicate with multiple people and adjust a gesture to the location of talker and/or object."
+        },
+        {
+          "page": 4,
+          "text": "Gaze angle Vx indicates degree between front direction and gaze direction as shown in Fig. 6."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze motion is used to look toward talkers and object points, including an idling motion that tracks a talker’s direction. The system also rapidly switches attention between people to support multiparty communication.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Therefore, this gesture performs as if idling motion by tracking talker’s direction."
+        },
+        {
+          "page": 6,
+          "text": "This system can communicate with multiple people by rapid switching with each person, and adjustment gestures based on user or object location, and action for multi-person."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The authors report that the home-position idling motion was associated with a higher induction rate, with the parametric and interruptible condition reaching over 60%. They report longer residence time with interruptible interaction and significant differences between the non-interruptible condition and both interruptible conditions.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "We think that this improvement was thanks to idling motion by gesture 1 HOME POSITION. That is why Actroid is busy looking around people, and visitors feel easy to talk to Actroid."
+        },
+        {
+          "page": 6,
+          "text": "Thus, we confirmed that interruptibility makes HRI more durable communication not only more reactive communication."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The system uses a camera and microphone-color markers to detect talker location and count nearby people, speech recognition and keyphrase extraction, and an episode-rule selector. RMDB generates parameterized, interruptible body gestures; gaze direction is computed from head and eye angles with a sharing-rate model and convergence for object points. Components communicate through a Key-Value Store. The paper does not state that interaction was Wizard-of-Oz controlled.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "We use a single camera which is IEEE 1394 camera (Sony DFW-VL500) and is located next to Actroid, for detecting talker’s position and counting the number of people around Actroid."
+        },
+        {
+          "page": 3,
+          "text": "We assumed if someone has a microphone, he/she is a talker."
+        },
+        {
+          "page": 4,
+          "text": "Our proposed motion planning method, Reconfigurable Motion Database (RMDB) can generate flexible gestures in real-time."
+        },
+        {
+          "page": 4,
+          "text": "Gaze angle Vx indicates degree between front direction and gaze direction as shown in Fig. 6."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Actroid-SIT, an android robot with a human-like figure and 42 degrees of freedom: 29 for body gesture and 13 for facial expression.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The robot has a human-like figure and total of 42 DOFs (29 DOFs for body gesture, and 13 DOFs for facial expression) as shown in Fig. 1."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors state that robot appearance and body gesture affect human impression, and that the android's human-like appearance is expected to help present multimodal information. They do not isolate or measure an embodiment effect in the experiment.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In HRI, an appearance of robot as well as its body gesture affects human impression."
+        },
+        {
+          "page": 2,
+          "text": "Android robots are expected to be more effective for presenting multi-modal information because of their appearance unlike other robots."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper presents an Actroid-SIT system for multiparty interaction that plans interruptible, parameterized gestures and gaze toward talkers or objects. In a field experiment, the interruptible and parametric condition had a 62% induction rate and the longest mean conversation residence time (52.5 seconds); the authors linked the induction result to the robot’s idling motion and longer interaction to interruptibility.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper describes gaze motion as head and eye direction and explains its role in tracking talkers, objects, and switching among people. It reports interaction outcomes and system implementation, identifies the Actroid-SIT embodiment, and discusses how appearance may affect impression, though it does not isolate embodiment effects.",
+      "quotes": []
+    }
+  ]
+}

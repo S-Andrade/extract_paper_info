@@ -1,0 +1,278 @@
+{
+  "key": "WT3UW7C8",
+  "title": "Predicting and Regulating Participation Equality in Human-robot Conversations: Effects of Age and Gender",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Naturalistic observational analysis of recorded interactions, with randomly selected robot turn-taking behaviours used to examine their effects; the paper also evaluates an imbalance prediction model.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Since the robot’s turn-taking behaviour was randomly selected for each turn, it is possible to study the effects on the users’ behaviours."
+        },
+        {
+          "page": 4,
+          "text": "As such, the study constitutes a natural experiment, and we had no control over the number of subjects in each demographic group."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "A technical museum exhibition in which visitors interacted with a robot.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The data we analyse comes from a system that was exhibited at the Swedish National Museum of Science and Technology for nine days."
+        },
+        {
+          "page": 4,
+          "text": "Interactions were recorded during the 9 days the system was exhibited at the Swedish National Museum of Science and Technology."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "540 participants in 270 interactions.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "This leaves us with 270 interactions and 540 individual users."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Museum visitors from the general public, categorized by manual video annotation as children or adults and female or male; users aged 16–21 were excluded. Actual ages and genders were not collected.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "During the nine days of the exhibition, we recorded hundreds of interactions with users from the general public, including adults and children."
+        },
+        {
+          "page": 4,
+          "text": "Since people freely walked up to the system and interacted with it, we were not able to collect data on actual age and gender."
+        },
+        {
+          "page": 4,
+          "text": "For our analysis, we treat users below this span as children, and users above it as adults."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Pairs of visitors collaboratively discussed how to sort five cards by a criterion, then could reveal the solution and play another round. The recorded interactions averaged 4.5 minutes.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The two visitors and the robot are given the task of sorting the cards according to some criterion."
+        },
+        {
+          "page": 4,
+          "text": "The average length of these interactions was 4.5 minutes."
+        },
+        {
+          "page": 4,
+          "text": "When the task has been discussed for some time, a button is shown on the table that can be pressed to reveal the solution."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three participants per session: two humans and one robot.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "two visitors at a time played a collaborative game together with the robot head Furhat"
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "two visitors at a time played a collaborative game together with the robot head Furhat"
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "two visitors at a time played a collaborative game together with the robot head Furhat"
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Automated log analysis of speech activity using voice activity detection; Kinect head-pose tracking as a proxy for gaze; manual video annotation of age and gender. Outcomes included speaking time, speech overlaps, gaze proportions, and response to robot turns within three seconds.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "We mainly analyse speech activity, which is extracted by applying voice activity detection on the audio streams (with a 200 ms end-of-speech threshold)."
+        },
+        {
+          "page": 5,
+          "text": "We also analyse the users’ head pose movements, which are registered by the Kinect, as a proxy for gaze."
+        },
+        {
+          "page": 4,
+          "text": "Therefore, we have relied on manual annotation of age and gender based on the video recordings, by an annotator experienced with children."
+        },
+        {
+          "page": 6,
+          "text": "This was calculated using the same formula that was used for calculating the imbalance of speaking time above, but instead we counted the number of times each speaker responded within three seconds"
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Adults spoke more than children (age main effect, F(1, 536)=52.85, p<.001), and females more than males (gender main effect, F(1, 536)=8.28, p=.004). Direct questions with gaze to the non-dominant user were associated with that user responding more often (67.8%) than the dominant user (28.0%); addressing the dominant user produced the opposite pattern (81.5% vs. 13.7%). For children, switching the addressee and establishing mutual gaze improved targeted-question response accuracy; both effects were statistically significant. Demographic information improved early prediction of final participation imbalance.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "A 2x2 ANOVA with age and gender as between-subjects factors revealed a main effect of age, F(1, 536) 52.85, p .001, ηp2 0.09 and gender, F(1, 536) 8.28, p .004, ηp2 0.015, but no interaction effect."
+        },
+        {
+          "page": 7,
+          "text": "A chi-square test revealed a significant difference between keeping and switching addressee for children (χ2(1) 8.48, p .0036), but not for adults (χ2(1) 0.11, p .74)."
+        },
+        {
+          "page": 7,
+          "text": "Again, a chi-square test revealed a significant difference for children (χ2(1) 8.62, p .0033), but not for adults (χ2(1) 2.71, p .10)."
+        },
+        {
+          "page": 8,
+          "text": "Interestingly, we can see that information about the mix of age and gender clearly improves the prediction, especially at an early stage."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames its topic as participation equality in speaking time and the use of robot gaze and turn-taking behaviour to regulate participation in multiparty human–robot conversation.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Therefore, it is very important for a robot in such settings to be aware of the participation equality between the speakers, that is, the relative amount of speaking time for the participants."
+        },
+        {
+          "page": 3,
+          "text": "The most common signal is to use gaze to actively select the next speaker."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "Participation equality is operationalized as the relative amount of speaking time; the paper does not provide a separate definition of robotic gaze or robotic attention.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Therefore, it is very important for a robot in such settings to be aware of the participation equality between the speakers, that is, the relative amount of speaking time for the participants."
+        },
+        {
+          "page": 4,
+          "text": "We measure participation equality in terms of speaking time, which we think is a more objective measure than, for example, ‘social dominance’ used in similar studies [22, 28], but the reader should be aware that these are not exactly the same thing."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Robot gaze functions as a turn-yielding cue and a means to select the next speaker; directed questions and gaze can help balance participation by encouraging the less dominant user to respond.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The most common signal is to use gaze to actively select the next speaker."
+        },
+        {
+          "page": 7,
+          "text": "Thus, it should be possible for the robot to decrease the imbalance by addressing this user more often."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Directly addressing a user with a question substantially increased that user's likelihood of responding, including for the non-dominant user. For children, switching the addressee and seeking mutual gaze increased response accuracy; the paper reports no significant corresponding effects for adults. The authors caution that lasting changes in self-selection were not established.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "Thus, it should be possible for the robot to decrease the imbalance by addressing this user more often."
+        },
+        {
+          "page": 7,
+          "text": "Thus, repeated questions towards children are less likely to reduce the imbalance."
+        },
+        {
+          "page": 7,
+          "text": "Thus, seeking mutual gaze is especially important when yielding the turn to children."
+        },
+        {
+          "page": 8,
+          "text": "we do not know whether there are any long-lasting effects on the imbalance, i.e., whether these interventions will encourage non-dominant subjects to start self-selecting more."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "Robot turn-yielding behaviour was randomly selected each turn. The robot used speech acts (questions or statements), gaze to one or both users or the table, and could include a user's name. Furhat directed gaze with combined head and eye movements; Kinect v2 tracked users’ head locations and rotations, used as a gaze proxy.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "At the museum, Furhat’s turn-yielding behaviour was randomly selected for each turn, both in terms of addressee and speech act (question or statement)."
+        },
+        {
+          "page": 3,
+          "text": "This allows Furhat to direct the gaze using a combination of head and eye movements."
+        },
+        {
+          "page": 3,
+          "text": "A Kinect camera (v2) was used to track the location and rotation of the users’ heads"
+        },
+        {
+          "page": 7,
+          "text": "First, we investigated the effect of including the addressee’s name in the question (which was done randomly)."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Furhat is a robot head with an animated face back-projected on a translucent mask and a mechanical pan-tilt neck, allowing head and eye gaze movements.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Two users are seated at a large table with a multi-touch screen, opposite the Furhat robot head (see Figure 2), which has an animated face back-projected on a translucent mask, as well as a mechanical pan-tilt neck [20]."
+        },
+        {
+          "page": 3,
+          "text": "This allows Furhat to direct the gaze using a combination of head and eye movements."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors state that the back-projected 3D mask makes gaze direction legible and improves turn-yielding accuracy compared with animated agents on 2D displays. The physical robot also enabled situated interaction involving references to shared objects.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "However, studies have shown that if an animated face is back-projected on a 3D mask, as done with the Furhat robot head used here, the turn-yielding accuracy is improved [19], and humans can utilize the robot's gaze to disambiguate references to objects to achieve joint attention [20, 25]."
+        },
+        {
+          "page": 3,
+          "text": "Secondly, the discussion in our task necessarily involves references to objects in the physical surroundings."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper analyzes 270 museum interactions in which two visitors played a collaborative card-sorting game with the Furhat robot. It finds that directing questions and gaze toward the less dominant participant can improve response balance, particularly for children, and that age and gender information helps predict participation imbalance early.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper operationalizes participation equality as speaking-time balance and describes how gaze selects the next speaker and can regulate participation. It measures response and balance effects, explains the gaze and sensing implementation, and discusses the Furhat embodiment’s relevance to gaze legibility and situated interaction.",
+      "quotes": []
+    }
+  ]
+}

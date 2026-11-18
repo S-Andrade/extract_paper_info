@@ -1,0 +1,256 @@
+{
+  "key": "MXPIT4J6",
+  "title": "Integrating vision and speech for conversations with multiple persons",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description with practical laboratory experiments.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In practical experiments with a humanoid robot, we demonstrate the effectiveness of our approach."
+        },
+        {
+          "page": 5,
+          "text": "In order to evaluate our approach to control the gaze direction of the robot and to determine the person who gets the focus of its attention, we performed several experiments in our laboratory."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Laboratory experiments; the robot is designed for a museum tour-guide scenario.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "we performed several experiments in our laboratory."
+        },
+        {
+          "page": 1,
+          "text": "One application in this context is an interactive museum tour-guide."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "The system was tested in scenarios where a humanoid robot acts as a museum tour guide and converses with multiple people, demonstrating short eye contact to include a secondary person and shifting attention when another person becomes more important. A separate experiment evaluated speaker localization.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The first experiment was designed to demonstrate how the robot establishes short eye-contact to a person in order to signal attentiveness."
+        },
+        {
+          "page": 5,
+          "text": "The following experiment was designed to show how the robot shifts its attention from one person to another if it considers the second one to be more important."
+        },
+        {
+          "page": 5,
+          "text": "In the last experiment, we demonstrated the accuracy of our speaker localization."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "In the gaze demonstrations, one robot interacted with two people.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The evolution of the probabilities of two people over time is depicted in Fig. 5."
+        },
+        {
+          "page": 5,
+          "text": "The following experiment was designed to show how the robot shifts its attention from one person to another if it considers the second one to be more important."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Fig. 1 shows our robot Alpha shifting its attention from one person to the other during a conversation."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2 in the described gaze experiments.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The evolution of the probabilities of two people over time is depicted in Fig. 5."
+        },
+        {
+          "page": 5,
+          "text": "The left image of Fig. 6 shows the evolution of the probabilities of two people during this experiment."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Technical/system measures: face existence probabilities and importance values over time, and speaker-localization angle error with 0.95 confidence intervals. The paper does not report questionnaires, interviews, or participant coding.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The evolution of the probabilities of two people over time is depicted in Fig. 5."
+        },
+        {
+          "page": 5,
+          "text": "The left image of Fig. 6 shows the evolution of the probabilities of two people during this experiment."
+        },
+        {
+          "page": 5,
+          "text": "The error bars indicate the 0.95 confidence interval."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "The system demonstrated short eye contact with a secondary person and shifted attention to that person when they came closer and their importance became higher. Speaker localization was described as quite accurate; no inferential statistical tests were reported.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "However, to involve person 2 into the conversation as well the robot regularly looked to person 2 and established short eye-contact."
+        },
+        {
+          "page": 5,
+          "text": "As a result, person 2 got a higher importance value than person 1 and the robot shifted its attention to person 2."
+        },
+        {
+          "page": 5,
+          "text": "As can be seen, the localization of the speaker in the vicinity of the robot is quite accurate."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames gaze direction as part of the robot's focus of attention and as a way to show attentiveness to multiple people in conversation.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "VI. GAZE DIRECTION AND FOCUS OF ATTENTION"
+        },
+        {
+          "page": 1,
+          "text": "An essential capability for a robot designed to interact with humans is to show attention to the people in its surroundings."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper does not provide a formal definition of robotic gaze or attention; it describes gaze behavior as looking at people to establish short eye contact and signal attentiveness.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Furthermore, we developed a strategy that makes the robot look at the persons to establish short eye-contact and to signal attentiveness."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze and attention serve to signal attentiveness, include multiple people in the conversation, explore the environment, and shift focus to the person currently judged most important.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Our idea is that the robot shows interest in multiple persons in its vicinity so that they feel involved into the conversation."
+        },
+        {
+          "page": 4,
+          "text": "The behavior system controls the robot in such a way that it focuses its attention on the person who has the highest importance."
+        },
+        {
+          "page": 4,
+          "text": "Thus, we additionally implemented a behavior that forces the robot to regularly change its gaze direction and to look in the direction of other detected faces, not only to the most important one."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The paper reports system-level effects: the robot established short eye contact with a secondary person, updated its belief, and shifted attention when that person came closer. It does not report measured human-perception outcomes.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "However, to involve person 2 into the conversation as well the robot regularly looked to person 2 and established short eye-contact."
+        },
+        {
+          "page": 5,
+          "text": "As a result, person 2 got a higher importance value than person 1 and the robot shifted its attention to person 2."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "Autonomous system using stereo cameras for face detection and tracking, probabilistic belief updates, Kalman filters, Hungarian-method data association, and an importance score based on estimated distance and position. It moves its gaze to the highest-importance person, periodically explores other faces, and looks toward uncertain out-of-view people; speaker localization was also implemented but not yet integrated into the attention system.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The resulting importance value is a weighted sum of those factors."
+        },
+        {
+          "page": 4,
+          "text": "The behavior system controls the robot in such a way that it focuses its attention on the person who has the highest importance."
+        },
+        {
+          "page": 4,
+          "text": "As soon as the entropy in its belief about a person exceeds a certain threshold, the robot considers to perform an observation action and to look to the predicted position of the corresponding face to reduce the uncertainty."
+        },
+        {
+          "page": 6,
+          "text": "Additionally, we evaluated our speaker localization system which will be integrated into our attention system as well."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Humanoid robot Alpha; experiments used its head, which has 16 degrees of freedom, two cameras, and servo-driven neck, mouth, and eyebrows.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "To perform the experiments presented in this paper, we used only the head of our robot which is depicted in Fig. 2 (right image)."
+        },
+        {
+          "page": 2,
+          "text": "The head consists of 16 degrees of freedom that are driven by servo motors."
+        },
+        {
+          "page": 2,
+          "text": "Three of these servos move two cameras and allow a combined movement in the vertical and an independent movement in the horizontal direction."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The camera field of view was constrained, requiring the robot to move its cameras to explore the environment and maintain beliefs about people outside its current view.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Since the field of view of the robot is constrained, it is important that the cameras move from time to time to explore the environment to update its belief about people which are currently not in the field of view."
+        },
+        {
+          "page": 3,
+          "text": "Since the field of view of the robot is constrained, it moves the cameras from time to time to explore the environment and to get new information about people."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The authors describe an autonomous humanoid robot system that uses vision and speech-related sensing to maintain beliefs about multiple people and direct its gaze. In laboratory demonstrations with two people, it made short eye contact with a secondary person and shifted attention when that person became more important; human outcomes were not measured.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper describes gaze-based attention as looking at people to signal attentiveness and include them, and reports system-level demonstrations of attention shifts. It details the sensing and control implementation and robot head embodiment, including how the constrained field of view shapes exploratory gaze.",
+      "quotes": []
+    }
+  ]
+}

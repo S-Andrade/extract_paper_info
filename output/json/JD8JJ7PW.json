@@ -1,0 +1,231 @@
+{
+  "key": "JD8JJ7PW",
+  "title": "Modeling social interaction dynamics using temporal graph networks",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system modeling and prediction study using an existing multiparty interaction dataset.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We propose employing an adapted Temporal Graph Networks to comprehensively represent social interaction dynamics while enabling its practical implementation."
+        },
+        {
+          "page": 2,
+          "text": "We use the FUMI-MPF dataset, which stems from an experimental setting involving group social interactions with three types of facilitators [25]."
+        },
+        {
+          "page": 4,
+          "text": "This section presents the outcomes derived from experimentation across various sessions."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Group music-appreciation discussion sessions in the FUMI-MPF dataset; the paper does not specify whether the sessions were in a lab or field setting.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Each 20-minute session focuses on music appreciation, and gaze interactions are collected at 100 Hz."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "110 participants across 24 group discussion sessions.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The dataset comprises 24 group discussion sessions with 110 participants, categorized based on the number of students and type of facilitator as shown in Table I."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Participants were students and facilitators. Facilitator types included musicians, music teachers, and teachers; some sessions had no facilitator. Age, gender, and prior robot experience are not stated.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Notably, sessions may involve the presence of a facilitator guiding the discussion, with the facilitator assuming roles such as a musician, music teacher, or teacher, alongside participating students who collectively represent various subject roles."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants took part in 20-minute group discussions focused on music appreciation. The technical system modeled observed gaze interactions and predicted next gaze links and next speakers; no robot interaction task is reported.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Each 20-minute session focuses on music appreciation, and gaze interactions are collected at 100 Hz."
+        },
+        {
+          "page": 3,
+          "text": "In this social dynamics modeling, the gaze prediction task is trained during first phase and the next speaker prediction task during the second phase, matched as problem A and B, respectively."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "3–6 people per session; the paper reports no robots in the study groups.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Groups range in size from 3 to 6 individuals with fixed seating arrangements."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "0 robots reported in the sessions analyzed; the paper models human group interaction and does not describe a robot participating in the sessions.",
+      "quotes": []
+    },
+    {
+      "field": "n_humans",
+      "value": "3–6 humans per session; 110 participants total across the dataset.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Groups range in size from 3 to 6 individuals with fixed seating arrangements."
+        },
+        {
+          "page": 2,
+          "text": "The dataset comprises 24 group discussion sessions with 110 participants, categorized based on the number of students and type of facilitator as shown in Table I."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Tobii Glasses 3 eye-tracking and microphone data; video face detection with InsightFace; model performance metrics including F1-score, accuracy, AUC, and average precision.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "We used Tobii glasses 3 eye tracking device for collecting gaze points and speech information of each subject."
+        },
+        {
+          "page": 3,
+          "text": "We matched those gaze points with faces detected in videos with InsightFace [29] to get the gaze interactions."
+        },
+        {
+          "page": 3,
+          "text": "To recognize the voice activity of each subject, we used data from the microphone of Tobii glasses 3."
+        },
+        {
+          "page": 3,
+          "text": "Evaluate performance by F1 score, AUC, Average precision"
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "For next-gaze prediction, TGN achieved F1-score 67.1% and accuracy 83.8%, improving over the history model by 37.0 and 24.2 percentage points, respectively. For next-speaker prediction, it achieved F1-score 45.4% and accuracy 86.7%, improving over baseline by 29.0 and 3.0 percentage points. Statistical significance testing is not reported.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "For the next gaze prediction, TGN achieved an improvement of 37.0% in the F1-score and 24.2% in accuracy over the history model, indicating its robustness and showing that the graph uses the features to predict the existence and non-existence of edges."
+        },
+        {
+          "page": 5,
+          "text": "Similarly, in determining the next speaking status of each subjects, TGN marked a substantial increase of 29.0% in F1-score and 3.0% in accuracy."
+        },
+        {
+          "page": 5,
+          "text": "Still, the F1-score of the next speaker is under 50%, which could be due to a lack of information on features we used in this work."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames gaze as a human-to-human interaction signal within a multimodal representation of social interaction dynamics. It does not study robotic gaze, robotic attention, or robot gaze-based attention.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We represent social interaction as a graph model and train the model as a link prediction problem."
+        },
+        {
+          "page": 2,
+          "text": "Given graph G (V, E, T) where v ∈V represents subjects participating in the session with a unique value from the set {1, V the directed edge e (Vi, Vj) ∈E represents that subject Vi directs their gaze towards subject Vj at time t ∈T."
+        },
+        {
+          "page": 3,
+          "text": "The FUMI- MPF dataset is processed to model group interaction into a graph structure, using gaze, speaking status, role, and seating position information."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper defines a gaze interaction as a directed edge from the subject looking to the subject being looked at, at a time point.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "the directed edge e (Vi, Vj) ∈E represents that subject Vi directs their gaze towards subject Vj at time t ∈T."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze is used to represent links between participants in the group's social interaction dynamics and to train the model to predict future gaze interactions. The paper does not state a specific interpersonal function such as turn-taking or inclusion.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Given the history of gaze interactions and associated features such as speaking status, seating position, and role of subjects, the model estimates the probability of future gaze interaction between the humans in a group."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "No effects of robotic gaze or attention on people or interaction are measured. The reported effect is a technical prediction-performance improvement: TGN outperformed the history baseline for next-gaze and next-speaker prediction.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "For the next gaze prediction, TGN achieved an improvement of 37.0% in the F1-score and 24.2% in accuracy over the history model, indicating its robustness and showing that the graph uses the features to predict the existence and non-existence of edges."
+        },
+        {
+          "page": 5,
+          "text": "Similarly, in determining the next speaking status of each subjects, TGN marked a substantial increase of 29.0% in F1-score and 3.0% in accuracy."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The system represents people as nodes and gaze interactions as time-stamped directed edges, with message features for speaking status, relative seating position, and participant roles. It uses Tobii Glasses 3 gaze and microphone data, video-based face detection, and a two-phase temporal graph network for next-gaze and next-speaker prediction. No robot control or Wizard-of-Oz implementation is described.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "We used Tobii glasses 3 eye track- ing device for collecting gaze points and speech information of each subject."
+        },
+        {
+          "page": 3,
+          "text": "Subsequently, for each gaze interaction involving subjects Vi and Vj at time t, the following data, serving as features, is considered as follows: 1) Speaking status: Identification of subjects that are talking at time t. 2) Relative seating position: Information about the seating position of subject Vj relative to subject Vi. 3) Role of subjects: Specification of the roles of subjects Vi and Vj."
+        },
+        {
+          "page": 3,
+          "text": "The gaze prediction task is trained during first phase and the next speaker prediction task during the second phase, matched as problem A and B, respectively."
+        },
+        {
+          "page": 4,
+          "text": "We use the GRU [33] as the Memory updater, Temporal graph attention (attn) as the embedding module for the nodes, identity (id) as the message function, and mean message aggregator."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "This technical study used gaze and other interaction data from human group discussions to train a temporal graph model that predicts who will look at whom and who will speak next. It reports improved prediction performance over a history baseline, but it did not study a robot’s gaze or its effects on people.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1 — The paper explicitly defines human gaze interactions as directed links between participants, but does not define robotic gaze or attention. RQ4 — It details sensing and temporal graph modeling of gaze for prediction; it does not study robot gaze implementation. It does not directly address RQ2, RQ3, RQ5, or RQ6 because no robot participates.",
+      "quotes": []
+    }
+  ]
+}

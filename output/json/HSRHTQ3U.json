@@ -1,0 +1,258 @@
+{
+  "key": "HSRHTQ3U",
+  "title": "Attention-based addressee selection for service and social robots to interact with multiple persons",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description with real-world field experiments.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "This paper presents two new approaches of attention-based addressee selection for social robots to interact with multiple persons."
+        },
+        {
+          "page": 3,
+          "text": "We have conducted on-site experiments with a robot receptionist in various interaction scenarios."
+        },
+        {
+          "page": 6,
+          "text": "The two methods have been implemented in A-Star prototype robots and have been tested on various real- world situations."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Open public environments and on-site interaction scenarios with a robot receptionist; the specific venues are not stated.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The first one is a passive approach for a service robot in public environments."
+        },
+        {
+          "page": 3,
+          "text": "The proposed method has been deployed on six robot butlers to serve drinks in open public events."
+        },
+        {
+          "page": 5,
+          "text": "We have conducted on-site experiments with a robot receptionist in various interaction scenarios."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "The paper tests passive selection from hand-waving and active attention-based selection during natural dialogue with multiple people; service robots were also tested serving drinks at public events.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The passive method is designed for the robot to recognize common hand-waving gesture, where a Bayessian ensemble approach is proposed to fuse hand detections from depth segmentation, palm shape, skin color, and body pose."
+        },
+        {
+          "page": 1,
+          "text": "The active method is developed for the robot to perform natural interaction with multiple persons."
+        },
+        {
+          "page": 3,
+          "text": "The proposed method has been deployed on six robot butlers to serve drinks in open public events."
+        },
+        {
+          "page": 5,
+          "text": "The robot then noticed him, rotated to face him, and detected his smiling face and speaking lip motion for greeting."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "The active example scenarios involved three people with the robot; the paper also describes interaction with multiple guests without specifying their number for each session.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The sequence demonstrates scenarios of three persons in the view who observe and test the robot, and discuss with one another in front of the robot."
+        },
+        {
+          "page": 5,
+          "text": "First, the central person (ID:2 with red boxes) is talking to the robot and the other two persons on both sides (ID:0 with blue boxes and ID:1 with green boxes) just observe the robot, as shown in the first image in Fig- ure 4."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "n_humans",
+      "value": "Three people are shown in the active example scenarios; overall session counts are not stated.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The sequence demonstrates scenarios of three persons in the view who observe and test the robot, and discuss with one another in front of the robot."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Computer vision outputs and attention scores; system detection rate and false positive rate for hand gestures; scenario results were compared with human judgments. Named questionnaires, interviews, or separate behavioural coding tools are not reported.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The statistical results are listed in Table 1."
+        },
+        {
+          "page": 3,
+          "text": "DR: detection rate; FPR: false positive rate."
+        },
+        {
+          "page": 5,
+          "text": "The results match with human judgments on the scenarios of interactions and dialogues."
+        },
+        {
+          "page": 5,
+          "text": "We first convert each vision clue to be normalized measure related to attention, and then integrate the measures to obtain the attention score."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Hand gesture fusion achieved a 91% detection rate with an 8% false positive rate, compared with the best individual detector's 77% detection rate and 7% false positive rate. The authors report that attention results matched human judgments; no inferential statistics are stated.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "It can be seen that, compared to the best individual model, the performance of fusion has improved from 77% to 91% with similar false positive rate."
+        },
+        {
+          "page": 3,
+          "text": "DR 77% 39% 14% 65% 73% 91% FPR 7% 4% 3% 1% 3% 8%"
+        },
+        {
+          "page": 5,
+          "text": "The results match with human judgments on the scenarios of interactions and dialogues."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "Attention-based addressee selection; the paper distinguishes passive signal detection from active selection based on subtle human cues.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We classify the methods of addressee detection and selection into two categories, namely, passive and active approaches."
+        },
+        {
+          "page": 1,
+          "text": "In contrast, for active approaches, the robot is able to select a person as an addressee based on subtle cues that are inferred from the human pose, gaze, and facial expression."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The authors describe attention as a quantitative score computed by normalizing and integrating visual clues, with larger clue values indicating higher probability that a person is attending to the robot for natural interaction.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Next, a novel algorithm to integrate such rich visual clues to provide a quantitative score of human attention is proposed."
+        },
+        {
+          "page": 5,
+          "text": "Now, all the extracted visual clues are normalized into [0, 1] except f8 which is within [-1, +1], and the larger the visual clue value is, the higher the probability of the attention from the observed person to the robot for a natural interaction."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "The attention estimate guides selection of the person the robot should address, supporting engagement management and natural dialogue in multiparty interaction.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "This attention score is used to guide the robot to select the most probably person to interact with."
+        },
+        {
+          "page": 1,
+          "text": "For active methods, the robot must be able to perceive the engagement status of multiple persons and select a person as the addressee to perform the interaction."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "In the described examples, the robot turned toward the person whose attention level became highest, greeted a person showing smiling and speaking cues, and the attention score dropped when that person turned away to speak with someone else.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The robot then noticed him, rotated to face him, and detected his smiling face and speaking lip motion for greeting."
+        },
+        {
+          "page": 5,
+          "text": "After having a dialogue with the robot, he is quite happy and turns his head to discuss with person ID:0 on his experience (after frame 121), so that one can observe the great drop of attention level."
+        },
+        {
+          "page": 5,
+          "text": "The right person (ID:1 green one) tries to catch the robot’s attention and talk to the robot."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The active system estimates each person's attention using stereo multi-person detection and tracking, body pose, face and gaze detection, lip motion, and facial expression, combining normalized visual clues through weighted sum or a learned model. The robot acts autonomously in the described examples by turning toward the selected person.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Various state-of-the-art vision functions, including multi-person detection and tracking, upper body pose recognition, face detection, gaze detection, lip motion analysis, and facial expression recognition, of which many were developed in our previous work, are employed in our approach."
+        },
+        {
+          "page": 5,
+          "text": "We first convert each vision clue to be normalized measure related to attention, and then integrate the measures to obtain the attention score."
+        },
+        {
+          "page": 5,
+          "text": "The model 2 is Atn(Hi) = Σ bjfj(Hi) which is based on the augmented feature vector f = [1, f1, …, f8], and the parameter vector b can be learned from training data."
+        },
+        {
+          "page": 5,
+          "text": "The robot then noticed him, rotated to face him, and detected his smiling face and speaking lip motion for greeting."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "A robot receptionist and A-Star prototype robots are described; physical form and features are not specified. The passive hand-wave method was deployed on six robot butlers.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The proposed method has been deployed on six robot butlers to serve drinks in open public events."
+        },
+        {
+          "page": 5,
+          "text": "We have conducted on-site experiments with a robot receptionist in various interaction scenarios."
+        },
+        {
+          "page": 6,
+          "text": "The two methods have been implemented in A-Star prototype robots and have been tested on various real- world situations."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The paper presents passive hand-wave recognition and active attention-based addressee selection for robots interacting with multiple people. In examples, the robot used visual cues such as position, body pose, gaze, facial expression, and speaking to select and face a person; reported hand-wave fusion detection was 91%.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5 — The paper characterizes attention as integrated visual evidence and uses it to select an addressee, reports example interaction outcomes, and describes the vision system and robot platforms. It gives no detail on embodiment's influence.",
+      "quotes": []
+    }
+  ]
+}

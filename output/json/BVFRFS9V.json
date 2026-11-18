@@ -1,0 +1,240 @@
+{
+  "key": "BVFRFS9V",
+  "title": "Controlling Robot's Gaze according to Participation Roles and Dominance in Multiparty Conversations",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description based on an observational analysis of conversations; the implemented system was not evaluated with users in this paper.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We collected multiparty conversations and analyzed the attentional behaviors of the participants."
+        },
+        {
+          "page": 2,
+          "text": "As future work, we plan to evaluate the system by conducting a user study"
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "University conversation data collection; the paper does not specify whether it took place in a lab or another setting.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Twenty university students (16 male and 4 female) participated in the experiment."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "20 human participants in the conversation data collection.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Twenty university students (16 male and 4 female) participated in the experiment."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "University students; 16 male and 4 female. No ages or prior robot experience stated.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Twenty university students (16 male and 4 female) participated in the experiment."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Groups held free conversations for five minutes per session. The robot system was developed from conversation data; no human-robot user study was conducted.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The experiment consisted of two sessions, where in each session, a group of four people was asked to have a free conversation for five minutes."
+        },
+        {
+          "page": 2,
+          "text": "As future work, we plan to evaluate the system by conducting a user study"
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Four humans per conversation session; the implemented robot was not included in these data collection sessions.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The experiment consisted of two sessions, where in each session, a group of four people was asked to have a free conversation for five minutes."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "0 in the conversation data collection; the system implementation uses one robot, but no human-robot session is reported.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We used a Robovie R3 to implement the robot gaze."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "4 per conversation session.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The experiment consisted of two sessions, where in each session, a group of four people was asked to have a free conversation for five minutes."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Video annotation of head-gaze direction; headset microphones and Julius adintool for speech intervals; Kinect face tracking for face position and rotation; Microcone for audio-source direction; Kinect skeleton data for target head position. No participant questionnaires or interviews are described.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Video sequences capturing for the overall picture of all of their interactions were recorded, and the directions of their head gaze (who was looking at whom) were annotated using a video annotation tool, ELAN."
+        },
+        {
+          "page": 1,
+          "text": "Each participant’s speech was recorded using headset microphones, and their speech intervals were detected using the Julius speech recognition adintool software."
+        },
+        {
+          "page": 1,
+          "text": "In addition, a Microsoft Kinect sensor was set in front of each participant, and the participant’s face position and rotation were measured using Kinect’s face tracking function."
+        },
+        {
+          "page": 2,
+          "text": "The audio-source angle is obtained using a microcone1 that can recognize six different directions through a microphone array."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "The observational analysis found that higher-dominance participants switched gaze more often. For a less-dominant side participant, gaze remained on the speaker 71% of the time (average duration 1.27 s); for a dominant side participant, this was 52%. No statistical significance tests are reported. The addressee head-direction estimator achieved about 80% accuracy.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "For example, when a side participant was less dominant, they looked continuously at the speaker 71% of the time (gaze duration of 1.27 s), and changed their gaze toward the addressee 15% of the time."
+        },
+        {
+          "page": 2,
+          "text": "when a side participant was dominant, they looked continuously at the speaker 52% of the time, and switched their gaze to the addressee or another side participant more frequently."
+        },
+        {
+          "page": 2,
+          "text": "With an accuracy of about 80% using a leave-one-person-out evaluation, the model is sufficient for estimating a speaker’s head direction automatically."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames robot head gaze as attentional behavior needed for participation in multiparty conversation, shaped by participation roles and dominance.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "A robot’s gaze behaviors are indispensable in allowing the robot to participate in multiparty conversations."
+        },
+        {
+          "page": 1,
+          "text": "To build a robot that can convey appropriate attentional behavior in multiparty human- robot conversations, this study proposes robot head gaze models in terms of participation roles and dominance in a conversation."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze communicates attention appropriate to a participant's conversational role; speakers mainly look at the addressee, while side participants look toward the speaker, addressee, or other side participants. Dominance also affects gaze allocation and switching.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "A speaker looks at an addressee for the majority of their speaking time, occasionally paying attention to any existing side participants."
+        },
+        {
+          "page": 1,
+          "text": "The side participants, on the other hand, tend to look at either the speaker or the addressee."
+        },
+        {
+          "page": 1,
+          "text": "Therefore, a communication robot as a participant in multiparty interactions with human users is required to be able to generate appropriate gaze and attentional behavior that corresponds to the robot’s role at any given time."
+        },
+        {
+          "page": 1,
+          "text": "Therefore, dominance in a conversation affects the participant’s gaze behaviors."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "In human conversation observations, higher-dominance participants switched gaze more frequently. Effects of robot gaze on people or interaction were not evaluated in this paper.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "These results suggest that participants with higher dominance have a greater chance to switch their gaze."
+        },
+        {
+          "page": 2,
+          "text": "As future work, we plan to evaluate the system by conducting a user study"
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The system estimates speaker and addressee roles using Microcone audio direction and Kinect head-direction recognition, identifies side participants as those who are neither speaker nor addressee, estimates dominance with a regression model, and chooses gaze transitions and durations from role- and dominance-specific models. The robot turns its head toward Kinect-tracked target positions.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The system identifies the speaker based on the audio-source angle."
+        },
+        {
+          "page": 2,
+          "text": "Hence, the system identifies the addressee by recognizing the target for the speaker’s gaze when the speaker begins talking."
+        },
+        {
+          "page": 2,
+          "text": "After determining the current speaker and corresponding addressee, the persons who are neither the speaker nor the addressee are identified as side participants."
+        },
+        {
+          "page": 2,
+          "text": "Once the participation roles and dominance are estimated, the gaze of the robot is determined by referring to the gaze-transition models proposed in Section 2."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Robovie R3 humanoid robot; gaze is controlled by rotating its head.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We used a Robovie R3 to implement the robot gaze."
+        },
+        {
+          "page": 2,
+          "text": "To control the head direction of the robot, the system measures the angle between its current head direction and the direction of its next target."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The authors analyzed gaze in four-person free conversations and modeled head-gaze transitions by conversational role and dominance. They implemented those models on a Robovie R3, but did not evaluate the robot with users; their human data suggested that more dominant participants switched gaze more often.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1 — The paper frames robot gaze as attentional behavior for multiparty participation but does not give a formal definition. RQ2 — It describes gaze functions across speaker, addressee, and side-participant roles. RQ3 — It reports observed gaze differences associated with dominance, not effects of robot gaze on people. RQ4 — It details sensing, role and dominance estimation, gaze models, and head control. RQ5 — It identifies the humanoid Robovie R3. RQ6 — It does not discuss how embodiment influenced the study.",
+      "quotes": []
+    }
+  ]
+}

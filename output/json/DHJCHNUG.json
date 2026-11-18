@@ -1,0 +1,221 @@
+{
+  "key": "DHJCHNUG",
+  "title": "A Collaborative Human-Robot Game as a Test-bed for Modelling Multi-party, Situated Interaction",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description and demonstration of a test-bed for multiparty situated human–robot interaction.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this demonstration we present a test-bed for collecting data and testing out models for multi-party, situated interaction between humans and robots."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Public exhibition at the Swedish National Museum of Science and Technology, over nine days.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this paper (and demonstration), we present a dialog system that was exhibited during nine days at the Swedish National Museum of Science and Technology, in November 2014."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "373 interactions were recorded; the number of individual participants is not stated.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "During the 9 days the system was exhibited at the Swedish National Museum of Science and Technology, we recorded data from 373 interactions with the system, with an average length of 4.5 min."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Visitors of mixed ages, including adults and children. The paper does not report participant gender or prior robot experience.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The dataset contains mixed ages: both adults playing with each other (40 children playing with adults (27 and children playing with each other (33"
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Two visitors and Furhat collaboratively sorted cards on a touch table according to a criterion, such as inventions by year or animals by running speed. Interactions averaged 4.5 minutes; after one game, players could choose to continue.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The two visitors and Furhat are given the task of sorting the cards according to some criterion."
+        },
+        {
+          "page": 1,
+          "text": "For example, the task could be to sort a set of inventions in the order they were invented, or a set of animals by how fast they can run."
+        },
+        {
+          "page": 3,
+          "text": "During the 9 days the system was exhibited at the Swedish National Museum of Science and Technology, we recorded data from 373 interactions with the system, with an average length of 4.5 min."
+        },
+        {
+          "page": 3,
+          "text": "After completing one game, the players could choose to continue playing."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three per interaction: two human visitors and one robot head.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "As can be seen in Fig. 1, two visitors at a time could play a collaborative game together with the robot head Furhat [1]."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "As can be seen in Fig. 1, two visitors at a time could play a collaborative game together with the robot head Furhat [1]."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "As can be seen in Fig. 1, two visitors at a time could play a collaborative game together with the robot head Furhat [1]."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "The paper describes a multimodal recorded dataset from 373 interactions, including sensor inputs such as user head pose and card movement. It does not report questionnaires, interviews, or formal outcome measures.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "During the 9 days the system was exhibited at the Swedish National Museum of Science and Technology, we recorded data from 373 interactions with the system, with an average length of 4.5 min."
+        },
+        {
+          "page": 4,
+          "text": "The models we are working on include detection of turn-taking relevant places based on a large range of multi-modal cues (e.g. head pose, words, prosody, movement of cards)."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "The paper reports no statistical significance tests or quantitative performance results. It states that visitors enjoyed the game and that some returned to play more.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The exhibition at the museum also showed that both children and adults enjoyed the game, with several of them coming back to play more."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames visual focus of attention as something that interlocutors share between one another and objects under discussion; Furhat signals its attention with head pose and eye gaze.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "A third important feature of this setup is that it involves discussion about objects in the physical space, where the interlocutors’ visual focus of attention (VFOA) must be shared between each other and the objects under discussion, which has a clear effect on their turn-taking behaviour [3]."
+        },
+        {
+          "page": 2,
+          "text": "The visitors are interacting with the Furhat robot head [1], which has an animated face back-projected on a translucent mask, as well as a mechanical neck, which allows Furhat to signal his focus of attention using a combination of head pose and eye-gaze."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "No explicit definition of robotic gaze, robotic attention, or robotic gaze-based attention is given.",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "Furhat directs attention to one or both users or to a card, supporting mutual gaze and joint attention to objects. User head pose also informs whether Furhat should join the discussion or provide backchannels.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The Attention Flow keeps Furhat’s attention to a specified target (one or both users, or a card), even when the target is moving, by consulting the Situation model."
+        },
+        {
+          "page": 3,
+          "text": "This, together with the 3D design of Furhat, makes it possible to maintain exclusive mutual gaze with the users, and to let them infer the target of Furhat’s gaze when directed towards the cards, in order to maintain joint attention [1]."
+        },
+        {
+          "page": 3,
+          "text": "The head pose of the users is used to determine whether they are addressing Furhat, and he should contribute to the discussion, or whether they are discussing with each other, and he should just provide backchannels to signal that he is still keeping track of what they are saying."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The authors state that sharing visual focus between interlocutors and objects has a clear effect on turn-taking behaviour. They do not report a measured causal effect of Furhat’s gaze behavior.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "A third important feature of this setup is that it involves discussion about objects in the physical space, where the interlocutors’ visual focus of attention (VFOA) must be shared between each other and the objects under discussion, which has a clear effect on their turn-taking behaviour [3]."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "An Attention Flow controller uses a Situation model to track specified targets and transforms their 3D positions into Furhat neck and gaze movement. A Kinect tracks users’ head location and rotation; head pose helps determine whether they address Furhat. The system uses hand-crafted behavior policies.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "A Kinect camera (V2) is used to track the location and rotation of the two users’ heads, as well as their hands."
+        },
+        {
+          "page": 3,
+          "text": "Two behaviour controllers based on the Harel statechart mechanism offered by IrisTK run in parallel: The Dialog Flow and the Attention Flow."
+        },
+        {
+          "page": 3,
+          "text": "The Attention Flow keeps Furhat’s attention to a specified target (one or both users, or a card), even when the target is moving, by consulting the Situation model."
+        },
+        {
+          "page": 3,
+          "text": "The 3D position of the target is then transformed into neck and gaze movement of Furhat (again taking Furhat’s position in the 3D space into account)."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Furhat is a robot head with an animated face back-projected onto a translucent mask and a mechanical neck; its design supports head pose and eye-gaze signals.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The visitors are interacting with the Furhat robot head [1], which has an animated face back-projected on a translucent mask, as well as a mechanical neck, which allows Furhat to signal his focus of attention using a combination of head pose and eye-gaze."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The paper states that Furhat’s 3D design enables exclusive mutual gaze with users and lets them infer the target of its gaze toward cards to maintain joint attention. It does not compare embodiments.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "This, together with the 3D design of Furhat, makes it possible to maintain exclusive mutual gaze with the users, and to let them infer the target of Furhat’s gaze when directed towards the cards, in order to maintain joint attention [1]."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper presents a public museum test-bed where two visitors collaboratively sort cards with the Furhat robot head. Furhat uses head pose and eye gaze to direct attention to people or cards and support mutual gaze and joint attention; the paper reports no formal evaluation of gaze effects.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ4; RQ5; RQ6 — The paper describes visual focus of attention, its role in sharing attention with people and objects, and the robot’s gaze-control implementation and head embodiment. It offers only a limited account of effects, with no formal evaluation of gaze behavior.",
+      "quotes": []
+    }
+  ]
+}

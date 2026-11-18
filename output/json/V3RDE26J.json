@@ -1,0 +1,286 @@
+{
+  "key": "V3RDE26J",
+  "title": "Conversational gaze mechanisms for humanlike robots",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "A multi-phase study: observational modeling of human conversation, robotic system design, and a controlled laboratory experiment.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "This work seeks to answer these questions through three phases: (1) computational modeling of key conversational gaze mechanisms, (2) interaction design of these mechanisms for humanlike robots, and (3) experimental evaluation of the social outcomes of manipulations in these mechanisms."
+        },
+        {
+          "page": 20,
+          "text": "A total of 72 subjects participated in the experiment in 36 trials."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Controlled laboratory experiment in a dedicated space; gaze modeling used recorded human conversations.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "All triads performed all three scenarios for fifteen minutes in the order listed above."
+        },
+        {
+          "page": 22,
+          "text": "The experiment was run in a dedicated space with no outside distraction."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "72 human subjects across 36 trials; 12 subjects in the modeling study (four all-male triads).",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "We recruited four all-male triads (12 subjects) to perform the tasks in the modeling study."
+        },
+        {
+          "page": 20,
+          "text": "A total of 72 subjects participated in the experiment in 36 trials."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Native-Japanese-speaking university students recruited from the Osaka area; ages 18–24 (mean 20.8). Participants in the modeling study were male; the evaluation recruited male subjects. Robot familiarity and gaming experience were relatively low.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "We decided to control for these group composition effects, testing our hypotheses in a smaller population of male native-Japanese-speaking college students from the Osaka area of Japan between the ages of 18 and 24."
+        },
+        {
+          "page": 20,
+          "text": "All subjects were native-Japanese-speaking university students recruited from the Osaka area. The ages of the subjects varied between 18 and 24 with an average of 20.8 years."
+        },
+        {
+          "page": 20,
+          "text": "Their familiarity with robots was relatively low (M 2.97, SD 1.67), so was their video gaming experience (M 2.92, SD 1.91)."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants interacted with a travel-agent robot that presented travel packages and destinations, adapted information to their choices, and asked factual questions. Two humans interacted with the robot under one of three gaze-defined participation structures: addressee plus overhearer, addressee plus bystander, or two addressees. The task averaged 7.5 minutes.",
+      "quotes": [
+        {
+          "page": 20,
+          "text": "To contextualize our design of robot gaze cues for an experimental task, we choreographed a conversational scenario in which Robovie played the role of a travel agent."
+        },
+        {
+          "page": 21,
+          "text": "The robot provided participants with options of travel packages (“value” and “premium”) and destinations (Spain and Turkey—two equally popular travel destinations in Japan) and adapted its information to their choices."
+        },
+        {
+          "page": 21,
+          "text": "It also assessed participants’ knowledge of the travel destinations that they chose by asking them factual questions such as “Are you familiar with Picasso?” or “Did you know that Spain is this year’s World Champion in basketball?”"
+        },
+        {
+          "page": 22,
+          "text": "The task and the entire experiment procedure in total took an average of 7.5 minutes and 25 minutes respectively."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three people per experimental session: one robot and two human subjects.",
+      "quotes": [
+        {
+          "page": 20,
+          "text": "The spatial setup of the experiment (left) and participants conversing with the robot in an experimental trial (right)."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1 robot per session.",
+      "quotes": [
+        {
+          "page": 20,
+          "text": "The spatial setup of the experiment (left) and participants conversing with the robot in an experimental trial (right)."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2 human subjects per experimental session.",
+      "quotes": [
+        {
+          "page": 21,
+          "text": "Both subjects were told that researchers were developing a travel agent robot and would like their help in evaluating their design."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Video and audio recordings for speaking-turn and speaking-duration measures; post-experiment questionnaire for recall; PANAS; a humanlike-agent perception scale; closeness scale; groupness and ostracism measures; task enjoyment and attention items; manipulation-check and custom single-item ratings; ANCOVA and correlations for analysis.",
+      "quotes": [
+        {
+          "page": 22,
+          "text": "From the video and audio data, we measured whether subjects took turns in responding to the robot and how long they spoke."
+        },
+        {
+          "page": 22,
+          "text": "We measured subjects’ recall of the information presented by the robot using a post-experiment questionnaire."
+        },
+        {
+          "page": 22,
+          "text": "We evaluated subjects’ affective state using the PANAS scale [Watson et al. 1988], perceptions of the robot’s physical, social, and intellectual characteristics using a scale developed to evaluate humanlike agents [Parise et al. 1996], feelings of closeness to the robot [Aron et al. 1992], feelings of groupness and ostracism [Williams et al. 2000], perceptions of the task (how much they enjoyed and attended to the task), and demographic information."
+        },
+        {
+          "page": 22,
+          "text": "The subjective evaluation also included a question for manipulation check: we asked subjects how much they thought the robot looked towards them and towards the other subject. We also used single-item measures to measure how much subjects thought the robot ignored them and considered their preferences in providing travel information."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Subjects interpreted 98.71% of turn-yielding signals and took 97.11% of yielded turns. Addressees took more turns and spoke longer than bystanders and overhearers (F(1, 30)=17.58, p<.01; F(1, 30)=7.41, p=0.01). Addressees reported greater task attention (F(1, 29)=12.90, p<.01) and groupness (F(1, 30)=8.95, p<.01). Addressees and bystanders liked the robot more than overhearers (F(1, 30)=7.35, p<.01); recall did not differ significantly.",
+      "quotes": [
+        {
+          "page": 23,
+          "text": "The analysis showed that subjects correctly interpreted these signals 98.71% of the time (307 of 311 turn-yielding signals) and conformed to them by taking speaking turns 97.11% of the time (302 of 311 turns)."
+        },
+        {
+          "page": 23,
+          "text": "Addressees took significantly more speaking turns than bystanders and overhearers did, F(1, 30) 17.58, p .01, and spoke significantly longer than bystanders and overhearers did, F(1, 30) 7.41, p 0.01."
+        },
+        {
+          "page": 25,
+          "text": "Addressees rated themselves as attending to the conversation significantly more than bystanders and overhearers did, F(1, 29) 12.90, p .01."
+        },
+        {
+          "page": 25,
+          "text": "Addressees and bystanders liked the robot significantly more than overhearers, F(1, 30) 7.35, p .01."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames robot gaze as conversational gaze mechanisms: role-signaling, turn-taking, and topic-signaling cues that communicate participation, conversation, and information structure.",
+      "quotes": [
+        {
+          "page": 26,
+          "text": "Drawing on discourse theory and formal observations of human conversations, we identified three gaze mechanisms that signal three kinds of structural conversation information: role-signaling (communicates participation structure), turn-taking (signals conversation structure), and topic-signaling (expresses information structure)."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The authors use “mechanisms” for behavioral cues that serve particular communicative functions. The three mechanisms are defined by the conversational structure information they signal.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We refer to behavioral cues that serve particular communicative functions as mechanisms."
+        },
+        {
+          "page": 26,
+          "text": "Drawing on discourse theory and formal observations of human conversations, we identified three gaze mechanisms that signal three kinds of structural conversation information: role-signaling (communicates participation structure), turn-taking (signals conversation structure), and topic-signaling (expresses information structure)."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze signals whom the robot addresses and establishes participant roles, manages turn exchanges, and marks discourse or topic structure. In multiparty interaction it can designate addressees, acknowledge bystanders, or leave overhearers unacknowledged.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "In conversations that involve more than two people, the gaze of a speaker toward another participant can signal that the speaker is addressing that participant."
+        },
+        {
+          "page": 4,
+          "text": "For instance, speakers might look away from their addressees to indicate that they are in the process of constructing their speech and do not want to be interrupted and look at their addressees to signal the end of a remark and the passing of the floor to another participant."
+        },
+        {
+          "page": 19,
+          "text": "In the two-party conversation with the bystander, in addition to the behaviors it produced in the previous conversational scenario, it greeted the bystander at the beginning and at the end of the interaction and reaffirmed the bystander’s role with short glances directed at him at random intervals during the body of the conversation."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Gaze cues shaped participation: subjects followed turn-yielding signals, while addressees took more turns, spoke longer, and reported more attention and groupness. Acknowledging gaze was associated with greater liking of the robot for addressees and bystanders than for ignored overhearers. Recall did not differ significantly by role.",
+      "quotes": [
+        {
+          "page": 23,
+          "text": "The analysis showed that subjects correctly interpreted these signals 98.71% of the time (307 of 311 turn-yielding signals) and conformed to them by taking speaking turns 97.11% of the time (302 of 311 turns)."
+        },
+        {
+          "page": 25,
+          "text": "Addressees rated themselves as attending to the conversation significantly more than bystanders and overhearers did, F(1, 29) 12.90, p .01."
+        },
+        {
+          "page": 25,
+          "text": "As predicted, those who were communicated the role of addressee by the robot and who contributed in the conversation as active participants rated their feelings of groupness significantly higher than those who did not contribute to the conversation as bystanders (except during greetings and leave-taking) and as overhearers, F(1, 30) 8.95, p .01."
+        },
+        {
+          "page": 24,
+          "text": "There were no significant differences across conditions in how well subjects recalled the information presented by the robot."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "Human conversation observations informed hybrid rule-based and stochastic gaze models; the robot used spatial and duration distributions, marked thematic fields and turn-relevant places in its speech, and scenario-specific role signals. The evaluation used Wizard-of-Oz control: an experimenter initiated robot turns from preset utterances; speech recognition was not used.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The computational modeling phase involves formal observations of human conversations and detailed analyses of the gaze cues of the conversational participants, producing hybrid rule-based and stochastic models of gaze behavior."
+        },
+        {
+          "page": 17,
+          "text": "The exact target of each gaze shift was randomly generated using the parameters of the fitted Normal distributions."
+        },
+        {
+          "page": 18,
+          "text": "For each new thematic field, the robot produced the appropriate series of gaze shifts based on the gaze patterns identified for each conversational scenario, probabilities of occurrence for gaze each pattern, and length distribution parameters for each gaze shift provided in Table II."
+        },
+        {
+          "page": 21,
+          "text": "We used Wizard-of-Oz techniques to evaluate participants’ responses."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "ATR Robovie R-2, described as having an articulate head and eyes; figure caption identifies the platform as Robovie R-1.",
+      "quotes": [
+        {
+          "page": 15,
+          "text": "We chose to use ATR’s Robovie R-2 robot [Ishiguro et al. 2001] for our implementation and evaluation, because its articulate head and eyes allowed us to implement our gaze models and provided salient gaze signals for experimental evaluation."
+        },
+        {
+          "page": 17,
+          "text": "Fig. 6. Robovie R-1, the robotic platform we used in the implementation and evaluation of the gaze mechanisms studied in this work."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The robot’s articulate head and eyes enabled implementation of the gaze models and salient gaze signals for evaluation. The authors state that removing gestures and body movement may have affected how people perceived the gaze signals.",
+      "quotes": [
+        {
+          "page": 15,
+          "text": "We chose to use ATR’s Robovie R-2 robot [Ishiguro et al. 2001] for our implementation and evaluation, because its articulate head and eyes allowed us to implement our gaze models and provided salient gaze signals for experimental evaluation."
+        },
+        {
+          "page": 28,
+          "text": "The elimination of gestures and body movement might have affected how people perceived the robot’s gaze signals."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The authors modeled human conversational gaze, implemented role-signaling, turn-taking, and topic-signaling cues on a humanlike robot, and tested them in conversations with two people. Participants largely followed the robot’s turn cues; gaze-defined roles affected participation, attention, groupness, and robot liking, while recall did not differ significantly.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper describes gaze mechanisms and their conversational functions, reports effects on participation and social outcomes, details gaze modeling and Wizard-of-Oz operation, and identifies the robot platform and how its physical features enabled the implementation.",
+      "quotes": []
+    }
+  ]
+}

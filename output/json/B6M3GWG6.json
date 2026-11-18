@@ -1,0 +1,247 @@
+{
+  "key": "B6M3GWG6",
+  "title": "Forming shared attention between robot and users in conversational situations",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical system description with experimental evaluation.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "This paper proposes an algorithm that enables shared attention between a robot and speakers in alternative conversational situations."
+        },
+        {
+          "page": 8,
+          "text": "In order to show the effectiveness of the method for alternatively forming shared attention with speakers in a conversational scene involving multiple users, we conducted an experiment as shown in Fig. 9."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "A conversational scene tested in a general environment with noise and reverberation; no specific site is stated.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "Figure 9 shows an experiment in a scene where two users facing the robot teach each other the names of handheld objects, and ask and answer questions."
+        },
+        {
+          "page": 8,
+          "text": "Also, this experiment is conducted in a general environment with noise and reverberation."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "Two users alternated conversation while teaching each other the names of handheld objects and asking and answering questions. The robot detected the active speaker and that speaker’s attention target, then displayed the target image to indicate shared attention.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "Figure 9 shows an experiment in a scene where two users facing the robot teach each other the names of handheld objects, and ask and answer questions."
+        },
+        {
+          "page": 7,
+          "text": "In this way, based on the scene and the speaker's facial posture, a saliency map is generated and the robot directs its attention toward the salient region in the map."
+        },
+        {
+          "page": 7,
+          "text": "After that, this paper displays an image of the object to which the robot attended, and presents to the speaker that it is sharing the speaker's attention."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "3 people total per interaction: two human users and one robot.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "Figure 9 shows an experiment in a scene where two users facing the robot teach each other the names of handheld objects, and ask and answer questions."
+        },
+        {
+          "page": 2,
+          "text": "An omnidirectional mobile robot is equipped with audiovisual sensors necessary for communication with humans."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "An omnidirectional mobile robot is equipped with audiovisual sensors necessary for communication with humans."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "Figure 9 shows an experiment in a scene where two users facing the robot teach each other the names of handheld objects, and ask and answer questions."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "System-level evaluation using synchronized audio, texture and depth images; speaker-location estimation error; and frame-by-frame system outputs for speaker and attention-target detection. No named questionnaire, interview, or human-rated scale is stated.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "The three-eye camera captures the scene texture and depth images simultaneously at a rate of 8 frames per second."
+        },
+        {
+          "page": 7,
+          "text": "Meanwhile, the microphone array acquires audio signals in the environment at a sampling frequency of 48 kHz."
+        },
+        {
+          "page": 6,
+          "text": "The horizontal axis is the frame number, and the vertical axis is the distance in real space between the estimated sound source position and the speaker's mouth position, representing the estimation error."
+        },
+        {
+          "page": 8,
+          "text": "The processing results for frames 42, 91, 115, 124, 156, 169, 184, and 202 are shown, respectively, from top to bottom in Fig. 9."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "The authors report that integrating skin-color information with audio/depth-based sound localization reduced errors: localization error was within 0.1 m for all 87 voiced frames, versus within 0.15 m for 94.3% of frames using audio alone. The speaker and attention target were reported as correctly detected in the alternating-conversation demonstration. No statistical significance test is stated.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "In section y, the proportion of sound source positions estimated by the method combining skin-color distribution with errors within 0.1 m is 100%."
+        },
+        {
+          "page": 6,
+          "text": "In section A, there were 5 frames in which the sound source position was incorrectly estimated for the reasons described above, and the proportion with errors within 0.15 m is 94.3%."
+        },
+        {
+          "page": 8,
+          "text": "The experiment confirmed that the proposed methods for sound source localization and speaker position estimation are effective."
+        },
+        {
+          "page": 8,
+          "text": "This experiment confirmed that, according to speaker changes, the speaker's attention target was appropriately detected, and that the robot could form shared attention with the speaker."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames the behaviour as forming shared attention between a robot and users in conversation. It specifically targets overt attention, where the user's attention target matches the object being fixated on.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this paper, we define as “shared attention” the robot identifying the object (an object or a person) that the user is attending to and sharing it as an object of attention."
+        },
+        {
+          "page": 1,
+          "text": "This paper targets “overt attention,” which can be handled objectively based on image information."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "Shared attention is defined as the robot identifying what a user attends to and sharing that object as an attention target. The paper treats overt attention as the case where the attention target and fixation target coincide.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this paper, we define as “shared attention” the robot identifying the object (an object or a person) that the user is attending to and sharing it as an object of attention."
+        },
+        {
+          "page": 1,
+          "text": "“Overt attention” is the case in which the attention target coincides with the fixation target."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "The robot detects and selects the current speaker, identifies the speaker's attention target, and shares it to support communication in turn-taking conversation.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In order to realize shared attention with multiple users in a conversational scene, it is necessary to: 1) detect and select the speaker to whom the robot should attend; 2) detect the gaze direction, face direction, and pointing direction of the attended speaker; 3) extract the speaker's attention target from the image; and 4) direct the robot's attention to the extracted target."
+        },
+        {
+          "page": 8,
+          "text": "Furthermore, a method for identifying the speaker's attention target using a saliency map calculated based on estimation of the speaker's three-dimensional head posture was applied in coordination with speaker changes."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The system demonstrated alternating shared attention with speakers and detected their attention targets. The paper does not report measured effects on users or interaction outcomes beyond system performance.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "This experiment confirmed that, according to speaker changes, the speaker's attention target was appropriately detected, and that the robot could form shared attention with the speaker."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "An autonomous algorithm fuses a five-channel microphone array, three-eye stereo camera texture/depth images, and skin-color likelihood maps to locate the speaker. It detects the face, estimates 3D head pose using a wireframe model, propagates visual-acuity values over time to create a saliency map, extracts the attention target using CamShift, and displays the target image to the speaker.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The robot's head is equipped with a three-eye camera capable of stereo vision, and can measure the depth distance of the environment."
+        },
+        {
+          "page": 2,
+          "text": "A five-channel microphone array is implemented at the front of the robot body."
+        },
+        {
+          "page": 5,
+          "text": "The skin-color likelihood map and the sound source localization likelihood map are linearly combined according to equation (9)."
+        },
+        {
+          "page": 7,
+          "text": "The saliency map of shared attention is calculated by adding the visual-acuity maps over time with a temporal decay weight."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "An omnidirectional mobile robot with a three-eye stereo camera on its head and a five-channel microphone array at the front of its body.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "An omnidirectional mobile robot is equipped with audiovisual sensors necessary for communication with humans."
+        },
+        {
+          "page": 2,
+          "text": "The robot's head is equipped with a three-eye camera capable of stereo vision, and can measure the depth distance of the environment."
+        },
+        {
+          "page": 2,
+          "text": "A five-channel microphone array is implemented at the front of the robot body."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The paper presents and tests a robot system that follows alternating conversation between two users, identifies the current speaker and estimates what that speaker is attending to. In its demonstration, the system detected attention targets as speakers changed; combining audio localization with image-based skin-color information also improved reported speaker-location accuracy.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ4; RQ5 — The paper defines shared attention and overt attention, describes the behaviour's role in alternating conversation, details its sensing and processing implementation, and specifies the robot platform. It does not establish effects on people or discuss how embodiment influenced the study.",
+      "quotes": []
+    }
+  ]
+}

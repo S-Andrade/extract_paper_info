@@ -1,0 +1,256 @@
+{
+  "key": "UAEVSGDG",
+  "title": "Robot Gaze Can Mediate Participation Imbalance in Groups with Different Skill Levels",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Between-subjects experimental study.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The different robot behaviors were evaluated in a between-subject design."
+        },
+        {
+          "page": 3,
+          "text": "To evaluate the effects of the adaptive gaze behavior on human group dynamics, we designed a between-subject study with two conditions."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Laboratory study conducted in a meeting room.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "After filling the pre-questionnaire, they were guided to the meeting room with the Furhat robot and asked to take a seat in front of it."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "72 participants recruited in 36 pairs; 54 participants in 27 groups were included in the analysis.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "In total, 72 participants were recruited to interact with the Furhat robot in 36 pairs."
+        },
+        {
+          "page": 6,
+          "text": "Of the remaining 27 groups (54 participants) that were included in the analysis"
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Participants were aged 18–67; 35 identified as female, 36 as male, and one did not say. Each pair included one native Swedish speaker and one Swedish language learner. Most participants were unfamiliar with each other; 39 had never interacted with a robot before and 19 reported interacting with robots regularly.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "Participants’ age ranged between 18 and 67 years 31.43, 10.77) and 35 identified as female, 36 as male and 1 did not say."
+        },
+        {
+          "page": 6,
+          "text": "Participants were paired randomly according to their role (1 native speaker, 1 language learner)."
+        },
+        {
+          "page": 6,
+          "text": "Besides 1 participant who reported a medium familiarity with the other participant, participants were unfamiliar with each other. 39 of the participants had never interacted with a robot before and 19 reported to interact with robots regularly."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Pairs played a Swedish-language word-description and guessing game with the robot as guesser. Participants collaboratively described target words, without saying the target word, and the robot attempted to guess. They played easy, medium, and hard levels; interaction lasted 15–20 minutes.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "In each interaction, participants collaboratively tried to produce utterances that describe a target word shown on a tablet (see Figure 3) to the robot."
+        },
+        {
+          "page": 4,
+          "text": "As in the original game, the target guess word was forbidden and could not be pronounced."
+        },
+        {
+          "page": 6,
+          "text": "After this introduction, the robot repeated the game rules and participants interacted with the Furhat robot and the game for 15-20 minutes."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three participants per interaction: two humans and one robot.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In our experiment, the fully autonomous robot took the role of the guesser and the pair of participants cooperated to provide relevant verbal information that allowed the robot to guess the word"
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1 robot per interaction.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In our experiment, the fully autonomous robot took the role of the guesser"
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2 human participants per interaction.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "In each group, the pair of participants was formed by a native Swedish speaker and a second language learner of Swedish with low-intermediate to advanced language proficiency."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Voice activity detection (VAD) duration measured active participation; turn counts and unevenness of speech participation were calculated from speech time. Questionnaires measured personality (Big Five Inventory dimensions of extroversion and agreeableness), familiarity, Swedish proficiency (CEFR levels), social presence (Networked Minds co-presence and attentional allocation scales), and willingness to communicate (Ryan questionnaire).",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "During the game, we measured the amount of active participation by analyzing the duration of voice activity detection (VAD) for that participant."
+        },
+        {
+          "page": 5,
+          "text": "We measured how often the participants were taking turns."
+        },
+        {
+          "page": 5,
+          "text": "In order to investigate how the manipulation of the gaze behavior was perceived by participants, we employed two scales of the Networked Minds Questionnaire [11] targeted at the robot on a Seven-point Likert scale: Co-presence is defined as the degree to which the observer believes s/he is not alone and attentional allocation describes the amount of attention the user allocates to and receives from an interactant."
+        },
+        {
+          "page": 5,
+          "text": "We used a questionnaire validated by Ryan [27] to assess the general motivation of a person to communicate in a second language."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Unevenness of participation was significantly lower (more balanced) in the adaptive gaze condition than in control, F(1, 72) = 5.717, p = 0.019. Extroversion and participant language proficiency were significantly related to active speech amount; learner proficiency was significantly related to group turn count. Robot condition did not significantly affect active participation; the condition effect on turn count showed a trend (p = 0.065).",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "The analysis yielded a main effect of condition for the unevenness of participation measure, (1, 72) 5.717, 0.019 whilst controlling for proficiency of language learners, meaning that the robot’s behavior could influence the participation behavior and lead to less uneven participation in the experimental condition 0.27, 0.14) compared to the control condition 0.39, 0.26)."
+        },
+        {
+          "page": 7,
+          "text": "The covariate, extroversion, was significantly related to the speech amount, (1, 151) 8.192, 0.005, indicating after further inspection of the data that higher levels of extroversion led to higher amounts of participation. There was also a significant relation of proficiency to the speech amount, (4, 151) 13.333, 0.001 indicating that the proficiency level of the participant influenced the amount of active participation."
+        },
+        {
+          "page": 7,
+          "text": "The covariate, language proficiency, was significantly related to number of turns taken, (3, 72) 2.819, 0.045 indicating that the proficiency of the language learners influenced the number turns taken in the group."
+        },
+        {
+          "page": 7,
+          "text": "The predictors condition and difficulty level were not significant."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames robotic gaze as an adaptive, non-verbal behavior that can influence group dynamics and balance participation by shifting attention between participants based on speaking activity.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We explore how adaptive non-verbal robot behaviors, specifically gazing, can balance participation in groups with diverging skill levels."
+        },
+        {
+          "page": 2,
+          "text": "As gaze behavior has been identified as a promising method to influence groups [21, 31], we designed the robot’s gaze behaviors to autonomously adapt moment-by-moment using real-time evaluation of participation levels with the goal of structuring and balancing participation in the activity."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "The adaptive gaze behavior aims to encourage the less active participant and balance participation. The robot attends equally while the dominant participant speaks; when the non-dominant participant speaks or there is silence, gaze is distributed based on relative speech amounts.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "If the participant with the larger amount of speaking time (the dominant participant) is talking, the robot attends to both participants equally. If the participant with the smaller speech amount (non-dominant participant) is talking, the robot instead shifts gaze based on the relative amounts of speaking time."
+        },
+        {
+          "page": 3,
+          "text": "The latter gaze-shift behavior is also executed in cases of silence."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Adaptive gaze produced significantly more balanced speech participation than control, but did not significantly affect overall active participation. Turn-taking showed a trend toward increasing in the experimental condition. The gaze manipulation did not significantly change co-presence, attentional engagement, or willingness to communicate.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "The analysis yielded a main effect of condition for the unevenness of participation measure, (1, 72) 5.717, 0.019 whilst controlling for proficiency of language learners, meaning that the robot’s behavior could influence the participation behavior and lead to less uneven participation in the experimental condition 0.27, 0.14) compared to the control condition 0.39, 0.26)."
+        },
+        {
+          "page": 7,
+          "text": "The predictors condition and difficulty level were not significant. This means that the robot behavior did not have a significant influence on the amount of general participation 0.3, 0.12 for experimental condition, 0.33, 0.17 for control condition, see Figure 5b)."
+        },
+        {
+          "page": 7,
+          "text": "The analysis of the willingness to communicate comparing pre- and post-experiment measures did not yield significant results."
+        },
+        {
+          "page": 8,
+          "text": "The balancing behavior shown by the robot seemed not to be perceived by participants as far as influencing their perception of co-presence or attentional engagement as the results for both measures were non-significant"
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "An autonomous algorithm used each participant’s accumulated speech time to calculate a relative speech ratio and adapt gaze target, gaze duration, and head pose. Voice activity detection provided current speaker information. The robot used small head rotations coordinated with eye gaze. The control condition gazed at the current speaker with periodic gaze aversion.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The gaze-shifting decision making algorithm is called whenever a change in talker occurs and is then repeated whenever a gaze change is intended (after timeNextAction seconds) and is always performed with the current real-time estimations of for each participant."
+        },
+        {
+          "page": 3,
+          "text": "As only eye gaze, though, might not be noticed and the coordination of movement and gaze was shown to be important [40], the robot executes small head rotations towards the participant who is the gaze target."
+        },
+        {
+          "page": 4,
+          "text": "As the robot in the control condition was not considering real-time evaluation of group dynamics, the robot was always gazing at the person currently talking to attend to the flow of the conversation. This behavior was realized by using the same voice activation detection as in the experimental condition."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Furhat robot with an iRobot face texture and Swedish female voice Elin from Acapela Group; participants sat in front of it.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "We used a Furhat robot with the iRobot face texture and the Swedish female voice Elin from Acapela group."
+        },
+        {
+          "page": 6,
+          "text": "After filling the pre-questionnaire, they were guided to the meeting room with the Furhat robot and asked to take a seat in front of it."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "Pairs of a native Swedish speaker and a language learner played a word guessing game with a Furhat robot whose gaze adapted to speaking participation. Adaptive gaze led to more balanced speech participation, while overall speech amount and social presence measures did not significantly change.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5 — The paper describes gaze as adaptive non-verbal behavior for shaping participation, reports its role and measured effects, and details the gaze implementation and Furhat embodiment. It does not explain how the robot’s embodiment influenced the study or effects.",
+      "quotes": []
+    }
+  ]
+}

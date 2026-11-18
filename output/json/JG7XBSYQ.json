@@ -1,0 +1,211 @@
+{
+  "key": "JG7XBSYQ",
+  "title": "Eyes ahead: a scoping review of technologies enabling humanoid robots to follow human gaze",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Scoping review synthesizing technical implementations of humanoid robot gaze-following systems.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "This scoping review addresses this gap by systematically categorizing existing solutions, offering a structured perspective on how gaze-following behavior is technically realized in the field of HRI."
+        },
+        {
+          "page": 2,
+          "text": "The present scoping review aims at closing this gap."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "sample_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Not applicable to this review as a whole; no single participant sample is reported.",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "The review examined studies in which humanoid robots track human gaze toward objects in shared environments and respond contingently. No single participant task applies to the review as a whole.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "So, gaze following in human–robot triadic interactions means that the robot is programmed to recognize the human's gaze target and react in an appropriate way."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "n_robots",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "n_humans",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "measurement_tools",
+      "value": "The review extracted study setup details including outcome measures, but no single outcome measurement instrument was used across the review.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Table 3 lists the relevant details of each empirical study, such as the type of robot used, the number of participants involved, the outcome measures assessed, and the key results with regard to the outcome measure."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "The review reports heterogeneous results across included studies, including accuracy, questionnaires, video analysis, and technical performance measures; it does not report an overall statistical effect.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "Authors Robot Participants Outcome measure Result"
+        },
+        {
+          "page": 12,
+          "text": "The synthesis of the studies revealed significant methodological heterogeneity, rendering a direct comparison of existing approaches difficult."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The authors frame the behavior as robotic gaze following in human–robot triadic interaction, distinguishing it from human joint attention because robots do not possess the relevant human social-cognitive capacities. The review organizes implementations into environment tracking, gaze tracking, and gaze–environment mapping.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "However, given that joint attention presupposes the capacity to interpret the goals, intentions, and beliefs of others based on their behavior (Scassellati, 2002), and given that robots do not (yet) possess these human social cognitive capacities, it is more accurate to refer to the respective behavioral patterns of robots as gaze following behavior."
+        },
+        {
+          "page": 2,
+          "text": "So, gaze following in human–robot triadic interactions means that the robot is programmed to recognize the human's gaze target and react in an appropriate way."
+        },
+        {
+          "page": 2,
+          "text": "A taxonomy was developed that systematizes current technological approaches to the core components of robotic gaze following, namely, environment tracking, gaze tracking, and gaze–environment mapping."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "Robotic gaze following is defined as programming a robot to recognize a human’s gaze target and respond appropriately. The review notes this behavior should not be equated with human joint attention, which presupposes social-cognitive capacities attributed to humans.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "So, gaze following in human–robot triadic interactions means that the robot is programmed to recognize the human's gaze target and react in an appropriate way."
+        },
+        {
+          "page": 2,
+          "text": "One aspect of human–human interaction (HHI) is, thus, joint attention which refers to the ability of humans to follow someone else's gaze and share the other person's focus on an object–a human skill which is learned in early infancy."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze following lets a robot identify what its human interaction partner attends to in the shared environment and respond contingently, for example by referring to the attended object. The review presents it as a means of supporting natural and effective HRI.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The latter, i.e., the gaze–environment mapping is the basis for a robot to be able to react in an appropriate way, for example, by referring to the objects in the environment the human partner focuses on."
+        },
+        {
+          "page": 12,
+          "text": "With the right technology, robots can be equipped with the ability to mimic this human capacity by following the human gaze towards objects within a shared environment and reacting appropriately."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The review cites studies reporting that gaze-following robots can be perceived as more socially present, engaging, and likable. In the summarized studies, reported outcomes included stronger feeling of being looked at, stronger orientation toward the robot, improved social presence for external observers, and preference toward the robot; effects differed by context and participant group.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Meanwhile, there are a number of studies that show that robots which mimic human gaze behavior are perceived as more socially present, engaging, and likable (Xu et al., 2013; Willemse and Wykowska, 2019; Pereira et al., 2019)."
+        },
+        {
+          "page": 8,
+          "text": "Yoshikawa et al. (2006a) Robovie-R2 33 Questionnaire Stronger feeling of being looked at"
+        },
+        {
+          "page": 8,
+          "text": "Pereira et al. (2020) Robotic head 40 27 Questionnaire Improved social presence for external observers, none for children"
+        },
+        {
+          "page": 8,
+          "text": "Willemse and Wykowska (2019) iCub 37 Return-to-face saccades, questionnaires Preference toward the robot"
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The review classifies systems by environment tracking, gaze tracking, and gaze–environment mapping. Implementations use constrained or unconstrained object tracking; eye tracking or head orientation as a proxy for gaze; and vector-based, probability-based, saccade-based, or learned mappings. The included systems were described as enabling real-time contingent responses.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "To structure the findings, a taxonomy was developed that categorizes technological approaches along three key functional dimensions: (1) environment tracking, which involves recognizing the objects in the robot's surroundings; (2) gaze tracking, which refers to detecting and interpreting human gaze direction; and (3) gaze–environment mapping, which connects gaze information with objects in the shared environment to enable appropriate robotic responses."
+        },
+        {
+          "page": 11,
+          "text": "Moving on to tracking the human's gaze direction, it is striking that the majority of studies use the orientation of human's head as a proxy for gaze direction."
+        },
+        {
+          "page": 10,
+          "text": "One way to identify the gaze target is to use a geometric strategy by elongating the gaze vector until it intersects with an object in the environment."
+        },
+        {
+          "page": 12,
+          "text": "Third, all considered publications enable robots to track and respond to changes in people's gaze in real time."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "The review is restricted to humanoid robots, defined as physically embodied systems with a human-like head–torso structure and typically one or more human-like limbs; robotic heads qualify when part of a human-like body schema. Included platforms listed in the paper include iCub, NAO, Pepper, and robotic heads.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "For the purpose of this review, a humanoid robot is defined as a physically embodied robotic system whose morphology is close to the human body, featuring a human-like head–torso structure and typically one or more human-like limbs."
+        },
+        {
+          "page": 3,
+          "text": "Under this definition, robotic heads qualify when they form part of a human-like body schema, whereas non-anthropomorphic settings, like standalone cameras on mounts, or toy-like social robots are excluded."
+        },
+        {
+          "page": 8,
+          "text": "Nagai (2005) Infanoid 1 Accuracy 90%"
+        },
+        {
+          "page": 8,
+          "text": "Samaniego et al. (2024) Pepper 1 F1-score 0.694"
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "This scoping review synthesizes technical approaches used to let humanoid robots follow human gaze in HRI. It organizes systems by environment tracking, gaze tracking, and gaze–environment mapping, and reports varied implementations and outcomes; the authors identify robust operation in unconstrained, dynamic settings as an ongoing challenge.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5 — The paper defines robotic gaze following, describes its role in triadic interaction and reported effects, and reviews implementation methods and robot platforms. It does not examine how embodiment itself influences the study or effects.",
+      "quotes": []
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "key": "U8FT47A2",
+  "title": "Intention Reading from a Fuzzy-Based Human Engagement Model and Behavioural Features",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical system description with a participant learning experiment and a multiparty performance test.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "Ten users participated in the learning experiment of the communicative process with 7 behavioural features."
+        },
+        {
+          "page": 8,
+          "text": "We created the performance test of the robot’s gaze behaviour for 3 participants and set it so that each participant could express their behavioural activities with discretion"
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "sample_size",
+      "value": "10 participants in the learning experiment; 3 participants in the gaze behaviour performance test.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "Ten users participated in the learning experiment of the communicative process with 7 behavioural features."
+        },
+        {
+          "page": 8,
+          "text": "We created the performance test of the robot’s gaze behaviour for 3 participants and set it so that each participant could express their behavioural activities with discretion"
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "Participants interacted with the robot in a greeting, identification, and question-game dialogue using turn-taking and ten consecutive questions. A separate three-person test examined gaze-target selection as people approached, showed interaction behaviours, and left.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "Each participant has a dialogue process with a greeting, identification and a questions game."
+        },
+        {
+          "page": 6,
+          "text": "Step 5: After finishing the user identification for the participant, the robot establishes a simple dialogue strategy, including the participant’s vocal response, in order to perform turn-taking with ten consecutive questions."
+        },
+        {
+          "page": 8,
+          "text": "According to the event timeline in Fig. 11, three participants come to the robot sequentially and individually express human activities so as to show interaction intent with time intervals, and then go away from the robot in turn."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "One robot with up to three humans in the multiparty gaze test; one robot with a participant in the learning dialogue.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "We created the performance test of the robot’s gaze behaviour for 3 participants and set it so that each participant could express their behavioural activities with discretion"
+        },
+        {
+          "page": 7,
+          "text": "Ten users participated in the learning experiment of the communicative process with 7 behavioural features."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "With respect to HRI, we have the following robot system configuration: a webcam on the robot head, four microphones on the base, a 3D depth sensor located at a certain distance from the robot along the Z-axis in order to detect multiple people and track each person’s trajectory easily through a large sensing range, a 4-DOF neck and 17-DOF face modules (eyebrow, eyelid, pupil and lip)."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "Up to 3 in the multiparty gaze test; the learning experiment reports 10 users overall, interacting individually.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "We created the performance test of the robot’s gaze behaviour for 3 participants and set it so that each participant could express their behavioural activities with discretion"
+        },
+        {
+          "page": 7,
+          "text": "Ten users participated in the learning experiment of the communicative process with 7 behavioural features."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Multimodal sensor-derived behavioural features: camera-based face/gaze and expression recognition, microphones for sound direction, and a 3D depth sensor for position, posture, and gestures. The study used feature analysis, fuzzy model classification, gaze-target selections, and classification accuracy; no questionnaire or named scale is stated.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "With respect to HRI, we have the following robot system configuration: a webcam on the robot head, four microphones on the base, a 3D depth sensor located at a certain distance from the robot along the Z-axis in order to detect multiple people and track each person’s trajectory easily through a large sensing range"
+        },
+        {
+          "page": 3,
+          "text": "We also recognize the current emotional state of the people by pre-processing a facial image with a neural network and obtain four facial expression states (smiling, surprised, neutral and angry states)"
+        },
+        {
+          "page": 3,
+          "text": "To get the human position and posture data, we use the OpenNI library [17]. The library provides a moving object’s location and 24 elements of skeleton position data."
+        },
+        {
+          "page": 8,
+          "text": "The result demonstrates that the space is sufficient to classify the engagement level with 86.2% accuracy between two opposite classes in the scenario."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "The fuzzy model classified attention versus inattention with 86.2% accuracy. In the three-person test, each participant was selected as the conversational attention target on three occasions, and the robot tracked the selected person with gaze; statistical significance testing is not reported.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "The result demonstrates that the space is sufficient to classify the engagement level with 86.2% accuracy between two opposite classes in the scenario."
+        },
+        {
+          "page": 9,
+          "text": "Each participant has been selected by a fuzzy-based human engagement model analysis as a conversational attention target on three separate occasions and the robot performed a gaze behaviour with tracking of the designated person (see Fig. 13(b))."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames robotic gaze as a behaviour used to select a communicative attention target among multiple people, based on a fuzzy model of human engagement and intent.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "To efficiently select an attention target for communication in multi-person interactions, we propose a fuzzy-based classification algorithm which is developed by an incremental learning procedure and which facilitates a multi-dimensional pattern analysis for ambiguous human behaviours."
+        },
+        {
+          "page": 2,
+          "text": "In this paper, we would like to focus on establishing a solution that judges the engagement levels of multiple people by analysing a fuzzy-based human engagement model and multi-dimensional human behavioural features."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The authors operationalize engagement as two classes, attention and inattention, and quantify human interaction intent through fuzzy membership values over behavioural features; no explicit general definition of robotic gaze or attention is given.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "The outputs of the class layer nodes are defined by an engagement term with two classes of an inattention 0 c and an attention 1c attitude"
+        },
+        {
+          "page": 6,
+          "text": "Finally, we can evaluate a quantitative human intention interacting with the robot by numerical values."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "The robot uses gaze to select and track a conversational attention target among multiple people. When nobody shows interaction intent, it selects the person standing closer to the robot.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "We assume that a robot can spontaneously select the person who stands closer than do other people from the robot if no one has interaction intent."
+        },
+        {
+          "page": 9,
+          "text": "Each participant has been selected by a fuzzy-based human engagement model analysis as a conversational attention target on three separate occasions and the robot performed a gaze behaviour with tracking of the designated person (see Fig. 13(b))."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "implementation",
+      "value": "A fuzzy min-max neural network incrementally learns attention and inattention classes from multimodal human behavioural features. The robot derives gaze, facial expression, gesture, movement, proximity, body orientation/leaning, and calling features from camera, microphone, and depth-sensor data; it then selects the person with interaction intent or uses proximity ranking when no one shows intent.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "Fuzzy min-max learning has an expansion/contraction process with four steps and repeats steps 1 to 4 for the two classes by turns:"
+        },
+        {
+          "page": 6,
+          "text": "The outputs of the class layer nodes are defined by an engagement term with two classes of an inattention 0 c and an attention 1c attitude and were classified by the following learning algorithm."
+        },
+        {
+          "page": 8,
+          "text": "To handle this situation as well as with multiple person interactions, a proximity ranking should be calculated according to the relative location of the people from the robot."
+        },
+        {
+          "page": 9,
+          "text": "Each participant has been selected by a fuzzy-based human engagement model analysis as a conversational attention target on three separate occasions and the robot performed a gaze behaviour with tracking of the designated person (see Fig. 13(b))."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "MERO, an intelligent robot platform with a webcam on its head, four microphones on its base, a 4-DOF neck, and 17-DOF face modules including eyebrows, eyelids, pupils, and lips.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "An intelligent robot platform namely MERO is mainly designed to provide cognitive services to mentally disordered people."
+        },
+        {
+          "page": 2,
+          "text": "With respect to HRI, we have the following robot system configuration: a webcam on the robot head, four microphones on the base, a 3D depth sensor located at a certain distance from the robot along the Z-axis in order to detect multiple people and track each person’s trajectory easily through a large sensing range, a 4-DOF neck and 17-DOF face modules (eyebrow, eyelid, pupil and lip)."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The paper presents an autonomous robot system that estimates people’s engagement from multimodal behaviours and uses a fuzzy model to choose a person to attend to in multiparty interaction. In a three-person test, the robot selected and tracked each participant as an attention target; the model classified attention versus inattention with 86.2% accuracy.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ4; RQ5 — The paper describes engagement classes and the role of gaze in selecting and tracking an attention target during multiparty interaction, and reports the sensing, model, and robot platform used. It does not report clear measured effects on people or how embodiment influenced the study.",
+      "quotes": []
+    }
+  ]
+}

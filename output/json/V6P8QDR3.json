@@ -1,0 +1,185 @@
+{
+  "key": "V6P8QDR3",
+  "title": "Generative Facial Expressions and Eye Gaze Behavior from Prompts for Multi-Human-Robot Interaction",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description and proof-of-concept implementation; not experimentally validated.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We describe a simple zero-shot learning approach to generate facial expression and gaze shifting behaviors to control a social robot conversing with an individual or group."
+        },
+        {
+          "page": 2,
+          "text": "The proof-of-concept generated promising results, enabling the robot’s expressions to be triggered appropriately, particularly when asked to perform a specifc gesture."
+        },
+        {
+          "page": 2,
+          "text": "While not experimentally validated, the addition of LLM-generated nonverbal behaviors produces a perceptible improvement in the robot’s social presence."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "sample_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "A robot conversing with an individual or group, with the LLM generating verbal responses containing gaze and expression tags. No participant study task is reported.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We describe a simple zero-shot learning approach to generate facial expression and gaze shifting behaviors to control a social robot conversing with an individual or group."
+        },
+        {
+          "page": 2,
+          "text": "To demonstrate this, we describe a proof-of-concept implementation using the robot Furhat."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "n_robots",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "n_humans",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "measurement_tools",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "significant_measures",
+      "value": "No measured outcomes or statistical results are reported; the authors describe a perceptible improvement in social presence, while noting the approach was not experimentally validated.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "While not experimentally validated, the addition of LLM-generated nonverbal behaviors produces a perceptible improvement in the robot’s social presence."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames gaze as a nonverbal cue that conveys intent, regulates conversation, fosters engagement, and helps robots manage attention in multiparty interactions. It operationalizes robot gaze through gaze shifting and breaking eye contact.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Nonverbal cues such as eye gaze and facial expressions play critical roles in conveying intent, regulating conversation, and fostering engagement."
+        },
+        {
+          "page": 1,
+          "text": "In multi-human-robot interactions, even more nuanced behavior from robots is required to effectively manage attention, maintain a sense of inclusion among participants, and adapt to the dynamic nature of group interactions."
+        },
+        {
+          "page": 2,
+          "text": "\"[SWITCH_GAZE]\" when it would be appropriate to change up who you are looking at. \"[GAZE_AWAY]\" when it would be appropriate to break eye contact."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "The paper describes gaze and facial expression as conveying intent, regulating conversation, fostering engagement, managing attention, and maintaining inclusion among participants.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Nonverbal cues such as eye gaze and facial expressions play critical roles in conveying intent, regulating conversation, and fostering engagement."
+        },
+        {
+          "page": 1,
+          "text": "In multi-human-robot interactions, even more nuanced behavior from robots is required to effectively manage attention, maintain a sense of inclusion among participants, and adapt to the dynamic nature of group interactions."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The authors report a perceived improvement in the robot’s social presence, but the effect was not experimentally validated. They propose future evaluation of social appropriateness and collaborative task performance.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "While not experimentally validated, the addition of LLM-generated nonverbal behaviors produces a perceptible improvement in the robot’s social presence."
+        },
+        {
+          "page": 2,
+          "text": "Future experiments will evaluate to what extent naive users perceive the generated behavior is socially appropriate, as well as determine how LLM-generated behaviors may improve performance on collaborative tasks that require both verbal and nonverbal communication [25]."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "A prompt instructs GPT-3.5 to generate conversational responses with embedded tags for gaze shifts and facial gestures. Furhat user detection triggers the interaction; the system parses the response into speech and gesture tags, generates speech with Azure Neural voices, recognizes user speech with Google Cloud Speech-to-Text, and repeats the cycle. The authors note user detection is limited to two people.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "To design a simple prompt to guide eye gaze and gestures during conversation, we specified four distinct parts: Characterization Description of role or perspective the LLM should take when replying."
+        },
+        {
+          "page": 2,
+          "text": "The OpenAI Completion class was used to create a response using the Davinci-3 variant of GPT-3.5 [22], 2048 maximum tokens, and a temperature of 0.7."
+        },
+        {
+          "page": 2,
+          "text": "The returned response was parsed into a sequence of sentences intended for verbalization and embedded gesture tags."
+        },
+        {
+          "page": 2,
+          "text": "For example, at the time of writing, the Remote API limits the number of users detected to two."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Furhat, an embodied conversational robot. The paper cites Furhat as a back-projected human-like robot head.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "To demonstrate this, we describe a proof-of-concept implementation using the robot Furhat."
+        },
+        {
+          "page": 3,
+          "text": "Furhat: A Back-Projected Human-Like Robot Head for Multiparty Human-Machine Interaction."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The paper presents a proof-of-concept in which an LLM uses prompt instructions to add gaze shifts and facial-expression tags to a Furhat robot’s conversational responses. The authors describe the behavior as improving social presence, but report no experimental validation or measured participant outcomes.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5 — The paper frames gaze as a nonverbal behavior for managing attention, inclusion, engagement, and conversational regulation; it describes an LLM-based implementation on Furhat and makes an unvalidated claim about social presence. It does not report empirical effects or address how embodiment influences study findings.",
+      "quotes": []
+    }
+  ]
+}

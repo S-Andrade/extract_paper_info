@@ -1,0 +1,286 @@
+{
+  "key": "N2ZIETTS",
+  "title": "Estimating human interest and attention via gaze analysis",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Experimental, within-participant study analyzing hand-coded video and survey data.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "This was an intra-participant study in which each tour group saw three tour guide presentations that spanned all locations and all robot presentation styles, but not every permutation therein, as represented in Table II."
+        },
+        {
+          "page": 4,
+          "text": "After data collection, we labeled participant gaze in a subset of the data that fully explores one Latin Square (see Table II), using the RGB video data to code viewer gaze statistics."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "In-person study in the Gates Building at Carnegie Mellon University, with presentations at three indoor locations.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The experiment takes place in the modern and uniquely constructed Gates Building on the Carnegie Mellon campus, with many interesting architectural features, installations, and views."
+        },
+        {
+          "page": 3,
+          "text": "Each group experienced presentations in three locations in the building (Fig. 3): a student lounge called “Ace Atrium”, a workspace overlooking a garden, aka, “Green Garden”, and a major entrance to the building “The Helix”."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "34 participants in nine tour groups; the coded subset included 13 participants.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "There were thirty-four participants overall, split into nine tour groups of three to five people each, including a ethnographically representative range of friends, strangers and families, i.e., similar to the makeup of typical campus tours."
+        },
+        {
+          "page": 3,
+          "text": "This subset covers thirteen participants across the 15-frames-a-second footage (about 24300 frames total)."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Participants were friends, strangers, and families; ages 14–61 (mean 27, SD 13); 13 female and 21 male. Most reported being comfortable with robots.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "There were thirty-four participants overall, split into nine tour groups of three to five people each, including a ethnographically representative range of friends, strangers and families, i.e., similar to the makeup of typical campus tours."
+        },
+        {
+          "page": 4,
+          "text": "34 13 Female 14-61 (mean 27, std 13) 92% 5 No 3 Sort-of 21 Male 26 Yes"
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants attended three Nao robot tour-guide presentations about features of the building, each at a different location and in a different presentation style. Presentations lasted about three minutes in the analyzed videos; participants completed surveys after each presentation.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In this study, we assess human gaze in response to a Nao robot tour guide that is presenting features of its environs."
+        },
+        {
+          "page": 3,
+          "text": "This was an intra-participant study in which each tour group saw three tour guide presentations that spanned all locations and all robot presentation styles, but not every permutation therein, as represented in Table II."
+        },
+        {
+          "page": 4,
+          "text": "At the completion of each robot presentation, the participants completed a short survey."
+        },
+        {
+          "page": 3,
+          "text": "A single coder labeled participant head pose for nine of the twenty-seven three-minute videos."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Each tour group contained three to five humans and one robot per presentation.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "There were thirty-four participants overall, split into nine tour groups of three to five people each, including a ethnographically representative range of friends, strangers and families, i.e., similar to the makeup of typical campus tours."
+        },
+        {
+          "page": 4,
+          "text": "The nine videos with 3-5 audience members each were hand-labeled by the lead author to indicate the head pose of each participant."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In the study presented here, a stationary Nao robot acts as a tour guide (see Fig. 1) presenting locational information about one of three spaces in one of three presentation styles."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "Three to five participants per tour group.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "There were thirty-four participants overall, split into nine tour groups of three to five people each, including a ethnographically representative range of friends, strangers and families, i.e., similar to the makeup of typical campus tours."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Hand-coded participant head pose from Kinect RGB video; labels for robot topics, gaze, and deictic gestures; post-presentation surveys with two custom 7-point engagement/entertainment ratings; contingency analyses, t-tests, and ANOVA.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Audiences were video-taped from the robot’s perspective using a Kinect sensor. While the work reported here uses the RGB images to code participant head pose, we intend to eventually include the Nao as the communicatory social presence standing atop a non-anthropomorphic robotic base equipped with various sensors, hence the applicability of using a Kinect."
+        },
+        {
+          "page": 4,
+          "text": "The questions used to estimate engagement include two 7-point scales. In the first, participants rated ”I found the robot’s presentation entertaining” from Strongly Disagree to Strongly Agree, and in the second, they rate the robot itself from Boring to Engaging."
+        },
+        {
+          "page": 4,
+          "text": "We also established timing and topic labels for the nine robot scripts,including tracks for overall topic, robot gaze and deictic gestures (see Fig. 4 for sample)."
+        },
+        {
+          "page": 4,
+          "text": "We use a series of contingency analyses to indicate the level of coherence between robot topic and audience attention, and whether the presence of a physical gesture (robot gesture and head pose) in addition to verbal indications increases the correlation."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Robot topic was associated with audience gaze: 91% of upward gaze occurred during ceiling-feature discussion and 99.2% of leftward gaze during window-feature discussion. Deictic gestures elicited more looks toward indicated locations than verbal topic alone (57% vs. 38% upward; 50% vs. 31% toward the window). At group level, first-look timing and time spent looking predicted engagement significantly (p=.0085 and p=.0014).",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The results strongly indicate that participants are looking at locations the robot is discussing, with 91% of upward gaze occurring while the robot is discussing a feature on the ceiling and 99.2% of the participant gaze left (towards the window) during utterances about features and buildings on view out the window."
+        },
+        {
+          "page": 5,
+          "text": "Participants spend 57% of the time looking upwards during a robot ‘up’ gesture, whereas they had only spent 38% of the time looking up when the feature in that location was discussed verbally."
+        },
+        {
+          "page": 5,
+          "text": "Similarly, they spend 50% of their time looking out the window during robot deictic gestures toward the window, as compared to 31% during topical robot utterances, demonstrating that robot deictic gestures do in fact have a large role in influencing participant gaze and attention, one that has more impact than utterances alone."
+        },
+        {
+          "page": 6,
+          "text": "Averaging a tour group’s gaze features gives a statistically significant prediction of that group’s overall level of engagement for “first look” and “time spent looking.”"
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames joint attention as coordination between the robot’s indication of surrounding features and its human audience, and treats audience gaze responses as cues to interest, attention, and engagement.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this paper we analyze joint attention between a robot that presents features of its surroundings and its human audience."
+        },
+        {
+          "page": 6,
+          "text": "By tracking the gaze responses of participants in response to a robot’s deictic gestures, we gain an indication of participant interest and attention to the subject matter or objects presented."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "A deictic gesture is defined as an indicatory gesture such as pointing, arm position, body orientation, or an indicatory nod. In this study, deictic gestures specifically refer to large arm gestures referencing a physical location.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "A deictic gesture is an indicatory gesture, such as pointing, but may also be achieved with arm position, body orientation or an indicatory nod."
+        },
+        {
+          "page": 4,
+          "text": "In our study, deictic refers to large arm gestures referencing a physical location, an example of which is in Fig. 1."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Robot gaze and gestures coordinate information by directing listeners toward indicated objects or locations; the study examines group attention and whether audience gaze can indicate engagement.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "This suggests that the robot’s physicality, in both gaze and gesture, plays an important role in the overall coordination of information."
+        },
+        {
+          "page": 4,
+          "text": "The timing and deictic labels allow us to match the robot’s current focus of attention to the audience gaze, and understand whether talking about a location, versus looking at the location, versus pointing at the location, is most impactful in guiding listeners’ attention."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Physical deictic gestures directed audience gaze toward indicated locations more than verbal references alone. Gaze timing and duration showed group-level associations with self-reported engagement; the authors describe some individual-level gaze-feature trends as weak.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Participants spend 57% of the time looking upwards during a robot ‘up’ gesture, whereas they had only spent 38% of the time looking up when the feature in that location was discussed verbally."
+        },
+        {
+          "page": 5,
+          "text": "There are trends that “first look,” “time spent looking,” and “glance backs” would be good indicators for estimating listener engagement."
+        },
+        {
+          "page": 6,
+          "text": "Averaging a tour group’s gaze features gives a statistically significant prediction of that group’s overall level of engagement for “first look” and “time spent looking.”"
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "A stationary Nao used scripted verbal presentations with head and limb deictic gestures. The authors hand-coded audience head pose from Kinect RGB video at 15 frames per second and aligned it with labeled topic, robot gaze, and gesture timing; the robot did not use an automatic gaze-tracking system in this analysis.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In the study presented here, a stationary Nao robot acts as a tour guide (see Fig. 1) presenting locational information about one of three spaces in one of three presentation styles."
+        },
+        {
+          "page": 3,
+          "text": "The robot references topics verbally 5-8 times and physically indicates their locations with head and limb deictic gestures 2-4 times per presentation."
+        },
+        {
+          "page": 3,
+          "text": "A single coder labeled participant head pose for nine of the twenty-seven three-minute videos."
+        },
+        {
+          "page": 4,
+          "text": "We also established timing and topic labels for the nine robot scripts,including tracks for overall topic, robot gaze and deictic gestures (see Fig. 4 for sample)."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Stationary Nao robot, standing on a tall table, using head and limb gestures; the paper describes whole-arm pointing gestures.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In the study presented here, a stationary Nao robot acts as a tour guide (see Fig. 1) presenting locational information about one of three spaces in one of three presentation styles."
+        },
+        {
+          "page": 3,
+          "text": "In our current study, however, the robot stood on top of a tall table."
+        },
+        {
+          "page": 1,
+          "text": "Our evaluation of robot indicatory strategies finds that phys- ical gestures, namely, the robot gesturing toward a location with its whole arm, led to the greatest number of listeners looking in that direction, as compared to verbal references only."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors report that the robot’s physicality, through gaze and gesture, played an important role in coordinating information; whole-arm gestures elicited more looks toward indicated locations than verbal references alone.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "This suggests that the robot’s physicality, in both gaze and gesture, plays an important role in the overall coordination of information."
+        },
+        {
+          "page": 5,
+          "text": "As compared to the robot utterances case in Fig. 6, partici- pants spend 57% of the time looking upwards during a robot ‘up’ gesture, whereas they had only spent 38% of the time looking up when the feature in that location was discussed verbally."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The study analyzed gaze from groups of three to five people watching a stationary Nao give three building tours in different styles. Participants looked toward locations indicated by the robot, and physical gestures drew more gaze than verbal references; group-level gaze timing and duration were associated with reported engagement.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper frames joint attention and defines deictic gestures, studies their role and effects on group gaze and engagement, describes gesture and video-coding methods, and reports the Nao embodiment and its physical indications. It provides limited direct evidence about how embodiment itself shapes the study beyond the reported influence of gaze and gestures.",
+      "quotes": []
+    }
+  ]
+}

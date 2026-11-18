@@ -1,0 +1,181 @@
+{
+  "key": "BCIQY6KS",
+  "title": "Modeling of conversational strategy for the robot participating in the group conversation",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description; no empirical user study is reported.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "This paper describes a strategy for the conversation system to take part in human-to-human group conversation."
+        },
+        {
+          "page": 1,
+          "text": "And finally, we realized a human- friendly group conversation system by combining multi- modal information processing/expression abilities of humanoid robot ROBITA."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "sample_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "A baseball-information conversation scenario in which the robot observes human conversation, answers questions directed to it, and may correct incorrect game-result information.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Conversation topic is selected from Japanese most popular sports game: “Baseball”. Character of the system is defined to be eager spectator of professional baseball game. Task is set to provide information about the baseball game to the user."
+        },
+        {
+          "page": 4,
+          "text": "Fig 3. Example behavior of the system: participating conversation as an observer. The system knows its act as an observer by recognizing the gaze of the users."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "The present system is limited to three participants, including the robot.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Number of the participant is limited to 3 (including the system) in present system."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "And finally, we realized a human- friendly group conversation system by combining multi- modal information processing/expression abilities of humanoid robot ROBITA."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "measurement_tools",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "significant_measures",
+      "value": "No statistical outcome measures are reported. The paper describes the system’s recognition and turn-taking functions but gives no quantitative performance results.",
+      "quotes": []
+    },
+    {
+      "field": "framing",
+      "value": "Gaze direction is used as a cue for selecting the next speaker and recognizing who is being addressed; the robot also uses gaze to express attention and turn allocation.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Selection of next speaker in rule a) is highly depends on where the gaze is directed in face-to-face conversation [roel]."
+        },
+        {
+          "page": 3,
+          "text": "These cameras are used to express its attention as well as to capture the image."
+        },
+        {
+          "page": 3,
+          "text": "In case that the robot squarely looks at a person, the robot can express his will to give the turn to him."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze supports turn-taking, speaker/addressee selection, the robot’s display of attention, and recognition of whether the robot is observing the conversation.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We will use the gaze direction recognition result at end of the speech to decide who is selected, because there are several reports indicating human gaze tends to be stable and squarely look at the direction of the receiver at the end of speech [6][7]."
+        },
+        {
+          "page": 3,
+          "text": "In case that the robot squarely looks at a person, the robot can express his will to give the turn to him."
+        },
+        {
+          "page": 4,
+          "text": "The system knows its act as an observer by recognizing the gaze of the users."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "implementation",
+      "value": "The system combines speech, face/gaze recognition, turn-taking rules, and a distributed blackboard architecture. It uses gaze direction at speech end to identify speaker selection; camera motion provides gaze expression and visual input.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We will use the gaze direction recognition result at end of the speech to decide who is selected"
+        },
+        {
+          "page": 3,
+          "text": "These cameras are used to express its attention as well as to capture the image."
+        },
+        {
+          "page": 3,
+          "text": "Each component writes its information to shared-memory located on the central of the system (called “black board”)."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "ROBITA is a humanoid robot with two compact color CCD cameras on its head, two degrees of freedom for each camera, two neck degrees of freedom, two microphones, one waist degree of freedom, and wheels.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The robot has two compact color CCD cameras on its head and 2 DOF for each of the camera."
+        },
+        {
+          "page": 3,
+          "text": "The head has 2 DOF on the bottom of it (namely neck part). Two microphones are mounted on the both sides of the head."
+        },
+        {
+          "page": 3,
+          "text": "Under the body it has 1 DOF for waist, and wheels to move around."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The paper presents ROBITA, a humanoid group-conversation system for baseball discussion that can observe, take turns, answer questions, and correct incorrect game results. It uses recognized human gaze to help select the next speaker and uses its camera/eye direction to display attention and indicate turn allocation; no measured user effects are reported.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ4; RQ5 — The paper describes gaze direction as a cue for selecting the next speaker and details its interaction role and implementation. It also describes the ROBITA embodiment, but does not report measured effects or how embodiment influences the study.",
+      "quotes": []
+    }
+  ]
+}

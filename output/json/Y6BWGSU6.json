@@ -1,0 +1,247 @@
+{
+  "key": "Y6BWGSU6",
+  "title": "Attention Mechanisms for Social Engagements of Robots with Multiple People",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description with an implemented robot system and experimental demonstration.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "This paper first describes a multiple agent-based architecture designed to support HRI and then introduces an engagement mechanism based on attention distraction."
+        },
+        {
+          "page": 4,
+          "text": "A Pioneer 3-AT mobile robot (called TourMate) was used to validate our social interaction mechanism based on attention/distraction within the HRI framework that was previously developed as described in [2]."
+        },
+        {
+          "page": 6,
+          "text": "A demonstration of interaction from solitude to active engagement was provided."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Demonstration in the second floor of Torrence Hall at Tennessee State University; the described setup includes a robot home position and a remote microphone/computer at a known goal location.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Prior to the testing, a map of the environment, in this case, the second floor of TSU's Torrence Hall, including key goal points, was created using laser data as shown in Fig. 6"
+        },
+        {
+          "page": 5,
+          "text": "The experiments conducted are illustrated in Fig. 7 to Fig. 11. TourMate is initially located in its home position where it looks for faces in the environment and listens for any vocal communication (Fig. 7)."
+        },
+        {
+          "page": 5,
+          "text": "Another microphone with a computer is located in STAIRS, a known goal location."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "The robot detected and engaged a person, initiated a headline-news conversation, ignored a second person's greeting while engaged with the first person, then redirected attention to the second person and navigated to their reported location. The paper does not state a session duration.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "In Fig. 8, a face is detected and TourMate initiates the following conversation with Person 1: TourMate: \"Hi there, do you know Amstrong won again?\" Person-]: \"I did not know. Tell me more about this.\" TourMate: \"This was his 7th tournament.\""
+        },
+        {
+          "page": 5,
+          "text": "Person 2 located in STAIRS says \"Hello\" to the robot. Since TourMate is actively engaged with Person l and its attention has not decayed below the distractible threshold, TourMate ignores Person 2."
+        },
+        {
+          "page": 5,
+          "text": "After Person 1 has stopped talking to TourMate for a certain time, TourMate's attention is distracted from Person 1, and it attempts to engage with Person 2."
+        },
+        {
+          "page": 5,
+          "text": "There TourMate asks \"Where are you?\". Person 2 replies \"I am at STAIRS\". TourMate navigates to STAIRS (Fig. 9)."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "The demonstration describes one robot and two people in the interaction scenario.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Person 2 located in STAIRS says \"Hello\" to the robot. Since TourMate is actively engaged with Person l and its attention has not decayed below the distractible threshold, TourMate ignores Person 2."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The system has been successfully implemented and tested on a Pioneer 3-AT mobile robot."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "Two people are described in the demonstration scenario; no total participant count is stated.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "In Fig. 8, a face is detected and TourMate initiates the following conversation with Person 1:"
+        },
+        {
+          "page": 5,
+          "text": "Person 2 located in STAIRS says \"Hello\" to the robot."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "The paper reports system behavior and attention-signal outputs in figures; it does not specify human-subject outcome instruments.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "When Attk (n) is above a certain lower-threshold value, the robot is considered as occupied and its attention is not distracted unless the signal generated by another person Attj (n) is above an upper-threshold."
+        },
+        {
+          "page": 6,
+          "text": "The corresponding attention signals from this interaction are displayed in Fig. 10 and Fig. 11."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "No statistical significance tests are reported. The demonstrated system behavior is that the robot ignored the second person's greeting while occupied with Person 1, then shifted attention and attempted to engage Person 2 after Person 1 stopped speaking and attention decayed.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Since TourMate is actively engaged with Person l and its attention has not decayed below the distractible threshold, TourMate ignores Person 2."
+        },
+        {
+          "page": 5,
+          "text": "After Person 1 has stopped talking to TourMate for a certain time, TourMate's attention is distracted from Person 1, and it attempts to engage with Person 2."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "Attention/distraction as an engagement mechanism for social interaction with multiple people.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The use of multiple HR modalities in the engagement mechanism provides means for people to solicit the robot's attention while allowing the robot to ignore the distraction if it has recently become engaged with something else."
+        },
+        {
+          "page": 2,
+          "text": "The purpose of this paper is to present an attention/distraction mechanism within a framework for effective HRI on a mobile robot."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper does not provide an explicit definition of robotic gaze or robotic attention; it describes attention as modality-generated, decaying signals that combine into effective attention.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Whenever a person is detected, an event is raised and a decaying attention signal is generated."
+        },
+        {
+          "page": 3,
+          "text": "Discrete time attention signals are found and combined as an Effective attention signal for each person, k, see (1)."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "The attention mechanism lets people solicit the robot's attention, supports selecting whom to engage with, and lets the robot defer distractions while already engaged with another person.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The use of multiple HR modalities in the engagement mechanism provides means for people to solicit the robot's attention while allowing the robot to ignore the distraction if it has recently become engaged with something else."
+        },
+        {
+          "page": 3,
+          "text": "If another person starts speaking to the robot, the robot may not get engaged with this person since it is still actively engaged with the previous person."
+        },
+        {
+          "page": 5,
+          "text": "After Person 1 has stopped talking to TourMate for a certain time, TourMate's attention is distracted from Person 1, and it attempts to engage with Person 2."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "In the demonstration, the robot ignored a second person's greeting while its attention remained with the first person; after the first person stopped speaking and attention decayed, it tried to engage with the second person. No effects on people were measured or reported.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Since TourMate is actively engaged with Person l and its attention has not decayed below the distractible threshold, TourMate ignores Person 2."
+        },
+        {
+          "page": 5,
+          "text": "After Person 1 has stopped talking to TourMate for a certain time, TourMate's attention is distracted from Person 1, and it attempts to engage with Person 2."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "An autonomous multi-agent HRI system uses face detection, sound-source localization, and speech recognition to generate decaying, per-person attention signals; these are combined and evaluated against thresholds. An emergency keyword overrides ordinary attention. The robot also uses speech output, information filtering, and navigation.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Face detection and sound source localization systems independently monitor the environment for detecting the presence of humans. Whenever a person is detected, an event is raised and a decaying attention signal is generated."
+        },
+        {
+          "page": 3,
+          "text": "The speech recognition system generates context- and dependent levels of decaying attention signals. If the robot's perception is that the person is speaking directly to it, the attention signal generated has a higher coefficient compared to when the speech is not directed to the robot."
+        },
+        {
+          "page": 4,
+          "text": "When Attk (n) is above a certain lower-threshold value, the robot is considered as occupied and its attention is not distracted unless the signal generated by another person Attj (n) is above an upper-threshold."
+        },
+        {
+          "page": 5,
+          "text": "The speech library contains a keyword \"Emergency\" that acts as an emergency attention-getter."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Pioneer 3-AT mobile robot platform, called TourMate, equipped with SLAM and navigation capabilities.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The system developed at Tennessee State University (TSU) on a Pioneer 3-AT mobile robot platform (TourMate) produced by ActivMedia (Fig. 1)."
+        },
+        {
+          "page": 4,
+          "text": "TourMate is equipped with Simultaneous Localization and Mapping (SLAM) and Navigational capabilities."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The paper presents a mobile robot system that combines face, sound, and speech inputs into decaying attention signals to manage engagement with multiple people. In its demonstration, the robot ignored a second person's greeting while engaged with the first, then tried to engage the second person after the first interaction waned.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ4; RQ5 — The paper frames attention as modality-based, decaying signals and describes its role in selecting and maintaining engagement among multiple people. It details the sensing, signal combination, thresholds, and robot platform; it does not study gaze behavior or report effects of embodiment.",
+      "quotes": []
+    }
+  ]
+}

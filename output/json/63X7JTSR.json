@@ -1,0 +1,202 @@
+{
+  "key": "63X7JTSR",
+  "title": "Optimal gaze-based robot selection in multi-human multi-robot interaction",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical system description with experimental scenario testing.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "This paper presents a computer vision based system for interaction between multiple humans and multiple robots."
+        },
+        {
+          "page": 2,
+          "text": "Our test scenarios are shown in Figure 4, with 3 humans and 3 robots equipped with low-cost laptops (Intel i5, 4GB RAM)."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "sample_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "Tested gaze-based robot selection and allocation across five human–robot gaze scenarios.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We consider five scenarios: 1) Humans gaze at the robots directly in front of them. 2) Humans gaze at robots other than those in front of them. 3) More available robots than interested humans 4) More interested humans than available robots 5) When one person is in the field of view of robot but the person is not looking at any robot."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "3 humans and 3 robots in the test scenarios.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Our test scenarios are shown in Figure 4, with 3 humans and 3 robots equipped with low-cost laptops (Intel i5, 4GB RAM)."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "3",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Our test scenarios are shown in Figure 4, with 3 humans and 3 robots equipped with low-cost laptops (Intel i5, 4GB RAM)."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "3",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Our test scenarios are shown in Figure 4, with 3 humans and 3 robots equipped with low-cost laptops (Intel i5, 4GB RAM)."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "System-level allocation outcomes and video-frame computation time; the paper does not report questionnaires, interviews, or human-subject measures.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In all of the five scenarios above, the robots are reliably allocated to the correct human as shown in Figure 1."
+        },
+        {
+          "page": 2,
+          "text": "The computation time for each new video image frame is in 150 msec."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "The system reliably allocated robots to the correct humans across all five scenarios; computation took 150 ms per new video frame. No statistical tests are reported.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In all of the five scenarios above, the robots are reliably allocated to the correct human as shown in Figure 1."
+        },
+        {
+          "page": 2,
+          "text": "The computation time for each new video image frame is in 150 msec."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "Gaze-based robot selection: a human selects and obtains a robot's undivided attention by looking directly at it.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Each human can “select” (obtain the undivided attention of) a robot by simply looking directly at it."
+        },
+        {
+          "page": 1,
+          "text": "We seek a system of multiple humans and robots where each human can select a single robot to work with by simply looking directly at it."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper describes selection as obtaining a robot's undivided attention through direct gaze.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Each human can “select” (obtain the undivided attention of) a robot by simply looking directly at it."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze serves as a means for humans to select a robot to work with; the system allocates each robot to the human looking at it most directly.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We seek a system of multiple humans and robots where each human can select a single robot to work with by simply looking directly at it."
+        },
+        {
+          "page": 1,
+          "text": "We find the optimal allocation of human identities to tracked faces, and add a central server to optimally allocate each robot to the human who is looking at it most directly."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The paper reports reliable allocation of robots to the correct human in the tested scenarios. It does not report measured effects on people beyond robot selection feedback.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In all of the five scenarios above, the robots are reliably allocated to the correct human as shown in Figure 1."
+        },
+        {
+          "page": 2,
+          "text": "Each selected robot gives audio and visual feedback indi- cating which human selected it."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "Autonomous computer-vision system: robots detect faces, recognize identities, track faces, derive face scores from face angle, and use local and centralized Hungarian algorithms for assignment. Scores below a threshold are ignored; selected robots provide audio and visual feedback.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "A robot detects faces in the image stream using the face- landmark method [4], and the identity of each detected face is recognized using a pre-trained face identity classifier using the ROS face recognition package [6]."
+        },
+        {
+          "page": 2,
+          "text": "Identities are optimally assigned to face-tracks locally using the Hungarian algorithm [5]."
+        },
+        {
+          "page": 2,
+          "text": "Face-tracks are also given a “face score” based on the angle of the face as shown in Figure 3."
+        },
+        {
+          "page": 2,
+          "text": "All robots send their face scores for each human identity to a central server, which uses the Hungarian algorithm to determine which robot is most likely being looked at by which human."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Robots were equipped with low-cost laptops; the robot platform and physical features are not specified.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Our test scenarios are shown in Figure 4, with 3 humans and 3 robots equipped with low-cost laptops (Intel i5, 4GB RAM)."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The paper presents an autonomous vision system in which multiple people select robots by looking directly at them, with local and centralized Hungarian algorithms assigning people to robots. In tests with three humans and three robots, it reports reliable allocation across five gaze scenarios and 150 ms processing per video frame.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ4; RQ5",
+      "quotes": []
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "key": "UIEVM6ER",
+  "title": "The vernissage corpus: A conversational Human-Robot-Interaction dataset",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical dataset description presenting a multimodal HRI corpus for benchmarking perception tasks.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We introduce a new conversational Human-Robot- Interaction (HRI) dataset with a real-behaving robot inducing interactive behavior with and between humans."
+        },
+        {
+          "page": 2,
+          "text": "In this paper, we presented a new HRI corpus towards analyzing multi-party interaction behavior and enabling robust multimodal perception methods."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "A staged art-guide scenario in a room; the paper does not explicitly identify the setting as a lab or field study.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Our scenario involves a humanoid robot NAO1 explaining paintings in a room and then quizzing the participants, who are naive users."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "13 sessions, each with two human participants; the total number of unique participants is not stated.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Our dataset (called ‘The Vernissage2 corpus’) has 13 sessions of NAO interacting with two persons."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Participants are described as naive users; age, gender, and prior robot experience are not stated.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Our scenario involves a humanoid robot NAO1 explaining paintings in a room and then quizzing the participants, who are naive users."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants interacted with NAO as it explained paintings and then quizzed them on art and culture; each interaction lasted around 11 minutes and human behavior was unconstrained.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The robot serves as an art guide, explaining the paintings to the participants and then quizzing them in art and culture."
+        },
+        {
+          "page": 2,
+          "text": "Each interaction lasted around 11 minutes."
+        },
+        {
+          "page": 2,
+          "text": "The human partners was unconstrained."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three per session: one robot and two humans.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Our dataset (called ‘The Vernissage2 corpus’) has 13 sessions of NAO interacting with two persons."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1 robot per session.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Our dataset (called ‘The Vernissage2 corpus’) has 13 sessions of NAO interacting with two persons."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2 humans per session.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Our dataset (called ‘The Vernissage2 corpus’) has 13 sessions of NAO interacting with two persons."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Multimodal recording and annotation: NAO video and four microphones, three external cameras, motion capture, participant close-talk microphones, and annotations including speech, head location, nodding, visual focus of attention, addressees, and transcription; robot system logs were also collected.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "NAO video data is mono at VGA resolution and audio data comes from four microphones."
+        },
+        {
+          "page": 2,
+          "text": "To have ground-truth information for all the audio-visual processing tasks, three close-field external cameras, a motion capturing system and close-talk microphones on the participants were deployed."
+        },
+        {
+          "page": 2,
+          "text": "The corpus is annotated with several nonverbal cues such as speech utterances, 2D head-location, nodding, visual focus of attention (VFOA), and addressees."
+        },
+        {
+          "page": 2,
+          "text": "Apart from the richness of the sensor data and the annotations on that data, the dataset includes the robot system data consisting of the robot’s 3D location of its body, joint angles, wizard commands, internal events for speech and gesture production, usage of CPU, memory, and battery."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "No inferential statistical effects are reported. Central dataset outputs include annotations for visual focus of attention, addressees, nodding, and speech; annotation reliability was reported as sufficiently high for addressees, VFOA, and nodding.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The reliabilities were sufficiently high, thereby facilitating the possibility of training models using these annotations as ground-truth."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "Gaze change is framed as desirable robot interaction behavior that affects sensing, while visual focus of attention and addressee detection are treated as perceptual tasks.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In order to be a realistic interaction partner, a humanoid robot needs to perform appropriate actions, for example nodding, or gaze changes which affect the sensing process."
+        },
+        {
+          "page": 2,
+          "text": "Addressee estimation requires both utterance information as well as gaze information."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "Robot gaze changes are described as appropriate interaction behavior; gaze information is also relevant to estimating visual focus of attention and addressees. The paper does not specify a further interaction function or measured effect.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Addressee estimation requires both utterance information as well as gaze information."
+        },
+        {
+          "page": 2,
+          "text": "For example, VFOA estimation could be improved with the dialog state of NAO (e.g., which painting he is talking about)."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The paper motivates gaze changes as interactionally desirable and gives an example of humans looking toward a picture when the robot indicates it, but it reports no measured effects of gaze on participants or interaction.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "realistic interaction scenarios need to be studied, wherein the nonverbal behavior of the humanoid robot induces nonverbal behavior of the humans, e.g. looking towards a picture when the robot indicates this or looking at the human partner when discussing a painting."
+        },
+        {
+          "page": 1,
+          "text": "Though gaze change is desirable from an interaction perspective such behavior severly degrades the sensing quality, as the sensor is moved and motor noise is added."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "A Wizard-of-Oz managed the dialogue, robot gaze, and nodding. The corpus includes wizard commands and timing, which the authors say could be used to study automation of gaze shifts and nodding.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "A Wizard-of-Oz was used to manage the dialog as well as the robot‘s gaze and nodding."
+        },
+        {
+          "page": 2,
+          "text": "Wizard commands and their timing could be used to study how to automate gaze-shift and nodding."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Humanoid NAO robot; stationary during sessions, with head movement, nodding, and hand pointing/gesticulation.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Our scenario involves a humanoid robot NAO1 explaining paintings in a room and then quizzing the participants, who are naive users."
+        },
+        {
+          "page": 1,
+          "text": "The scenario involves a stationary robot, exhibiting significant gesticulations to facilitate the interaction, for example, turning its head, nodding, and pointing its hand towards objects of interest."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The robot's head movement and motor noise degraded sensing quality and created visual-processing challenges; its commercial consumer sensors and nonverbal behavior also made the corpus more challenging and realistic.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Though gaze change is desirable from an interaction perspective such behavior severly degrades the sensing quality, as the sensor is moved and motor noise is added."
+        },
+        {
+          "page": 1,
+          "text": "As compared to recordings done with a static camera, this corpus involves the head-movement of a humanoid robot (due to gaze change, nod- ding), posing challenges to visual processing."
+        },
+        {
+          "page": 2,
+          "text": "The perception methods need to work well in challenging sensing conditions, that accompany a realistic yet challenging scenario, where the humanoid robot exhibits significant nonverbal behaviors, and recording with a commerical-quality robot sensors."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper presents a multimodal dataset of 13 sessions in which a humanoid NAO robot guides and quizzes two people, with robot gaze and nodding controlled by a Wizard-of-Oz. It provides gaze-related annotations and sensor data for studying visual focus of attention and addressee estimation, but does not report measured effects of robot gaze on people.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ4; RQ5; RQ6 — The paper discusses gaze change as desirable behavior and its relevance to VFOA and addressee estimation, describes Wizard-of-Oz control, and reports how the moving humanoid embodiment affects sensing. It provides no measured gaze effects, so it does not meaningfully answer RQ3.",
+      "quotes": []
+    }
+  ]
+}

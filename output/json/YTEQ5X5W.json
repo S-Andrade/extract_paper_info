@@ -1,0 +1,257 @@
+{
+  "key": "YTEQ5X5W",
+  "title": "Human Communicative Responses to Different Modes of Gaze Management by the Robot",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Experimental study of human communicative responses to two robot gaze behaviors.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We conducted an experiment in which we investigated whether different robot’s responsive gaze could, on the one hand, change the attractiveness of the robot to the user and, on the other hand, cause certain behavior in users."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "The study took place in an experimental interaction setting at a table, with participants and two robots.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Three main attention zones were suggested in the experiment settings: participants could place cards on the table or show them to the left or right robot."
+        },
+        {
+          "page": 4,
+          "text": "Subjects could communicate with the left and right robot from the same position at the table, so the robots constantly maintained their respective behavior."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "46 participants.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We investigated communicative reactions of people (N 46), while telling stories to two companion robots, who reacted differently to the human gaze (head turning)."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Mean age 27 years; 33 females. The paper identifies a core group of 15 participants who noticed the difference between robot behaviors and had higher Understanding of Emotions of Others scores.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "A total of 46 subjects participated in the experiment (mean age of 27 years, 33 females)."
+        },
+        {
+          "page": 7,
+          "text": "As the core group for the communication behavior analysis, we selected subjects who noticed a difference in robots’ behavior (32.6%, n 15), and who have also been characterized by a higher level of emotional intellect (Understanding of Emotions of Others score of EmIn test)."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants told six stories to two robots using picture cards from Herluf Bidstrup, arranged in random order. Each robot reacted to the participant's gaze in a different way.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Within the experiment, subjects had to tell two robots 6 stories following a list of pictures by Herluf Bidstrup (Fig. 1). Each picture was represented as a stack of cards in random order."
+        },
+        {
+          "page": 2,
+          "text": "When a person looked away from the robot (e.g., looked aside or looked at the table to follow the cards), each of the robots looked down at the table with the cards."
+        },
+        {
+          "page": 2,
+          "text": "When a person looked at the robot, the first robot (marked with a square) looked back: raised its head, opened its eyelids, and raised its eyebrows, while the second robot (marked with a triangle) demonstrated side gaze, looking left or right in random order (Table 1)."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three people/robots per interaction: one participant and two robots.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We investigated communicative reactions of people (N 46), while telling stories to two companion robots, who reacted differently to the human gaze (head turning)."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "2",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Within the experiment, subjects had to tell two robots 6 stories following a list of pictures by Herluf Bidstrup (Fig. 1)."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "1 participant interacted with the two robots at a time.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Subjects could communicate with the left and right robot from the same position at the table, so the robots constantly maintained their respective behavior."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "The study used the EmIn Emotional Intelligence Test, a post-experiment questionnaire, a computer-vision component that identified face orientation as a proxy for gaze, and observation/analysis of participant behavior and gestures.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "After the experiment each participant filled out a questionnaire, describing his/her experience with the robots. We also used the EmIn Emotional Intelligence Test [13; 14] to evaluate the level of emotional intelligence of the participants."
+        },
+        {
+          "page": 4,
+          "text": "The vector of the user’s attention was automatically identified by the orientation of the user’s face and was recognized by a specially developed computer vision component based on OpenCV."
+        },
+        {
+          "page": 7,
+          "text": "The number of such gestures decreased over the course of three stories to the avoiding robot, and increased over the course of three stories for the responsive robot (Fig. 7, 8)."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Participants with higher Understanding of Emotions of Others scores were better at recognizing the difference between robot gaze patterns (p 0.05, Mann-Whitney U-test). Those who recognized the difference more often preferred the responsive-gaze robot (p 0.01, Spearman correlation).",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Participants with high scores on the Understanding of Emotions of Others scale are better at recognizing the difference of gaze patterns demonstrated by the two robots (p 0.05, Mann-Whitney U-test)."
+        },
+        {
+          "page": 4,
+          "text": "It means that people, recognizing the difference between gaze patterns of the robots significantly often (p 0.01, Spearman correlation) prefer the robot with gaze responsive behavior."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames gaze as both an attention behavior and an expressive communicative signal. It studies robot gaze management as responsive versus aversive gaze, and discusses joint attention as shared attention between communication partners.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "On the other hand, gaze is an expressive mean: with the help of gaze a subject has the possibility to intentionally or spontaneously indicate to the interlocutor the object of his attention, to direct the gaze of the interlocutor to participate in the situation of joint attention, or to demonstrate meaningful mimic patterns: to turn eyes, to shoot with eyes, thus, informing the interlocutor a negative or positive evaluation."
+        },
+        {
+          "page": 2,
+          "text": "Coordinated simultaneous gaze at an object is described as the effect of joint attention [6], where the attention as a cognitive function is shared between two participants in communication [4]."
+        },
+        {
+          "page": 2,
+          "text": "The distribution of the person’s attention, his communicative reactions, and a description of his experience after the experiment can serve to evaluate the person’s response to different modes of gaze control by the robot."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper describes gaze as an expressive means for indicating an object's attentional status, directing another participant's gaze to support joint attention, and expressing positive or negative evaluation. It describes joint attention as shared attention between two communication participants.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "On the other hand, gaze is an expressive mean: with the help of gaze a subject has the possibility to intentionally or spontaneously indicate to the interlocutor the object of his attention, to direct the gaze of the interlocutor to participate in the situation of joint attention, or to demonstrate meaningful mimic patterns: to turn eyes, to shoot with eyes, thus, informing the interlocutor a negative or positive evaluation."
+        },
+        {
+          "page": 2,
+          "text": "Coordinated simultaneous gaze at an object is described as the effect of joint attention [6], where the attention as a cognitive function is shared between two participants in communication [4]."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Robot gaze served as a communicative response to the participant's gaze and provided or withheld attention feedback. Participants sometimes followed the robot's presumed attention or attempted to gain its attention through joint attention behaviors.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The first message caused the “responsive” robot to look back at the user and the “aversive” robot to look away."
+        },
+        {
+          "page": 6,
+          "text": "This allows us to assume that the interpretation of the direction of the interlocutor’s attention may be implicit: it triggers the subject’s behavioral response, related to handling of other’s attention, but it is not noticed by the subject himself and not represented in the report."
+        },
+        {
+          "page": 6,
+          "text": "Many subjects behaved as if trying to attract the attention of the robot through the mechanism of joint attention."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Some participants preferred the responsive-gaze robot and recognized its gaze pattern. In the core group, iconic gestures increased over three stories with the responsive robot and decreased with the avoiding robot; participants also showed frustration or tried to redirect the robot's attention.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "It means that people, recognizing the difference between gaze patterns of the robots significantly often (p 0.01, Spearman correlation) prefer the robot with gaze responsive behavior."
+        },
+        {
+          "page": 7,
+          "text": "The number of such gestures decreased over the course of three stories to the avoiding robot, and increased over the course of three stories for the responsive robot (Fig. 7, 8)."
+        },
+        {
+          "page": 8,
+          "text": "These reactions indicate expressed frustration during the participants’ interaction with the robot with communicative deficit."
+        },
+        {
+          "page": 8,
+          "text": "People may try to adjust to the presumed attention of the robot by moving the card (object of the talk) after the robot’s gaze this may apply even to the people, who do not report the difference between the robot gaze patterns."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "A computer-vision component based on OpenCV detected the user's face orientation and translated changes into gaze-related messages. These messages triggered the robots' responsive or aversive gaze actions; no eye-tracker calibration was required.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The vector of the user’s attention was automatically identified by the orientation of the user’s face and was recognized by a specially developed computer vision component based on OpenCV."
+        },
+        {
+          "page": 4,
+          "text": "This system had been preferred to an eye-tracker as a possible “built-in” solution for emotional companion robots, allowing us to avoid any calibration procedure, and thus, maintaining more natural communication."
+        },
+        {
+          "page": 4,
+          "text": "When the system had been recognizing a change in the user face vector, it had been translating messages like ‘person looks_at egocentric(robot)’ or ‘person looks away’."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "The study used two F-2 companion robots with movable heads, eyelids, eyebrows, and arms; their head and arm movements were coordinated with speech during greetings and utterances.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We use the situation of interaction with the experimental robot companion F-2 to position a person in a certain pattern of communicative attention distribution by the robot interlocutor."
+        },
+        {
+          "page": 2,
+          "text": "When a person looked at the robot, the first robot (marked with a square) looked back: raised its head, opened its eyelids, and raised its eyebrows, while the second robot (marked with a triangle) demonstrated side gaze, looking left or right in random order (Table 1)."
+        },
+        {
+          "page": 4,
+          "text": "During greetings and speech utterances, the robot’s head and arms were controlled by gestures coordinated with its speech production."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The paper does not explicitly describe how the robots' physical embodiment shaped the study or its effects.",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "In a table-based storytelling experiment, one participant at a time told stories to two F-2 robots that either returned the participant’s gaze or looked away. Participants who noticed the gaze difference tended to prefer the responsive robot, and some showed more iconic gestures with it and frustration or attention-directing behaviors with the gaze-avoiding robot.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper discusses gaze as an attention and communicative signal, describes its role in joint attention and attention feedback, reports participant preferences and behavioral responses, and explains the sensing and robot actions. It identifies the F-2 robot embodiment but does not directly analyze how embodiment influences the findings.",
+      "quotes": []
+    }
+  ]
+}

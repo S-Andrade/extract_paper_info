@@ -1,0 +1,190 @@
+{
+  "key": "8S2C4SIQ",
+  "title": "Attentive toys",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We describe a multimodal attentive environment system that performs joint audio-visual information processing to enable it to interact intelligently with people."
+        },
+        {
+          "page": 4,
+          "text": "We have implemented the system as a visually interactive toy robot (VTOY) and demonstrated it successfully to more than 5000 people in different age groups."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "sample_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "People from different age groups; no further characteristics stated.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "We have implemented the system as a visually interactive toy robot (VTOY) and demonstrated it successfully to more than 5000 people in different age groups."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Demonstration of VTOY’s interactive capabilities, including responding to speech, gaze, motion, and facial expressions; details of a structured participant task are not stated.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "VTOY interacts with people using human-oriented communication modalities, such as voice, eye contact, emotions, and expressive behavior which play an important role in human communication (for example, the person might become happy or angry when somebody start playing with her or ignore her)."
+        },
+        {
+          "page": 2,
+          "text": "It mimics the user’s facial expressions and smiles at them, thereby arising the curiosity of the user."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "n_robots",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "n_humans",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "measurement_tools",
+      "value": "The paper describes system performance and capabilities but does not state instruments used to measure participant outcomes.",
+      "quotes": []
+    },
+    {
+      "field": "significant_measures",
+      "value": "The system is reported to respond to stimuli with less than 100 ms delay; no statistical results or participant outcome measures are reported.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "All algorithms run in real-time so that VTOY responds to stimuli with less than 100ms delay."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames the system as an attentive device that uses eye contact and other human-oriented communication modalities to interact with people.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We have been developing attentive devices which use non-obtrusive sensing technologies, such as video cameras and microphones, to support the natural human communication modalities (such as gestures, facial expression, gaze direction, body posture, and voice), to identify and observe a user’s actions, and to extract key information from the interaction."
+        },
+        {
+          "page": 1,
+          "text": "VTOY interacts with people using human-oriented communication modalities, such as voice, eye contact, emotions, and expressive behavior which play an important role in human communication"
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "Attention is directed toward people or sound sources, supports engagement, and enables VTOY to follow human movement and gaze direction.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Features detected by the sensor unit are processed in the attention/behavior unit which constructs the plan for VTOY actions, deciding where to direct the robot attention, how to start engagement with people, and which emotions and facial expression to show."
+        },
+        {
+          "page": 2,
+          "text": "VTOY determines the gaze of the human and rotates its eyes and neck to follow the human movement and gaze direction."
+        },
+        {
+          "page": 2,
+          "text": "It can then shift the attention to the speaker by moving its neck."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The authors report successful demonstrations and describe behaviors intended to attract people’s attention, but provide no measured effects on people or interaction.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "We have implemented the system as a visually interactive toy robot (VTOY) and demonstrated it successfully to more than 5000 people in different age groups."
+        },
+        {
+          "page": 2,
+          "text": "The basic capabilities of VTOY are augmented by a set of simple behaviors designed to attract a viewer."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "Autonomous real-time audio-visual sensing and processing detects/tracks people, gaze, facial expression, and sound sources. An attention/behavior unit plans attention and engagement actions and controls the robot’s motors; pupil detection uses two infrared light sources, and audio localization uses microphone-array time differences of arrival.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The video processing unit performs silhouette and motion based people detection, eye/gaze detection, and face expression tracking."
+        },
+        {
+          "page": 2,
+          "text": "Features detected by the sensor unit are processed in the attention/behavior unit which constructs the plan for VTOY actions, deciding where to direct the robot attention, how to start engagement with people, and which emotions and facial expression to show."
+        },
+        {
+          "page": 3,
+          "text": "We have developed a fast, robust, and low cost pupil detection technique that uses two infrared time multiplexed light sources, synchronized with the camera frame rate [5]."
+        },
+        {
+          "page": 4,
+          "text": "Time differences of arrival between microphones are determined by computing generalized cross correlation between received signals and obtaining the peak."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "VTOY is a visually interactive toy robot with 12 servos and 11½ degrees of freedom, movable eyes and neck, deformable facial features, infrared camera and LEDs, microphone arrays, and speakers.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The VTOY robot has a total of 12 servos resulting in 11 1/2 degrees of freedom(Figure 1)."
+        },
+        {
+          "page": 2,
+          "text": "The eyes are constructed from ping-pong balls."
+        },
+        {
+          "page": 2,
+          "text": "VTOY has a set of infrared LEDs and an infrared camera on its face, two microphone arrays on left and right side, and speakers."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The paper describes VTOY, a toy robot that combines vision and audio to detect people, estimate gaze and eye contact, track facial expressions, and direct its attention. It reports demonstrations to more than 5,000 people but does not report a controlled study or measured effects of gaze-based attention in multiparty interaction.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ4; RQ5 — The paper frames attention through eye contact and gaze among human communication cues, describes attention’s role in directing engagement and responding to speakers, and details its sensing and control implementation and physical robot embodiment. It does not establish participant effects or embodiment influence.",
+      "quotes": []
+    }
+  ]
+}

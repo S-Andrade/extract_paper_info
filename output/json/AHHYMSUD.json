@@ -1,0 +1,262 @@
+{
+  "key": "AHHYMSUD",
+  "title": "Verification of the effects of gaze behavior in a turn-taking task with a robot on basic psychological needs related to exclusion",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "A between-participants experiment with a 2 (Exclusion vs. Inclusion) × 2 (Gaze Behavior vs. No Gaze Behavior) design.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "To examine the impact of gaze behavior on the cognition of excluded participants, we conducted a between-participants experiment."
+        },
+        {
+          "page": 5,
+          "text": "A total of 137 participants, recruited through an agent, were randomly assigned to a 2 (Exclusion vs. Inclusion) 2 (Gaze Behavior (GB) vs. No Gaze Behavior (NGB)) between-participants design."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "A soundproof room in the RIKEN building at the Advanced Telecommunications Research Institute International (ATR).",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "This experiment was conducted in a soundproof room in the RIKEN building at the Advanced Telecommunications Research Institute International (ATR) (see Figure 3)."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "125 participants in the final analysis; 137 were initially recruited.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "A total of 137 participants, recruited through an agent, were randomly assigned to a 2 (Exclusion vs. Inclusion) 2 (Gaze Behavior (GB) vs. No Gaze Behavior (NGB)) between-participants design."
+        },
+        {
+          "page": 7,
+          "text": "A total of 12 participants were excluded due to nonattendance or system malfunctions. The final analysis included 125 participants"
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "The final sample included 66 males and 59 females, with a mean age of 20.58 years (SD 1.12; range 18–22).",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "The final analysis included 125 participants (66 males, 59 females; M 20.58, SD 1.12, age range 18–22)."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants completed a voice-based turn-taking task with two robots. Turn allocation manipulated exclusion versus inclusion: participants held the turn for approximately 10% of total passes in exclusion and approximately 33% in inclusion. Gaze behavior was inserted independently of task progression, four to six times per trial.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "In our task, instead of passing an animated ball, players exchange words to pass the turn."
+        },
+        {
+          "page": 6,
+          "text": "Specifically, there was 39 total passes, and the participants in the exclusion condition held the turn for approximately 10% of the total passes, where as those in the inclusion condition held it for approximately 33%."
+        },
+        {
+          "page": 6,
+          "text": "With this adjustment, gaze behavior occurred a minimum of four times and a maximum of six times per trial, regardless of the condition."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three players per session: one human participant and two robots.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "We proposed the ‘Turn-taking task’ for three players (one human and two robots), based on the classic Cyberball paradigm implemented on-screen [23]."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "2",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "We proposed the ‘Turn-taking task’ for three players (one human and two robots), based on the classic Cyberball paradigm implemented on-screen [23]."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "We proposed the ‘Turn-taking task’ for three players (one human and two robots), based on the classic Cyberball paradigm implemented on-screen [23]."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Post-task questionnaire measures included custom exclusion and estimated turn-rate items, gaze-recognition items, the modified Needs Threat Scale, and other questionnaires. Participants also gave free-form written responses and took part in a brief verbal interview. Task behavior was recorded on video.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "The questionnaire included items assessing task operation, the Needs Threat Scale, mood, personality, and the need to belong."
+        },
+        {
+          "page": 8,
+          "text": "We created two check items to confirm whether the exclusion and inclusion conditions were correctly manipulated in the developed turn-taking task, and one check item to confirm whether the GB and NGB conditions were correctly recognized by the participants."
+        },
+        {
+          "page": 8,
+          "text": "Participants rated their agreement with 20 questions concerning the four fundamental needs on a 5-point Likert scale ranging from ‘1. Strongly disagree’ to ‘5. Strongly agree’ after completing the task."
+        },
+        {
+          "page": 8,
+          "text": "They also participated in a brief verbal interview and were given the opportunity to provide comments on the interaction."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Exclusion versus inclusion significantly affected perceived exclusion and all four basic-need satisfaction scores. Gaze behavior was recognized, but it did not significantly affect need satisfaction or significantly mitigate perceived exclusion. In the exclusion condition, participants estimated receiving a higher share of turns with gaze than without gaze.",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "The analysis revealed a significant main effect of the exclusion/inclusion factor on the item ‘excluded’ [F(1, 121) 10.03, p .002, η2 0.08]."
+        },
+        {
+          "page": 10,
+          "text": "The results revealed a significant main effect of the gaze behavior factor [F(1, 121) 27.02, p .001, η2 0.18] and a significant interaction between the exclusion/inclusion factor and the gaze behavior factor [F(1, 121) 6.02, p .02, η2 0.04]."
+        },
+        {
+          "page": 10,
+          "text": "The analysis revealed significant main effects of the exclusion/inclusion factor [F(1, 121) 11.18, p .001, η2 0.08]. No significant main effects of the gaze behavior factor were observed [F(1, 121) 0.62, p .43, η2 0.005], nor was there a significant interaction between the exclusion/inclusion and gaze behavior factors [F(1, 121) 1.28, p .26, η2 0.01]."
+        },
+        {
+          "page": 12,
+          "text": "Graphical analysis confirmed that the estimated turn-taking ratio was higher in the gaze behavior (GB) condition than in the no gaze behavior (NGB) condition, suggesting that the insertion of gaze behavior increased the likelihood of participants perceiving that they had received a turn."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames gaze as a non-verbal cue that can express attention and relationship with a user; it studies direct gaze as a possible inclusion cue for alleviating perceived exclusion.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "In human–robot interactions, robot’s gaze can express the degree of attention and relationship with the user [21,22]."
+        },
+        {
+          "page": 4,
+          "text": "Among gaze directions, direct gaze gaze directed at oneself has been suggested as a signal of inclusion [19,20]."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper does not provide a formal definition of robotic gaze-based attention. It defines the experimental gaze behavior as both robots simultaneously turning their gaze and bodies toward the participant.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "In this study, gaze behavior was defined as both robots simultaneously turning their gaze and bodies toward the participant (see Figure 2)."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "The studied gaze behavior was intended to serve as an independent cue that might alleviate users’ sense of exclusion. The authors report that gaze without a contextual link to subsequent actions may not be understood as an inclusive cue.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "‘Does robot’s direct gaze reduce the psychological burden on the user and alleviate the sense of exclusion in exclusion situations?’"
+        },
+        {
+          "page": 12,
+          "text": "Thus, the gaze behavior in this study may not have been perceived as an inclusive cue because it lacked contextual linkage to subsequent actions."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Participants recognized the gaze behavior, and in the exclusion condition gaze increased their estimated share of received turns. The study found no evidence that gaze affected basic psychological needs or mitigated perceived exclusion.",
+      "quotes": [
+        {
+          "page": 12,
+          "text": "A two-way ANOVA with the estimated turn-taking ratio as the dependent variable revealed a significant interaction between the exclusion/inclusion factor and gaze behavior, with a significant simple main effect of exclusion level."
+        },
+        {
+          "page": 12,
+          "text": "However, despite the recognition of gaze behavior, no interaction was observed between gaze behavior and the exclusion/inclusion factor, nor was there evidence that gaze behavior influenced basic psychological needs."
+        },
+        {
+          "page": 13,
+          "text": "However, there was no evidence that the robot’s gaze behavior influenced users’ basic psychological needs."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The two robots’ gaze and body orientation were controlled as a task-independent behavior triggered after a condition-specific number of consecutive robot-to-robot turn passes. A web camera supplied participant face-direction information used to control the robot. Turn recipients were selected probabilistically according to condition.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "Gaze behavior was triggered when the turn was passed between the two robots a predetermined number of consecutive times during the task."
+        },
+        {
+          "page": 6,
+          "text": "Specifically, the number of consecutive times was set 3 in the exclusion condition and 5 in the inclusion condition."
+        },
+        {
+          "page": 7,
+          "text": "A web camera is placed in front of the participants to obtain information on the direction of the participant’s face used to control the robot."
+        },
+        {
+          "page": 12,
+          "text": "In this experiment, the robot’s actions were determined probabilistically, meaning that the timing of gaze behavior and the transfer of turn from the robot to the participant were randomly assigned based on predefined probabilities for each inclusion/exclusion condition."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "The study used two non-humanoid babypapa robots equipped with LCD displays and servomotors that allowed them to express gaze and body direction.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "We used two non-humanoid robots, babypapa (Panasonic Holdings)."
+        },
+        {
+          "page": 5,
+          "text": "These robots are equipped with LCD displays and degree-of-freedom servomotors, allowing them to express gaze and body direction."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors note that using physical ball passing would require a large-scale movement-control mechanism, so they used voice turn-taking instead. They also state that gaze may be difficult to interpret in voice-based interaction with non-humanoid robots when its relation to subsequent actions is unclear.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "As demonstrated in the study by Erel et al. [12], using a physical ball requires a large-scale mechanism for movement control."
+        },
+        {
+          "page": 12,
+          "text": "This aligns with research suggesting that exclusion increases sensitivity to social cues [43] and indicates that even in voice-based interactions with non-humanoid robots, exclusion can still be experienced."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The authors tested whether two non-humanoid robots looking toward a participant during a voice-based turn-taking task could reduce perceived exclusion. Participants recognized the gaze and sometimes estimated that they received more turns, but gaze did not significantly improve basic psychological needs or reliably alleviate exclusion.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper describes gaze as an attention and relationship cue, studies its intended inclusion role and measured effects in a three-player task, and reports the robots’ implementation and embodiment. It also discusses how the non-humanoid, voice-based setup and the contextual link between gaze and later actions relate to interpretation.",
+      "quotes": []
+    }
+  ]
+}

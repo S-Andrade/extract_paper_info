@@ -1,0 +1,281 @@
+{
+  "key": "NU6AF4SC",
+  "title": "Optimal robot selection by gaze direction in multi-human multi-robot interaction",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical system description and experimental evaluation.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "This paper presents a computer vision based system for interaction between multiple humans and multiple robots."
+        },
+        {
+          "page": 6,
+          "text": "The face score is evaluated as shown in Figure 14."
+        },
+        {
+          "page": 6,
+          "text": "The face identity tracker is evaluated as shown in Figure 15."
+        },
+        {
+          "page": 6,
+          "text": "We consider six scenarios where in a, b and c, all the robots can see all the people, in d, e and f, at least one robot can not see the person that selects it."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Indoor, short-range HRI experiments in a 2 m × 2 m area; the paper does not explicitly name the setting as a laboratory.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Though the working distance of the multiple object detector in Dlib is around 2 meters comparing to the 4 meters of the ROS package, it meets our requirements for a short range indoor HRI."
+        },
+        {
+          "page": 5,
+          "text": "A human is moving in the green trajectory in a 2m 2m area with rotational movement for 2 minutes."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "3 human participants in the multi-human multi-robot scenarios; the number of participants in other component evaluations is not stated.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "Our test scenarios are shown in Figure 16, with three humans and three robots."
+        },
+        {
+          "page": 6,
+          "text": "All three humans are in the camera view of the robot."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "Humans looked toward robots to select one for further interaction. System evaluation used six three-human/three-robot scenarios, including direct selections, selections of robots not directly in front of the person, humans not looking at a robot, and cases where robots could not see the selecting person. Separate component evaluations tested face pose estimation, face score estimation, and identity tracking.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We seek a system of multiple humans and robots where each human can select a single robot to work with by simply looking directly at it as in Figure 1."
+        },
+        {
+          "page": 6,
+          "text": "We consider six scenarios where in a, b and c, all the robots can see all the people, in d, e and f, at least one robot can not see the person that selects it."
+        },
+        {
+          "page": 6,
+          "text": "a. Humans gaze at the robots directly in front of them. b. Two humans gaze at robots not in front of them, and one human does not look at any robot. c. One human gazes at the robot in front of her, one human gazes at the robot not in front of them, and one human does not look at any robot."
+        },
+        {
+          "page": 6,
+          "text": "For each round, the human will keep changing the face direction for 2 minutes, and the score error for each video frame is recorded."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "3 humans and 3 robots in the multi-human multi-robot scenarios.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "Our test scenarios are shown in Figure 16, with three humans and three robots."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "3",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We use three iRobot Create generic mobile robots equipped with low-cost laptops (Intel i5, 4GB RAM)."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "3 in the multi-human multi-robot scenarios.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "Our test scenarios are shown in Figure 16, with three humans and three robots."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "System/technical metrics: processing time and update frequency; face localization and angle errors against Vicon ground truth; face score estimation error; identity matching success rate against labelled ground truth; and success rate and time for robot-to-human allocation and approach.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Figure 12 shows the distance between the real location and estimated location of face over time with an average value of 17.68 cm."
+        },
+        {
+          "page": 5,
+          "text": "Figure 13 shows the real face angle comparing with the estimated face angle overtime with an average difference value of 12 degrees."
+        },
+        {
+          "page": 6,
+          "text": "The logged position data are compared with the labelled ground truth, and a video frame is counted as success when all of the three face identities are correctly matched with the faces."
+        },
+        {
+          "page": 7,
+          "text": "An experiment case is counted as success only when all the robots approach the correctly matched humans."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "No statistical significance tests are reported. Key technical results include system update frequency better than 6 Hz, average face location error 17.68 cm, average face angle difference 12 degrees, average face score error 11.7, identity matching success rate 83%, and integrated scenario success rates of 3/5 to 5/5.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The average time to process a single video frame is 151 ms, so we have an update frequency better than 6 Hz."
+        },
+        {
+          "page": 6,
+          "text": "The average face score errors for each round are in Table VII."
+        },
+        {
+          "page": 6,
+          "text": "The success rate for each round is in Table VIII."
+        },
+        {
+          "page": 7,
+          "text": "The integrated system has a success rate higher than 80% as shown in Section IV-E."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "Gaze-direction-based robot selection / gaze-based attention-getting.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Each human can “select” (obtain the undivided attention of) a robot by simply looking directly at it."
+        },
+        {
+          "page": 2,
+          "text": "Although gazed-based attention-getting by explicit collaboration has been shown before, this is the first demonstration of gaze-based many-to-many robot-selection HRI using the information shared ‘in the cloud’."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper describes selection as a person obtaining a robot's undivided attention by looking directly at it; it does not provide a separate formal definition of robotic gaze or attention.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Each human can “select” (obtain the undivided attention of) a robot by simply looking directly at it."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze serves as a selection cue: it lets each person select a robot for further interaction, and supports optimal many-to-many assignment, including when the selected robot cannot see the person.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We seek a system of multiple humans and robots where each human can select a single robot to work with by simply looking directly at it as in Figure 1."
+        },
+        {
+          "page": 1,
+          "text": "In our multi- robot system, information about detected user locations and gaze directions is shared among the robots via a centralized server. Thus a robot can be aware that a user is gazing at it even when that person is not visible from its own camera."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The paper reports technical selection and approach performance rather than measured effects on human experience. In scenarios, 21 of 30 trials succeeded overall (derived by summing the six reported scenario successes); the paper states the integrated system success rate was higher than 80%.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "Success rate 5/5 4/5 4/5 4/5 5/5 3/5"
+        },
+        {
+          "page": 7,
+          "text": "An experiment case is counted as success only when all the robots approach the correctly matched humans."
+        },
+        {
+          "page": 7,
+          "text": "The integrated system has a success rate higher than 80% as shown in Section IV-E."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "Autonomous computer-vision pipeline: robots detect and track faces, recognize identities, estimate face pose and gaze direction, compute face-to-robot scores, and send these to a central server. Local and centralized Hungarian algorithms perform identity matching and global robot-human allocation; robots then provide audio, visual, and movement feedback.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Each robot detects faces in the video stream from its camera, and the identity of each detected face is recognized using a pre-trained face identity classifier using the ROS face recognition package."
+        },
+        {
+          "page": 2,
+          "text": "All robots send their face scores for each human identity to a central server, which uses the Hungarian algorithm to determine which robot is most likely being looked at by which human."
+        },
+        {
+          "page": 4,
+          "text": "The face score is calculated using Equation 4."
+        },
+        {
+          "page": 5,
+          "text": "Once a robot is notified that a human is gazing it, the robot performs sound, visual and movement feedback."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Three iRobot Create generic mobile robots equipped with low-cost laptops and cameras; the robots use wheels to turn and drive toward the selected person.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We use three iRobot Create generic mobile robots equipped with low-cost laptops (Intel i5, 4GB RAM)."
+        },
+        {
+          "page": 3,
+          "text": "Each robot is equipped with a camera in this system."
+        },
+        {
+          "page": 5,
+          "text": "And if the matched face is in the view of the robot, the robot will turn left or right to maintain the face is in the center of the view with a deviation of 10◦, and drive toward the face until their distance is around 35 cm."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The camera's 60-degree field of view could leave a person unseen by all robots; the authors report that stationary people then prevent the system from recovering, and suggest wider-FOV cameras could help.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "The field of view of the camera we use on the robot platform is 60 degrees, thus there exists a situation when one of the humans cannot be seen by any of the robots."
+        },
+        {
+          "page": 7,
+          "text": "Since all the humans are almost stationary during the experiments the system cannot recover."
+        },
+        {
+          "page": 7,
+          "text": "Cameras with wider FOV could also help with this issue."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper presents an autonomous vision system in which three people select among three mobile robots by looking at them. Face identity and gaze estimates are shared across robots to allocate selections, including when a selected robot cannot see the person; reported scenario success ranged from 60% to 100%.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — It describes gaze-based selection and its role in assigning robots to people, reports technical selection performance and camera-related limitations, and details the sensing, allocation system, and robot platform. It does not assess effects on participants’ subjective experience.",
+      "quotes": []
+    }
+  ]
+}

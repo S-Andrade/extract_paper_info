@@ -1,0 +1,263 @@
+{
+  "key": "2ZE6I4VS",
+  "title": "Synchrony as a tool to establish focus of attention for autonomous robots",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Experimental technical/system description.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We propose a synchrony-based neural network architecture capable of selecting the robot partner and of locating focus of attention."
+        },
+        {
+          "page": 5,
+          "text": "The focus of attention mechanism is tested in a simple way and results are shown in fig. 4."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Laboratory setup.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We used a minimal setup for our experiments as shown in fig. 1."
+        },
+        {
+          "page": 2,
+          "text": "(a) basic automata (1 degree of freedom, assembled in the lab) (b) Nao robot (c) (d) Overall setup for human-robot and robot-robot interaction."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "The system was tested in rhythmic movement interaction: the robot synchronized its arm movement with a human or one-degree-of-freedom automaton, selected a partner among multiple moving agents, and oriented its focus of attention toward synchronized motion. Conditions included agents moving at similar or different frequencies and changing location.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Agent 1 (Nao robot) dynamically adopts or imitates the behavior of agent 2 (either human or basic automata)."
+        },
+        {
+          "page": 4,
+          "text": "Among two interactants only the agent having a similar frequency as Nao is selected."
+        },
+        {
+          "page": 5,
+          "text": "After 500 time units (16.6 sec.), a synchronized motion is introduced from the left side (−28.30) of Nao."
+        },
+        {
+          "page": 5,
+          "text": "After 2650 time units (88.3 sec), the Automata is tuned to its previous frequency again and human instructed to make different oscillations."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "The described tests included the robot with one human, one automaton, or both a human and an automaton; in the two-agent condition, the interaction group comprised one robot, one human, and one automaton.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "In this experiment, three agents are involved, in addition to NAO and human, a basic automata is introduced (Figure 1(d))."
+        },
+        {
+          "page": 5,
+          "text": "After this simple experiment, we examine our selection of partner algorithm along with FOA architecture by extending the experiment to the case of two agents an Automata (one DoF) and a human (only one of them is synchronized at a time)."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "One robot (Nao).",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Agent 1 (Nao robot) dynamically adopts or imitates the behavior of agent 2 (either human or basic automata)."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "One human in the described human-robot interaction conditions; some tests also included one automaton as another agent.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "In this experiment, three agents are involved, in addition to NAO and human, a basic automata is introduced (Figure 1(d))."
+        },
+        {
+          "page": 5,
+          "text": "After this simple experiment, we examine our selection of partner algorithm along with FOA architecture by extending the experiment to the case of two agents an Automata (one DoF) and a human (only one of them is synchronized at a time)."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Phase locking value (PLV) to measure synchrony; optical flow to estimate movement; system signals and focus-of-attention angle/location to evaluate synchronization and attention behavior.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Phase locking value (PLV) is used to investigate the interaction dynamics between two signals."
+        },
+        {
+          "page": 2,
+          "text": "Motion in the visual field of Nao (we restrict our motion up-down only) is estimated by an optical flow algorithm, velocity vectors are then converted into positive and negative activities."
+        },
+        {
+          "page": 5,
+          "text": "Fig.4(b) indicates the angle of FOA according to the rhythmic motion and finally fig.4(c) describes the interactant’s location in front of Nao."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "The system synchronized with the agent moving at a frequency close to Nao’s learned frequency, as indicated by rising PLV; the focus-of-attention direction followed that synchronized agent and shifted when the synchronized partner changed. No statistical significance tests are reported.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Results show that when the Automata moves similarly to Nao’s movements while human oscillates with a different frequency, Nao synchronizes with the Automata (by selection of partner algorithm) and FOA mechanisms turns towards Automata but if the human adapts his frequency close to Nao, Nao alignes itself with the human and FOA moves towards human."
+        },
+        {
+          "page": 5,
+          "text": "Initially, PLV is low but as the interaction gets longer it increases to maximum."
+        },
+        {
+          "page": 5,
+          "text": "The PLV related to human increases to the highest value while the Automata PLV shifts to a low value (fig. 5(c3)) while FOA shifts from the automata to the human (fig. 5(c4))."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames focus of attention as a synchrony-based mechanism for selecting an interaction partner and locating the synchronized region of motion; it presents immediate synchronous imitation as a communication tool.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this paper, we use immediate synchronous imitation (adaptation of other’s synchronous behavior) as a communication tool."
+        },
+        {
+          "page": 1,
+          "text": "We propose a synchrony-based neural network architecture capable of selecting the robot partner and of locating focus of attention."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The authors describe focus of attention as locating the synchronized region of movement, using prediction of synchrony to attract robot attention.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "In this section, we used prediction of synchrony as a parameter to attract the attention (FOA) of a robot."
+        },
+        {
+          "page": 4,
+          "text": "This selected column indicates the location of the synchronized movement and the robot can point to the synchronized region to show the current Focus of Attention (FOA)."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Attention behavior helps the robot select an interaction partner from multiple agents and direct its attention toward that agent’s synchronized movement.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "This kind of mechanism can also be involved in more complex tasks of interaction such as partner selection."
+        },
+        {
+          "page": 5,
+          "text": "Consequently, both become synchronized with each other using our selection of partner algorithm."
+        },
+        {
+          "page": 5,
+          "text": "As a result, Nao switches the synchronized region, from left (−20.30) to right side (about 400)."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The robot’s focus shifted toward whichever agent synchronized with it, and followed that agent as it changed location. The paper reports system behavior, not measured effects on human participants.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "As the interacting agent moves a little to right side −2.70 consequently our architecture force the FOA to relocate itself in the direction of the correct motion."
+        },
+        {
+          "page": 5,
+          "text": "The same sequence is repeated again to verify that FOA always followed the interactant."
+        },
+        {
+          "page": 5,
+          "text": "As a result, Nao switches the synchronized region, from left (−20.30) to right side (about 400)."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "An autonomous neural network architecture uses camera-derived optical flow and an oscillator model. A phase-locking value tracks synchrony; learned image-to-oscillator prediction supports partner selection, while spatial movement prediction and a winner-takes-all selection determine the attention direction.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Optical flow represents the visual stimuli and it is input for our architecture."
+        },
+        {
+          "page": 3,
+          "text": "We proposed a neural network architecture (Fig. 2(b)) that selects an interacting partner on the basis of synchrony detection among various interacting agents."
+        },
+        {
+          "page": 4,
+          "text": "The Oscillator-prediction (y′) module learns the robot’s oscillation as a weighted sum of image pixels."
+        },
+        {
+          "page": 4,
+          "text": "Then a Winner Takes All (WTA) selects the highest activated column."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Nao humanoid robot, with its head used to indicate where it focuses attention; arm movement is controlled by the oscillator. The setup also uses a one-degree-of-freedom automaton as an interacting agent.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Robot’s head is used to show where the robot focuses its attention."
+        },
+        {
+          "page": 2,
+          "text": "Agent 1 (Nao robot) dynamically adopts or imitates the behavior of agent 2 (either human or basic automata)."
+        },
+        {
+          "page": 2,
+          "text": "It is made of two neurons N1 and N2, fed by a constant signal and multiplied by the parameter α1 and α2."
+        },
+        {
+          "page": 5,
+          "text": "After this simple experiment, we examine our selection of partner algorithm along with FOA architecture by extending the experiment to the case of two agents an Automata (one DoF) and a human (only one of them is synchronized at a time)."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The paper presents a Nao robot that uses optical flow and synchrony to select a moving interaction partner and direct its focus of attention toward that agent. In tests with a human and a one-degree-of-freedom automaton, the robot synchronized with the agent whose movement frequency was close to its learned frequency, and its attention direction followed that agent.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5 — The paper describes synchrony-based attention and partner selection, reports how the robot’s attention follows the synchronized agent, and details the sensing and neural-network implementation. It identifies the Nao platform but does not describe how embodiment shaped the study.",
+      "quotes": []
+    }
+  ]
+}

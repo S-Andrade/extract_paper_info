@@ -1,0 +1,235 @@
+{
+  "key": "QXJT4BA2",
+  "title": "Using Random Forests for the Estimation of Multiple Users’ Visual Focus of Attention from Head Pose",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical system evaluation with single-user and two-user experiments.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The system has been tested both on single users and on couples of users interacting with a simple scenario designed to guide the user attention towards a specific space region."
+        },
+        {
+          "page": 8,
+          "text": "The system has been tested on both single users and couple of users interacting within the same scenario."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Controlled indoor setup in front of a television with a Kinect camera.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "The user is positioned in front of a 47 in. smart TV with a resolution of 1920 1080 px. A Microsoft Kinect camera is located on top of the monitor."
+        },
+        {
+          "page": 12,
+          "text": "The system has been tested in a simple scenario, where one or more users are placed in front of a smart TV endowed with a Kinect camera at a distance of 1.3 meters."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "18 participants; arranged into 14 two-person couples for multi-user tests.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "18 users have been considered for the individual tests."
+        },
+        {
+          "page": 9,
+          "text": "The same users of the previous cases were then randomly coupled, so obtaining 14 couples."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "18 participants: 14 males and 4 females. Age and prior robot experience are not stated.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "18 users have been considered for the individual tests. Namely, 14 males and 4 females."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants followed images appearing for four seconds in randomly selected regions of a six-quadrant television screen; they were asked to look at each image. In two-person sessions, both participants did this task simultaneously after sequential calibration.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "The monitor shows a sequence of 10 different images located in one of the six different screen regions, randomly selected. Each image is shown for 4 s. The user is requested to look at the currently displayed image."
+        },
+        {
+          "page": 9,
+          "text": "Thus, both users of the selected pair have been asked to look at each of the ten images randomly displayed on the screen."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "One human in single-user sessions; two humans in multi-user sessions. No robot was present in the interaction group.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "The system has been tested on both single users and couple of users interacting within the same scenario."
+        },
+        {
+          "page": 12,
+          "text": "The system has been tested in a simple scenario, where one or more users are placed in front of a smart TV endowed with a Kinect camera at a distance of 1.3 meters."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "n_humans",
+      "value": "One or two per session.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "The system has been tested on both single users and couple of users interacting within the same scenario."
+        },
+        {
+          "page": 9,
+          "text": "In the two-user case, the VFOA of each user is computed independently from the other user according to Eqs. 1 and 2 since, in a different, more general, interaction setting, users may have different VFOA."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Kinect RGB-D sensor with OpenNI skeleton tracking and DRRF head-pose/VFOA estimation; screen-region hit and miss counts over each four-second image display, summarized as precision (also sensitivity in this setup).",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "Here, we adopted an approach that combines OpenNi standard functions for user tracking based on skeleton data gathered by the Kinect sensor, and a random forest method trained on the set of depth images."
+        },
+        {
+          "page": 9,
+          "text": "For each user, the VFOA coordinates, as computed by the system, were compared to the position of the image displayed on the screen and observed by the user."
+        },
+        {
+          "page": 10,
+          "text": "HIT COUNT: counts the number of times the coordinates of the focus calculated are recognized within the quadrant that contains the showed image; MISS COUNT: counts the number of times the coordinates of the focus computed by the system are localized outside such quadrant."
+        },
+        {
+          "page": 10,
+          "text": "In order to evaluate the performance of our system, we considered the Positive Predictive Values (i.e., the Precision P TP/(TP FP)). In our case, since FP FN, this performance value identifies also the Sensitivity of the system."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Mean precision was 0.82 for single users, 0.62 for individual users tracked in two-person sessions, and 0.39 when both users had to be correctly recognized at the same time. Single-versus-multiple-user precision differed significantly (one-way ANOVA, p = 0.0157); simultaneous joint attention recognition was described as unattainable in this setup.",
+      "quotes": [
+        {
+          "page": 11,
+          "text": "For these tests, the achieved average Precision is 0.82."
+        },
+        {
+          "page": 11,
+          "text": "With respect to the single user case, the performance, while tracking two users simultaneously, is degraded. One-way ANOVA test on Precision values of single users and multiple users test shows a significant difference in the two cases (with p 0.0157)."
+        },
+        {
+          "page": 12,
+          "text": "This means that, while two users’ VFOA can be tracked with a loss in performance, joint attention on a specific area is unattainable."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames the topic as estimation of multiple users’ visual focus of attention (VFOA) from head pose, or head gaze, in multiparty interaction.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "This work aims at evaluating the possibility of computing real-time multiple users’ focus of attention by combining a random forest approach for head pose estimation with the user’s head joint tracking."
+        },
+        {
+          "page": 2,
+          "text": "Head gaze can hence be interpreted as an explicit social cue communicating attention towards a subject or an object"
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper treats VFOA as a person's focus of attention estimated from head pose; it does not provide a formal definition of robotic gaze, robotic attention, or robotic gaze-based attention.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "This work aims at evaluating the possibility of computing real-time multiple users’ focus of attention, by combining the skeleton tracking of an RGB-D camera with the Random Regression Forest approach (DRRF) developed by [13] for the case of head pose estimation."
+        },
+        {
+          "page": 3,
+          "text": "In order to determine the VFOA of a human user, we only considered the head pose estimation."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "The paper describes head gaze/VFOA as a social cue that can signal attention to a person or object, regulate turn-taking, inform whether to initiate interaction, and help estimate user engagement. These roles are discussed as motivation rather than tested with a robot.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Head gaze can hence be interpreted as an explicit social cue communicating attention towards a subject or an object, but also, it is used to regulate the turn-taking [9], to decide whether or not to initiate an interaction [10], as well as to estimate the degree of user’s engagement during a multi-party interaction [11]."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The system's VFOA estimation performance declined when tracking two users compared with one; jointly recognizing both users' attention to a screen region was poor. The study did not measure effects of a robot's gaze behavior on people.",
+      "quotes": [
+        {
+          "page": 11,
+          "text": "With respect to the single user case, the performance, while tracking two users simultaneously, is degraded."
+        },
+        {
+          "page": 12,
+          "text": "This means that, while two users’ VFOA can be tracked with a loss in performance, joint attention on a specific area is unattainable."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "Autonomous estimation combines Kinect RGB-D depth images with OpenNI skeleton tracking and a Discriminative Random Regression Forest (DRRF) to identify heads and estimate nose position and Euler head-rotation angles. The estimated head pose is mapped to tracked users and projected onto a vertical plane to calculate VFOA.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Here, we adopted an approach that combines OpenNi standard functions for user tracking based on skeleton data gathered by the Kinect sensor, and a random forest method trained on the set of depth images."
+        },
+        {
+          "page": 7,
+          "text": "Such mapping associates, for each head joint, the nearest head pose (if any, or the head pose obtained in a previous frame)."
+        },
+        {
+          "page": 8,
+          "text": "For a user i, which has been correctly identified, the final coordinates (after yaw and pitch rotations), which are the real focus of attention, are computed in this way:"
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The paper evaluated a Kinect-based system that estimates one or two people's visual focus of attention from head pose while they looked at images on a screen. Precision fell from 0.82 with one user to 0.62 when tracking two users, and to 0.39 when both users had to be correct simultaneously; the study did not test a robot's gaze behavior.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ4; RQ5 — The paper describes head gaze/VFOA as a social cue and lists its possible roles in multiparty interaction, and details a real-time head-pose estimation system tested with one or two people. It uses a Kinect sensor rather than a robot embodiment, so it does not provide evidence about how a robot body influences gaze-based attention.",
+      "quotes": []
+    }
+  ]
+}

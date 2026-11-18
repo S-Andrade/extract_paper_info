@@ -1,0 +1,257 @@
+{
+  "key": "7X25KZ2U",
+  "title": "Motor biases in visual attention for a humanoid robot",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description with preliminary experiments on a humanoid robot.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this paper we aim at implementing these features to control attention in a humanoid robot by including a set of trajectory predictors in the simple but effective form of Kalman filters, and, more importantly, a reinforcement learning based process that utilizes the predictors and the complete set of actions of the robot repertoire to generate a suitably optimal action sequence."
+        },
+        {
+          "page": 1,
+          "text": "Preliminary experiments show that the system indeed works correctly: it uses the predictors to discriminate the environmental context (e.g. static vs. dynamic) and produces a valid control policy that drives the robot to fixation of the task- relevant static or moving stimuli."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Experimental setup with the robot and a human experimenter seated opposite each other, with objects on a table between them.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The robot and the human experimenter sit opposite to each other."
+        },
+        {
+          "page": 5,
+          "text": "Static colored objects are placed at random locations on a table in between the robot and the experimenter."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "One human experimenter; no further participant characteristics are stated.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The robot and the human experimenter sit opposite to each other."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "The robot visually attends to table-top objects and learns action sequences to fixate them. In Experiment A, objects are static; in Experiment B, the human experimenter moves a red ball naturally to a new location.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Static colored objects are placed at random locations on a table in between the robot and the experimenter."
+        },
+        {
+          "page": 5,
+          "text": "The experimenter decides when to reach and move the red ball in any desired new location on the table with a natural movement (see Figure 2)."
+        },
+        {
+          "page": 6,
+          "text": "Experiment B is an extension of A whereby the experimenter is now allowed to move an object (red ball) in front of the robot."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "One robot and one human experimenter in the described setup.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The robot and the human experimenter sit opposite to each other."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Our experimental platform is the iCub [15], a full-fledged humanoid robot sporting among other things independently movable eyes neck, visual inertial sensors, and facial features, which therefore make it an ideal platform for the study of visual attention during human-robot interaction."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The robot and the human experimenter sit opposite to each other."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "System and learning-performance measures: number of actions per learning cycle, fixation points, and learning-curve/trajectory duration. No named questionnaires, interviews, or human-subject measures are stated.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "We counted the number of actions performed for n=40 learning cycles finalizing the complete learning run."
+        },
+        {
+          "page": 6,
+          "text": "To further demonstrate convergence of the learning process we collected kinit and kfinal 2 fixation points during the initial and final stages of the learning run respectively."
+        },
+        {
+          "page": 6,
+          "text": "It is still possible to observe the decrease of the duration of the trajectories as a function of learning."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Learning reduced the number of actions needed to reach fixation and the duration of trajectories. In Experiment A, final fixation points were located on objects, producing a scan path across salient targets. No statistical significance tests or inferential statistics are reported.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Figure 4 shows and decreasing with the number of learning cycles."
+        },
+        {
+          "page": 6,
+          "text": "Fixation points are exclusively located on the objects, producing a scan path that meanders across the salient targets in the scene."
+        },
+        {
+          "page": 6,
+          "text": "It is still possible to observe the decrease of the duration of the trajectories as a function of learning."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "Visual attention and its oculomotor counterpart; the system combines bottom-up attention with top-down mechanisms, predictors, and learning. The paper does not frame this as multiparty gaze-based attention.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The motor counterpart of attention is the generation of ocular movements which, broadly speaking, aim at placing our high-resolution foveae at the attended stimulus location [5], [6]."
+        },
+        {
+          "page": 6,
+          "text": "In this paper we presented a conspicuous extension of the basic bottom-up attention system proposed by Itti and Kock [1] to include top-down mechanism, predictors and learning, all implemented with a retina-like space variant visual system."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "Attention's motor counterpart is ocular movement that places the fovea at the attended stimulus location.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The motor counterpart of attention is the generation of ocular movements which, broadly speaking, aim at placing our high-resolution foveae at the attended stimulus location [5], [6]."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "The attention system selects salient or task-relevant stimuli and guides the robot's eyes to fixate them; prediction supports anticipatory gaze toward a moving stimulus's expected landing point. No multiparty interaction function is described.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The motor counterpart of attention is the generation of ocular movements which, broadly speaking, aim at placing our high-resolution foveae at the attended stimulus location [5], [6]."
+        },
+        {
+          "page": 4,
+          "text": "If the minimum jerk trajectory is selected, then the system responds with an anticipatory saccade [34], [35] to the landing point."
+        },
+        {
+          "page": 6,
+          "text": "Predictors are used to understand the context of the experiment as for example whether the stimuli are static or dynamic."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The learned system produced fixation on static or moving stimuli and learned action policies that reduced actions or trajectory duration. Effects on human participants or multiparty interaction are not reported.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Preliminary experiments show that the system indeed works correctly: it uses the predictors to discriminate the environmental context (e.g. static vs. dynamic) and produces a valid control policy that drives the robot to fixation of the task- relevant static or moving stimuli."
+        },
+        {
+          "page": 6,
+          "text": "Fixation points are exclusively located on the objects, producing a scan path that meanders across the salient targets in the scene."
+        },
+        {
+          "page": 6,
+          "text": "It is still possible to observe the decrease of the duration of the trajectories as a function of learning."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "Autonomous visual-attention and gaze control on iCub using saliency maps, foveated/log-polar vision, Kalman-filter trajectory predictors, oculomotor primitives, and Q-learning to learn action sequences.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The experiments described in this paper use foveated vision, which is obtained via subsampling of the iCub standard rectangular images."
+        },
+        {
+          "page": 4,
+          "text": "A bank of predictors simultaneously predicts the trajectory, of the velocity profile, and eventually the final position of the stimulus."
+        },
+        {
+          "page": 4,
+          "text": "A Kalman filter is employed for each model with the discrete-time system described by:"
+        },
+        {
+          "page": 4,
+          "text": "We used reinforcement learning (RL) and, more specifically, Q-learning [40] in a standard implementation."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "The platform is iCub, a child-sized humanoid with independently movable eyes, neck, visual inertial sensors, and facial features; its upper body has 41 degrees of freedom.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Our experimental platform is the iCub [15], a full-fledged humanoid robot sporting among other things independently movable eyes neck, visual inertial sensors, and facial features, which therefore make it an ideal platform for the study of visual attention during human-robot interaction."
+        },
+        {
+          "page": 2,
+          "text": "The iCub is sized as a four years old child."
+        },
+        {
+          "page": 2,
+          "text": "The upper body is made of 41 degrees of freedom and the hands have been specifically designed to support skilled manipulation with eight degrees of freedom allocated to the first three fingers."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors state that the humanoid platform is suitable for studying visual attention in human–robot interaction and that foveated vision requires eye movements to acquire a high-resolution internal image. No effect of embodiment on the study outcomes is reported.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Our experimental platform is the iCub [15], a full-fledged humanoid robot sporting among other things independently movable eyes neck, visual inertial sensors, and facial features, which therefore make it an ideal platform for the study of visual attention during human-robot interaction."
+        },
+        {
+          "page": 2,
+          "text": "Differently from Itti Koch’s model, the use of foveated vision requires the robot to move the eyes in order to acquire a high-resolution internal image of the visual scene [18]."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper implements visual attention and learned gaze control on the iCub humanoid, using saliency, trajectory prediction, and reinforcement learning. In tabletop experiments with static objects and a human-moved ball, learning produced policies that brought the robot to fixation and reduced actions or trajectory duration; it did not study multiparty interaction effects.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ4; RQ5; RQ6 — The paper describes attention as ocular movement toward an attended location, details its autonomous prediction and learning implementation, and describes the iCub embodiment and its eye movement requirements. It does not investigate multiparty interaction or its effects on people.",
+      "quotes": []
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "key": "GTJTTAMC",
+  "title": "Care robot able to show the order of service provision through bodily actions in multi-party settings",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Ethnographic observational study and two experiments; the paper also describes a robot system.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We filmed over 200 hours of footage there, which we then analyzed to identify how care workers coped with multiple requests from multiple elderly people."
+        },
+        {
+          "page": 4,
+          "text": "In order to confirm the effectiveness of the gaze, we conducted an experiment using 39 student participants."
+        },
+        {
+          "page": 5,
+          "text": "We used 118 student participants in the experiment."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "An elderly care center in Japan for the ethnographic study; participant experiments used a tea-serving robot in multiparty service scenarios.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "To examine multi-party interaction in a service provision setting, we conducted an ethnographic study at an elderly care center in Japan."
+        },
+        {
+          "page": 4,
+          "text": "In this experiment, three participants were included in a setting in order to test the effectiveness of the robot's gestures (Figure 5)."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "39 participants in the first experiment and 118 in the second experiment; 200+ hours of observational footage (no participant count for the ethnographic study stated).",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "In order to confirm the effectiveness of the gaze, we conducted an experiment using 39 student participants."
+        },
+        {
+          "page": 5,
+          "text": "We used 118 student participants in the experiment."
+        },
+        {
+          "page": 2,
+          "text": "We filmed over 200 hours of footage there, which we then analyzed to identify how care workers coped with multiple requests from multiple elderly people."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Student participants; 118 students in the second experiment. The ethnographic study involved care workers/nurses and elderly visitors; ages and genders are not stated.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "In order to confirm the effectiveness of the gaze, we conducted an experiment using 39 student participants."
+        },
+        {
+          "page": 5,
+          "text": "We used 118 student participants in the experiment."
+        },
+        {
+          "page": 2,
+          "text": "At this facility, only two nurses can decide whether each elderly visitor should take a bath or not by checking body temperature, blood pressure, and so on."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants requested tea and snacks by raising a hand while the robot served one person at a time. Researchers compared robot responses to a second person's request, including gaze, other gestures, combinations, or no acknowledgement. In the ethnography, nurses checked visitors' vital signs and determined bath eligibility.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The robot is designed to perform a specific action bringing tea and snacks to a person who calls the robot by raising their hand."
+        },
+        {
+          "page": 4,
+          "text": "In one, the robot stopped momentary and turned its gaze towards the next person when they raised their hand to seek service. In the other, the robot neither stopped nor turned its gaze in response to users."
+        },
+        {
+          "page": 5,
+          "text": "When another participant raised his/her hand, the robot’s torso stopped in its current position, and the robot performed a gesture or gestures using other parts of its body to acknowledge the request."
+        },
+        {
+          "page": 2,
+          "text": "The nurses confirmed this information for each visitor one at a time, after the visitors finished self-assessment by themselves first."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Second experiment: three human participants and one robot in a session. The number of people per session in the first experiment is not specified.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "In this experiment, three participants were included in a setting in order to test the effectiveness of the robot's gestures (Figure 5)."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "One robot per interaction scenario.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "In the top image, the robot concentrates on serving tea and snacks to a specific person."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "Three participants in the second experiment; group size for the first experiment is not stated.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "In this experiment, three participants were included in a setting in order to test the effectiveness of the robot's gestures (Figure 5)."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Video-recorded ethnographic observation and behavioral classification of participants' hand-raising responses; Fisher's exact tests were used. No questionnaire or eye-tracking instrument is reported.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We filmed over 200 hours of footage there, which we then analyzed to identify how care workers coped with multiple requests from multiple elderly people."
+        },
+        {
+          "page": 4,
+          "text": "Examining the results, we found that there was a marked difference in behavior between the groups of participants concerning how they called the robot by raising their hands."
+        },
+        {
+          "page": 5,
+          "text": "We analyzed participants' responses to the robot's gesture(s) by categorizing them into lowering their hands or using other responses (Figure 6)."
+        },
+        {
+          "page": 6,
+          "text": "A Fisher’s exact test shows that there are significant differences between the two cases (two-sided test p=0.0136)."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "In the first experiment, hand-raising response categories differed between gaze and no-gaze conditions (Fisher’s exact test, two-sided p=0.0000); gaze was associated with more participants raising then lowering their hands. In the gesture experiment, 80% lowered their hands after gaze alone, versus 30% after gaze plus nodding (Fisher’s exact test, two-sided p=0.0136).",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "A Fisher’s exact test shows that there are significant differences between the two cases (two-sided test p=0.0000)."
+        },
+        {
+          "page": 5,
+          "text": "When the robot turned its gaze towards them (pattern 3), 80% of the participants lowered their hands."
+        },
+        {
+          "page": 6,
+          "text": "However, when the robot turned its head and nodded (pattern 6), this number dropped to 30%."
+        },
+        {
+          "page": 6,
+          "text": "A Fisher’s exact test shows that there are significant differences between the two cases (two-sided test p=0.0136)."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames robot gaze as a bodily action for displaying the order of service provision and acknowledging the next person waiting for service.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "An ethnographic study we conducted at an elderly care center revealed that the gaze and bodily actions of care workers can serve this function."
+        },
+        {
+          "page": 2,
+          "text": "When an elderly person requested assistance, the gaze projected a request for the service seeker to wait while the care worker finished attending to the current person."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze acknowledges and identifies the next service recipient, projects the service order, and signals that the next person should wait while the current service is completed.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "In other words, the nurse successfully projects the order to the visitors by only turning her gaze."
+        },
+        {
+          "page": 5,
+          "text": "Function 4 Display the person who is going to be served next."
+        },
+        {
+          "page": 5,
+          "text": "Function 5 Display the meaning \"please wait until service provision to the current user isfinished\" to the next user."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Gaze led participants to lower their hands after requesting service, which the authors interpret as recognizing the acknowledgement/order and accepting that they would be served next. Adding a nod after gaze reduced hand-lowering and may have confused participants by suggesting immediate service.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "When the robot turned its gaze towards them (pattern 3), 80% of the participants lowered their hands."
+        },
+        {
+          "page": 6,
+          "text": "This suggests that compound gestures may have unexpected effects."
+        },
+        {
+          "page": 6,
+          "text": "In other words, participants may have kept their hands up because the robot projected it would come to them immediately but then proceeded to serve the first person beforehand."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The mobile robot stopped its torso when another user raised a hand and turned its head toward that user; tested gestures also included raising a hand and nodding, alone and in combinations. The paper does not state that gaze or gestures were selected autonomously, or describe a gaze-detection model/control architecture.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "When another participant raised his/her hand, the robot’s torso stopped in its current position, and the robot performed a gesture or gestures using other parts of its body to acknowledge the request."
+        },
+        {
+          "page": 3,
+          "text": "A pan-tilt mount (PTU-D46-17 by Directed Perception) was installed inside the neck for head motion."
+        },
+        {
+          "page": 3,
+          "text": "The robot also employs other LRFs on its body to detect obstacles and users' requests."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Anthropomorphic mobile robot built on a Segway platform, with eight upper-body joints for human-like arm movement and a pan-tilt head; it carried tea and snacks.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "To test our theory, we developed an anthropomorphic mobile robot system able to circulate among multiple people."
+        },
+        {
+          "page": 3,
+          "text": "We adapted a Segway mobile robot (RMP50 by Segway Japan) as the mobile platform."
+        },
+        {
+          "page": 3,
+          "text": "In the upper body 8 joints were installed to enable the robot to move its arms in a way similar to humans."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The paper reports that gaze was performed by turning the robot's head, and that gaze alone was more effective than some hand/nod gestures. It does not explicitly analyze how embodiment shaped the study or effects.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Gaze (Turning Head)"
+        },
+        {
+          "page": 5,
+          "text": "In contrast, the robot raising a hand and nodding (pattern 4) proved relatively less effective than the gaze."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The authors studied how a care robot could use gaze and bodily gestures to show who would receive service next in a multiparty tea-serving scenario. Participants responded to gaze by lowering their raised hands, while gaze followed by a nod sometimes suggested immediate service and produced more persistent hand-raising.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5 — The paper describes gaze as a cue for service order and waiting, tests its effects on hand-raising behavior, and reports the robot's gestures, sensing components, and physical platform. It does not directly examine how embodiment influences the study or effects.",
+      "quotes": []
+    }
+  ]
+}

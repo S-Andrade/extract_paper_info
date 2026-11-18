@@ -1,0 +1,259 @@
+{
+  "key": "8XY9F4IK",
+  "title": "Designing LED Lights for Communicating Gaze with Appearance-Constrained Robots",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Pilot study with a design session and an online survey evaluation.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this pilot study, we investigate how we can implement gaze behavior in functional robots since gaze communication can allow humans to read a robot’s intent and adjust their behavior accordingly."
+        },
+        {
+          "page": 2,
+          "text": "We performed the evaluation by using online surveys."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Design session with a physical robot; evaluation via online survey using a Japanese crowdsourcing platform and demo videos.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We installed an LED lighting system (NeoPixel LED strip) on an iRobot Create 2 robot, which is a Roomba robot."
+        },
+        {
+          "page": 2,
+          "text": "We organized a design session in which we invited six designers (one female) to join an experiment."
+        },
+        {
+          "page": 3,
+          "text": "A Japanese online crowdsourcing platform5 was employed to recruit participants."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "126 participants total: 6 designers and 120 online survey participants.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We organized a design session in which we invited six designers (one female) to join an experiment."
+        },
+        {
+          "page": 3,
+          "text": "We hired 120 participants, 60 of them for each condition (demo video)."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Six designers, one female; 120 online survey participants recruited in Japan. Other characteristics are not stated.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We organized a design session in which we invited six designers (one female) to join an experiment."
+        },
+        {
+          "page": 3,
+          "text": "A Japanese online crowdsourcing platform5 was employed to recruit participants."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Designers explored LED gaze parameter combinations and commented on their designs. Survey participants watched one of two videos of the robot scanning; one showed the robot alone and the other showed three objects in front of it, then answered two open-ended questions.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Designers can freely try out different combinations of parameter values by setting the corresponding parameters."
+        },
+        {
+          "page": 2,
+          "text": "At the end of the trials, they were asked to provide comments and opinions in a free manner."
+        },
+        {
+          "page": 3,
+          "text": "We prepared two demo videos in which the Roomba robot was displaying a “scan” behavior (gazing from left to right regularly in two cycles)."
+        },
+        {
+          "page": 3,
+          "text": "In a questionnaire, we asked two open-ended questions: 1) What was the robot doing? 2) Is it easy to understand the robot’s intent?"
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Not specified for a live interaction session; videos showed one robot, with either zero or three objects. Human-robot group size is not reported.",
+      "quotes": []
+    },
+    {
+      "field": "n_robots",
+      "value": "One robot in each demo video.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "In one demo (a screenshot is shown in Figure 3), the robot was the only object in the video."
+        },
+        {
+          "page": 3,
+          "text": "However, in the other demo (a screenshot is shown in Figure 4), three objects were put in front of the robot."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Custom open-ended questionnaire; participants’ written descriptions were analyzed. No named scale, behavioral coding scheme, or eye-tracking device was used in this study; eye tracking is proposed for future work.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "In a questionnaire, we asked two open-ended questions: 1) What was the robot doing? 2) Is it easy to understand the robot’s intent?"
+        },
+        {
+          "page": 3,
+          "text": "An analysis on the participants’ descriptions of the robot’s behavior clearly shows that they attributed a certain level of agency to the robot."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "No statistical significance tests or statistics are reported. The central reported outcome was that participants found the intent hard to understand when the robot appeared alone and easy to understand when objects were shown; descriptions in the object condition often interpreted the lights as scanning the objects.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "In general, partici- pants who viewed the demo showing the robot alone found it hard to understand the robot’s intent."
+        },
+        {
+          "page": 3,
+          "text": "However, participants who viewed the demo showing objects in front of the robot found it easy to understand the robot’s intent."
+        },
+        {
+          "page": 4,
+          "text": "Such descriptions suggest that they interpreted the light expressions as gaze signals (scanning the objects)."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "Gaze is framed as a communication cue that provides information and regulates interaction; light-based gaze signals are explored as a way for functional robots to communicate intent.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Among these cues, gaze has been suggested as important for providing information, expressing intimacy, and regulating interaction [3]."
+        },
+        {
+          "page": 1,
+          "text": "In this pilot study, we investigate how we can implement gaze behavior in functional robots since gaze communication can allow humans to read a robot’s intent and adjust their behavior accordingly."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "The paper presents gaze as communicating a robot’s intent and directing people’s attention; this study examines whether light expressions can be recognized as gaze, particularly when objects provide a reference.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this pilot study, we investigate how we can implement gaze behavior in functional robots since gaze communication can allow humans to read a robot’s intent and adjust their behavior accordingly."
+        },
+        {
+          "page": 4,
+          "text": "Because gaze can be used to indicate a robot’s intent and direct people’s attention [3], it is important to examine whether light-based gaze signals possess such functionalities."
+        },
+        {
+          "page": 4,
+          "text": "Light-based gaze signals may not be explicit cues that indicate directionality. However, when a reference (ob- jects) is provided, people can easily learn or recognize the functionality of the light expressions, similar to gaze."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "With objects present, participants more readily understood the robot’s intent and often attributed agency by describing it as observing or choosing among objects. When the robot appeared alone, participants commonly interpreted its behavior as cleaning, searching for garbage, charging, or waiting for commands. Almost none explicitly described the lights as eye-like or gaze-like.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Their perceptions and interpretations regarding the robot’s behavior were highly biased by the type of robot: cleaning robot."
+        },
+        {
+          "page": 4,
+          "text": "Specifically, many participants used anthropomorphic descriptions such as “observing the objects” or “choosing among the objects.”"
+        },
+        {
+          "page": 4,
+          "text": "Importantly, almost none of the participants explicitly described the light expressions as eye-like or gaze-like, suggesting that they did not attribute too high a level of agency to the robot."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "A NeoPixel LED strip was controlled by an Arduino Uno R3. The light-based gaze was configured with a bright green pupil and dim gray sclera; the selected example used 2 pupil pixels, 3 sclera pixels, and 4 pixels between the eyes. The robot scanned left to right in two cycles in the demo videos.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The LED strip was controlled by an Arduino Uno R3 board, and both the strip and the board were powered by a 5-V, 3-A portable powerbank."
+        },
+        {
+          "page": 3,
+          "text": "Specifically, we set the color of the pupil to bright green and the color of the sclera to dim gray."
+        },
+        {
+          "page": 3,
+          "text": "We set the width of the pupil to 2 LED pixels and the width of the sclera to 3 LED pixels. In addition, we set the interocular distance to 4 LED pixels."
+        },
+        {
+          "page": 3,
+          "text": "We prepared two demo videos in which the Roomba robot was displaying a “scan” behavior (gazing from left to right regularly in two cycles)."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "An iRobot Create 2 (Roomba) with a one-meter, 60-pixel NeoPixel LED strip installed on it.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We installed an LED lighting system (NeoPixel LED strip) on an iRobot Create 2 robot, which is a Roomba robot."
+        },
+        {
+          "page": 2,
+          "text": "To be specific, we used one meter of a NeoPixel LED strip (60 pixels)."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors expected the Roomba’s mechanical embodiment and the LED strip’s neutral shape to make the robot seem hardly anthropomorphic, potentially making the light expressions difficult to interpret as gaze. They report that this low anthropomorphism was consistent with participants rarely calling the lights eye-like or gaze-like.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Due to the mechanic embodiment of the Roomba robot and neutral shape of the LED strip, we hypothesized that people’s perception of the robot would be that it is hardly anthropomorphic."
+        },
+        {
+          "page": 4,
+          "text": "Importantly, almost none of the participants explicitly described the light expressions as eye-like or gaze-like, suggesting that they did not attribute too high a level of agency to the robot."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper explored LED parameters for simulating gaze on a Roomba and evaluated the resulting left-to-right scanning signal in online video surveys. Participants understood the robot’s intent more readily when objects were shown as a reference, while the lights rarely led them to describe the robot as eye-like or gaze-like.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper frames gaze as a cue for communicating intent and directing attention, and reports how reference objects affected recognition and agency attribution. It describes the LED implementation and Roomba embodiment, including the authors’ account of how the robot’s mechanical appearance shaped interpretation; it does not study live multiparty interaction.",
+      "quotes": []
+    }
+  ]
+}

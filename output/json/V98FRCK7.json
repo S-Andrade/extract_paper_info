@@ -1,0 +1,264 @@
+{
+  "key": "V98FRCK7",
+  "title": "Optimization and improvement of a robotics gaze control system using LSTM networks",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical system-development and evaluation study comparing an optimized competitive neural network with an LSTM gaze-control model.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "This article explains how these weights can be obtained by solving an optimization problem. In addition, a new model using a recurrent neural network with LSTM layers is presented."
+        },
+        {
+          "page": 11,
+          "text": "Two different experiments have been carried out."
+        },
+        {
+          "page": 14,
+          "text": "The training of our model based on LSTM has been carried out from 726 situations previously recorded on 3 people."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "sample_size",
+      "value": "Three people participated in the training and dataset preparation; total study sample size is not stated.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In our experimentation, training is performed by three people interacting with each other and with the robot."
+        },
+        {
+          "page": 14,
+          "text": "The training of our model based on LSTM has been carried out from 726 situations previously recorded on 3 people."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "Three people interacted with one another and the robot in recorded, scripted behavior sequences; an external teacher annotated whom the robot should attend to. The paper also reports operation with three or more participants and tests with more than eight.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In this step, during an initial training, an external user (teacher) analyzes the sequence and establishes to whom the robot should pay attention."
+        },
+        {
+          "page": 12,
+          "text": "The experiment consisted in obtaining the optimal weights during training with three people interacting with the robot. The weights were not initially known and the persons followed a list of actions previously established, as shown in Table 1."
+        },
+        {
+          "page": 12,
+          "text": "At normal operation time, the system works with 3 or more people, having even performed some test with more than 8 participants."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "One robot and three humans in training; operational tests included more than eight participants, with one robot.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In our experimentation, training is performed by three people interacting with each other and with the robot."
+        },
+        {
+          "page": 12,
+          "text": "At normal operation time, the system works with 3 or more people, having even performed some test with more than 8 participants."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "To validate the proposed methodology, a robotic head with a projected face that simulates eye movement has been developed."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "3 people in training; operational tests included more than 8 participants.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In our experimentation, training is performed by three people interacting with each other and with the robot."
+        },
+        {
+          "page": 12,
+          "text": "At normal operation time, the system works with 3 or more people, having even performed some test with more than 8 participants."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Teacher annotations of focus-of-attention winners; technical performance measures including accuracy, validation accuracy, test accuracy, loss, confusion matrix, precision, recall, F1 score, Cohen's kappa, and ROC AUC. No named questionnaire or interview is reported.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "At the same time, an external user (teacher) observes the interaction and annotates the time instants when a person should be the focus of attention."
+        },
+        {
+          "page": 14,
+          "text": "The accuracy of the model has been 89.91%, validation accuracy 83.38%, and test accuracy 82.80%."
+        },
+        {
+          "page": 14,
+          "text": "Table 3 Evaluation of the model with different metrics Metric Value Accuracy 0.8878 Precision 0.8878 Recall 0.8878 F1 score 0.8878 Cohens kappa 0.8309 ROC AUC 0.9874"
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "The competitive system behaved as expected in 85.0% of cases. The LSTM model achieved 82.80% test accuracy; the authors report no statistical significance testing.",
+      "quotes": [
+        {
+          "page": 13,
+          "text": "Although the main aim of this work has been to obtain the weights of our neural network, the head has quantitatively behaved as we expected in 85.0% of cases"
+        },
+        {
+          "page": 14,
+          "text": "The accuracy of the model has been 89.91%, validation accuracy 83.38%, and test accuracy 82.80%."
+        },
+        {
+          "page": 15,
+          "text": "The proposed system reflects a success rate of 82.80% in relation to the behavior a person would have in the same situation."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "Gaze control is framed as choosing and shifting the robot’s focus of attention among people in a multiparty conversation, based on interaction stimuli.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Specifically, deciding who to pay attention to in a multi-party conversation is one way to improve the naturalness of a robot in human-robot interaction."
+        },
+        {
+          "page": 2,
+          "text": "Different factors are taken into account: the human’s gaze, who is speaking, pose, proxemics, Visual Focus of Attention (VFOA), hoarding conversation, habituation, etc."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper does not provide a formal definition; it describes gaze control as deciding whom to attend to or selecting a focus of attention.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Specifically, deciding who to pay attention to in a multi-party conversation is one way to improve the naturalness of a robot in human-robot interaction."
+        },
+        {
+          "page": 2,
+          "text": "One of the advantages of this approach is that the response of the competitive network is smooth and stable, avoiding erratic behavior."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "The gaze behavior selects whom the robot attends to and supports following a multiparty conversation with smooth transitions; the paper also associates mutual gaze with increased engagement.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The main challenges in a conversation are the management of attention and turn-taking between partners, controlling the gaze and adopting the right conversational roles [2]."
+        },
+        {
+          "page": 5,
+          "text": "Engagement in an interaction is increased by the mutual gaze, a kind of shared looking [36]."
+        },
+        {
+          "page": 16,
+          "text": "The gaze control system uses a competitive network which receives a large number of visual, auditory or presence stimuli. It allows a smooth transition, changing the focus of attention between participants, avoiding erratic movements."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The authors report that the robotic head showed natural interaction behavior similar to the teacher-annotated behavior and improved the sensation of naturalness and realism. No participant-reported outcome measure is described.",
+      "quotes": [
+        {
+          "page": 12,
+          "text": "The network created smooth transitions between the focus of attention, resulting in a natural behavior but, at the same time, considering properly which stimuli were more important according to the obtained weights."
+        },
+        {
+          "page": 16,
+          "text": "The proposed method significantly improved the sensation of naturalness and realism of the robotic head."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The system detects seven per-person stimuli: presence in the robot’s field of view, speaking, looking at the robot, movement/restlessness, audio from a person outside the field of view, being in another participant’s VFOA, and proxemics. A competitive network uses optimized stimulus weights, habituation, and short-term memory; an alternative model processes sequences of 30 frames with per-person LSTM layers and a classification output. The robot runs in a ROS-based architecture.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "These stimuli are the inputs of the competition at an instant of time t, Itkx, where k is the number of persons who interact and x the number of stimuli."
+        },
+        {
+          "page": 5,
+          "text": "Itk2 shows that a person k is considered to be speaking. This stimulus is obtained by performing lip movement detection, based on mouth landmarks. In addition, incoming audio has to be detected in the direction of the person k."
+        },
+        {
+          "page": 9,
+          "text": "The output of the net will activate the person on which the robot must put the focus of attention."
+        },
+        {
+          "page": 11,
+          "text": "The models were trained using an Adam optimizer with a learning rate of 10−3."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "A self-developed robotic head with a projected face/3D facial display, simulated eye movement, and combined neck/body and eye movement.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "To validate the proposed methodology, a robotic head with a projected face that simulates eye movement has been developed."
+        },
+        {
+          "page": 2,
+          "text": "The result of the competition causes the robot to fix attention on the person, using the combined movement of the neck and eyes."
+        },
+        {
+          "page": 12,
+          "text": "These weights were evaluated in the previously self-developed robotic head (see Fig. 5) [11], where the competitive network had been deployed."
+        },
+        {
+          "page": 16,
+          "text": "The movement of the robot joints and the expressions of the virtual agent projected on its 3D facial display were controlled by the system integrated in a ROS-based architecture."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors state that the humanoid design and gaze-control system make the HRI system more realistic and acceptable to interlocutors; they do not isolate or experimentally test embodiment effects.",
+      "quotes": [
+        {
+          "page": 16,
+          "text": "The design of the robot and the gaze control system creates a more realistic HRI system, which is more acceptable to interlocutors than other not-so-human robots."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper develops and evaluates gaze control for a projected-face robotic head in interactions involving multiple people. Its competitive network achieved 85.0% expected behavior, while the LSTM model reached 82.80% test accuracy and was described as easier to train.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper describes gaze-based focus selection in multiparty interaction, the role and reported effects of gaze control, and details the sensing and network implementations and robotic-head embodiment. It makes a limited claim about design and realism but does not isolate embodiment effects.",
+      "quotes": []
+    }
+  ]
+}

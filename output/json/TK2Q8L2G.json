@@ -1,0 +1,259 @@
+{
+  "key": "TK2Q8L2G",
+  "title": "Exploring Non-Verbal Gaze Behavior in Groups Mediated by an Adaptive Robot",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Between-subject study with two gaze conditions; this report analyzes video annotations from one group in each condition.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "To study the effect of different gaze behaviors on participant’s non-verbal communication, a dataset from a between-subject study with two conditions was analyzed [4]."
+        },
+        {
+          "page": 2,
+          "text": "The initial results acquired with the help of video annotations are included in this report for two groups, one interacting in the control condition without mediation, and one group interacting in the experimental (mediating) condition."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "sample_size",
+      "value": "72 participants in the underlying study; the current report analyzes four participants across two groups.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Seventy-two participants in pairs of two differently skilled speakers were observed while playing a word guessing game with a social robot."
+        },
+        {
+          "page": 3,
+          "text": "For exploring our research questions, we analyzed one group per condition."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Underlying study: pairs of differently skilled speakers, comprising a native speaker and a language learner. The two analyzed groups included Swedish speakers; reported ages were 25 and 30 in the control group and 54 and 33 in the experimental group. Gender identities were female and male in the control group and both male in the experimental group. Learner proficiency was C1 advanced in the control group and B2 high intermediate in the experimental group.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "To create a skill imbalance, a language learner of low intermediate to advanced proficiency was paired with a native speaker and the total game time lasted about 16 minutes for each experiment."
+        },
+        {
+          "page": 3,
+          "text": "The analyzed group in the control condition included one native Swedish speaker and one language learner (C1 advanced level) who were 25 years-old and 30 years-old and identified as female and male, respectively."
+        },
+        {
+          "page": 3,
+          "text": "The experimental condition pair also included one native speaker and one language learner (B2 high intermediate level) who were 54 years-old and 33 years-old, respectively, and both identified as male."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Two participants collaboratively described target words shown on a tablet so Furhat could guess them. Each word could be played for up to 60 seconds; total game time was about 16 minutes per experiment. The target word was hidden after 8 seconds and could be revealed by button click. Robot gaze was either adaptive and intended to equalize participation or followed the active speaker in the control condition.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In this variant, participants were asked to describe the target word jointly so that the robot could try guess this target word."
+        },
+        {
+          "page": 2,
+          "text": "While the word was hidden, a time countdown was shown indicating how much time was left to play with the current target word. Each word was played for a maximum of 60 seconds."
+        },
+        {
+          "page": 2,
+          "text": "To create a skill imbalance, a language learner of low intermediate to advanced proficiency was paired with a native speaker and the total game time lasted about 16 minutes for each experiment."
+        },
+        {
+          "page": 2,
+          "text": "In this study, the robot’s gaze was aiming to equalize participation in the experimental condition and was always gazing at the active speaker in the control condition."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Two humans and one robot per interaction session.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Figure 1: Overview on the set-up in which two participants are interacting with the robot Furhat (seen on the right side of the image)."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Figure 1: Overview on the set-up in which two participants are interacting with the robot Furhat (seen on the right side of the image)."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Figure 1: Overview on the set-up in which two participants are interacting with the robot Furhat (seen on the right side of the image)."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Manual video annotations of participant gaze targets and annotation changes; robot gaze-position logs; voice activation detection to estimate participation levels in the experimental condition. The report computed gaze changes per minute and distributions of participant gaze targets in relation to robot gaze.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The videos were annotated manually, marking when each participant gazed at the robot, at the other person, at the tablet, or away."
+        },
+        {
+          "page": 3,
+          "text": "To determine the frequency at which users changed their gaze, each annotation change was recorded over time."
+        },
+        {
+          "page": 3,
+          "text": "During the experiments, the robot gaze position was logged during each change."
+        },
+        {
+          "page": 2,
+          "text": "Voice Activation Detection was utilized to reveal the current levels of participation in real-time and allow the robot to act upon these measurements."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "No statistical significance tests are reported. The central descriptive findings were higher average gaze changes per minute in the experimental group than control for both participants (native speaker: 17.18 vs 12.18; language learner: 21.25 vs 13.16), and participants spent proportionally more time looking away when the robot faced them. The authors caution that only two groups were analyzed.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Table 1: Average Gaze Changes per minute Group Native Speaker Language Learner Experimental 17.18 (4.31 std) 21.25 (4.79 std) Control 12.18 (3.04 std) 13.16 (4.82 std)"
+        },
+        {
+          "page": 3,
+          "text": "All participants spent proportionally more time looking \"away\" when the robot was looking towards them as shown in Figure 3 compared to when the robot was gazing at the other participant."
+        },
+        {
+          "page": 4,
+          "text": "While more participants will need to be analyzed to extrapolate observations, using the robot as a mediation tool was shown to increase the total gaze changes among participants."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames robot gaze as a non-verbal participation cue and mediation behavior that can balance attention and participation in collaborative learning groups.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The non-verbal participation cue studied was a gaze from the robot directed at participants to encourage equal participation."
+        },
+        {
+          "page": 1,
+          "text": "By strategically balancing the attention for all participants in groups, it is hypothesized that a more inclusive and collaborative learning environment will be facilitated."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "Robot gaze is used to encourage equal participation by directing attention adaptively according to participation levels; the study also describes gaze as potentially facilitating conversation cohesion and signaling a shift in focus between participants.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "To equalize participation, the robot would share its gaze among the two participants according to the current levels of participation."
+        },
+        {
+          "page": 4,
+          "text": "This indicates that users intuitively understood when the focus had changed to the other person."
+        },
+        {
+          "page": 4,
+          "text": "This occurrence was to a larger extent for the experimental gaze group, indicating that the mediation behavior of the robot could help better facilitate conversation cohesion."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "In the analyzed groups, mediating gaze coincided with more participant gaze changes per minute and less time looking at the tablet relative to control. Participants were more likely to look at the other person when the robot gazed at that person, and three of four spent more time looking at the robot when it gazed at them. The authors describe these as initial observations based on only two groups.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The most noticeable difference was that the experimental group showed the most pose changes/minute as compared to the control group."
+        },
+        {
+          "page": 3,
+          "text": "It was observed that participants were more likely to gaze at the other participant if the robot was also gazing at the other participant."
+        },
+        {
+          "page": 3,
+          "text": "It was also observed that participants in the mediating gaze group spent less time looking at the tablet relative to the control group, indicated by the proportion of gaze marked \"tablet\"."
+        },
+        {
+          "page": 4,
+          "text": "In the experimental group, 85.76% of the robot’s time was spent gazing at participants while in the control group, only 68.33% of the robot’s time was directed at the participants."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The adaptive condition used voice activation detection to estimate participation in real time and distribute the robot's gaze between participants based on their relative activity. In control, the robot shifted attention to a participant when they began speaking or making non-verbal sounds. Robot guesses were autonomously selected from a hand-crafted candidate list using recognized speech words.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Voice Activation Detection was utilized to reveal the current levels of participation in real-time and allow the robot to act upon these measurements."
+        },
+        {
+          "page": 2,
+          "text": "To equalize participation, the robot would share its gaze among the two participants according to the current levels of participation."
+        },
+        {
+          "page": 2,
+          "text": "Whenever a participant started speaking or uttering other non-verbal sounds, the robot would change its attention to that participant."
+        },
+        {
+          "page": 2,
+          "text": "The robot’s guesses where autonomously selected from a hand-crafted candidate list by utilizing recognized words from the participant’s speech."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Furhat, described as a social humanoid robot.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Figure 1: Overview on the set-up in which two participants are interacting with the robot Furhat (seen on the right side of the image)."
+        },
+        {
+          "page": 1,
+          "text": "Seventy-two participants in pairs of two differently skilled speakers were observed while playing a word guessing game with a social robot."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The paper analyzes video-coded gaze from one two-person group in each of two conditions during a collaborative word-guessing game with Furhat. The adaptive gaze condition showed more participant gaze changes and patterns of looking toward the person the robot faced, but these initial findings come from only two groups.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper frames robot gaze as a non-verbal cue for equal participation, describes its role in balancing attention and potentially facilitating cohesion, and reports observed gaze effects. It details sensing and gaze control and identifies Furhat, but does not describe how embodiment influenced the study.",
+      "quotes": []
+    }
+  ]
+}

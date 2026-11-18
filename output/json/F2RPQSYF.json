@@ -1,0 +1,284 @@
+{
+  "key": "F2RPQSYF",
+  "title": "Neural network based reinforcement learning for audio-visual gaze control in human-robot interaction",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description with offline dataset evaluation, simulation, and live robot experiments.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "This paper introduces a novel neural network-based reinforcement learning approach for robot gaze control."
+        },
+        {
+          "page": 8,
+          "text": "In order to fairly compare different models, we need to train and test the different models on the exact same data."
+        },
+        {
+          "page": 9,
+          "text": "In order to carry out an online evaluation of our method, we performed experiments with a Nao robot."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Offline evaluation on the AVDIAR recorded dataset, a simulated environment, and live experiments with a Nao robot; the paper does not specify the physical venue for live experiments.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "Therefore, we propose to first evaluate our model with the AVDIAR dataset [7]."
+        },
+        {
+          "page": 6,
+          "text": "The Q-function is first learned on a simulated environment, where we simulate people moving and talking, and it is then used to initialize the network employed by the robot."
+        },
+        {
+          "page": 9,
+          "text": "In order to carry out an online evaluation of our method, we performed experiments with a Nao robot."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "The system learns to orient a robot head to find people, maximize the number of people in its camera field of view, and favor people who speak. Evaluation includes simulated moving/talking people, recorded group footage, and live two-person and other unspecified participant scenarios.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this paper, we consider the general problem of gaze control, with the specific goal of finding good policies to control the orientation of a robot head during informal group gatherings."
+        },
+        {
+          "page": 2,
+          "text": "More specifically, we want a robot to learn to find people in the environment, hence maximize the number of people present in its field of view, and favor people who speak."
+        },
+        {
+          "page": 9,
+          "text": "Figure 7 shows an example of a two-person scenario using the LFNet architecture."
+        },
+        {
+          "page": 7,
+          "text": "On each episode, we simulate one or two persons moving with random speeds and accelerations within a field [−ξ, ξ]2 where ξ 1."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Live example described with one robot and two people; other session sizes are not fully specified.",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "Figure 7 shows an example of a two-person scenario using the LFNet architecture."
+        },
+        {
+          "page": 8,
+          "text": "Randomly chose N in [1..3]."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "In order to carry out an online evaluation of our method, we performed experiments with a Nao robot."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "Not specified for live sessions; the paper gives a two-person live example, and the simulated environment uses one or two people.",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "Figure 7 shows an example of a two-person scenario using the LFNet architecture."
+        },
+        {
+          "page": 7,
+          "text": "On each episode, we simulate one or two persons moving with random speeds and accelerations within a field [−ξ, ξ]2 where ξ 1."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "System/technical performance measures: reward (face and speaker reward), computed from visible faces and speech source presence; comparisons of architecture and parameter settings. No human outcome instruments are reported.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "We propose to define the reward Rt as follows: Rt Ft+1 αΣt+1, (1), where α ≥0 is an adjustment parameter."
+        },
+        {
+          "page": 11,
+          "text": "In Table 1, we compare the final reward obtained while training on the AVDIAR dataset and on our simulated environment with the two proposed rewards (Face reward and Speaker reward)."
+        },
+        {
+          "page": 11,
+          "text": "In all our experiments, we run five times each model and display the mean of five runs to lower the impact of the stochastic training procedure."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Key technical result: audio-visual fusion produced the best overall performance; on the simulated environment early and late fusion were indistinguishable as best, while late fusion was slightly better on AVDIAR. No inferential statistical tests are reported.",
+      "quotes": [
+        {
+          "page": 12,
+          "text": "On the the simulated environment, the best results are indistinctly provided by the late and early fusion strategies (LFNet and EFNet), showing that our model is able to effectively exploit the complementarity of both modalities."
+        },
+        {
+          "page": 12,
+          "text": "On the AVDIAR, the late fusion performs slightly better than the early fusion model."
+        },
+        {
+          "page": 14,
+          "text": "All these results highlight the crucial importance of audio-visual fusion in the framework of RL and in the context of gaze control."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames robotic gaze as gaze control: orienting a robot head to find people, maximize visible people, and favor speakers; it also describes gaze as directing attention toward groups.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this paper, we consider the general problem of gaze control, with the specific goal of finding good policies to control the orientation of a robot head during informal group gatherings."
+        },
+        {
+          "page": 1,
+          "text": "In particular, we propose a methodology for a robotic system to be able to autonomously learn to focus its attention towards groups of people using audio-visual information."
+        },
+        {
+          "page": 4,
+          "text": "The desired robot action is to rotate its head (endowed with a camera and four microphones), such as to maximize the number of persons lying in the camera field-of-view."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper does not provide a formal definition of robotic gaze or attention beyond describing gaze control as head orientation toward people, maximizing visible people and preferring speakers.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The desired robot action is to rotate its head (endowed with a camera and four microphones), such as to maximize the number of persons lying in the camera field-of-view."
+        },
+        {
+          "page": 4,
+          "text": "Moreover, the robot should prefer to look at speaking people instead of silent ones."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze control is used to gather useful information about people in group interaction: find and track people, maximize the number visible, and favor speakers.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We believe this could be useful in many real scenarios, such as a conversation between a companion robot and a group of persons, where the robot needs to learn to look at people, in order to behave properly."
+        },
+        {
+          "page": 4,
+          "text": "The desired robot action is to rotate its head (endowed with a camera and four microphones), such as to maximize the number of persons lying in the camera field-of-view."
+        },
+        {
+          "page": 11,
+          "text": "If only one person is found, the robot follows the person."
+        },
+        {
+          "page": 11,
+          "text": "When more people appear, the robot tries to find a position that maximizes the number of people."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The paper reports system behavior and gaze-control performance, not measured effects on participants or interaction outcomes. The authors state that gaze and verbal behavior can affect turn-taking in general, but do not test that effect here.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "For instance, it is known that the robot’s verbal and gaze behavior has a strong effect on the turn-taking conduct of the participants [25]."
+        },
+        {
+          "page": 11,
+          "text": "The main failure cases are related to quick movements of the participants."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "Autonomous deep reinforcement learning: an LSTM recurrent neural network estimates Q-values; audio and visual streams are fused early or late, with audio-only and vision-only variants also evaluated. The robot uses binary maps of body landmarks and speech sources plus motor readings; a five-action head policy is pretrained in simulation and transferred to Nao.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Second, we use deep reinforcement learning to model the action-value function, and suggest several architectures based on LSTM (a recurrent neural network model) that allow us to experiment with both early- and late-fusion of audio and visual data."
+        },
+        {
+          "page": 4,
+          "text": "Let the set of actions be defined by A namely either remain in the same position or turn the head by a fixed angle in one of the four cardinal directions."
+        },
+        {
+          "page": 6,
+          "text": "In early fusion, the audio and visual features are combined into a single representation before modeling time dependencies, e.g. Figure 2a."
+        },
+        {
+          "page": 6,
+          "text": "Conversely, in late fusion, audio and visual features are modeled separately before fusing them, e.g. Figure 2b."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Nao humanoid robot with a rotating head, two rotational degrees of freedom, a head-mounted camera, and four microphones.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Without loss of generality we consider the companion robot Nao whose head has two rotational degrees of freedom: motor readings correspond to pan and tilt angles."
+        },
+        {
+          "page": 4,
+          "text": "The desired robot action is to rotate its head (endowed with a camera and four microphones), such as to maximize the number of persons lying in the camera field-of-view."
+        },
+        {
+          "page": 9,
+          "text": "Nao has a 640 480 pixels cameras and four microphones."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The head-mounted camera and two-axis head constrain the visual field of view and available actions; the planar microphone array provides only horizontal sound localization. Full-body pose detection helps the robot orient from visible limbs toward a person's face.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Since the camera is mounted onto the robot head, the landmarks are described in a head-centered reference system."
+        },
+        {
+          "page": 9,
+          "text": "Indeed, Nao has a planar microphone array and hence sound sources can only be located along the azimuth (horizontal) direction."
+        },
+        {
+          "page": 12,
+          "text": "Let’s imagine that the robot looks at the legs of a user; in case of using only a face detector, there is no clue that could help the robot to move up its head in order to see a face; however, if a human full-body pose detector is used, the detection of legs implies that there is a torso over them, and a head over the torso."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper develops an autonomous deep reinforcement learning system that controls a Nao robot’s head to find people, keep multiple people in view, and favor speakers using audio and visual sensing. Offline, simulated, and live experiments show that audio-visual fusion works best overall, with late fusion slightly better on the recorded dataset; the paper does not report participant outcome measures.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ4; RQ5; RQ6 — The paper describes gaze control as orienting the robot head to find people and favor speakers, and explains its role in group awareness and person tracking. It details the sensing and reinforcement learning implementation, uses Nao, and notes how its camera, head motion, microphone array, and pose sensing shape gaze control. It does not evaluate effects on participants.",
+      "quotes": []
+    }
+  ]
+}

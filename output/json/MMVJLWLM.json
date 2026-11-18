@@ -1,0 +1,285 @@
+{
+  "key": "MMVJLWLM",
+  "title": "Nonverbal Robot-Group Interaction Using an Imitated Gaze Cue",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Field experiment.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "To further deepen our understanding and in order to evaluate the effect of the previously described cues, we conducted a field experiment during a University-wide open day for prospective undergraduate students."
+        },
+        {
+          "page": 5,
+          "text": "A 2x3 (gender was not considered) Chi-Square analysis was performed and a significant main effect was revealed between Look and No Look (χ2=14.29, p<0.001)."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "A field experiment at a university-wide open day, in a stall in a large exhibition arena. The robot stood behind a table near the traffic corridor.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "To further deepen our understanding and in order to evaluate the effect of the previously described cues, we conducted a field experiment during a University-wide open day for prospective undergraduate students."
+        },
+        {
+          "page": 4,
+          "text": "The experiment was staged in a stall situated in a large exhibition arena, during a University-wide open day, see Fig.5."
+        },
+        {
+          "page": 4,
+          "text": "The robot was standing behind a table that was set approximately 2m back from the traffic corridor."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "456 participants across 64 trials; 64 trials were analyzed.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "There were 456 participants (283 male and 173 female)."
+        },
+        {
+          "page": 5,
+          "text": "Trials involving experimenters, children and less than three participants were not considered in the results, leaving 64 trials for analysis."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "283 male and 173 female participants, predominantly final-year high school students. Participants were not remunerated.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "There were 456 participants (283 male and 173 female). They were predominately final year high school students. There was no remuneration for participation."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Small groups gathered in front of the robot as it made cotton candy, then the robot attempted to hand a salient object to a randomly selected group member. It used a reaching physical presentation cue followed by one of two gaze conditions: Look or No Look.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "When a small group of people (up to 20 people) assembled in front of the robot, it attempted to pass a salient object to a particular group member by presenting the physical sociocontextual cue, followed by one of two variations of a gaze sociocontextual cue."
+        },
+        {
+          "page": 4,
+          "text": "The robot then commenced making cotton candy, a process that takes approximately 2 minutes."
+        },
+        {
+          "page": 4,
+          "text": "Once the cotton candy making procedure was complete the robot then displayed the object in front of its chest, close to its body as shown in Fig.6."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Groups had 3–20 people; the robot was the only robot in each interaction.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We designed and conducted a field experiment (456 participants in 64 trials) in which small groups of people (between 3 and 20 people) assembled in front of the robot, which then attempted to pass a salient object to a particular group member by presenting a physical cue, followed by one of two variations of a gaze cue."
+        },
+        {
+          "page": 4,
+          "text": "Trials involving experimenters, children and less than three participants were not considered in the results, leaving 64 trials for analysis."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "We used the RobotAssist platform (Fig.4), an approximately 1.5m tall mobile robot with an approximately 0.35m radius."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "3–20 people per group; trials with fewer than three participants were excluded from analysis.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We designed and conducted a field experiment (456 participants in 64 trials) in which small groups of people (between 3 and 20 people) assembled in front of the robot, which then attempted to pass a salient object to a particular group member by presenting a physical cue, followed by one of two variations of a gaze cue."
+        },
+        {
+          "page": 5,
+          "text": "Trials involving experimenters, children and less than three participants were not considered in the results, leaving 64 trials for analysis."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Behavioral outcomes were measured from timestamped images recorded by the robot's chest camera and from experimenter review of those images. The outcomes were whether the selected participant or an onlooker took the object, whether it was not taken, and time to take.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "In order to quantify this measure, the robot was configured to log images of the scene from its chest camera."
+        },
+        {
+          "page": 5,
+          "text": "The images were logged at approximately 2Hz, each logged image was timestamped on capture."
+        },
+        {
+          "page": 5,
+          "text": "An experimenter reviewed the chest camera log, post-experiment, and identified if it was the selected participant or an onlooker that took the object, or whether the object was not taken."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "The Look condition increased selected-participant success: 32/40 trials versus 8/24 with No Look (z=3.733, p=0.0002; χ²=14.29, p<0.001). Objects were taken sooner in No Look trials (means 8.94s vs. 10.91s, p=0.019), but remained untaken more often in No Look trials (p<0.007).",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Over the 64 trials, the Look resulted in a success rate of 32/40 and for No Look, 8/24."
+        },
+        {
+          "page": 5,
+          "text": "The z-ratio for the significance of the difference between these two independent proportions confirmed significance (z=3.733, p=0.0002)."
+        },
+        {
+          "page": 6,
+          "text": "A two-sample pooled t-test with equal variances (n1+n2>40) reveals a significant difference in the time to take between the two conditions t=2.417, p=0.019."
+        },
+        {
+          "page": 6,
+          "text": "The proportion of the trials in which the object was not taken within 25 seconds is significantly higher in the No Look trials (p<0.007 found through a 2x2 Fisher Exact Probability Test analysis)."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames gaze as a sociocontextual cue that can individualize a group member and help direct an interaction to that person. It studies gaze in a robot-group handover scenario.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Another cue that has been shown useful in directing an interaction to a particular individual, is gaze."
+        },
+        {
+          "page": 3,
+          "text": "These cues require social-interaction space and contextual-task space in order to be interpreted and, therefore, will be referred to in the remainder of this paper as sociocontextual cues; for the sake of brevity."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "The Look cue was intended to individualize the selected participant and signal that the object was intended for them, reducing anonymity and equality of participation. The No Look cue was intended to avoid eye gaze and encourage deindividuation.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The first, designed to individualise a particular member of the observing group, shall be referred to herein with as the Look."
+        },
+        {
+          "page": 3,
+          "text": "The other, designed to overtly avoid eye gaze with any members of the observing group and thus encourage deindividuation, shall be referred to herein with as the No Look."
+        },
+        {
+          "page": 3,
+          "text": "They were designed to convey the coarse message of either: “I am looking at you”or“I am not looking at anyone” so that we could more clearly see any effect that individualising a particular group member would have in the context of the scenario presented in this paper."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The Look cue increased the likelihood that the selected participant took the object and decreased onlooker-taking; it also reduced the rate of objects not taken. Participants in No Look trials tended to take the object sooner, and experimenters subjectively observed confusion about whether the demonstration was over, whether the candy was offered, and to whom.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "Presenting the Look cue resulted in a significant difference (z=3.733, p=0.0002) in the proportion of the trials in which it was the selected participant who took the object (32/40) compared to the trials in which the No Look was presented (8/24)."
+        },
+        {
+          "page": 7,
+          "text": "Results show that whilst the object was typically taken 2 seconds sooner (p=0.019) in the No Look trials than in the Look trials (¯x=10.91 Look and ¯x=8.94 No Look), the proportion of trials in which the object was not taken was significantly larger (p<0.007) in the No Look trials (0.25 for No Look as opposed to 0.05 for Look)."
+        },
+        {
+          "page": 7,
+          "text": "Also, subjectively, from the comments and gestures made by the participants and from reviewing the logs, it seems to the experimenters that the participants were less likely to take the object in the No Look trials as they were confused as to: a) whether the demonstration was over, b) whether the cotton candy was on offer, and/or c) whom it was on offer."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The robot detected onlooker faces using OpenCV's Haar face detection, randomly selected one, then calculated its head bearing and the manipulator target pose. It randomly selected Look or No Look. Look oriented the head toward the selected participant and dipped the eyes toward the object; No Look left the head at scan-end and dipped the eyes downward. The physical handover used a reaching gesture.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "During the head scanning stage, the robot used Intel’s OpenCV implementation of the Haar face detect algorithm to detect the faces of the onlookers."
+        },
+        {
+          "page": 4,
+          "text": "From these, the robot randomly chose the selected participant."
+        },
+        {
+          "page": 4,
+          "text": "In the case of Look being selected (Fig.7a), the robot orientated its head to the bearing of the selected participant and then completed the Look followed be the physical presentation cue (as described in Section 3.2)."
+        },
+        {
+          "page": 3,
+          "text": "The robot then dips its eyes by 10◦, to align it eyes towards the salient object, pauses for 0.5 seconds and then returns its gaze to the individual."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "RobotAssist: an approximately 1.5 m tall mobile robot with a wheeled base, anthropomorphic upper body, six-degree-of-freedom manipulator, and two-degree-of-freedom sensor-laden head with separate head pan and eye tilt. The head included a brightly illuminated strip along the sagittal plane.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "We used the RobotAssist platform (Fig.4), an approximately 1.5m tall mobile robot with an approximately 0.35m radius."
+        },
+        {
+          "page": 4,
+          "text": "As can be seen in the figure, the robot is equipped with a wheeled base and an anthropomorphic upper body."
+        },
+        {
+          "page": 4,
+          "text": "The upper body consist of a six degree-of-freedom (DoF) manipulator and a two DoF sensor laden head."
+        },
+        {
+          "page": 3,
+          "text": "The effect is further exacerbated by the robot’s head itself, which has been designed so that an approximately 10mm wide strip along the sagittal plane is brightly illuminated as seen in the figure."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors state that the robot's illuminated head strip amplified the dramatic effect of its rapid head rotation, which was designed to draw the group's visual attention. They also suggest that females' tendency not to anthropomorphize robots could reduce the social influence of individualizing cues, but describe this as a possibility requiring further investigation.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The effect of this relatively high angular rotation is dramatic and was designed to draw the groups’ visual attendance to the robot’s head."
+        },
+        {
+          "page": 3,
+          "text": "The effect is further exacerbated by the robot’s head itself, which has been designed so that an approximately 10mm wide strip along the sagittal plane is brightly illuminated as seen in the figure."
+        },
+        {
+          "page": 7,
+          "text": "This could also account for the gender bias, as it is reasonable to ascribe the reduced effect of the individualising cues to females’ tendency to not anthropomorphise robots; which would reduce the social influence of the cue."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "In a field experiment, a mobile robot used gaze cues during a group handover to direct a salient object to a randomly selected person. When it looked at that person, they took the object more often than in the No Look condition; No Look trials also had more objects left untaken, though objects that were taken were taken sooner.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper frames gaze as a sociocontextual cue for individualizing a group member (RQ1), describes its role in directing a handover and assigning participant roles (RQ2), and reports effects on who took the object and when (RQ3). It details autonomous face selection and gaze cue implementation (RQ4), describes the RobotAssist embodiment (RQ5), and discusses how the illuminated head and anthropomorphism may shape attention or cue effects (RQ6).",
+      "quotes": []
+    }
+  ]
+}

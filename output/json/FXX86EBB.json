@@ -1,0 +1,261 @@
+{
+  "key": "FXX86EBB",
+  "title": "TOP-JAM: A bio-inspired topology-based model of joint attention for human-robot interaction",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description with computational simulation and a real-robot triad experiment.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "This study evaluates computational properties of the model in simulation."
+        },
+        {
+          "page": 1,
+          "text": "Through a real experiment with the robot Pepper, the study shows that TOP-JAM is able to track JA in a triad interaction scenario."
+        },
+        {
+          "page": 5,
+          "text": "A simulated scene considering situations analogous to those illustrated in Fig. 2 was designed for testing the model."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Laboratory, in the Intelligent Room facility at LORIA; the paper also reports computational simulations.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The study was conducted in the Intelligent Room facility of the lab LORIA (see Fig. 3)."
+        },
+        {
+          "page": 5,
+          "text": "A simulated scene considering situations analogous to those illustrated in Fig. 2 was designed for testing the model."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "2 human subjects in the real experiment.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Two human subjects were situated more or less equidistantly from the robot around the table."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "Two humans and a robot interacted around a table. Subjects were asked to look at objects and faces; during the experiment, they sequentially oriented their heads toward objects 1–5. Simulations modeled a robot and two humans interacting with eight objects.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Two human subjects were situated more or less equidistantly from the robot around the table. Situations were analogous to those shown in Fig. 2. Subjects were asked to stare at objects and faces during some period of time."
+        },
+        {
+          "page": 6,
+          "text": "Above, the XY plane visualization of an experimental situation where subjects were requested to sequentially orient the head towards objects 1, 2, 3, 4 and 5 on the table."
+        },
+        {
+          "page": 5,
+          "text": "Thus, three actors (a robot and two humans) were simulated interacting in a scene containing eight objects, where each possessed two features (shape ∈{triangular, squares, circular} and color ∈{red, green, blue})."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "3 actors per interaction: 2 humans and 1 robot.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Two human subjects were situated more or less equidistantly from the robot around the table."
+        },
+        {
+          "page": 5,
+          "text": "Thus, three actors (a robot and two humans) were simulated interacting in a scene containing eight objects"
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Through a real experiment with the robot Pepper, the study shows that TOP-JAM is able to track JA in a triad interaction scenario."
+        },
+        {
+          "page": 5,
+          "text": "Two human subjects were situated more or less equidistantly from the robot around the table."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Two human subjects were situated more or less equidistantly from the robot around the table."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Behavioral observations were captured using a Qualisys motion-capture system with markers on participants and robot. The main technical outcome was TOP-JAM's estimated joint-attention state over time; the paper also reports computation time in simulation.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Data was acquired through the Qualisys Motion Capture System (Track Manager version 2020.3)."
+        },
+        {
+          "page": 5,
+          "text": "In order to track the head direction, markers were attached to eyeglass frames worn by subjects throughout the experiment."
+        },
+        {
+          "page": 5,
+          "text": "In spite of this, TOP-JAM was able to track JA states (see Fig. 5)."
+        },
+        {
+          "page": 5,
+          "text": "simulations (30 trials, 1 min duration each) showed that for a case scenario of 4 m2 x 8 objects x 6 properties x 3 humans, selecting 144 units for the CANN models required a mean computation time of 38.48 ms with standard deviation 2.77 ms"
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "TOP-JAM tracked joint-attention states for each actor pair with stable estimates; computation times in simulation were 38.48 ms (SD 2.77) for 144-unit CANNs and 94.64 ms (SD 2.05) for 576-unit CANNs. No statistical significance tests are reported.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Globally, the model was able to provide stable estimates for each pair of subjects, so units’ activation on the scale of jointness were coherent with the assumptions made about the typologies defined in Table I."
+        },
+        {
+          "page": 5,
+          "text": "selecting 144 units for the CANN models required a mean computation time of 38.48 ms with standard deviation 2.77 ms, whereas the version of 576 units required a mean computation time of 94.64 with standard deviation 2.05 ms."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames its focus as joint attention in HRI and proposes TOP-JAM to represent and track joint-attention states from behavioral data. It describes social attention as a continuum of individual attention and four states with increasing jointness: monitoring, common, mutual, and shared.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "This work focuses on the study of joint attention (JA) for human-robot interaction (HRI)"
+        },
+        {
+          "page": 1,
+          "text": "we propose a topology-based model for joint attention named TOP-JAM, which is able to represent and track in real-time JA states, based on the following assumptions:"
+        },
+        {
+          "page": 2,
+          "text": "This scale includes at the left extreme individual attention, followed by four social attention states (monitoring, common, mutual and shared)."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "Joint attention is characterized through typologies of social attention and corresponding levels of common knowledge; the paper's scale ranges from individual attention through monitoring, common, and mutual to shared attention.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "JA involves different cognitive skills and processes constituting typologies of social attention along with corresponding levels of common knowledge."
+        },
+        {
+          "page": 2,
+          "text": "This scale includes at the left extreme individual attention, followed by four social attention states (monitoring, common, mutual and shared)."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "The paper presents joint attention as supporting coordination, sharing, understanding, cooperation, shared goals, and rapport. TOP-JAM is intended to provide JA-state estimates that can support robot interaction skills such as initiating, responding to, or ensuring joint attention.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Hence, JA is essential for coordinating, sharing, understanding and cooperating with others ([8], [9], [10], [11])."
+        },
+        {
+          "page": 1,
+          "text": "This skill is crucial for the accomplishment of shared goals through joint action ([5], [6]), and constitutes the basis for establishing rapport in HRI (e.g. in [7])."
+        },
+        {
+          "page": 1,
+          "text": "We believe that TOP-JAM is a representation general enough to be integrated to several HRI tasks and scenarios, providing valuable information for ensuring robot interaction skills such as initiating, responding or ensuring JA [14]."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The study reports that TOP-JAM tracked joint-attention states in the triad, with stable estimates for actor pairs and activations coherent with the proposed attention typologies. It does not report measured effects on participants or interaction outcomes.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "In spite of this, TOP-JAM was able to track JA states (see Fig. 5)."
+        },
+        {
+          "page": 5,
+          "text": "Globally, the model was able to provide stable estimates for each pair of subjects, so units’ activation on the scale of jointness were coherent with the assumptions made about the typologies defined in Table I."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "TOP-JAM estimates pairwise attention states from behavioral inputs including head position and direction, torso position and yaw, hand position, object position and properties, and speaking probability. It uses continuous attractor neural networks and logical feature operations; experimental behavior was controlled in closed loop, and observations were captured with motion tracking. Speech recognition was simulated because it was not operational during the experiment.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "From these inputs, individual, social and group behavior features are computed."
+        },
+        {
+          "page": 3,
+          "text": "Contrarily, it consists in a dynamical system where interaction context is taken into account and evolve according to selected temporal dynamics parametrization."
+        },
+        {
+          "page": 4,
+          "text": "The implementation of the networks defined in Eq. (1) was obtained through numerical integration, based on a Forward Euler time-stepping scheme."
+        },
+        {
+          "page": 5,
+          "text": "On the robot side, behavior was controlled in closed-loop."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Pepper, described as a humanoid robot manufactured by Softbank Robotics.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The project counted on a humanoid robot Pepper, manufactured by Softbank Robotics."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "Differences between the body morphology of humans and Pepper affected how robot behavior data were captured: external body markers were combined with the robot's direct geometric model to determine head direction.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Due to differences in the body morphology of humans and the humanoid Pepper, behavior data from the robot was captured both from external markers fixed to its body to determine absolute position, combined with the computation of the direct geometric model to determine the head direction."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper presents TOP-JAM, a neural-network model for representing and tracking joint attention in interactions involving multiple humans and robots. In a lab experiment with two people and Pepper, it tracked pairwise attention states with stable estimates; the paper also reports simulation computation times.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ4; RQ5; RQ6 — The paper characterizes joint attention through a scale of individual and social attention states, describes its roles in coordination and cooperation, and details the model and sensing used to estimate it. It studies the model with two humans and a Pepper robot, including how Pepper’s morphology shaped behavior-data capture.",
+      "quotes": []
+    }
+  ]
+}

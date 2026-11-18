@@ -1,0 +1,227 @@
+{
+  "key": "Y2DAAQSC",
+  "title": "Enabling Shared Attention with Customers Strengthens a Sales Robot's Social Presence",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Field experiment",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We conducted an experiment in an actual shop to investigate how the content and timing of a robot’s remarks affect enabling shared attention between the visitor and the robot and improving the robot’s social presence."
+        },
+        {
+          "page": 4,
+          "text": "The experiment was conducted in 2020 over six days."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Field experiment in a traditional Japanese shichimi shop, Dintora, in a Kyoto shopping district.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We conducted the experiment in a traditional Japanese shichimi shop named Dintora, located in a Kyoto shopping district."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "95 visitor groups",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "In all, 95 groups of visitors visited the shop."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "Visitors encountered a sales robot that made product statements under three shared-attention conditions: without shared attention, weak shared attention, and strong shared attention. The robot’s statements varied in whether they matched the visitor’s gaze direction and whether they were timed to a gaze change.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Without shared attention condition: The direction of the visitor’s gaze is not mentioned to avoid shared attention between the visitor and the robot."
+        },
+        {
+          "page": 2,
+          "text": "Weak shared attention condition: The robot mentions the visitor’s gaze direction to enable shared attention between the visitor and the robot."
+        },
+        {
+          "page": 2,
+          "text": "Strong shared attention condition: Fundamentally, the contents and interval of the robot’s statements are the same as in the case of the weak shared attention condition; however, only if the visitor changes their gaze direction from one shelf to another, the robot explains a product on the shelf that the visitor is looking at immediately instead of making periodic statements."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Not specified; the paper reports visitor groups but does not state the number of people in each group.",
+      "quotes": []
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We used a humanoid robot, Pepper, as the sales robot in the experiment; it is of an appropriate size and very safe."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "Not specified per interaction session; visitors were studied in groups.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "In all, 95 groups of visitors visited the shop."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Video recording and observational coding of gaze toward the robot; Fisher’s exact test for customer response categories. The experimenter also observed visitors’ gaze direction via a tablet camera.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "During the experiment, the experimenter observed the visitor’s gaze direction from the tablet camera for operation and categorized it into one of three types: toward left side (the main display), toward right side (the sub-display), and toward the robot."
+        },
+        {
+          "page": 4,
+          "text": "Therefore, from the video recording of the experiment, we measured the time that the person closest to the robot in each visitor group looked at the robot."
+        },
+        {
+          "page": 4,
+          "text": "For these analyses, we applied Fisher’s exact test, and it revealed a significant difference between the three groups (p 0.05)."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Longer looks toward the robot increased across conditions: mean looking time was 0.91 s without shared attention, 1.89 s with weak shared attention, and 2.65 s with strong shared attention. Among groups looking for more than one second, comparisons were significant for without versus weak (p < .05), weak versus strong (p < .05), and without versus strong (p < .01).",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The average time customers looked at the robot in each condition were as follows: 0.91 seconds in the without shared attention condition, 1.89 seconds in the weak shared attention condition, and 2.65 seconds in the strong shared attention condition."
+        },
+        {
+          "page": 4,
+          "text": "Figure 5 demonstrates that, only in the groups looking at the robot for a longer period, there were significant differences between the without shared attention condition and the weak shared attention condition (supporting Hypothesis 1) (p 0.05), between the weak shared attention condition and the strong shared attention condition (supporting Hypothesis 2) (p 0.05), and between the without shared attention condition and the strong shared attention condition (p 0.01)."
+        },
+        {
+          "page": 6,
+          "text": "Fisher’s exact test revealed that there was a significant difference between the two conditions (p 0.05), as shown in Figure 7."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "Shared attention (also called joint attention); the study frames it as the visitor and robot attending to the same object, with the robot expressing that it understands the visitor’s gaze information.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Joint attention occurs when both parties share interest in an object [4] [5]."
+        },
+        {
+          "page": 2,
+          "text": "Joint attention is achieved when both parties pay attention to the same object while sharing interest in the object of attention [4] [5]."
+        },
+        {
+          "page": 2,
+          "text": "In this study, we investigated whether the same effect occurs for visitors in a real store."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "Joint attention is achieved when both parties attend to the same object while sharing interest in it.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Joint attention is achieved when both parties pay attention to the same object while sharing interest in the object of attention [4] [5]."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "The robot’s gaze-related remarks align its product talk with the visitor’s orientation and can prompt the visitor to attend to another shelf or product, enabling shared attention.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "In the weak shared attention condition, in Fragment 1, the visitors looked at a product (line 7), and the robot mentioned the product (line 8). This means that the robot’s statement is aligned with the visitors’ orientation, thus enabling shared attention."
+        },
+        {
+          "page": 7,
+          "text": "Here, the robot’s statement implicitly induced the visitor to pay attention to another spice in the store, and C3 reacted by looking toward the shelf."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The authors report increased social presence, operationalized by longer looks toward the robot, when statements matched the visitor’s gaze and when statements were timed to gaze changes. The robot’s statement could also guide visitors toward a shelf or product and suggested activity.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "We found that the robot’s statements regarding the direction of the visitor’s gaze and the timing of such statements with the visitor’s gaze change improved the robot’s social presence, with a larger number of groups looking at the robot for a longer period."
+        },
+        {
+          "page": 6,
+          "text": "The customer then attempted to find the specific product (line 18) and turned his body toward a food sample. Therefore, the customer engaged in the activity that the robot suggested in its statements."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "A human experimenter used the Wizard of Oz method to operate Pepper with a smartphone, observed gaze via a tablet camera, and triggered predetermined Japanese statements using buttons. Statements were periodic in the first two conditions; in the strong condition, a gaze change triggered an immediate statement.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We operated Pepper with a smartphone using the Wizard of Oz method."
+        },
+        {
+          "page": 2,
+          "text": "The experimenter stood at the front of the shop and operated the robot using a smartphone. We created 12 buttons to output statements for the robot regarding main display and sub-display product information."
+        },
+        {
+          "page": 2,
+          "text": "The robot spoke only in Japanese, and the statement order was predetermined."
+        },
+        {
+          "page": 2,
+          "text": "During the experiment, the experimenter observed the visitor’s gaze direction from the tablet camera for operation and categorized it into one of three types: toward left side (the main display), toward right side (the sub-display), and toward the robot."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Pepper, a humanoid robot used as a sales robot.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We used a humanoid robot, Pepper, as the sales robot in the experiment; it is of an appropriate size and very safe."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "In a real shichimi shop, a single Pepper robot made product remarks that either did or did not align with visitors’ gaze, with some remarks timed to gaze changes. Visitors’ longer looks toward the robot were more frequent when its remarks matched their gaze and were timed to changes, which the authors interpret as strengthened social presence through shared attention.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5 — The paper defines joint/shared attention, describes how gaze-related remarks align attention and prompt visitor actions, and reports effects on looking time and social presence. It also details the Wizard of Oz implementation and identifies the Pepper humanoid platform; it does not explain how embodiment influenced the study.",
+      "quotes": []
+    }
+  ]
+}

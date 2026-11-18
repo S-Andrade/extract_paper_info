@@ -1,0 +1,261 @@
+{
+  "key": "3YEGLVGE",
+  "title": "RoboTrio2: Annotated Interactions of a Teleoperated Robot and Human Dyads for Data-Driven Behavioral Models",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description of a multimodal corpus, with descriptive behavioral statistics and initial analysis.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We present here RoboTrio2, an annotated multimodal corpus of interactions between an autonomous-looking social robot and two humans, and the original way to record it: an immersive tele-operation of the robot"
+        },
+        {
+          "page": 6,
+          "text": "Of the 23 recorded sequences, 11 (nearly 4 hours) are fully annotated both verbally and non-verbally."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "In-person interactions in a controlled setup: two humans sat before a robot, while its pilot operated it remotely from another room.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The human pilot that immersively drives the robot is in a remote room and wears an HTC Vive VR headset, that embeds two SMI eyetrackers."
+        },
+        {
+          "page": 4,
+          "text": "They sit in front of a social robot that acts as a game animator and referee."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "23 human dyads (46 human players) and one pilot; the same pilot operated the robot for all interactions.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "It consists of a task-oriented interaction of a robot with 23 humans pairs, collected in French by a single pilot."
+        },
+        {
+          "page": 4,
+          "text": "we recorded 23 interactions with different human pairs (either male or female) while the robot is always teleoperated by the same human pilot"
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Human players participated in pairs; the paper describes the pairs as either male or female. The robot was teleoperated by the same human pilot throughout. No participant ages or prior robot experience are stated.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "we recorded 23 interactions with different human pairs (either male or female) while the robot is always teleoperated by the same human pilot"
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Two human players cooperatively played a word-association game. For each of nine themes, they supplied five answers; the robot acted as game animator and referee, guiding the players and taking part in conversation.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The corpus involves a cooperative game played by the two humans. They sit in front of a social robot that acts as a game animator and referee."
+        },
+        {
+          "page": 4,
+          "text": "The same 9 theme words are played for all the games, and 5 answers are collected per theme."
+        },
+        {
+          "page": 4,
+          "text": "During the game, our players collaborate to find the best answers and look/question the robot at will."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three in the interaction: two human players and one robot. The human pilot remotely controlled the robot.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The corpus involves a cooperative game played by the two humans."
+        },
+        {
+          "page": 4,
+          "text": "They sit in front of a social robot that acts as a game animator and referee."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "They sit in front of a social robot that acts as a game animator and referee."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2 players per interaction, plus one remote human pilot controlling the robot.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The corpus involves a cooperative game played by the two humans."
+        },
+        {
+          "page": 4,
+          "text": "the robot is always teleoperated by the same human pilot"
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Multimodal audio/video and motion-capture recordings; pilot eye/head tracking; robot eye cameras and microphones; fixed HD cameras and headset microphones for players; OpenFace for players’ head, eye, and facial-action measurements; ELAN annotations; GMM-classified gaze targets. No questionnaires are reported.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The human pilot that immersively drives the robot is in a remote room and wears an HTC Vive VR headset, that embeds two SMI eyetrackers. He also uses stereo earbuds and a microphone."
+        },
+        {
+          "page": 5,
+          "text": "To ease the post-recording annotations, the two human players are also recorded by two fixed HD cameras (synchronized with the Qualisys capture system)."
+        },
+        {
+          "page": 5,
+          "text": "We also ran OpenFace [17] to extract head rotations and eye movements as well as FACS Action Units for every player (seen by the HD cameras)"
+        },
+        {
+          "page": 6,
+          "text": "The pilot gaze focal point is computed from the 60 Hz recordings of the pilot’s head and eyes movements. After detecting ocular saccades, these points were classified using Gaussian Mixture Models (GMM) into 4 different targets"
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Descriptive gaze findings: the pilot looked at both players equally overall, looked more at the tablet while speaking, and often looked at a speaking player while listening. Players looked at the robot frequently. Statistical significance tests are not reported.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "Both users are looked at equally by the pilot (there could be some variations inside sequences but not globally)."
+        },
+        {
+          "page": 7,
+          "text": "The players have looked at the robot a lot, indicating that they haven’t put the robot aside and have included it in the conversation."
+        },
+        {
+          "page": 7,
+          "text": "When he’s speaking, he looks more at the tablet that displays information about the game in progress. When one of the players is speaking, the pilot will often look at him/her"
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "Gaze is presented as an important non-verbal cue in human–robot conversations and as part of natural, ecological interaction behavior. The paper does not give a formal definition of robotic gaze, attention, or gaze-based attention.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "As gaze is one of the most important non-verbal cues in human and HRI conversations [21], this section presents some general statistics on it."
+        },
+        {
+          "page": 4,
+          "text": "What is experienced by the human players is an autonomous-looking robot that utilizes natural language and ecological head and gaze patterns to perform the joint task."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze helps the robot address and monitor one or both players, support conversational regulation, and retrieve game information from the tablet. The paper discusses gaze behavior in relation to speaker/listener roles and multiparty footing.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "Furthermore, as this corpus is multi-party, the pilot can address one player or both at the same time. This allows the study of the different participant roles in a conversation (speaker, listener, side participant,...), and their regulation, called “Footing” in [19]."
+        },
+        {
+          "page": 7,
+          "text": "When he’s speaking, he looks more at the tablet that displays information about the game in progress. When one of the players is speaking, the pilot will often look at him/her"
+        },
+        {
+          "page": 7,
+          "text": "The role of game facilitator requires the pilot to observe the reactions of the players and motivate their collaboration"
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Players looked at the robot frequently, which the authors interpret as indicating that they included it in the conversation. The paper reports descriptive observations, not a controlled test of gaze effects.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "The players have looked at the robot a lot, indicating that they haven’t put the robot aside and have included it in the conversation."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The robot was controlled in real time by an immersive remote human pilot using a VR headset and eye tracking; the pilot’s gaze and head movements were mapped to the robot’s eyes and neck. Pilot gaze targets were classified after saccade detection using GMM; user gaze was similarly classified from OpenFace head and eye positions. The paper notes prior use of the corpus to train a robot gaze-control model.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "With our original immersive teleoperation system [15], all these real time streams are synchronized and recorded, and control the iCub robot in real-time."
+        },
+        {
+          "page": 4,
+          "text": "We also record what the robot does from these motor instructions to drive the equivalent 6 degrees of freedom (3 for the neck, 3 for the eyes including vergence)."
+        },
+        {
+          "page": 6,
+          "text": "After detecting ocular saccades, these points were classified using Gaussian Mixture Models (GMM) into 4 different targets: LeftUser (leftmost player), RightUser (rightmost player), Tablet (live game info), and Elsewhere."
+        },
+        {
+          "page": 3,
+          "text": "This dataset was successfully used to train a machine learning model for robot gaze control [13]."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "A modified iCub humanoid robot with an articulated mouth, mobile eyes with embedded VGA cameras and three degrees of freedom including vergence, a three-degree-of-freedom neck, and microphones in human-shaped ears.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The robot is a modified iCub [14] that has an articulated mouth (hiding a speaker), mobile eyes (each embedding a VGA camera) that move like human ones (with 3 degrees of freedom, including vergence), and a microphone in each ear (with human-shaped ear pinnas)."
+        },
+        {
+          "page": 4,
+          "text": "The robot neck allows human-like orientations of the head (with 3 degrees of freedom)."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors state that the embodied robot’s sensors and actuators shaped the collected signals and that immersive teleoperation produced fluid interactions adapted to the robot’s capabilities. They also frame the corpus as allowing study of changed expectations and behavior around robotic bodies, without reporting a specific measured embodiment effect.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "immersive teleoperation of a humanoid robot can collect multimodal signals intrinsically adapted to the specific robot sensors/actuators and its specific reaction times"
+        },
+        {
+          "page": 8,
+          "text": "In contrast to human-human corpora [22, 23], our data may include the change of expectations and behavior in front of robotic bodies."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper presents RoboTrio2, a multimodal corpus of 23 cooperative game interactions between a teleoperated modified iCub robot and pairs of human players. It describes how gaze was recorded and categorized, and reports that the robot/pilot looked between players and game information while players often looked at the robot, which the authors interpret as inclusion in the conversation.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ2; RQ3; RQ4; RQ5; RQ6 — The paper describes gaze’s conversational roles and reports observed gaze patterns in multiparty play, explains the teleoperation and gaze annotation methods, and identifies the robot embodiment and how its sensors and actuators shaped data collection. It offers only broad conceptual framing and no formal gaze definition.",
+      "quotes": []
+    }
+  ]
+}

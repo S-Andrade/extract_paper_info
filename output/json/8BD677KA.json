@@ -1,0 +1,262 @@
+{
+  "key": "8BD677KA",
+  "title": "Proposal of a model to determine the attention target for an agent in group discussion with non-verbal features",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical modeling and prediction study using a human-human discussion corpus.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Based on empirical results of human-human group discussion sessions, three prediction models are developed to determine appropriate attention targets with non-verbal signals from the other participants, one model for one situation, respectively."
+        },
+        {
+          "page": 5,
+          "text": "Non-linear SVM (Support Vector Machine) with gaussian kernel was used to develop the prediction models for the three situations."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Recorded group discussions in an experiment setting; the paper describes the recording environment but does not explicitly call it a lab.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The experiment participants sit around a 1.2 m x 1.2 m square table."
+        },
+        {
+          "page": 3,
+          "text": "Two video cameras as well as a variety of sensors were used to record all the discussion sessions."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "40 human participants across 10 groups.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "40 college students were recruited for the recording experiment."
+        },
+        {
+          "page": 3,
+          "text": "They were divided into 10 groups, each one had four people"
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "College students, native Japanese speakers; 30 male and 10 female. Third- or fourth-year students who had completed job hunting or were job hunting. Group members did not know one another before the experiment.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "30 of them were male and 10 of them were female, all of them were native Japanese speakers."
+        },
+        {
+          "page": 3,
+          "text": "the third or fourth graders in the college."
+        },
+        {
+          "page": 3,
+          "text": "the combination of the participants was arranged so that they did not know each other before the experiment."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants discussed and ranked 15 celebrities as candidates for a college festival guest, considering cost and audience attraction, in a 15-minute group discussion after individual preparation.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The goal of the discussion task was to decide the ranked order of 15 celebrities by considering cost and audience attraction."
+        },
+        {
+          "page": 3,
+          "text": "After that, the participants engaged in a 15-minute discussion to determine the ranked order as a group."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Four people per discussion group; the proposed agent is modeled as one of the four participants. No robot participated in the recorded sessions.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "They were divided into 10 groups, each one had four people"
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "0 in the recorded discussion sessions; the proposed agent or robot is a future application.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The dataset also contains sensor data like head motion or motion capture in addition to video recordings."
+        },
+        {
+          "page": 7,
+          "text": "Finally, we would like to implement the attention model to a communicational robot or a virtual agent in a VR environment."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "4 per recorded interaction session.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "They were divided into 10 groups, each one had four people"
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Video/audio recordings, head-mounted accelerometers, motion capture, Kinect sensors, and manual attention-target coding from video; speech-turn and prosodic features were extracted with Praat. No named questionnaire or interview is reported.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Two video cameras as well as a variety of sensors were used to record all the discussion sessions."
+        },
+        {
+          "page": 3,
+          "text": "an accelerometer (ATR-Promotions TSND121) on their head."
+        },
+        {
+          "page": 3,
+          "text": "Motion capture (OptiTrack Flex 3 with 8 cameras) and Microsoft Kinect sensors were used to record the upper body movements of the participants as well."
+        },
+        {
+          "page": 3,
+          "text": "One coder then manually coded the attention targets of all of the participants by the observation on the video corpus with the annotation tool, Elan [12]."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Technical performance: F-measures for the three models were moderate, about 0.4–0.6; listening performed best, idling next, and speaking worst. The paper reports no statistical significance tests.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "The performance in F measure of the models were moderate and roughly range between 0.4 and 0.6."
+        },
+        {
+          "page": 6,
+          "text": "It can be also observed that the performance of the three models are always in the order: listening idling speaking."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames the target behavior as an agent’s attention in group discussion, represented by a target among other participants or the discussion material; it distinguishes this from reproducing detailed human gaze or head movements.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We mean attention here as the perceived target (another participant or the materials used in the discussion) of someone’s attention as the combination of gaze direction and head orientation."
+        },
+        {
+          "page": 3,
+          "text": "In this particular work, we focus on the modeling of the attention target of the agent rather than just the gaze direction or the head orientation of the agent."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "Attention is defined as the perceived target of someone’s attention, combining gaze direction and head orientation.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We mean attention here as the perceived target (another participant or the materials used in the discussion) of someone’s attention as the combination of gaze direction and head orientation."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "The behavior is intended to make an agent appear life-like in group discussion by directing its attention toward appropriate participants or the discussion material, depending on whether it is speaking, listening, or idle.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "This specific paper proposes the models of one of the features required to achieve the life-likeness of the agent in the group discussion context, determining the appropriate target of the agent’s attention toward the other participants."
+        },
+        {
+          "page": 4,
+          "text": "Speaking model: when the agent is speaking Listening model: when a participant other than the agent is speaking Idling model: when no one is speaking"
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "No effects of robot gaze or attention on human participants were measured; the models predicted human discussion participants’ attention targets. The authors state that human participants may behave differently with agents than with other humans as a future research question.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "It could be anticipated that the human participants may behave differently with agents than other humans, we will also investigated this aspect in the participant experiment using the implemented agent."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The authors train situation-specific nonlinear SVM classifiers using human-human group discussion data. They use other participants’ attention targets, speech-turn information, prosody, and head activity, extracted every 0.1 seconds with sliding windows; the models predict Table, Front, Left, or Right. Agent implementation is proposed as future work.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "we then have 600 minutes (15 minutes x 10 groups x 4 people) or 10 hours of data for the training of the agent’s attention models."
+        },
+        {
+          "page": 4,
+          "text": "The extracted features are from four modalities, attention targets of the other participants, speech turn information, prosodic information of the utterances of the other participants, and the body activities of the other participants."
+        },
+        {
+          "page": 5,
+          "text": "Non-linear SVM (Support Vector Machine) with gaussian kernel was used to develop the prediction models for the three situations."
+        },
+        {
+          "page": 7,
+          "text": "Finally, we would like to implement the attention model to a communicational robot or a virtual agent in a VR environment."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "No robot was used in the study. The paper discusses a future communicational robot or virtual agent in VR and says the target should be perceived in 3D, as a physical object or a graphical VR object.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Therefore, the agent has to be perceived in a 3D space, either a physical object, i.e. a robot, or a graphical one in a virtual reality (VR) environment."
+        },
+        {
+          "page": 7,
+          "text": "Finally, we would like to implement the attention model to a communicational robot or a virtual agent in a VR environment."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors argue that an artificial agent’s limited movement capabilities motivate modeling an abstract attention target rather than imitating detailed human gaze and head movements. They note that the implementation can use the physical parts available on the agent.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Especially for robots, they generally have much less degree of freedoms than humans, and their motors do not drive smoothly. They may have no movable eye balls, either."
+        },
+        {
+          "page": 3,
+          "text": "Therefore, we transform the research issue from the imitation of detailed human movements to a simpler, abstract and device independent one: how to make the agent to deliver the attention to the same target at the same timings as a human."
+        },
+        {
+          "page": 2,
+          "text": "The implementation of the proposed attention model can be utilized by available physical parts of the agent."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper trained SVM models to predict where an agent should direct its attention during speaking, listening, and idle moments in multiparty discussion. Using recordings of 10 groups of four humans, the models achieved F-measures of roughly 0.4–0.6; no robot or agent was tested with participants.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ4; RQ5; RQ6 — The paper defines attention as a target indicated by combined gaze direction and head orientation, and describes its intended role in group discussion. It details a data-driven prediction implementation and discusses how limited robot movement motivates the abstract model, while reporting no tested robot embodiment or effects on people.",
+      "quotes": []
+    }
+  ]
+}

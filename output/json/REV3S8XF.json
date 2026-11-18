@@ -1,0 +1,240 @@
+{
+  "key": "REV3S8XF",
+  "title": "MGpi: A Computational Model of Multiagent Group Perception and Interaction",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description with simulation-based experiments and real-data group-identification evaluation.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The Multiagent Group Perception and Interaction (MGPI) network is a deep neural network that predicts the appropriate social action to execute in a group conversation (e.g., speak, listen, respond, leave), taking into account neighbors’ observable features (e.g., location of people, gaze orientation, distraction, etc.)."
+        },
+        {
+          "page": 5,
+          "text": "We aim to learn computational models that can encode the kinesics and proxemics in group formation and conversational actions (e.g., responding, distraction, etc) in multiagent multigroup scenarios."
+        },
+        {
+          "page": 7,
+          "text": "We now test the effectiveness of our learned automatic social signal gating mechanism, the KPM gate, in identifying communication groups in real-world data [15, 62]."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Simulated multiagent social-party/group-conversation scenarios, with evaluation on real-world datasets of people’s positions, gaze directions, and group assignments.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Consider a crowded social party like the ones depicted in Figure 1 to understand some important components of social intelligence."
+        },
+        {
+          "page": 5,
+          "text": "We simulate multigroup human communication, drawing inspiration from several prior studies and observations of small-group conversational dynamics [27, 28, 30, 33, 40]."
+        },
+        {
+          "page": 7,
+          "text": "We now test the effectiveness of our learned automatic social signal gating mechanism, the KPM gate, in identifying communication groups in real-world data [15, 62]."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "The technical system models agents’ conversational actions in static and dynamically changing multigroup conversations, then uses learned social attention to identify conversational groups. Interaction episodes were simulated for 600 steps; real-data group identification was evaluated on initial layouts from three datasets.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "We design per-group rules for two scenarios: (1) Static scenario, where agents stay within a social group and do not transition to other groups."
+        },
+        {
+          "page": 5,
+          "text": "(2) Dynamic scenario, where agents transition from group to group, leading to a temporally evolving group assignments."
+        },
+        {
+          "page": 6,
+          "text": "For each layout in each dataset (Synthetic, Coffee Break and Cocktail Party), agents changed modes 600 times, i.e., T = 600."
+        },
+        {
+          "page": 7,
+          "text": "For every initial layout in real-world datasets Synthetic, Coffee Break, and Cocktail Party [15, 62], we use this simply computed distance measure to form an affinity matrix of pairwise distances between agents in the scene."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Layouts contained 6–12 people organized into several groups. The evaluated human-robot group size is not stated.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Multiple people (6-12 per layout) are organized into several groups (Fig. 1)."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "n_humans",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Technical measures: mean average precision and cross-entropy loss for action prediction; precision, recall, and F1 score under the |G| criterion for group detection. No human-participant instruments are reported.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "We report the cross-entropy loss on testing subsets."
+        },
+        {
+          "page": 7,
+          "text": "As every model assigns maximum probability to one of six (static scenario) or seven (dynamic scenario) actions, we also evaluate the model on mean average precision (mAP) over actions."
+        },
+        {
+          "page": 7,
+          "text": "Group detection performance is measured by the F1 score (harmonic mean of Precision and Recall) under the |G| condition [15, 50]."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "MGPI outperformed the action-prediction baselines in static and dynamic scenarios on mean average precision and test loss. For group detection, the KPM gate achieved the highest overall mean precision (0.74 static, 0.75 dynamic) and F1 (0.73 in both); reported overall recall was 0.72 in both.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "As hypothesized, MGPI effectively learns protocols in both static and dynamic scenarios, outperforming strong baselines in terms of both mean average precision (mAP) and test loss, validating our choices of various encoding modules and demonstrating each one’s necessity."
+        },
+        {
+          "page": 8,
+          "text": "Overall Mean Precision 0.54 0.47 0.71 0.65 0.57 0.74 (0.002) 0.75 (0.004) Recall 0.59 0.47 0.73 0.63 0.44 0.72 (0.008) 0.72 (0.002) F1 Score 0.56 0.47 0.72 0.64 0.49 0.73 (0.004) 0.73 (0.002)"
+        },
+        {
+          "page": 8,
+          "text": "Overall, our method outperforms all methods in terms of Precision and F1 score, and performs comparably to the best (GCFF) in terms of Recall."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "Social attention / social signal gating: selective weighting of nearby agents’ non-verbal and conversational signals, learned as part of a computational model of multiagent group perception and interaction.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "This type of social attention mechanism, which we term social signal gating, is a critical aspect of social perception and is closely tied to group identification (discussed later)."
+        },
+        {
+          "page": 2,
+          "text": "It decides their degree of influence using a social attention function, the Kinesic-Proxemic-Message (KPM) gate."
+        },
+        {
+          "page": 7,
+          "text": "We reiterate that training MGPI requires no explicit group annotations. Instead, its Kinesic-Proxemic-Message gate (KPM gate) learns to express social attention based on non-verbal cues, as a result of training for a socially intelligent policy."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "Social signal gating is defined as attending to people in one’s conversational group while suppressing verbal and non-verbal information from nearby groups. The KPM gate weights each neighboring agent’s influence using relative position and orientation.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In order to participate effectively in a group conversation, each person needs to be able to pay attention to the people in the group, while suppressing information (both verbal and non-verbal) from other nearby groups."
+        },
+        {
+          "page": 4,
+          "text": "Conceptually, the Social Signal Gating (SSG) Module allows the agent to select only the most relevant social signals coming from other agents."
+        },
+        {
+          "page": 4,
+          "text": "The KPM gate K(g(ni←m)t,l(ni←m)t) is a function of the relative rotated position and orientation between Am and neighbor Ani at time t."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "It filters and weights neighbors’ social cues to select influential agents, supports conversational action selection, and provides an implicit basis for identifying group membership.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The role of the KPM gate is to decide how much attention to give to each neighboring agent’s concatenated social signal N(Pni t,hist), C(Dni t,hist)."
+        },
+        {
+          "page": 5,
+          "text": "The higher the ‘importance’ weight assigned by K to a neighbor’s encoded non-verbal and conversational history, the more likely the neighbor is to be in the same group as the Am, and the greater its influence on Am’s resulting policy π."
+        },
+        {
+          "page": 5,
+          "text": "Once the MGPI network parameters are learned, we can use the KPM gate activations to identify groups."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "No effects of robot gaze or attention on human participants were measured. In the model, higher attention weights indicate greater neighbor influence on the agent’s next conversational action; learned gating also enabled group identification.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "For each neighbor Ani it outputs a scalar ‘importance’ weight K ∈ [0, 1], reflecting the neighbor’s degree of influence on Am’s next conversational action."
+        },
+        {
+          "page": 8,
+          "text": "The surprising result is that, after training for behavior imitation, the output of KPM gate also performs successfully on the task of group detection."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "MGPI is an autonomous, end-to-end trainable deep neural network learned by imitation (behavior cloning) from simulated demonstrations. It encodes histories of relative gaze direction, relative position, neighbors’ conversational actions, and the agent’s own actions with GRUs; a two-layer MLP KPM gate weights each neighbor before pooling, and an interaction policy predicts the next action.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The KPM gate is a multi-layer perceptron, consisting of two feed-forward layers, respectively activated by an exponential linear unit (ELU) [12] and a hard-sigmoid function [14]."
+        },
+        {
+          "page": 4,
+          "text": "As shown in Figure 3, N and C are both linearly-activated gated recurrent units (GRU) [11]."
+        },
+        {
+          "page": 5,
+          "text": "In this work, we adopt the approach of behavior cloning, which enables MGPI to learn from a set of demonstrations D directly, via supervised learning without needing to explicitly learn state transitions or reward functions."
+        },
+        {
+          "page": 4,
+          "text": "The pooled message xm t is passed to the interaction policy π, along with the Self Short-Term Memory Encoder message (described next), to decide Am’s next conversational action."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The paper presents MGPI, a neural model that learns to weight nearby agents’ gaze, position, and conversational cues to predict social actions and identify groups. Tests use simulated multigroup conversations and human group-layout datasets; there are no robot embodiments or participant studies reported.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ4 — The paper describes social signal gating as attention to in-group cues while suppressing cues from nearby groups, explains its role in action selection and group identification, and details the learned model implementation. It does not study robotic gaze in a multiparty HRI interaction or report effects on people or embodiment.",
+      "quotes": []
+    }
+  ]
+}

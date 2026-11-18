@@ -1,0 +1,249 @@
+{
+  "key": "XI2MGJD2",
+  "title": "Coordinating turn-taking and talking in multi-party conversations by controlling robot's eye-gaze",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Experimental study with two within-subjects experiments.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "This experiment was conducted in a two-way within- subjects design."
+        },
+        {
+          "page": 5,
+          "text": "This experiment was conducted in a two-way within- subjects design as same as Experiment 1 (Table. II),"
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Laboratory setting at Shizuoka University; participants played around a table in a controlled experimental environment.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "All 24 Japanese participants were informatics students at Shizuoka University (3 participants in 8 groups; 20 males, 4 females)."
+        },
+        {
+          "page": 3,
+          "text": "Three participants of each group and the robot face each other around a 120cm square table, and the balance game is located in the center of the table."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "45 participants total: 24 in Experiment 1 and 21 in Experiment 2.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "All 24 Japanese participants were informatics students at Shizuoka University (3 participants in 8 groups; 20 males, 4 females)."
+        },
+        {
+          "page": 5,
+          "text": "All 21 Japanese participants were informatics students at Shizuoka University (3 participants in 7 groups; 21 males)."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Japanese informatics students at Shizuoka University; Experiment 1 had 20 males and 4 females; Experiment 2 had 21 males. Ages and prior robot experience are not stated.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "All 24 Japanese participants were informatics students at Shizuoka University (3 participants in 8 groups; 20 males, 4 females)."
+        },
+        {
+          "page": 5,
+          "text": "All 21 Japanese participants were informatics students at Shizuoka University (3 participants in 7 groups; 21 males)."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants played a nonverbal cooperative balance game, taking turns pulling sticks and selecting the next challenger. Experiment 1 involved four games of 24 trials; Experiment 2 involved two games.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Participants pull sticks one-by-one from the pole without speaking at all."
+        },
+        {
+          "page": 3,
+          "text": "In total, four games are conducted."
+        },
+        {
+          "page": 5,
+          "text": "Also, they play two games in total, and the robot turns its eyes all the time."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "4 per interaction session: 3 humans and 1 robot.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Three participants of each group and the robot face each other around a 120cm square table, and the balance game is located in the center of the table."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Three participants of each group and the robot face each other around a 120cm square table, and the balance game is located in the center of the table."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "3",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Three participants of each group and the robot face each other around a 120cm square table, and the balance game is located in the center of the table."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Mouse clicks to identify challengers and measure time between turns; Kinect sensors to measure face direction; game points and challenger transitions to assess behavior. No named questionnaire or interview is reported.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "These mice are used to measure the participant who became the challenger and the time passed between turn-taking by investigating whether they are clicked or not."
+        },
+        {
+          "page": 4,
+          "text": "Kinect sensors are located in front above the head of each participant to measure their face directions."
+        },
+        {
+          "page": 5,
+          "text": "We observe the differences of the points between the current challenger and the last challenger."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "The gaze condition during turn-taking significantly affected the ratio of participants becoming the challenger (F(3, 69)=14.59, p<.01); the Challenge gaze factor was marginal (F(3, 69)=2.64, p<.10), and their interaction was significant (F(9, 207)=3.25, p<.01). In Experiment 2, turn-taking gaze condition significantly affected point differences (F(3, 69)=14.59, p<.01); FROM differences were smaller than TO and NONE, and EC smaller than NONE (p<.05).",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "As shown in Fig. 6, we found a marginally significant effect of the GAZE WITH CHALLENGE factor (F(3, 69)=2.64, p .10) and a significant effect of the GAZE WITH TURN-TAKING factor (F(3, 69) 14.59, p .01). Furthermore, we found a significant effect of interaction (F(9, 207) 3.25, p .01)."
+        },
+        {
+          "page": 6,
+          "text": "By assessing with the LSD multiple comparison method, the difference on the FROM level was smaller than those on the TO level and NONE level, and that on the EC level was smaller than that on the NONE level (p .05)."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames robot eye-gaze as a way for a side-participant robot to coordinate turn-taking and talking in multiparty conversation. It also describes gaze as conveying attention and willingness to talk.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this study, we suggest a method to coordinate turn-taking and talking in multi-party conversations by the gaze of a robot that participates on the side."
+        },
+        {
+          "page": 2,
+          "text": "In this way, participants’ gaze shows not only attention to conversation but also the psychology of whether the participant wants to talk or not [7]."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper does not provide a formal definition of robotic gaze or robotic attention; it describes gaze as a cue that can convey attention, intention, and willingness to talk.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In this way, participants’ gaze shows not only attention to conversation but also the psychology of whether the participant wants to talk or not [7]."
+        },
+        {
+          "page": 2,
+          "text": "Based on these studies, a robot’s gaze can reveal its intentions due to different understandings based on this before and after contextual information."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "The side-participant robot’s gaze can encourage participants to take the next turn, influence who becomes the next speaker, prompt other participants to gaze at the selected participant, and adjust the context of talking.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "We investigated whether the gaze of a robot who participates in a multi-party conversation as a side-participant can coordinate turn-taking between the participants."
+        },
+        {
+          "page": 6,
+          "text": "Robot’s gaze when the speaker talks and the participants take turns can urge them to become the speaker."
+        },
+        {
+          "page": 6,
+          "text": "Robot’s gaze to the participant while turn-taking urges other participants to gaze this participant."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Robot gaze changed the ratio of participants becoming challenger and was reported to smooth turn-taking. In Experiment 2, gaze during turn-taking affected the point difference between successive challengers; participants gazed at by the robot could plan to get points close to the previous challenger's score.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The participants were urged to become the next challenger when they hadn’t looked at the robot but they had been gazed at by the robot in the Turn-taking phase, and gaze interaction between them and the robot had been the same as in the Challenge phase."
+        },
+        {
+          "page": 6,
+          "text": "In this way, it is found that the robot’s gaze can urge not only the participants to become the next challenger but also the challenger to remain a context of the last challenger."
+        },
+        {
+          "page": 6,
+          "text": "Robot’s gaze makes turn-taking smooth."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The robot randomly turned its face toward one participant during the Challenge and Turn-taking phases. Whether it turned its face changed between the first and latter halves of each game; participant face direction was measured with Kinect sensors. No autonomous inference model or Wizard-of-Oz procedure is described.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "This robot turns his face to one of the participants randomly in the Challenge phase and Turn- taking phase."
+        },
+        {
+          "page": 4,
+          "text": "However, whether the robot turns its face or not is changed in the first half and in the latter half of each game."
+        },
+        {
+          "page": 4,
+          "text": "Kinect sensors are located in front above the head of each participant to measure their face directions."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Robovie-mR2, described as a small humanoid robot.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The robot is Robovie-mR2, one of the small humanoid robots (Fig. 5)."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The authors tested a small humanoid robot as a silent side-participant in a three-person, nonverbal balance game. The robot’s gaze affected who took the next turn and, in a second experiment, how closely the next challenger’s points matched the previous challenger’s; the authors conclude that gaze can help coordinate turns and talking.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5. The paper describes gaze as conveying attention and willingness to talk, examines its role and effects in turn-taking, reports how gaze direction was controlled and face direction measured, and names the robot platform. It does not state how embodiment influenced the study.",
+      "quotes": []
+    }
+  ]
+}

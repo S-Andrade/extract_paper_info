@@ -1,0 +1,219 @@
+{
+  "key": "2RKYNQRG",
+  "title": "Addressing Multiple Participants: A Museum Robot's Gaze Shapes Visitor Participation",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Real-world observational field study analyzed using Conversation Analysis.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Using videorecordings from a real-world field study with a museum guide robot, we show procedures by which the robot manages (i) to include and (ii) to disengage users in a multi-party situation."
+        },
+        {
+          "page": 1,
+          "text": "Analysis of the videorecorded interactions is informed by Conversation Analysis (CA) and investigates the interrelationship between the robot’s and the visitors’ actions and how users interpret the robot’s conduct."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "A German arts museum; real-world field deployment.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "A humanoid robot (Nao) was deployed as guide in a German arts museum to offer information to uninformed visitors who happen to pass by."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Museum visitors who happened to pass the robot; further characteristics are not stated.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "A humanoid robot (Nao) was deployed as guide in a German arts museum to offer information to uninformed visitors who happen to pass by."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Visitors encountered the museum guide robot, which offered information using predefined talk and gestures; the two analyzed cases show visitors engaging with it and responding to a question or explanation.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "A humanoid robot (Nao) was deployed as guide in a German arts museum to offer information to uninformed visitors who happen to pass by."
+        },
+        {
+          "page": 1,
+          "text": "It used pre-defined talk and gestures and adjusted its head orientation dynamically to the nearest visitor’s position."
+        },
+        {
+          "page": 2,
+          "text": "When Nao then asks a question and shifts its head to an intermediary position between V1 and V2, both participants respond (head shake, ”no”)."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "The analyzed interactions include one robot with one, two, or three visitors; the paper does not give an overall per-session group size.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In a first case (VP159), the robot manages to enlarge an initial 1:1 setting to include two further visitors."
+        },
+        {
+          "page": 2,
+          "text": "In a second case (VP075), two visitors enter the room."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "A humanoid robot (Nao) was deployed as guide in a German arts museum to offer information to uninformed visitors who happen to pass by."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "Varied in the analyzed interactions: one, two, or three visitors.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In a first case (VP159), the robot manages to enlarge an initial 1:1 setting to include two further visitors."
+        },
+        {
+          "page": 2,
+          "text": "In a second case (VP075), two visitors enter the room."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Videorecordings analyzed through Conversation Analysis and sequential micro-analysis.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Analysis of the videorecorded interactions is informed by Conversation Analysis (CA) and investigates the interrelationship between the robot’s and the visitors’ actions and how users interpret the robot’s conduct."
+        },
+        {
+          "page": 2,
+          "text": "Sequential micro-analysis of the HRI data reveals how visitors treat the robot’s head orientation (gaze) as interactionally meaningful."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "No statistical significance tests are reported. Central observed outcomes were inclusion of a visitor as an active co-participant and disengagement of another visitor when the robot's head orientation shifted.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Thus, V2’s participation status shifts from observing V1’s engagement to becoming an active co-participant."
+        },
+        {
+          "page": 2,
+          "text": "V2, however, stops to follow the robot’s actions, disengages and walks away (with V1 remaining)."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames the robot’s head orientation as gaze that visitors treat as interactionally meaningful and as a strategy that can shape engagement and participation.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this paper, we investigate the ways in which a museum guide robot’s gaze strategies can shape in a museum field trial the users’ engagement and state of participation."
+        },
+        {
+          "page": 2,
+          "text": "Sequential micro-analysis of the HRI data reveals how visitors treat the robot’s head orientation (gaze) as interactionally meaningful."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "The robot's gaze helps include visitors in an ongoing encounter or disengage a visitor from the group.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Using videorecordings from a real-world field study with a museum guide robot, we show procedures by which the robot manages (i) to include and (ii) to disengage users in a multi-party situation."
+        },
+        {
+          "page": 2,
+          "text": "By adjusting the spatial configuration, he integrates V2 in the encounter with the robot."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "In the observed cases, the robot's head orientation prompted a visitor to turn and make room for another visitor, after which that visitor became an active co-participant; in another case, a visitor stopped following and walked away after the robot's head orientation shifted.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "V1 reacts to the robot’s shifting head orientation by turning around, looking where the robot seems to be looking and takes a step backwards to the side."
+        },
+        {
+          "page": 2,
+          "text": "Thus, V2’s participation status shifts from observing V1’s engagement to becoming an active co-participant."
+        },
+        {
+          "page": 2,
+          "text": "V2, however, stops to follow the robot’s actions, disengages and walks away (with V1 remaining)."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "Nao used predefined talk and gestures and dynamically oriented its head toward the nearest visitor's position; system detection of visitors is described, with no sensing hardware or control architecture specified.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "It used pre-defined talk and gestures and adjusted its head orientation dynamically to the nearest visitor’s position."
+        },
+        {
+          "page": 2,
+          "text": "When a visitor (V1) enters the room and positions himself in front of the robot, it detects V1 and reacts by shifting its head in this direction."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Humanoid Nao robot.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "A humanoid robot (Nao) was deployed as guide in a German arts museum to offer information to uninformed visitors who happen to pass by."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The paper analyzes video from a museum field study of a humanoid Nao guide robot whose head orientation shifted toward visitors. In two observed cases, visitors treated those gaze shifts as meaningful: one shift helped bring a visitor into an active group encounter, while another coincided with a visitor disengaging and walking away.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5 — The paper frames head orientation as gaze and describes its role in including or disengaging visitors, with observed participation effects. It also reports the robot platform and basic gaze implementation.",
+      "quotes": []
+    }
+  ]
+}

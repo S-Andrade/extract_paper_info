@@ -1,0 +1,233 @@
+{
+  "key": "D9R3SKL6",
+  "title": "Learning Nonverbal Cues in Multiparty Social Interactions for Robotic Facilitators",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description and model evaluation using human facilitator data.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Our goal is to replicate the performance of the IBC model by Florence [in Proceedings of the 5th Conference on Robot Learning, 164:158- 168, 2022], for social interaction tasks using our custom dataset."
+        },
+        {
+          "page": 2,
+          "text": "For this study, we selected seven sessions featuring a six-participant setup including the facilitator."
+        },
+        {
+          "page": 3,
+          "text": "We utilize the average success metric (ASM) from [11], which assigns a value of 1.0 or 0.0 to episodes based on whether the policy successfully reaches an episode’s goal setpoint."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Recorded multiparty social interaction sessions from the FUMI-MPF dataset; the paper does not state where those sessions took place.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We use a subset of the FUMI-MPF dataset, which originates from an experiment in which participants’ behaviors are monitored during various large social interaction settings."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "The recorded interactions included a facilitator and other participants; facilitators were teachers, music teachers, or musicians. Age, gender, and other participant characteristics are not stated.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Each social interaction is led by a facilitator from one of three distinct facilitator types: teacher, music teacher, or musician [17]."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Modeling the facilitator’s gaze during large-group social interaction, with the study aimed at information-sharing/facilitation scenarios. The paper analyzes recorded sessions; no live robot interaction or session duration is reported.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We are aiming to replicate and generate the gaze behavior of the main facilitator in a large group social interaction setting."
+        },
+        {
+          "page": 1,
+          "text": "We aim to extend their work by looking at similar information-sharing settings in large group interactions but from the point of view of the teacher instead of his assistant."
+        },
+        {
+          "page": 2,
+          "text": "We specify the goal as training an IBC model to generate a gaze trajectory between the facilitator’s head position at time t and his head position at time t n."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Sessions with six participants including the facilitator, and additional sessions with four participants; no robot participated in these recorded sessions.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "For this study, we selected seven sessions featuring a six-participant setup including the facilitator."
+        },
+        {
+          "page": 2,
+          "text": "We also used an additional nine sessions with a four-participant setup."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "n_humans",
+      "value": "Six or four participants per recorded session, including the facilitator.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "For this study, we selected seven sessions featuring a six-participant setup including the facilitator."
+        },
+        {
+          "page": 2,
+          "text": "We also used an additional nine sessions with a four-participant setup."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Model performance was assessed with average success metric (ASM), trajectory R2, and SPARC movement smoothness metric. L2CS-Net estimated participant head gaze from images. No human participant outcome instruments are reported.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "L2CS-Net is particularly useful for this dataset as we use it to predict the gaze of each participant [18]."
+        },
+        {
+          "page": 3,
+          "text": "We utilize the average success metric (ASM) from [11], which assigns a value of 1.0 or 0.0 to episodes based on whether the policy successfully reaches an episode’s goal setpoint."
+        },
+        {
+          "page": 3,
+          "text": "We also use the R2 of the predicted trajectories to assess how well the IBC model replicates the ground truth human behavior."
+        },
+        {
+          "page": 3,
+          "text": "Finally, to test the smoothness of the generated behavior, we use the SPARC metric which is commonly used to evaluate human movement [13]–[15]."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "IBC had a higher average success rate than MSE BC (0.96 vs. 0.93), while MSE had higher average trajectory R2 for pitch and yaw. IBC trajectories were smoother by SPARC; no statistical significance tests are reported.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "III-1 show that the average success rate averaged out over the sessions is at 96% for the IBC model. The explicit model, however, is at 93% which is slightly below the reported 95%."
+        },
+        {
+          "page": 4,
+          "text": "Specifically, the average R2 for pitch and yaw in the MSE model surpassed those of the IBC model by 3% and 15%, respectively."
+        },
+        {
+          "page": 4,
+          "text": "The SPARC metrics are averaged for each facilitator type across all sessions. The IBC results have an 82% increase in pitch and a 47% increase in yaw performance than the explicit model."
+        },
+        {
+          "page": 4,
+          "text": "From all three metrics, we surmise that the IBC predictions are more likely to attain the correct final gaze position but over a different trajectory than the ground truth."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames gaze as a nonverbal cue in social interaction and seeks to generate facilitator gaze behavior in multiparty facilitation; it does not explicitly define “robotic gaze,” “robotic attention,” or “robotic gaze-based attention.”",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Our research focuses on extending IBC to generate nonverbal cues like gaze and pose during multiparty facilitation, prioritizing the former."
+        },
+        {
+          "page": 1,
+          "text": "Ishi et al. imply that there is a correlation between one’s gaze behavior in a conversation and the accompanying gaze behavior of the people with whom they are conversing [8]."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze is presented as a nonverbal cue that may affect the course of conversations; the paper’s implementation targets reproduction of the facilitator’s gaze, without testing a specific interaction function such as turn-taking or addressee selection.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Meaning that gaze alone can have a great effect on the course of conversations."
+        },
+        {
+          "page": 1,
+          "text": "We are aiming to replicate and generate the gaze behavior of the main facilitator in a large group social interaction setting."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The paper evaluates generated gaze trajectories and smoothness, not effects on human participants or interaction outcomes. It reports that IBC more often reached final gaze targets and generated smoother trajectories than MSE, while MSE better matched trajectory R2.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "From all three metrics, we surmise that the IBC predictions are more likely to attain the correct final gaze position but over a different trajectory than the ground truth."
+        },
+        {
+          "page": 4,
+          "text": "Furthermore, the IBC trajectories are smoother and more natural than the MSE ones according to the SPARC metric."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The authors train implicit behavior cloning and explicit MSE behavior cloning models on recorded facilitator gaze. L2CS-Net estimates participant gaze from 360-degree camera images; gaze is represented as yaw and pitch, and actions are changes in facilitator gaze. IBC uses an energy-based MLP and Langevin MCMC refinement; MSE predicts actions directly. A PD controller is used in the particle-based environment.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "These images were taken with a Theta Z1 camera, which provides a 360-degree view of the scene."
+        },
+        {
+          "page": 2,
+          "text": "Actions are then determined by calculating the differences in the facilitator’s pitch and yaw between consecutive frames."
+        },
+        {
+          "page": 3,
+          "text": "We then use the calculated gradients of the EBM for our action sample combined with the Langevin MCMC (Markov Chain Monte Carlo) sampling technique from [11], [20] to refine our generated action."
+        },
+        {
+          "page": 3,
+          "text": "The environment is structured around controlling a particle with a PD controller, which receives actions from the policy as setpoints for the particle to achieve."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The paper trains implicit and explicit behavior-cloning models to reproduce a human facilitator’s gaze from recorded multiparty sessions. IBC achieved a higher success rate and smoother trajectories, while MSE better matched the recorded gaze trajectories; the paper did not test a physical robot or measure effects on human interaction.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ4 — The paper frames gaze as a nonverbal cue and describes models, sensing, and control used to generate facilitator gaze. It offers only limited role context and no direct study of participant effects, robot embodiment, or embodiment influence.",
+      "quotes": []
+    }
+  ]
+}

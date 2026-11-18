@@ -1,0 +1,293 @@
+{
+  "key": "KJLJXZVH",
+  "title": "How Can Robot's Gaze Ratio and Body Direction Show an Awareness of Priority to the People With Whom it is Interacting?",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Exploratory mixed factorial experiment testing gaze ratio and body direction in a social robot’s interaction with two people.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "This study used a mixed factorial design that combined within- and between-participant designs."
+        },
+        {
+          "page": 4,
+          "text": "To verify our predictions, we conducted an exploratory experiment to investigate the effects of the gaze-ratio balances described in Section III.B as well as the body direction (priority-oriented/non-priority-oriented)."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "In-person experimental setting; the paper does not explicitly label it as a laboratory study.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Figure 4 shows an experiment scene where a robot provides information to two participants and looks at the follower."
+        },
+        {
+          "page": 4,
+          "text": "We prepared six kinds of two-minute contents about smartphones to reproduce a salesperson role for the robot."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "20 participants",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Twenty participants (ten females/ males, whose average ages were 30.25) participated in our experiment."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Adults; 20 participants, ten female and ten male, average age 30.25. Participants were assigned VIP or follower roles, and did not know one another beforehand.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Twenty participants (ten females/ males, whose average ages were 30.25) participated in our experiment. They did not meet beforehand."
+        },
+        {
+          "page": 4,
+          "text": "The numbers of VIP/follower roles were evenly distributed by gender."
+        },
+        {
+          "page": 4,
+          "text": "During the experiment, the participants did not change their roles."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "In 12 sessions, pairs listened to a two-minute robot explanation about a smartphone. Six contents were assigned randomly; participants were assigned VIP or follower roles, with six gaze ratios and two body-direction conditions.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Participants joined 12 sessions. In each session, they listened to the robot’s two-minute explanation about a smartphone."
+        },
+        {
+          "page": 4,
+          "text": "We prepared six conversation contents (e.g., the robot explains the item’s name, its specs, and so on) and assigned them randomly during the 12 sessions."
+        },
+        {
+          "page": 4,
+          "text": "Gaze-ratio factor: This factor has six conditions."
+        },
+        {
+          "page": 4,
+          "text": "Body-direction factor: This factor has two conditions."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three per interaction session: one robot and two human participants.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Figure 4 shows an experiment scene where a robot provides information to two participants and looks at the follower."
+        },
+        {
+          "page": 3,
+          "text": "First, we employ an information-providing situation with two persons: a VIP and a follower."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We used Sota, a desktop-sized interactive humanoid robot characterized by its humanlike physical expressions (Fig. 1)."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "First, we developed a basic gaze control mechanism based on a previous study [17] whose mechanism focused on an information-providing situation where a robot interacts with two persons."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Custom post-session questionnaires measured intention to use, politeness, understandability, and total impression on 1–7 scales. The paper reports no behavioral coding, interviews, or eye tracking as outcome measures.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "After each session, both participants filled out questionnaires."
+        },
+        {
+          "page": 4,
+          "text": "We measured four subjective items related to the perceived impressions by questionnaires to investigate the gaze-ratio and body-direction effects."
+        },
+        {
+          "page": 4,
+          "text": "The items were evaluated on a 1-to-7-point scale, where 1 is the most negative and 7 is the most positive."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Biased gaze ratios were generally rated more positively than the 50:50 gaze, non-priority-oriented baseline. For intention to use, 80:20, 90:10, and 100:0 with non-priority-oriented body direction, and 100:0 with priority-oriented direction, were higher than baseline. For politeness and total impression, 70:30, 80:20, and 90:10 with non-priority-oriented direction were higher. For understandability, all priority-oriented ratios and non-priority-oriented 70:30, 80:20, 90:10, and 100:0 were higher. Reported significant interactions and main effect: intention-to-use gaze ratio × body direction, F(5,90)=2.561, p=.033, partial η²=.125; politeness interaction, F(1,18)=3.797, p=.004, partial η²=.174; understandability gaze-ratio main effect, F(1,18)=12.483, p=.001, partial η²=.410, and interaction, F(1,18)=4.749, p=.001, partial η²=.209; total-impression interaction, F(1,18)=2.615, p=.030, partial η²=.137.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "As a result, four combinations were more highly evaluated (i.e., p .05) than the baseline: 80:20, 90:10, and 100:0 with the non-priority-oriented body direction and 100:0 with the priority-oriented body direction."
+        },
+        {
+          "page": 5,
+          "text": "Three combinations were more highly evaluated (i.e., p .05) than the baseline: 70:30, 80:20, and 90:10 with a non-priority-oriented body direction."
+        },
+        {
+          "page": 6,
+          "text": "Ten combinations were more highly evaluated (i.e., p .05) than the baseline: 70:30, 80:20, 90:10, and 100:0 with the non-priority-oriented body direction, and all the gaze ratios with the priority-oriented body direction."
+        },
+        {
+          "page": 6,
+          "text": "In the non-priority-oriented body direction, 80:20 or 90:10 gaze ratios maximized participant satisfaction because they are significantly better than the baseline in all the measurements."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames gaze ratio and body direction as social gaze behaviors that can signal awareness of differences in authority or priority among people in multiparty interaction.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this study, we investigate the effects of gaze ratios and body directions with which social robots demonstrate an awareness of authority when they are simultaneously interacting with multiple persons."
+        },
+        {
+          "page": 8,
+          "text": "During interactions with people who have different levels of authority, gaze ratios and body-directions are useful to convey an awareness of such social power dynamics."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze ratio and body direction convey awareness of people’s differing authority or priority during information provision; gaze is directed toward the VIP more often, while body direction may turn toward the VIP or remain front-facing.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "To investigate the gaze-ratio effects (Table I and Fig. 3), we fixed the gaze ratio to the environment (i.e., 30%) and only changed the balances for the addresses between 100:0 to 50:50."
+        },
+        {
+          "page": 3,
+          "text": "During the priority-oriented body direction, the robot turned its face and base to the VIP when the gaze target was a VIP and only turned its face to the follower when the follower was the gaze target (Table II)."
+        },
+        {
+          "page": 3,
+          "text": "During the non-priority-oriented body direction, the robot’s base was fixed between the VIP and the follower and only turned its face to the gaze target (Table III)."
+        },
+        {
+          "page": 7,
+          "text": "Our results suggest that only changing the gaze ratio can exhibit an awareness of authority, and this knowledge is useful for such robots."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Biased gaze ratios and body direction affected perceived impressions. In non-priority-oriented direction, 80:20 or 90:10 was more positively evaluated across all measurements; in priority-oriented direction, 100:0 was positively perceived in some measurements, and all ratios improved understandability compared with baseline. The role factor showed no significant differences.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "We found several combinations between the biased gaze ratio and the body direction that are more highly evaluated than the baseline."
+        },
+        {
+          "page": 6,
+          "text": "In the non-priority-oriented body direction, 80:20 or 90:10 gaze ratios maximized participant satisfaction because they are significantly better than the baseline in all the measurements."
+        },
+        {
+          "page": 6,
+          "text": "In the priority-oriented body direction, the 100:0 gaze ratio maximized participant satisfaction in some of the measurements."
+        },
+        {
+          "page": 6,
+          "text": "We found no significant differences in the role factor."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "An autonomous gaze controller used Kinect V2 head-position estimates to track people; roles and positions were manually entered. The controller selected gaze targets among the two addressees and the environment, changed targets every three seconds, and varied gaze ratios and body direction by condition.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "For multiple-person tracking, we used one depth sensor (Kinect V2) and a laptop PC to process the sensor data."
+        },
+        {
+          "page": 2,
+          "text": "This system sends the estimated head positions of the people using Kinect V2 libraries to the behavior selector through a wired network connection."
+        },
+        {
+          "page": 3,
+          "text": "We changed the gaze target every three seconds."
+        },
+        {
+          "page": 4,
+          "text": "Note that the assigned roles and their position information were manually inputted to the robot system to control the behaviors."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Sota, a 28 cm tall desktop-sized interactive humanoid with eight degrees of freedom, humanlike physical expressions, voice synthesis, and a blinking mouth LED.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We used Sota, a desktop-sized interactive humanoid robot characterized by its humanlike physical expressions (Fig. 1)."
+        },
+        {
+          "page": 2,
+          "text": "It has eight degrees of freedom (DOF): three in its head, two for its shoulders, one in each elbows, and another in its base."
+        },
+        {
+          "page": 2,
+          "text": "It is 28 cm tall with a voice synthesis function that can produce childlike and non-gendered sounds."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors state that using only Sota limits generalizability across robot appearances. They discuss how available movement modalities affect design implications: robots able to turn face and body can use either body-direction condition; face-only robots use non-priority-oriented direction, while body-only robots use priority-oriented direction. These embodiment comparisons are recommendations, not tested effects in this experiment.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "Since we only used an existing robot (Sota), generality about robot appearance is limited."
+        },
+        {
+          "page": 6,
+          "text": "First, if a developer uses a robot with the capability to change both its face and body direction (like Pepper, Nao, and Sota), its gaze behaviors can be controlled for information-providing tasks in two ways: non-priority-oriented body direction or priority-oriented body direction with biased gaze ratios."
+        },
+        {
+          "page": 7,
+          "text": "Second, if a developer uses robots with relatively simple mechanisms that can only change their face direction (like PaPeRo I or static robots that use displays to show their eyes), i.e., can only use the non-priority-oriented body direction, a biased gaze ratio with 80:20 or 90:10 ratio is more suitable."
+        },
+        {
+          "page": 7,
+          "text": "Based on these considerations, if a developer uses a robot that can only change its body direction (like Keepon), i.e., can only use a priority-oriented body direction, a biased gaze ratio of 80:20/90:10 is probably more suitable because such a robot can only use its body direction as a modality."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The authors tested a humanoid robot’s gaze ratios and body direction while it gave smartphone information to pairs assigned VIP and follower roles. Biased gaze toward the VIP was rated more positively than balanced gaze, with preferred ratios depending on body direction: 80:20 or 90:10 when the body stayed front-facing, and 100:0 for some outcomes when it turned toward the VIP.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1 — The paper frames gaze ratio and body direction as signaling awareness of authority, but gives no formal definition of robotic gaze or attention. RQ2; RQ3; RQ4; RQ5; RQ6 — It examines gaze’s role in expressing priority, reports questionnaire effects, describes the tracking and gaze-control implementation, studies Sota, and discusses how available body movements shape design recommendations.",
+      "quotes": []
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "key": "YQYMJRTN",
+  "title": "Eye contact as a key component in human robot interaction",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description with demonstrations and performance tests of a robotic face detection and tracking system.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "This paper reports specifically on an eye-contact behaviour that we have implemented on the robot to couple with this conversational interface."
+        },
+        {
+          "page": 5,
+          "text": "To demonstrate the robustness of the system the following experiments were carried out."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "A planned public museum exhibit at Questacon in Canberra, Australia; the reported tracking tests used subjects in front of the robot. The paper does not explicitly state whether testing took place in the museum or a laboratory.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The robot being designed will be situated in the entry foyer of Questacon's exhibition centre in Canberra and will act as an exhibit to the public"
+        },
+        {
+          "page": 6,
+          "text": "During this test the subject moved about, but stayed within the physical range of the cameras."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Participants are described only as test subjects; no demographic characteristics or prior robot experience are reported.",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "Technical tests evaluated selecting and tracking a face as subjects moved in view of the robot, including a two-subject tracking test. One single-subject tracking test lasted approximately 100 seconds and a two-subject test lasted 60 seconds, each ending when subjects moved out of camera view.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "During this test the subject moved about, but stayed within the physical range of the cameras. The tracking period ran for approximately 100 seconds until the subject walked out of sight of the cameras."
+        },
+        {
+          "page": 6,
+          "text": "This experiment ran for 60 seconds and ended when the subjects moved out of sight of the cameras."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Tests included one subject and two subjects in the scene; the robot platform was one Questacon Robot.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "During this test the subject moved about, but stayed within the physical range of the cameras."
+        },
+        {
+          "page": 6,
+          "text": "The test was then repeated with two subjects in the scene."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The hardware platform for this paper is the Questacon Robot (see Figure 1)."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "The reported tests included one-subject and two-subject scenes; total participant count is not stated.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "During this test the subject moved about, but stayed within the physical range of the cameras."
+        },
+        {
+          "page": 6,
+          "text": "The test was then repeated with two subjects in the scene."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "System/technical metrics: time to transition from face detection to tracking, tracking duration, and error between required camera position and camera image centre. The authors also report informal feedback from test subjects.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The results in Figure 4 show the time between recognising a face and when tracking starts."
+        },
+        {
+          "page": 7,
+          "text": "The ability of the cameras to follow the user was tested by recording the error between the required camera position (the centre of the tracked image) and the centre of the camera image."
+        },
+        {
+          "page": 7,
+          "text": "Feedback from the test subjects indicated that they believed that the robot was looking at them, in the case of the chosen face, and they considered the active tracking 'natural'."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "The key technical result was that the system maintained camera focus on subjects while they remained in view, including in the two-subject test. Test subjects said the robot seemed to look at the selected person and described tracking as natural, though one called it “freaky.” No statistical significance tests are reported.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "In both experiments the cameras remained focussed on the subject for its entire length."
+        },
+        {
+          "page": 7,
+          "text": "Feedback from the test subjects indicated that they believed that the robot was looking at them, in the case of the chosen face, and they considered the active tracking 'natural'. Another of the test subjects described this behaviour as 'freaky'."
+        },
+        {
+          "page": 8,
+          "text": "The performance of the system is fast enough to convince the user that the Questacon robot is taking an interest in them through the use of eye contact."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "Eye contact as a communication prompt and a means for the robot to direct speech to a particular human in a group; implemented through active-head face tracking.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Eye contact is a key communication prompt in human-to-human interaction involving conversation, especially in large groups."
+        },
+        {
+          "page": 1,
+          "text": "Subsequently a good strategy for a robot to utilise when directing speech to a particular human in a large group is also to make \"eye contact\"."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The authors characterize eye contact as a key communication prompt that indicates who conversation is directed at. They do not provide a formal definition of robotic gaze or attention.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "When engaged in conversation in large groups, humans use eye-contact as a key prompt as to who conversation is being directed at."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "The behaviour selects and follows a face in a group so the robot can direct verbal output to that person; the active head's movement is also intended to signal that the robot is focusing on the selected user.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In this paper we report on a system that we have designed that selects and tracks a face in the group so that verbal output can be directed as appropriate."
+        },
+        {
+          "page": 4,
+          "text": "Before the system moves into tracking mode, the active head will move to centralise the selected faces. This is to improve the accuracy of the correlation in future passes, and to make the selected user aware that the robot is trying to focus on them."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The authors report that subjects believed the robot was looking at the selected person and considered tracking natural; one subject called it “freaky.” They state that the combination of eye contact and verbal interaction drew people into an interactive experience, but provide no controlled comparison or statistical results.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "Feedback from the test subjects indicated that they believed that the robot was looking at them, in the case of the chosen face, and they considered the active tracking 'natural'. Another of the test subjects described this behaviour as 'freaky'."
+        },
+        {
+          "page": 8,
+          "text": "With the combination of both eye contact and verbal understanding and response, the Questacon Robotic Exhibit is successful in drawing humans into an interactive experience with the robotic world."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "A stereo camera pair on a motorized active head detects faces with Viola–Jones and correlates detections across cameras. CAMSHIFT tracks the selected face using a hue histogram; the head moves to minimize the offset between the face centre and camera image centre. Periodic restricted-area face redetection handles cases where a subject turns away. The paper describes an autonomous system.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The Active Vision Face Tracking system combines both facial detection (using the Viola-Jones face detection algorithm Viola and Jones, 2001) with the Camshift skin colour tracking algorithm Bradski, 1998."
+        },
+        {
+          "page": 4,
+          "text": "For our purposes we build the histogram using only the hue of the detected region as the skin hue exhibits good discriminative properties from most other objects encountered in indoor environments."
+        },
+        {
+          "page": 4,
+          "text": "The Active head is then directed to move the cameras so as to minimise the error between the centre of the camera and the centre of the subjects bounding box."
+        },
+        {
+          "page": 5,
+          "text": "Within this restricted area the face detection algorithm is run at a rate of Fn per second."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "The Questacon Robot has a stereo vision head mounted on a CEDAR Head mechanism with independently panning cameras, tilt control, and a motorized shaft simulating a human neck. The robot also has microphones and other sensors.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The robot has a large number of sensors, including Laser Scanner, Infra-red sensors, bump sensors, active stereo vision head, microphones."
+        },
+        {
+          "page": 3,
+          "text": "The entire CeD AR Head is then mounted on a motorised shaft, which simulates a human neck."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The paper describes a museum robot that selects a face from people in front of it, tracks that face with stereo cameras on a movable head, and uses the behaviour to support directing speech to a person. In small demonstrations, tracking kept the cameras focused while subjects remained in view, and subjects often perceived the robot as looking at them; the evidence is technical and informal.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5 — The paper frames eye contact as a cue to whom conversation is directed, describes face selection in a group to direct speech, reports subjects’ reactions, and details the autonomous face-tracking implementation and robot head. It does not state how embodiment influenced the study or effects.",
+      "quotes": []
+    }
+  ]
+}

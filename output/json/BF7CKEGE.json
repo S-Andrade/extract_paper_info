@@ -1,0 +1,239 @@
+{
+  "key": "BF7CKEGE",
+  "title": "Designing an artificial attention system for social robots",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical system description with simulation and experimental validation of perception and action modules.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The primary purpose of this paper is to provide a general unified design of the robotic attentional mechanism by bringing together various elements of previous works in neuropsychology and robotics theories and applications."
+        },
+        {
+          "page": 6,
+          "text": "In this paper, we report on the current implementation of the perception and action modules through experimental online validation, and on the top-down controller in simulation."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Controlled experimental setup: a robot with an active head faces a table of objects; interlocutors interact with it at 1 to 4 metres. The setting is not otherwise identified as a particular venue.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "The experimental set-up used to test these modules in realistic conditions is depicted in Fig. 6(a), where an interlocutor is in front of a set of distinct objects over a table."
+        },
+        {
+          "page": 7,
+          "text": "interaction could occur anywhere within 1 to 4 metres from the robot"
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "Technical scenario: test free-view attention and a sequence in which the robot detects an interlocutor, responds to an object shown by the human, uses the object's colour as a bias, and searches for a similar object. In reciprocal HRI trials, interlocutors picked up a red, yellow, or blue object; no other scripting or spatial or temporal instructions were given.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "First we evaluated the overt attention system response in free view, and then we emulated a simple behaviour of the top- down controller that would promote the following sequence of events: (1) the system is in free view until it discovers the interlocutor; (2) the interlocutor shows an object to the robot; (3) the robot acknowledges the object and set its colour as a bias for perception; (4) the robot performs a visual search until it finds an object with similar characteristics."
+        },
+        {
+          "page": 7,
+          "text": "For each trial the interlocutor is asked to pick up a red, yellow or blue object."
+        },
+        {
+          "page": 7,
+          "text": "apart from the general task, no other indication or scripting, spatial or temporal, was given to the interlocutor."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "One robot and one human interlocutor are described in the tested interaction scenario.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "The experimental set-up used to test these modules in realistic conditions is depicted in Fig. 6(a), where an interlocutor is in front of a set of distinct objects over a table."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "the set-up is compound by a robot provided with an active head in front of a table with a set of objects."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "1 interlocutor per described interaction; total participant count is unstated.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "The experimental set-up used to test these modules in realistic conditions is depicted in Fig. 6(a), where an interlocutor is in front of a set of distinct objects over a table."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Visual assessment of whether expected fixation behaviours occurred in the correct order; recorded individual interactions were classified according to reactions. System performance metrics included module frame rates and percentages for expected behaviour, mirroring, and completed joint-attention tasks.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "To perform the statistical evaluation of the interaction behaviour, we record several individuals interacting with the robot and then classify the behaviours of both according to their respective reactions."
+        },
+        {
+          "page": 7,
+          "text": "Expectations were considered to be met whenever the system was deemed by visual assessment to be enacting the be- haviours labelled in the top row of the table, in correct order."
+        },
+        {
+          "page": 6,
+          "text": "The current implementation, developed using the Robotic Operating System (ROS), operates at 12 fps for PO seg- mentation, 8 fps for saliency computation, and from 8 to 20 fps (when tracking a PO) for working memory management."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Key technical results: robot behaviour met expected engagement, visual-search, and acknowledgement criteria at 76.44%, 52.72%, and 69.30% overall, respectively; object fixation was 35.66%. In simulation, mirroring response was 67%, completed joint-attention tasks were 78.40%, and 47.21% of IJA events were initiated by the robot. No statistical significance tests are reported.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "A high percentage of success was found in engagement, vi- sual search and acknowledgement. Conversely, a low success rate was found in shifting gaze towards the interlocutor’s FOA result mainly from the lack of gaze inference and gist modulation."
+        },
+        {
+          "page": 7,
+          "text": "Total 76.44 35.66 52.72 69.30"
+        },
+        {
+          "page": 6,
+          "text": "Results show that the robot is able to behave coherently with the other’s intentional state (the mirroring response is 67% and the number of completed joint attention tasks when the human initiates and completes the behaviour is 78.40%) and even to spontaneously initiate joint attention (the 47.21% of the total IAs is performed by the robot for a 10000 transitions simu- lation)"
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "Artificial attention / attentional system; the paper frames attention as a multisensory process and builds social reciprocity and awareness into its design. It does not use the specific term “robotic gaze-based attention.”",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this paper, we introduce the main components comprising the action-perception loop of an overarching frame- work implementing artificial attention, designed to fulfil the requirements of social interaction (i.e., reciprocity, and aware- ness), with strong inspiration on current theories in functional neuroscience."
+        },
+        {
+          "page": 1,
+          "text": "Moreover, the proposed framework assumes attention as a multisensory process it is currently designed for visuoau- ditory perception, but is intended to be generalisable to other important senses, such as touch or olfaction."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "Attention is defined as allocation of perceptual resources to analyse part of the surrounding world at the expense of other parts.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Attention is the process whereby an agent allocates percep- tual resources to analyse a subset of the surrounding world in detriment of others [3]."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "The proposed system uses attention to support reciprocal social interaction, including joint attention, gaze following, engagement, visual search, and acknowledgement. The paper describes this role as a framework aim and tests system behaviour; it does not establish effects on multiparty interaction.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "by developing attentional systems with some of the functionalities found in the human brain, robots will not only be able to exhibit behaviours that resemble those of their interlocutors, but also gain additional advantages such as being able to respond adaptively to the environment."
+        },
+        {
+          "page": 2,
+          "text": "Joint attention (JA) is a primal non-verbal interactive and cyclic process established between humans [3], which we believe is an integral part of the attentional process as a whole, by attributing to it its social trait."
+        },
+        {
+          "page": 7,
+          "text": "Finally, we evaluated reciprocal human-robot interaction [38] by analysing the robot’s expected behaviour when faced with different individuals."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The system showed coherent behaviour in tests, with high rates for engagement, visual search, and acknowledgement, but low success shifting gaze to the interlocutor's focus of attention, attributed mainly to missing gaze inference and gist modulation. Effects on human participants or multiparty interaction were not evaluated.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "A high percentage of success was found in engagement, vi- sual search and acknowledgement. Conversely, a low success rate was found in shifting gaze towards the interlocutor’s FOA result mainly from the lack of gaze inference and gist modulation."
+        },
+        {
+          "page": 7,
+          "text": "The robot performs an interesting and coherent behaviour despite of the reactive underpinning of the perception and action modules."
+        },
+        {
+          "page": 8,
+          "text": "Finally, we are currently designing an experimental paradigm to use this system to evaluate the influence of attention on HRI"
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "ROS-based artificial-attention architecture with perception, top-down control, action, and behavioural-reorienting modules. It segments sensory input into proto-objects, combines feature contrasts into a saliency map modulated by an attentional set, stores attended objects and spatial saliency in working memory, and selects gaze shifts (saccades or smooth pursuit). The simulated top-down controller uses a probabilistic joint-attention state machine and an attention schema; the implemented reorienting module currently responds to auditory signals. Gaze inference was still missing from the complete implementation.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "There are four overarching interconnected modules, which will be detailed in the following subsections: (1) the perception module, which takes input signals provided by sensors and constructs an egocentric representation of the perceived environment that will in turn serve to select the next focus of attention (FOA) according to relevance encoded as saliency; (2) the top-down controller, which ensures that the next selected FOA will be influenced by current goals and context; (3) the action module, that selects the next fixation location by deciding based on the input from the perception module and provides the control signals to the actuators, according to the current exploration behaviour (i.e. the type of gaze shift strategy, for example, smooth pursuit or saccade generation); (4) the behavioural reorienting module, that is in charge of detecting novel and behaviourally-relevant stimuli that should result in interrupting and resetting the attentional process as an action-perception loop."
+        },
+        {
+          "page": 4,
+          "text": "A preliminary processing stage segments sensor information into pre- attentional volatile perceptual units called proto- objects [3]. Feature contrasts are weighted to form the final saliency map Sk at instant k by means of the so-called attentional set [11], represented as Θ."
+        },
+        {
+          "page": 6,
+          "text": "The current implementation, developed using the Robotic Operating System (ROS), operates at 12 fps for PO seg- mentation, 8 fps for saliency computation, and from 8 to 20 fps (when tracking a PO) for working memory management."
+        },
+        {
+          "page": 6,
+          "text": "the reorientation module currently only takes into account auditory signals"
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "A robot with an active head is shown in the experimental setup; a detailed specification of the robot head and its sensors is referenced elsewhere, not provided here.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "the set-up is compound by a robot provided with an active head in front of a table with a set of objects."
+        },
+        {
+          "page": 6,
+          "text": "A detailed specification of the robot head and its sensors can be found in [37]."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The paper presents an artificial-attention architecture and evaluates parts of it through simulation and a one-human, one-robot object interaction scenario. The system showed strong engagement and acknowledgement results but struggled to shift gaze toward the human's focus of attention; no effects on people or multiparty interaction were tested.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ4; RQ5 — The paper explicitly defines attention, describes its intended social role through joint attention and reciprocity, and details the system architecture and active-head robot setup. It does not study multiparty groups or report effects on people, and provides no evidence about embodiment influence.",
+      "quotes": []
+    }
+  ]
+}

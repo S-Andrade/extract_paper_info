@@ -1,0 +1,265 @@
+{
+  "key": "SRK4GIBR",
+  "title": "Robot Gaze Behavior and Proxemics to Coordinate Conversational Roles in Group Interactions",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Pilot mixed-methods study with two conditions and an independent-groups design.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "In order to evaluate the effects of the conversational role coordinator system using adaptive gaze mechanism and proxemics has in a small group interaction with the robot, a pilot mixed study was conducted with two conditions."
+        },
+        {
+          "page": 5,
+          "text": "The study employed a 2 3 independent groups design."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "sample_size",
+      "value": "16 participants, recruited in 8 pairs.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "This system was evaluated through a pilot study (N=16), in which two participants at a time played a trivia game with the robot and had different roles to play within the interaction."
+        },
+        {
+          "page": 5,
+          "text": "In total, N 16 participants (average age 27) were recruited in 8 pairs."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Participants’ average age was 27; gender, population, and prior robot experience are not stated.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "In total, N 16 participants (average age 27) were recruited in 8 pairs."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Pairs played a three-level true-or-false trivia game with Pepper: one level allowed both participants to answer and two levels allowed one participant at a time. Participants chose turns and could move freely; interactions averaged 15 minutes.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The participants were instructed to play a trivia game with the robot made of 3 levels: 1 two player level, where both participants could contribute to answering the question, and 2 one player levels, where only one of the two participants could answer."
+        },
+        {
+          "page": 5,
+          "text": "They were free to choose as they please whose turn it would be for the one player levels without informing the robot."
+        },
+        {
+          "page": 6,
+          "text": "The interactions with the robot took on average 15 minutes."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three per session: two humans and one robot.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Two participants were needed for each trial per condition thus forming a group of 3 with the robot."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1 robot per session (Pepper).",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Two participants were needed for each trial per condition thus forming a group of 3 with the robot."
+        },
+        {
+          "page": 5,
+          "text": "Each interaction required a small group of two participants at a time to play a trivia game with a Pepper robot."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2 humans per session.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Each interaction required a small group of two participants at a time to play a trivia game with a Pepper robot."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Human–robot distance and orientation angle (α) were extracted every six seconds. Subjective outcomes were measured with the ALMERE questionnaire and additional questions about feeling attended to; analyses included factorial ANOVA with Tukey HSD and one-way ANOVA.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "In order to evaluate H1, the distances dh of each human around the robot and the angle α they were forming with the robot, as shown in Figure 2, were extracted every six seconds throughout the entire interaction."
+        },
+        {
+          "page": 5,
+          "text": "The participants were asked to answer a questionnaire ranked from 1(strongly disagree) to 5 (strongly agree) and composed of an ALMERE questionnaire and additional questions to evaluate whether participants felt attended to by the robot."
+        },
+        {
+          "page": 6,
+          "text": "First, a factorial ANOVA analysis with post-hoc Tukey HSD was done on the distances measured by all participants throughout all three levels of the interaction per condition, shown in Figure 5."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Participants in the conversational-role-coordinator condition stood closer overall than in basic awareness (mean 1.31 m vs. 1.637 m; F(1, 44)=7.635, p=0.01); bystander participants also stood closer (1.68 m vs. 2.03 m). The coordinator condition was rated significantly higher on perceived adaptability, sociability, and social presence, and participants reported feeling more attended to (p<0.05). Orientation-angle differences were not significant.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "A significant difference was found between the two conditions, robot with an adaptive con- versational role coordinator and robot with a basic awareness behavior, with F(1, 44) 7.635 and p 0.01."
+        },
+        {
+          "page": 6,
+          "text": "The average distance for participants interacting with the basic awareness behavior was dh 1.637, SD 0.833; meters while that of the ones interacting with the conversational role coordinator was dh 1.31, SD 0.328 meters."
+        },
+        {
+          "page": 6,
+          "text": "The robot with the Conversational Role coordinator rated significantly higher on the Perceived Adaptability, Perceived Sociability, and Social Presence constructs."
+        },
+        {
+          "page": 7,
+          "text": "The participants rated the questions higher after having interacted with the group conversational role coordinator robot than with the robot with basic awareness behavior."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames the behavior as autonomous adaptive robot gaze that responds to estimated conversational roles using proxemics and allocates attention accordingly. It does not provide a standalone definition of robotic gaze, robotic attention, or gaze-based attention.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Once the statuses are estimated, the robot autonomously adjusts its gaze pattern in order to adapt to the group dynamics and attributes its attention in relation to the role the member in the group is playing."
+        },
+        {
+          "page": 2,
+          "text": "The current paper introduces a simplified system that enables the robot to autonomously and dynamically estimate the roles of the participants based on their nonverbal proxemics behavior and accordingly adapt its gaze behavior by giving active users equal attention, bystanders acknowledgement of their presence, and overhearers ignored."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper defines proxemics, but does not explicitly define robotic gaze, robotic attention, or gaze-based attention.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In human-human interaction, proxemics is defined as the study of the human use of space and its effects on the behavior, communication, and social interactions; as such it is governed by sociocultural norms [2]."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze adapts to conversational roles: it gives active participants equal attention, briefly acknowledges bystanders, and ignores overhearers, coordinating attention with group dynamics.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "Once the statuses are assigned, the robot readjusts its gaze pattern in order to adapt to the group dynamics giving active participants equal gaze attention, bystanders simple acknowledgements, and ignoring overhearers."
+        },
+        {
+          "page": 4,
+          "text": "However, the adaptive gaze behavior is equally split between active participants."
+        },
+        {
+          "page": 5,
+          "text": "The robot glances at the bystander for one third of the amount time it gives to the active speakers."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Participants stood closer to the robot with adaptive role-coordinated gaze, including when acting as bystanders. They rated the robot as more adaptable, sociable, and socially present, and reported feeling more attended to.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "Primary results have shown that participants interacting with a robot having this system are more likely to stand closer to the robot, perceive the robot as more adaptable, sociable, and socially present as well as feel more attended to by the robot."
+        },
+        {
+          "page": 7,
+          "text": "On the other hand, the bystander player moved much further away when interacting with the basic awareness robot than with the adaptive group coordination robot with a difference between the two averages of ∆dh 0.7meters."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "An autonomous system recalculates participant–robot distance and orientation every six seconds, assigns active, bystander, or overhearer roles from transactional, front, gaze-zone, F-formation, and attention checks, then adapts robot head/gaze behavior. It uses Pepper sensor inputs; the control condition used Pepper’s basic awareness behavior.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Every six seconds, the robot gathers information needed to evaluate the conversational role status and adapt its gaze behavior accordingly."
+        },
+        {
+          "page": 3,
+          "text": "First, if a human was detected to be outside the transactional zone, an overhearer role would be assigned since they do not yet show intent of high desire to interact with the robot directly."
+        },
+        {
+          "page": 4,
+          "text": "Most social robots by design lack articulated eyes, thus head rotations are implemented in coordination with intended gaze movement."
+        },
+        {
+          "page": 7,
+          "text": "Algorithm 1 depended on inputs from the sensors of the Pepper robot used."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "SoftBank Robotics Pepper, a social robot with a tablet and head rotation used to coordinate gaze movement.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The distance was set less than that of [19] since the social robot used throughout this paper has a tablet as part of its design and functionality."
+        },
+        {
+          "page": 4,
+          "text": "Most social robots by design lack articulated eyes, thus head rotations are implemented in coordination with intended gaze movement."
+        },
+        {
+          "page": 5,
+          "text": "Each interaction required a small group of two participants at a time to play a trivia game with a Pepper robot."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The tablet led the authors to set a shorter transactional-zone radius so it would remain visible and accessible. Lack of articulated eyes meant gaze movements were implemented with head rotations; the authors also note that head movement and gaze coordination help participants notice gaze.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The distance was set less than that of [19] since the social robot used throughout this paper has a tablet as part of its design and functionality. The tablet must be visible and accessible to the users."
+        },
+        {
+          "page": 4,
+          "text": "Most social robots by design lack articulated eyes, thus head rotations are implemented in coordination with intended gaze movement."
+        },
+        {
+          "page": 4,
+          "text": "In addition, eye gaze alone may not be sufficient to be noticed by participants emphasizing the significance of coordination of head movement and gaze [22]."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The authors built an autonomous system for Pepper that uses participants’ distance and orientation to estimate conversational roles and adapt the robot’s gaze. In a pilot trivia study with pairs, role-coordinated gaze was associated with closer participant positions and higher ratings of adaptability, sociability, social presence, and feeling attended to.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper describes role-based gaze and attention, explains how it coordinates roles in a group and how the system senses and adapts gaze, and reports participant outcomes. It also identifies Pepper’s tablet and lack of articulated eyes as factors shaping the implementation.",
+      "quotes": []
+    }
+  ]
+}

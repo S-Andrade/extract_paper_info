@@ -1,0 +1,232 @@
+{
+  "key": "ZPP2WXRT",
+  "title": "What happens when a robot favors someone? How a tour guide robot uses gaze behavior to address multiple persons while storytelling about art",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "A preliminary 2 × 2 factorial experiment.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "A 2 X 2 independent factorial design is used."
+        },
+        {
+          "page": 2,
+          "text": "In this LBR we will report preliminary results, at the time of writing we are completing data collection and still need to analyze the data thoroughly."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Laboratory experiment.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The experiment was carried out in a lab environment."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "57 participants (19 groups).",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Participants involved 57 students and staff (19 groups) from the University of Twente in the Netherlands."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "University of Twente students and staff; average age 26 (range 19–57, SD 7.6); 41 male and 16 female.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Participants involved 57 students and staff (19 groups) from the University of Twente in the Netherlands. Average age of the participants was 26 (Range [19-57], SD=7.6), 41 of the participants were male and 16 were female."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Groups of three listened to the robot tell them about two artworks. Conditions varied whether it looked at the artwork as well as participants, and whether it favored one participant through more frequent and longer gaze.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In the current experiment, a robot tells three visitors about two different paintings."
+        },
+        {
+          "page": 2,
+          "text": "Participants were randomly selected and joined in groups of three. Each was asked to stand on one of three lines facing the robot, then the robot would tell about the artworks."
+        },
+        {
+          "page": 1,
+          "text": "The robot engages the three visitors in mutual gaze by looking at the artwork while talking about it vs. only looking at the visitors (between subject-groups). Also, the robot ‘favors’ one of the three participants by directing it’s gaze at them more frequently and longer compared to the other two participants."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Four per interaction session: one robot and three humans.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In the current experiment, a robot tells three visitors about two different paintings."
+        },
+        {
+          "page": 2,
+          "text": "Participants were randomly selected and joined in groups of three."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In the current experiment, a robot tells three visitors about two different paintings."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "3",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Participants were randomly selected and joined in groups of three."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Godspeed Anthropomorphism and Likeability scales; 20-item artwork recall measure; participant proximity and gaze were recorded but not analyzed or reported in this paper.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Measures included Anthropomorphism (5 items; Cronbach’s α .819) and Likeability (5 items; α .829) from the Godspeed model [6]."
+        },
+        {
+          "page": 2,
+          "text": "Recall was measured by 20 items on details about the artwork that the robot talked about or that could have been seen by looking at the artwork."
+        },
+        {
+          "page": 2,
+          "text": "Proximity behaviors and gaze behaviors of the participants were recorded; this data is not analyzed or reported in this LBR."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Distributed gaze (looking at artwork as well as participants) increased perceived anthropomorphism; favoring increased likeability. Both reported as one-tailed significant effects.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Results indicate a main effect of gaze-pattern on Anthropomorphism where participants in the condition that the robot looked at the artwork as well as at the participants was found more humanlike compared to the robot that only looked at the participants F (1,53) 3.84, p .028."
+        },
+        {
+          "page": 2,
+          "text": "Another main effect was found of ‘favoritism’ on Likeability F(1, 53) 3.74, p=.030 that indicated that ‘favored’ participants overall liked the robot better in both conditions."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames gaze as a behavior for addressing multiple people, engaging visitors in mutual gaze, directing attention to an exhibit, and favoring one group member.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We report intermediate results of an ongoing study into the effectiveness of robot gaze behaviors when addressing multiple persons."
+        },
+        {
+          "page": 1,
+          "text": "For a robot, directing attention to an exhibit by pointing is not trivial. Therefore, we assess whether gaze behaviors can be used effectively."
+        },
+        {
+          "page": 1,
+          "text": "We are interested to find out whether ‘favoring’ a person in a small group has any effects on the interaction experience but also on the transfer of knowledge about the exhibit to the visitor."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze is used to direct visitors’ attention to the exhibit, address group members, and favor one person by allocating them more frequent and longer gaze.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Guides also use pointing and gaze behaviors to direct the attention of the visitor to the exhibit."
+        },
+        {
+          "page": 1,
+          "text": "Also, the robot ‘favors’ one of the three participants by directing it’s gaze at them more frequently and longer compared to the other two participants."
+        },
+        {
+          "page": 1,
+          "text": "In any situation, it is likely that the robot directs its attention to a particular person in the group."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Looking at the artwork as well as participants was associated with higher anthropomorphism ratings; favored participants liked the robot more. Recall showed a non-significant trend varying by gaze condition and favor status.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Results indicate a main effect of gaze-pattern on Anthropomorphism where participants in the condition that the robot looked at the artwork as well as at the participants was found more humanlike compared to the robot that only looked at the participants F (1,53) 3.84, p .028."
+        },
+        {
+          "page": 2,
+          "text": "Another main effect was found of ‘favoritism’ on Likeability F(1, 53) 3.74, p=.030 that indicated that ‘favored’ participants overall liked the robot better in both conditions."
+        },
+        {
+          "page": 2,
+          "text": "For Recall, we found a non- significant trend where ‘favored’ participants had better recall in the participant exclusive gaze mode (robot looked at the subjects only) while ‘non-favored’ participants had better recall in the distributed condition."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The robot switched gaze among participants; in distributed gaze mode, it also looked at the artwork at specific times. Favoring allocated more frequent and longer gaze to the left-most person. The paper does not state how gaze was sensed or controlled.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Distributed gaze mode: The robot looks at the participants, but at specific times spends some of its gaze time to look at the object as well. As the previous gaze pattern, the robot switches its gaze from person to person too."
+        },
+        {
+          "page": 2,
+          "text": "Manipulations for ‘favoring’ involved spending more time looking at the left-most person of each batch of participants and looking at this participant more frequently."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Magabot platform carrying a small laptop, with robot eyes displayed on its screen and a grey cardboard cylinder shell.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The robot we used was a Magabot platform, using the tables to carry a small laptop. On the screen of the laptop the robot eyes were visible. The robot shell was made of a grey cardboard cylinder."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The authors tested gaze patterns with groups of three people listening to a tour guide robot tell them about two paintings. Looking at the artwork as well as the visitors increased perceived anthropomorphism, and giving one visitor more gaze increased likeability; recall differences were only a non-significant trend.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5 — The paper describes gaze behaviors for directing attention to an exhibit, addressing group members, and favoring one person, and reports effects of these patterns. It also describes the gaze manipulations and the robot embodiment.",
+      "quotes": []
+    }
+  ]
+}

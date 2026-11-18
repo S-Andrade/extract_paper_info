@@ -1,0 +1,253 @@
+{
+  "key": "UC2N4CCN",
+  "title": "A robotic framework for shifting the target human's attention in multi-party setting",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Experimental study validating a robotic framework, with a technical system description.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We conducted an experiment to validate our model in HRI scenarios in which two participant interacted in a session at a time."
+        },
+        {
+          "page": 3,
+          "text": "For HRI experiments, we developed a robotic head as shown in Fig. 3."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Controlled laboratory environment at Saitama University.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "Current work consider a two-participant in a controlled laboratory environment."
+        },
+        {
+          "page": 4,
+          "text": "20 graduate students (14 males, 6 females, average age 26.8) at Saitama University participated in the experiment."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "20 graduate students.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "20 graduate students (14 males, 6 females, average age 26.8) at Saitama University participated in the experiment."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Twenty graduate students at Saitama University; 14 male and 6 female; average age 26.8. Prior robot experience is not stated.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "20 graduate students (14 males, 6 females, average age 26.8) at Saitama University participated in the experiment."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Pairs watched paintings while the robot selected one participant as its target and attempted to capture their attention, make eye contact, then shift their attention to one of two objects on the table. Each pair completed three sessions, each corresponding to a viewing direction and lasting approximately 120 seconds.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "In order to simulate a low attention-absorption task, we considered a scenario: ’watching the paintings’."
+        },
+        {
+          "page": 4,
+          "text": "Two objects were placed on the table as the shifting attention targets. A pair of participants were asked to sit down on chairs and to look around at the paintings."
+        },
+        {
+          "page": 4,
+          "text": "Each pair of participants interact in three session (each session corresponds to each viewing direction)and lasting approximate 120 seconds."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three agents per session: one robot and two humans.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "A pair of participants were asked to sit down on chairs and to look around at the paintings."
+        },
+        {
+          "page": 4,
+          "text": "The moving robot randomly chose one of the participants as the target and the other as the non- target."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1 moving robot per interaction session; a second static robot was also present in the experiment.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "One robot is called the static robot (S-robot) and it was stationary at all times. The other is called moving robot (M-robot) and it performed the shifting attention process."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2 humans per interaction session: a target and a non-target participant.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We conducted an experiment to validate our model in HRI scenarios in which two participant interacted in a session at a time. One of them interacted as a target and other as a non-target."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Experimental video observation for success ratio and time; post-interaction participant questionnaire using a 1–7 Likert scale for impressions of shifting attention and communicative intention.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "For overall evaluation, we measured the following items by observing the experimental videos."
+        },
+        {
+          "page": 5,
+          "text": "Success ratio (SR): This was measured by the ratio of the number of TH looking at the object and the number of times that the robot attempted to shift their attention to that object."
+        },
+        {
+          "page": 5,
+          "text": "After interacting with the all methods, we asked participants to fill out a questionnaire. The measurement was a simple rating on a Likert scale of 1 to 7 where 7 is the highest."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "The proposed method (eye blinking during eye contact and combined eye-and-head turns for shifting) had a higher mean success ratio (0.94) than methods 1 (0.60) and 2 (0.74), with significant condition differences reported (F(2,58)=4.7, p=0.001, η²=0.10). It also required less time (1.72 seconds versus 3.01 and 2.55), with significant condition differences (F(2,18)=45.07, p=0.01, η²=0.79). Questionnaire ratings for shifting-attention impression and communicative intention also significantly favored method 3.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "SR 0.60 (0.5) 0.74 (0.45) 0.94 (0.25) T (seconds) 3.01 (0.27) 2.55 (0.31) 1.72 (0.27)"
+        },
+        {
+          "page": 5,
+          "text": "We conducted a repeated measure of analysis of variance (AVOVA) on the success ratios measurement that showed significant differences among the conditions (F(2,58) 4.7, p 0.001,η2 0.10)."
+        },
+        {
+          "page": 6,
+          "text": "Results revealed that the shifting attention performance of the proposed robot is clearly more effective, in terms of producing a higher success ratio and requires less amount of time, when it employs blinking action in eye contact phase and both eyes and head turning actions in shifting attention phase."
+        },
+        {
+          "page": 6,
+          "text": "The results show that the differences among condi- tions were statistically significant for impression of shifting attention (F(2,18) 17.42, p 0.001,η2 0.58)."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The authors frame the work as robot-initiated shifting of a target human’s attention selectively from multiple humans, in three phases: capturing attention, making eye contact, and shifting attention.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "This paper focuses on designing a robotic framework to shift the target human’s attentional focus toward the robot’s intended direction from multiple humans."
+        },
+        {
+          "page": 1,
+          "text": "For this purpose, we proposed a conceptual framework with three phases: capturing attention, making eye contact, and shifting attention."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "Attention shift is defined as reorienting or reallocating attention to a target because it is the object of another person’s attention.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Attention shift capabilities, defined as reorienting or re-allocating attention to a target because it is the object of another person’s attention."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "The robot selectively captures a target human’s attention, establishes eye contact, and redirects that person’s attention to an intended object; the design aims to avoid interrupting non-target people.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In this paper, we present an approach to attention shift that can selectively capture a particular person’s attention in multi-party setting, establish eye contact with him/her, and shift his/her attention toward the robot’s intended direction."
+        },
+        {
+          "page": 2,
+          "text": "The robot should behaves in such a way that its captures the target person’s attention alone from multiple persons and it should not interrupts the attention of others."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The proposed gaze-awareness and combined eye-and-head shifting method produced higher attention-shift success, shorter response time, and higher participant impressions of shifting attention and communicative intention than the two alternatives.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "Results revealed that the shifting attention performance of the proposed robot is clearly more effective, in terms of producing a higher success ratio and requires less amount of time, when it employs blinking action in eye contact phase and both eyes and head turning actions in shifting attention phase."
+        },
+        {
+          "page": 6,
+          "text": "Moreover, the robot was successful at conveying its communicative intention to the target participants using the eyes and head shift functions."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The system tracks human head direction and body position, classifies the target’s viewing situation, and uses situation-dependent attention-capturing actions. It detects a frontal face to identify response, blinks to signal gaze awareness, then turns eyes and head toward the target object; attempts are checked for success with a two-second response window. The implementation uses a finite-state machine and sensor-processing modules.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "To detect, track, and compute the direction of the participant’s head in real time, we use FaceAPI [29] by Seeing Machines Inc."
+        },
+        {
+          "page": 3,
+          "text": "The RCM consists of four sub modules: a Laser sensor situation recognition module (SRM), face-detection module (FDM), eye-blinking module (EBM), and facial expression recognition module (FERM)."
+        },
+        {
+          "page": 4,
+          "text": "However, the robot waits about 2 seconds after each attempt for the TH to respond by looking in its direction."
+        },
+        {
+          "page": 4,
+          "text": "An shifting attention event is executed by a finite-state-machine model as shown in Fig. 3."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "A custom robotic head with a spherical 3D mask, projected computer-generated eyes, three USB cameras, a laser range sensor, and a pan-tilt unit. The experiment also used a matching static robotic head.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The head consists of a spherical 3D mask, an LED projector (3M pocket projector, MPro150), a laser range sensor (URG-04LX by Hokuyo Electric Machinery), three USB cameras (Logicool Inc., Qcam), and a pan-tilt unit (Directed Perception Inc., PTU-D46)."
+        },
+        {
+          "page": 3,
+          "text": "The LED projector projects CG-generated eyes on the mask."
+        },
+        {
+          "page": 4,
+          "text": "To produce the stimuli, we prepared two robotic heads with the same appearance."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The authors built and evaluated a robot head that selectively captured one person’s attention from a pair of people, established eye contact, and directed that person toward an object. In a controlled study, blinking during eye contact and turning both eyes and head toward the object improved success, response time, and participant ratings compared with two alternative methods.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5 — The paper defines attention shift, describes its selective target-attention and object-directing role, reports measured effects, and details its sensing, control, and robotic-head embodiment. It does not state how embodiment influenced the study.",
+      "quotes": []
+    }
+  ]
+}

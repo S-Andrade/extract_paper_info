@@ -1,0 +1,266 @@
+{
+  "key": "X3T4FP4H",
+  "title": "Analysis of Role-Based Gaze Behaviors and Gaze Aversions, and Implementation of Robot’s Gaze Control for Multi-party Dialogue",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Observational analysis of human–human dialogue data followed by a robot gaze-control system implementation and a subjective evaluation experiment.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We used a multi-modal three-party dialogue database [9] for gaze analysis."
+        },
+        {
+          "page": 4,
+          "text": "Thirty subjects (12 male and 18 female; mean age 32.1, variance 10.3 years-old) participated in the evaluation experiments."
+        },
+        {
+          "page": 4,
+          "text": "In the experiment, the participants were asked to watch each of the four videos and to evaluate their impressions on the naturalness of the robot’s behaviors, for each video."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Remote evaluation using videos recruited through a crowd service; the source dialogue data came from three-party dialogue sessions.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We used data of 6 female speakers from 6 dialogue sessions."
+        },
+        {
+          "page": 4,
+          "text": "They were recruited through a crowd service company."
+        },
+        {
+          "page": 4,
+          "text": "Video clips were recorded for the motions generated in the robot, for each of the four models."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "30 evaluation participants; the gaze analysis used 6 female speakers across 6 dialogue sessions.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We used data of 6 female speakers from 6 dialogue sessions."
+        },
+        {
+          "page": 4,
+          "text": "Thirty subjects (12 male and 18 female; mean age 32.1, variance 10.3 years-old) participated in the evaluation experiments."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Evaluation participants: 12 male and 18 female; mean age 32.1 years (variance 10.3). Dialogue-analysis speakers: six female speakers.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We used data of 6 female speakers from 6 dialogue sessions."
+        },
+        {
+          "page": 4,
+          "text": "Thirty subjects (12 male and 18 female; mean age 32.1, variance 10.3 years-old) participated in the evaluation experiments."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Evaluation participants watched four video conditions of a robot producing gaze behavior from three-party dialogue segments and rated behavioral naturalness. Each clip was about one minute long. The underlying source data consisted of three-party conversations.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Robot motions were generated for three dialogue segments extracted from the three-party dialogue database. The extracted segments are about one minute long."
+        },
+        {
+          "page": 4,
+          "text": "In the experiment, the participants were asked to watch each of the four videos and to evaluate their impressions on the naturalness of the robot’s behaviors, for each video."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three humans in the analyzed source dialogue sessions; the evaluation was video-based and had no live human–robot group interaction stated.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In each session, the seats of the three participants form an equilateral triangle."
+        },
+        {
+          "page": 4,
+          "text": "Robot motions were generated for three dialogue segments extracted from the three-party dialogue database."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "One robot generated the gaze motions for the videos; no live robot was present in the evaluation sessions.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "One of the speakers was used to generate the gaze motions in the robot."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "Three humans in each analyzed dialogue session; evaluation participants watched videos individually (individual viewing is not explicitly stated).",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In each session, the seats of the three participants form an equilateral triangle."
+        },
+        {
+          "page": 4,
+          "text": "Thirty subjects (12 male and 18 female; mean age 32.1, variance 10.3 years-old) participated in the evaluation experiments."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Manual annotation of gaze targets, pupil directions, speaking-floor holder, and turn-taking points; subjective naturalness ratings of four video conditions; statistical multiple comparisons using the Ryan method.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "For this study, the gaze directions (gaze targets), eyeball directions (pupil positions), holder of speaking floor and turn-taking points were manually labeled."
+        },
+        {
+          "page": 4,
+          "text": "In the experiment, the participants were asked to watch each of the four videos and to evaluate their impressions on the naturalness of the robot’s behaviors, for each video."
+        },
+        {
+          "page": 4,
+          "text": "Multiple comparisons were conducted based on the Ryan method."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "In one of three dialogue segments, the proposed role-based head-and-eye model was rated significantly more natural than the other models (p ≤ .05); no significant differences were found in the other two segments.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Since there were no significant differences between the four conditions in two of the three dialogue segments, we report the results of one of the dialogue segment in which a significant difference was found."
+        },
+        {
+          "page": 4,
+          "text": "It was found that the proposed model (\"PR H+E\" model) which includes the role-based gaze control, and eyeball-accounted gaze aversion model, is evaluated to be significantly more natural than the other models (p-value ≤.05)."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames gaze as a nonverbal behavior that supports dialogue, including feedback, emotional communication, and regulation of dialogue flow; it studies role-based gaze and gaze aversion for multiparty dialogue.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Eye gaze conveys several functions in facilitating dialogue such as: to provide feedback, communicate emotional information, and regulate dialogue flow."
+        },
+        {
+          "page": 1,
+          "text": "Thus, in order to improve the humanlikeness of gaze behaviors in humanoid robots, we consider the dialogue roles of participants in multi-party conversations, and the eyeball movements during gaze aversion, in this study."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper describes gaze aversion as looking away from a dialogue participant’s face; it does not provide a formal definition of robotic gaze-based attention.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In order to generate humanlike gazing in dialogue robots, gaze aversions (i.e., when looking away from the dialogue participant’s face) have also been considered in a few studies [15]."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze helps regulate dialogue flow and is related to turn-taking and participants’ dialogue roles, including speaker, main listener/addressee, and sub-listener. Gaze aversion is considered in relation to humanlike gaze behavior.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Eye gaze conveys several functions in facilitating dialogue such as: to provide feedback, communicate emotional information, and regulate dialogue flow."
+        },
+        {
+          "page": 2,
+          "text": "Speaker(Sp) Person who has the right to speak and/or is speaking Main Listener(ML) The target person whom the speaker is primarily speaking to (Addressee) Sub Listener(SL) A listener who is neither Sp nor ML"
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The proposed model combining role-based gaze control and eyeball-accounted gaze aversion was judged significantly more natural than the other tested models in one segment. The study did not isolate the contributions of role-based control and gaze aversion.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "It was found that the proposed model (\"PR H+E\" model) which includes the role-based gaze control, and eyeball-accounted gaze aversion model, is evaluated to be significantly more natural than the other models (p-value ≤.05)."
+        },
+        {
+          "page": 4,
+          "text": "However, in this experiment, we were not able to clarify which of the two factors, gaze aversion or role-based gaze control, had a stronger effect on the robot’s behavior, or whether the robot’s behavior became natural only when both factors were combined."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The authors analyzed annotated three-party dialogue gaze patterns and implemented four gaze models: same-proportion head-only, same-proportion head-and-eye, proposed role-based head-and-eye, and proposed role-based head-only. Robot head and eye movements were generated from the role and gaze-aversion analyses; lips and head motions also used speech-driven methods.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "For this study, the gaze directions (gaze targets), eyeball directions (pupil positions), holder of speaking floor and turn-taking points were manually labeled."
+        },
+        {
+          "page": 4,
+          "text": "This is the proposed model that implements the gaze control and the gaze aversion systems based on the roles described in Section 3."
+        },
+        {
+          "page": 4,
+          "text": "The lips and head motions were automatically generated from the speech signal based on the methods proposed in [8], [10]."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "CommU, a humanoid robot with actuators to control head and eyeball movements, including eyeball pitch and yaw.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We then evaluated the effectiveness of the proposed gaze control model through subjective evaluations in a humanoid robot, CommU, which has actuators to control both head and eyeball movements."
+        },
+        {
+          "page": 4,
+          "text": "Video clips were recorded for the motions generated in the robot, for each of the four models."
+        },
+        {
+          "page": 4,
+          "text": "Gaze behaviors were generated in a humanoid robot, CommU, which allows eyeball control for both pitch and yaw directions."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The robot’s ability to move its eyeballs enabled comparison of head-only with head-and-eye models; the authors report that the combined role-based and eyeball-accounted model appeared more natural, but they could not determine which component caused the effect.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "To investigate the effects of eyeball movements, we implemented the same model as the baseline one, by adding eyeball movements along with the head movements."
+        },
+        {
+          "page": 4,
+          "text": "However, in this experiment, we were not able to clarify which of the two factors, gaze aversion or role-based gaze control, had a stronger effect on the robot’s behavior, or whether the robot’s behavior became natural only when both factors were combined."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The authors analyzed gaze and gaze aversion in three-person human conversations, then used those patterns to build role-based gaze models for the humanoid robot CommU. In video ratings, the model combining role-based gaze with eye movement during gaze aversion was judged more natural than the other models in one of three dialogue segments.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper describes gaze functions and role-based patterns in multiparty dialogue, evaluates naturalness effects, and details gaze-control models and the CommU embodiment. Its comparison of head-only and head-and-eye models also addresses how the robot’s eye movement capability shaped the study.",
+      "quotes": []
+    }
+  ]
+}

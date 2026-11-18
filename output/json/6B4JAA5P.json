@@ -1,0 +1,281 @@
+{
+  "key": "6B4JAA5P",
+  "title": "Investigation of the Impression of Storytelling with Robots to Multiple Children",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Within-participant experiment examining one-robot and two-robot storytelling conditions, alongside a system description.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In the case of storytelling to two children, we examined whether the children enjoyed the storytelling and the impression of parents who observed the experiments."
+        },
+        {
+          "page": 3,
+          "text": "Our experiment was a within-participant experiment with the following two conditions:"
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Experiments were conducted in a room of about 40 m², with children seated in front of a display; parents observed and completed questionnaires.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The experiments are conducted in the environment shown in Figure 5. The room is about 40 m2."
+        },
+        {
+          "page": 3,
+          "text": "We put the reader and listener robots in front of the display and a Kinect V2 behind it. The children sat on the floor where the displayed picture book could be seen."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "16 children and 16 parents (15 mothers and 1 father).",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "In this experiment, ��children (�girls and �boys, ages 4–5, average age 4.69, S.D 0.46) and their parents (15 mothers and 1 father) participated."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Children aged 4–5 years (mean age 4.69, SD 0.46), participating in pairs of friends; their parents participated as observers/questionnaire respondents (15 mothers and 1 father). The paper's extracted text obscures the child and girl/boy counts.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "In this experiment, ��children (�girls and �boys, ages 4–5, average age 4.69, S.D 0.46) and their parents (15 mothers and 1 father) participated."
+        },
+        {
+          "page": 3,
+          "text": "Each experiment involved a pair of children who happened to be friends with each other."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Children listened to interactive storytelling from one or two robots using picture books, with opportunities to talk and ask questions. Each child pair completed two sessions in different robot-number conditions; average robot reading times were 5.5 minutes for the Olfers book and 3.5 minutes for the Rivas book.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "We prepared 121 speech contents for the story and chat, and the robot’s average reading times are 5.5 for the Olfers book and 3.5 minutes for the Rivas."
+        },
+        {
+          "page": 3,
+          "text": "The children sat during two sessions of different conditions, changing the number of robots."
+        },
+        {
+          "page": 3,
+          "text": "Our experiment was a within-participant experiment with the following two conditions: 1) One-robot condition: Only one robot led storytelling with the children. 2) Two-robot condition: Two robots led storytelling with the children."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Each interaction session involved two children and either one or two robots.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Therefore, this study focuses on the group interaction between two children and two robots during storytelling."
+        },
+        {
+          "page": 3,
+          "text": "Each experiment involved a pair of children who happened to be friends with each other."
+        },
+        {
+          "page": 3,
+          "text": "1) One-robot condition: Only one robot led storytelling with the children. 2) Two-robot condition: Two robots led storytelling with the children."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "One or two robots per session: one reader robot, or a reader robot plus a listener robot.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "1) One-robot condition: Only one robot led storytelling with the children. 2) Two-robot condition: Two robots led storytelling with the children."
+        },
+        {
+          "page": 1,
+          "text": "We developed a storytelling system consisting of a reader robot, a listener robot as a side-participant, a display, gaze models of both robots, a depth sensor, and a human operator who gives correct and comprehensible responses to children’s questions."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "Two children per interaction session; a human operator also controlled speech recognition and behavior selection, and parents observed the experiments.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Each experiment involved a pair of children who happened to be friends with each other."
+        },
+        {
+          "page": 2,
+          "text": "This system consists of a gaze model, a human-tracking system, a reader robot, a listener robot, and a human operator who controls the speech recognition and behavior selector of the robots."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Custom parent questionnaire using 1–7 ratings of perceived child concentration and enjoyment, kindergarten use, and increased storytelling opportunities; direct post-experiment questions to children about enjoyment; observations of child behavior. The paper does not name a standardized scale or describe video coding or eye tracking.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "To investigate the parental impression of our storytelling system, we measured for subjective items in the questionnaire: their perceptions of their child’s concentration, their perceptions of their child’s fun, their thoughts about the possibility of our system being presented in kindergarten, and their perceptions of increasing opportunities for storytelling by our system."
+        },
+        {
+          "page": 4,
+          "text": "The questionnaire items were evaluated on a 1–7 point scale (7 is most positive)."
+        },
+        {
+          "page": 4,
+          "text": "In addition, after the experiment, we asked the children directly whether they enjoyed the storytelling using our system."
+        },
+        {
+          "page": 4,
+          "text": "Normally, the children listened to the story from the reader robot (Fig. 6)."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "No significant differences were found between one- and two-robot conditions for parental ratings of child concentration (t(15)=.144, p=.887, r=.019) or enjoyment (t(15)=.397, p=.697, r=.043). All children said they enjoyed the storytelling. The paper also reports no significant condition differences for parents’ kindergarten-use and increased-opportunity ratings.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The result showed that there were no significant differences between the conditions (t(15) .144, p .887, r .019)."
+        },
+        {
+          "page": 4,
+          "text": "The result showed that there were no significant differences between the conditions (t(15) .397, p .697, r .043)."
+        },
+        {
+          "page": 5,
+          "text": "All the children responded that they did."
+        },
+        {
+          "page": 5,
+          "text": "The result showed that there were no significant differences between the conditions (t(15) 2.179, p .289, r .12), but we found that the one-robot scenario scored higher than the two-robot scenario."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames gaze as an autonomously controlled robot behavior used to support natural storytelling in a multiparty setting; it does not explicitly define robotic gaze, attention, or gaze-based attention.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We also developed a gaze controller model to implement natural and autonomous gaze control by the reader robot."
+        },
+        {
+          "page": 6,
+          "text": "To implement natural storytelling, we developed a gaze model to control the gaze of the reader robot, based on multi-party conversation settings."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "The reader robot's gaze behavior allocates attention among the display, children, listener robot, and environment as part of storytelling; the paper does not explicitly state that gaze serves turn-taking or addressee selection.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In this study, the possible gaze targets were the listener robot, the display, the environment, and either child."
+        },
+        {
+          "page": 2,
+          "text": "On the other hand, it looked at either child or the listener robot mainly in the not-beginning of each sentence."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Children's gaze shifted with storytelling timing: they generally looked at the reader robot when it began speaking and then at the display. Children sometimes approached or pointed at story content; with two children, they sometimes talked together during the story. The study does not isolate gaze as the cause of these observed effects.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "For example, when the reader robot began speaking, the children generally looked at it and then at the display."
+        },
+        {
+          "page": 4,
+          "text": "Also, the children sometimes focused on a specific part on the page, e.g., after the reader robot talked, they approached the display to examine or point at a specific character or picture mentioned by the reader robot."
+        },
+        {
+          "page": 4,
+          "text": "With the presence of two children, it seemed that their tension was alleviated and they engaged with each other through speech activity during the storytelling."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "A gaze model selects targets and changes gaze every three seconds. It uses sentence timing and specified target ratios; a Kinect V2 provides children's head positions. An operator uses a Wizard-of-Oz system for speech recognition and behavior selection, and can answer questions via text-to-speech.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Following a previous study [22], the reader robot changes its gaze target ratio at the beginning of each speech sentence."
+        },
+        {
+          "page": 2,
+          "text": "The reader robot changed the gaze target every three seconds."
+        },
+        {
+          "page": 2,
+          "text": "We obtained location information of the children through a depth sensor (Kinect V2)."
+        },
+        {
+          "page": 3,
+          "text": "In this study, it is difficult to accurately recognize speech by children [15], so we considered speech recognition and behavior selection function by a human operator using a teleoperated system (Wizard of Oz [37]) according to a pre-determined rule."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "The study used two Sota table-top interactive humanoid robots, one as reader and one as listener. Each is 28 cm tall with 8 DOFs, microphone, camera, voice synthesis, mouth LED, and moving shoulders.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Figure 4 shows Sota, a table-top type interactive humanoid robot capable of physical expression like human beings."
+        },
+        {
+          "page": 3,
+          "text": "The robot owns 8 DOFs (3 DOFs for the head, 1 DOF for each shoulder, 1 DOF for each elbow and 1 DOF for the base). The height of this robot is 28 cm tall, and provides a microphone, a camera, and a voice synthesis function."
+        },
+        {
+          "page": 3,
+          "text": "To give expression to speaking, the mouth LED flashes according to the sound level."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors state that findings are limited to their system and two specific robots, and they did not confirm whether the two-robot storytelling approach applies to other robot types.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "This study has several limitations because it was performed using our robot system and its specific settings, e.g., two specific robots."
+        },
+        {
+          "page": 6,
+          "text": "We did not confirm whether the approach of using two robots for storytelling could be applied to other types of storytelling robots."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper tested storytelling with two children using either one reader robot or a reader and listener robot, with gaze directed among the children, display, listener, and environment. Children enjoyed storytelling in both conditions, with no significant condition differences in parental ratings; the study did not isolate gaze's effects.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper describes a gaze model for a reader robot in storytelling with two children and reports observed child behavior and outcomes across one- and two-robot conditions. It details gaze targets, timing, sensing, Wizard-of-Oz control, and the Sota embodiment, while noting that findings are limited to the specific robots and do not establish gaze-specific causal effects.",
+      "quotes": []
+    }
+  ]
+}

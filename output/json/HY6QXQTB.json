@@ -1,0 +1,268 @@
+{
+  "key": "HY6QXQTB",
+  "title": "Design Implications for Effective Robot Gaze Behaviors in Multiparty Interactions",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Analysis of data from two between-subject studies, with ANCOVA analyses of conversational behavior and robot impressions.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "To this end, we analyze the data from two in-between subject studies [9, 10]."
+        },
+        {
+          "page": 3,
+          "text": "We analyzed the effect of GA t L t S t and the Condition on the Length of the Turn through a four-way ANCOVA while controlling for the Proficiency of the language learner and extroversion."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Controlled experimental setting; location is not stated.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "However, non-verbal communication is a complex problem, even in the controlled, experimental setting used in [9, 10]."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "102 participants total across the two source studies; the analyzed dataset comprised 51 interaction episodes.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The dataset used for this study comprises 51 interaction episodes collected in the four different conditions (15 HC1, 12 HC2, 12 LC1, 12 LC2)"
+        },
+        {
+          "page": 2,
+          "text": "A total of 102 participants are included across [9, 10], with ages between 67 and 18 (M 30, SD 11)."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Participants formed pairs with different Swedish proficiency levels, one native speaker and one learner. Ages were reported as 18–67 (mean 30, SD 11); 50 were female, 50 male, and 2 preferred not to say. Fifty-eight reported no prior robot interaction; 44 had interacted with a robot, and 22 reported contact with robots at work.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In the studies from [9, 10], two human participants with different proficiency levels of Swedish (one native, one learner) interact with a Furhat robot while playing a variant of the game With Other Words [9] in Swedish."
+        },
+        {
+          "page": 2,
+          "text": "A total of 102 participants are included across [9, 10], with ages between 67 and 18 (M 30, SD 11)."
+        },
+        {
+          "page": 2,
+          "text": "In terms of gender, there were 50 female, 50 male and 2 people who rather not say."
+        },
+        {
+          "page": 2,
+          "text": "Also, 58 participants reported not having interacted with a robot before while 44 did, and a total of 22 participants reported having contact with robots at work."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Two humans played a Swedish variant of With Other Words, describing words for the robot to guess. The collaborative task involved turn-taking. Episodes lasted 15–20 minutes across four robot gaze conditions.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In the game, the human players describe words which the robot tries to guess."
+        },
+        {
+          "page": 2,
+          "text": "This experimental setting encourages participants to collaborate, establishing a dynamic of turn-taking."
+        },
+        {
+          "page": 2,
+          "text": "The dataset used for this study comprises 51 interaction episodes collected in the four different conditions (15 HC1, 12 HC2, 12 LC1, 12 LC2) with 15-20 min of length"
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three: two humans and one robot per interaction.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Here, we look at data from two studies where two humans interact describing words to a robot."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "two human participants with dif- ferent proficiency levels of Swedish (one native, one learner) interact with a Furhat robot"
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "two human participants with dif- ferent proficiency levels of Swedish (one native, one learner) interact with a Furhat robot"
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Voice Activation Detection (VAD) data and robot action commands were used to analyze turn interventions and gaze behavior; questionnaire data measured participant impressions. The study analyzed the Discomfort and Warmth scales of the Robotic Social Attributes Scale (RoSAS), participation unevenness, turn length, and gaze-behavior distributions.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We analyze participants’ interventions during the interaction with data collected from the Voice Activation Detection (VAD) method used in [9, 10]."
+        },
+        {
+          "page": 2,
+          "text": "Available data from the studies includes: video footage, action commands sent to the robot, participants’ voice activation as well as game information. The dataset further provides participants’ perception of the interaction from a post-interaction questionnaire."
+        },
+        {
+          "page": 3,
+          "text": "We measure impressions of the robot by analyzing the Discomfort and Warmth scale from the Robotic Social Attributes Scale (RoSAS) [21]."
+        },
+        {
+          "page": 3,
+          "text": "We evaluate how these distributions affect: 1) Turn length (s) 2) Participation unevenness [11] 3) Perception of the robot"
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Turn length varied with gaze behavior: more time looking at the speaker was associated with longer turns, with a significant speaker-gaze by gaze-aversion interaction (χ²=374.58, p<2.2e−16); very high gaze aversion shortened turns. Speaker-directed gaze was associated with greater participation unevenness (F(1,137)=4.433, p=.037). For the LC conditions, discomfort varied with gaze measures; warmth had no significant main effects.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "S t :GA t 374.58 1 <2.2e-16"
+        },
+        {
+          "page": 3,
+          "text": "The analysis showed a main effect of S p on participation Unevenness, F (1, 137) 4.433, p 0.037, indicating that the more the robot focused on gazing to the speaker, the higher the imbalance."
+        },
+        {
+          "page": 3,
+          "text": "turn length varies according to GA t and S t Increasing the time spent looking at the speaker (S t to a high to moderate amount gives rise to longer turns, but very high amounts of gaze aversion (GA t 0.45) will shorten turns."
+        },
+        {
+          "page": 4,
+          "text": "No significant main effects were found on Warmth."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames robotic gaze behavior as non-verbal communication that can shape conversational dynamics and human perception. It analyzes speaker gaze, listener gaze, and gaze aversion as robot behaviors.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Consequently, the development of models for robot non-verbal behavior, such as gaze, should be informed by studies of human reaction and perception to that behavior."
+        },
+        {
+          "page": 3,
+          "text": "We characterize the distribution of robot behaviors taking into account the relative time performing gaze aversion (GA), relative time looking at the speaker (S), and relative time looking at the listener (L)."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "The authors describe gaze as a means of regulating turn-taking and balancing participation; gaze aversion is also described as managing the conversational floor.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Gaze can additionally regu- late conversational dynamics."
+        },
+        {
+          "page": 2,
+          "text": "Andrist and colleagues [19] showed that robot gaze aversions can be used to manage the conversational floor and improve human perception of robots."
+        },
+        {
+          "page": 1,
+          "text": "The robot tries to balance participation of the two players through different gaze policies combining the behaviors of looking at the speaker, looking at the listener and averting gaze."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "More time looking at a speaker was associated with longer turns, more participation imbalance, and higher reported discomfort. The paper notes that gazing a lot at the speaker may work against goals of balancing participation or improving human impressions.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Longer turns by human participants are as- sociated with more time being looked at by the robot while speaking."
+        },
+        {
+          "page": 4,
+          "text": "Interestingly, interactions where the robot looks more at the speaker appear to be more imbalanced in terms of human participation."
+        },
+        {
+          "page": 4,
+          "text": "Reported discomfort increases if the participant is looked at more while speaking."
+        },
+        {
+          "page": 4,
+          "text": "In sum, there is a contrasting trend: more time attending to the speaker leads to longer turns, but more imbalanced participation and discomfort."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "Furhat used four gaze conditions: a heuristic that looked at the speaker and used gaze aversion; a heuristic that looked at the speaker or listener without gaze aversion; and learned gaze policies using imitation learning or batch reinforcement learning. Gaze behaviors comprised looking at the speaker, looking at the listener, and gaze aversion.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In the Heuristic Condition 1 (HC1, originally control in [9]), the robot only looks at the active speaker and performs gaze aversion."
+        },
+        {
+          "page": 2,
+          "text": "Heuristic Condition 2 (HC2, originally experimental condition in [9]) tested the ef- fect of a hand-crafted heuristic behavior, where the robot looks at the speaker or the listener, but never performs gaze aversion."
+        },
+        {
+          "page": 2,
+          "text": "In the Learning Condition 1 (LC1) and Learning Condition 2 (LC2), interaction data from the previous study [9] was used to train a gaze policy for Furhat via imitation learning (LC1, originally IL in [10]) and via batch reinforcement learning (LC2, originally RL in [10])."
+        },
+        {
+          "page": 2,
+          "text": "The learned gaze policies include three types of behaviors: look at speaker, look at listener, and perform gaze aversion."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Furhat robot.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The robot Furhat is looking at the participant on the right."
+        },
+        {
+          "page": 2,
+          "text": "two human participants with dif- ferent proficiency levels of Swedish (one native, one learner) interact with a Furhat robot"
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The paper reanalyzed two studies of two people playing a word guessing game with a Furhat robot that used different gaze policies. Looking at the speaker for more time was associated with longer turns, but also greater participation imbalance and discomfort.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5 — The paper characterizes robotic gaze through speaker gaze, listener gaze, and gaze aversion; examines its roles in turn-taking and participation balancing; reports effects on turn length, participation imbalance, and discomfort; describes heuristic and learned implementations; and names the Furhat robot platform. It does not address embodiment influence (RQ6).",
+      "quotes": []
+    }
+  ]
+}

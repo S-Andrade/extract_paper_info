@@ -1,0 +1,256 @@
+{
+  "key": "6437EV9F",
+  "title": "Maintaining awareness of the focus of attention of a conversation: A robot-centric reinforcement learning approach",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical study evaluating reinforcement-learning agents in simulation.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Our efforts are focused on evaluating RL approaches in simulated group conversations (Fig. 1) as a precursor to future work with real users."
+        },
+        {
+          "page": 4,
+          "text": "We performed a series of experiments to evaluate several RL agents in our simulated environment."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Simulated group conversations; no real-user study was conducted.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Our efforts are focused on evaluating RL approaches in simulated group conversations (Fig. 1) as a precursor to future work with real users."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "A simulated multiparty conversation in which the robot learns to orient toward the active human speaker. Simulations generally ran for 18,000 steps (one hour); generalization runs lasted 3,000 steps (10 minutes).",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Under these circumstances, we assume that the correct behavior for the robot is to turn towards the speaker to convey attentiveness to this person and maintain awareness of the focus of attention."
+        },
+        {
+          "page": 5,
+          "text": "Unless otherwise noted, the results presented in this section are averages over 10 runs of 18000 steps (equivalent to 1 hour of interaction time) and actions were executed every 0.2 seconds."
+        },
+        {
+          "page": 7,
+          "text": "Each run lasted a total of 3000 steps (10 minutes of interaction time)."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Usually five interactants total: one robot and four people. Generalization was tested with two, three, five, or six people interacting with the robot.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The simulations had a total of 5 interactants (including the robot) which were arranged in a circular formation with a stride of 1.25 meters, as illustrated in Fig. 1."
+        },
+        {
+          "page": 7,
+          "text": "For this test, we exposed the DYNA-2 and TEXPLORE agents that were trained with 4 people for the experiment of Sec. VI-A to interactions with 2, 3, 5 and 6 people."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "One robot per interaction.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Fig. 1. Simulated group conversation between a robot and four people."
+        },
+        {
+          "page": 5,
+          "text": "The simulations had a total of 5 interactants (including the robot) which were arranged in a circular formation with a stride of 1.25 meters, as illustrated in Fig. 1."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "Usually four people; generalization tested with 2, 3, 5, and 6 people.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Fig. 1. Simulated group conversation between a robot and four people."
+        },
+        {
+          "page": 7,
+          "text": "For this test, we exposed the DYNA-2 and TEXPLORE agents that were trained with 4 people for the experiment of Sec. VI-A to interactions with 2, 3, 5 and 6 people."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Simulation-derived technical metrics: reward, proportion of steps receiving a positive bonus, failures to orient within 10 degrees, and angular offset from the speaker.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "This plot shows the number of speakers towards whom the robot failed to orient with an angular velocity of 0.0 rad/sec and with abs(ϕ) in eq. (2) less than 10 deg."
+        },
+        {
+          "page": 6,
+          "text": "Figure 5 shows the proportion of steps in which the agents achieved good behavior and received a bonus b = 1.0 as part of their reward (see eq. (2))."
+        },
+        {
+          "page": 7,
+          "text": "Each of the plots of this figure show the absolute angular difference between the robot and the direction towards the speaker from its location (abs(ϕ) in eq. (2))."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "The model-based agents performed best at orienting toward speakers; TEXPLORE achieved the highest cumulative reward. Increased look-at noise reduced performance. Pretrained agents outperformed agents learning from scratch in conversations with different group sizes.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "In general, model-based agents performed the best in terms of orienting properly towards the speakers."
+        },
+        {
+          "page": 6,
+          "text": "TEXPLORE clearly outperformed the other agents in this respect, likely because of its better policy in comparison to ϵ-greedy."
+        },
+        {
+          "page": 6,
+          "text": "Furthermore, Fig.5 shows that the more people look away from the speaker, the worse the agents tend to perform."
+        },
+        {
+          "page": 7,
+          "text": "As expected, the agents that were pre-trained outperformed agents that started to learn from scratch."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames the behaviour as conveying attentiveness to, and maintaining awareness of, the conversation's focus of attention by turning toward the speaker.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Thus, the robot should turn towards the speaker."
+        },
+        {
+          "page": 1,
+          "text": "Under these circumstances, we assume that the correct behavior for the robot is to turn towards the speaker to convey attentiveness to this person and maintain awareness of the focus of attention."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper does not provide a formal definition of robotic gaze or attention; it operationalizes attention as turning the robot toward the active speaker.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "Our main assumption throughout this work was that the robot should turn towards the speaker to convey attentiveness and maintain awareness of the focus of attention."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "The robot's orientation signals attentiveness to the current speaker and maintains its awareness of the conversation's focus. Body orientation can also induce spatial reconfigurations that redirect conversational focus.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "This is a subtle and effective strategy for redirecting the focus of a conversation."
+        },
+        {
+          "page": 1,
+          "text": "Under these circumstances, we assume that the correct behavior for the robot is to turn towards the speaker to convey attentiveness to this person and maintain awareness of the focus of attention."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The paper measures the robot's simulated orientation performance, not effects on human participants. It reports that more noisy human head orientation reduced the agents' performance.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "Furthermore, Fig.5 shows that the more people look away from the speaker, the worse the agents tend to perform."
+        },
+        {
+          "page": 8,
+          "text": "Our simulated environment was inspired by models from social psychology that describe spatial behavior during group interactions, but did not fully capture all the complexity of real world conversations nor sensing noise."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The robot uses a front-mounted camera to detect people and their head/body orientations, plus a microphone array to estimate speaker direction. Reinforcement-learning agents choose angular-velocity commands; the state represents speaker direction, social saliency, and the estimated o-space center, with validity indicators. The tests used simulation rather than real users.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The robot had a camera and a microphone array fixed to the front of its body."
+        },
+        {
+          "page": 3,
+          "text": "The set of actions that the robot could execute were angular velocity commands that changed its orientation with respect to the group."
+        },
+        {
+          "page": 3,
+          "text": "This representation was composed of six features:"
+        },
+        {
+          "page": 8,
+          "text": "The state representation that we designed for the RL task encodes the likely direction of the speaker from the perspective of the robot, as captured by a camera and a microphone array on the platform."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "A simulated mobile robot with few degrees of freedom, modeled on platforms such as Cobot or Frog, with a camera and microphone array fixed to the front of its body.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "We modeled the robot as a platform with a small number of degrees of freedom, similar to Cobot [1] or Frog [2]."
+        },
+        {
+          "page": 3,
+          "text": "The robot had a camera and a microphone array fixed to the front of its body."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The robot's limited degrees of freedom make body orientation control the direction of its face and many sensors, affecting user interpretation and sensing. The study simulated this platform and did not test effects with real users.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "For robots with a small number of degrees of freedom, like Cobot [1] or Frog [2], body orientation controls the direction of important social features, such as their faces, as well as the directions of many of their sensors."
+        },
+        {
+          "page": 1,
+          "text": "Thus, their orientation can significantly affect users’ interpretations of their actions and their sensing capabilities."
+        },
+        {
+          "page": 3,
+          "text": "Because the features are computed from the perspective of the robot, their descriptive power depends on the performance of the robot’s sensors."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper evaluates reinforcement-learning methods in simulated conversations where one robot tracks the active speaker by turning toward them. Model-based methods, especially TEXPLORE, generally performed best, and the learned policies generalized to groups with different numbers of people; no real participants were studied.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ4; RQ5; RQ6 — The paper frames attention as turning toward the speaker to signal attentiveness and maintain awareness, and describes its role, simulated sensing/control implementation, and robot embodiment. It does not study human-facing effects or formally define robotic gaze.",
+      "quotes": []
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "key": "S29GHHFT",
+  "title": "Effects of a Listener Robot with Children in Storytelling",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Within-participant experiment with a semi-autonomous storytelling robot system.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The study had a within-participants design with the following two conditions:"
+        },
+        {
+          "page": 5,
+          "text": "Since it had a within-participant design, each child sat through two sessions of different conditions."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "A playroom-like experimental room at the research site.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The room is approximately 40 m2. Toys, books, and chairs are available for the participants to represent a realistic playroom environment; already this environment was used for experiments in child-robot interaction research fields [26]."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "16 children and their parents.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Sixteen children (eight girls and eight boys from three to five years old, average age 4.3, S.D 0.86) and their parents (15 mothers and 1 father) participated in the experiment."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Children aged 3–5 years (8 girls, 8 boys; mean age 4.3, SD 0.86) and their parents (15 mothers, 1 father).",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Sixteen children (eight girls and eight boys from three to five years old, average age 4.3, S.D 0.86) and their parents (15 mothers and 1 father) participated in the experiment."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Children listened to picture-book storytelling in two conditions: one reader robot, or reader and listener robots. Sessions used one of two books; average reading times were 5.5 and 3.5 minutes.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "To implement our storytelling behaviors, we used two picture books: Etwas von den Wurzelkindern by Sibylle von Olfers (Nekko umare no kobito tachi in Japanese) and Zucchini of Zuzu by Leo Rivas (Zuzu no Zukki-ni in Japanese). Average reading times by our system are 5.5 and 3.5 minutes, respectively."
+        },
+        {
+          "page": 4,
+          "text": "The study had a within-participants design with the following two conditions: One robot: In this condition, we only used the reader robot."
+        },
+        {
+          "page": 4,
+          "text": "Two robots: In this condition, we used both the reader and listener robots."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Per session: one child with either one robot or two robots; a parent also participated in the study and moved away from the child before storytelling.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Before the storytelling began, the child participant sat in front of the display, and the adult participant moved away from her/his child."
+        },
+        {
+          "page": 4,
+          "text": "One robot: In this condition, we only used the reader robot."
+        },
+        {
+          "page": 4,
+          "text": "Two robots: In this condition, we used both the reader and listener robots."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "One or two robots, depending on condition.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "One robot: In this condition, we only used the reader robot."
+        },
+        {
+          "page": 4,
+          "text": "Two robots: In this condition, we used both the reader and listener robots."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "One child during each storytelling session; a parent was present in the study but moved away before storytelling.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Before the storytelling began, the child participant sat in front of the display, and the adult participant moved away from her/his child."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Child preference question; counts of children’s utterances during storytelling; parent questionnaire with custom items on gaze naturalness, perceived child enjoyment, and preferred condition.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "In this experiment, we measured one subjective item about the preferences by directly asking to children after the experiment which conditions they preferred."
+        },
+        {
+          "page": 5,
+          "text": "We also measured the number of children’s utterances during the storytelling to objectively investigate their speech activities toward it."
+        },
+        {
+          "page": 5,
+          "text": "As supplemental measurements, their parents filled out a questionnaire that consisted of three subjective items: the naturalness of the reader robot gaze, their perceptions of their child’s enjoyment, and their preferred condition (one or two robots)."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Children preferred the two-robot condition (proportion 0.80, p=.035, two-tailed); children produced fewer utterances in the two-robot condition than in the one-robot condition (utterance count: t(15)=2.179, p=.046, r=.49; utterances per minute: t(15)=2.420, p=.029, r=.53).",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "We conducted a two-tailed binomial test and it indicated that the proportion of preferred number for two-robots condition of 0.80 was higher than expected 0.50, p=.035 (2-tailed)."
+        },
+        {
+          "page": 6,
+          "text": "These results indicate that the children spoke less in the two-robot condition than in the one-robot condition; prediction 2-b was supported."
+        },
+        {
+          "page": 6,
+          "text": "For the average number of children utterances, we found a significant difference among the conditions (t(15) 2.179, p .046, r .49). For the average number of children’s utterances per minute, we also found a significant difference among the conditions (t(15) 2.420, p .029, r .53)."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper studies a listener robot as a side-participant and develops a reader robot gaze model that considers multiple listeners and a storytelling object. It does not explicitly define robotic gaze, robotic attention, or gaze-based attention.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We are also interested in the possibilities of using two robots for storytelling."
+        },
+        {
+          "page": 1,
+          "text": "However, our perspective is different; we are investigating the effects of a listener robot that behaves like a side-participant, which is a ratified participant during conversations [12, 13]."
+        },
+        {
+          "page": 1,
+          "text": "We develop a gaze model for the natural and autonomous gaze behaviors of a reader robot by considering multiple listeners and a storytelling object (a display that shows images)."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "The reader robot’s gaze targets include the children, listener robot, display, and environment; gaze shifts distribute attention among the storytelling participants and display. The listener robot acts as a side-participant, including asking the reader questions and nodding.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "When there is a listener robot in the model, the gazing targets are the display, the children, the listener robot, and the environment."
+        },
+        {
+          "page": 2,
+          "text": "Thus, at the beginning of each sentence, the reader robot mainly looks at the display; at the not-beginning of each sentence, the reader robot mainly looks at the children or the listener robot."
+        },
+        {
+          "page": 3,
+          "text": "The reader robot slowly reads a sentence of the picture book aloud, and then the listener robot nods once after each sentence."
+        },
+        {
+          "page": 3,
+          "text": "If the child fails to ask the reader robot a question within a minute, the listener robot asks a question itself, which the reader robot simply answers."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "With a listener robot, children preferred the storytelling condition and spoke less. The paper also reports observed gaze shifts among the robot(s) and display, but does not isolate their effects from the broader two-robot condition.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "These results indicate that the children spoke less in the two-robot condition than in the one-robot condition; prediction 2-b was supported."
+        },
+        {
+          "page": 7,
+          "text": "First, children significantly preferred the two-robot condition over the one-robot condition."
+        },
+        {
+          "page": 5,
+          "text": "For example, when the reader robot started to talk, a child generally looked at it and then at the display. When the listener robot asked a question, the child looked at it and then at the reader robot and quietly listened to the story in both conditions."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The reader robot’s gaze is controlled autonomously by a probability-based model that selects among the display, children, listener robot, and environment, with target probabilities differing at sentence beginnings. A Kinect V2 tracks children’s head positions. Speech recognition and behavior selection were handled by an operator using Wizard of Oz; the robots selected actions based on those results.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We used one depth sensor (Kinect V2) in the environment to estimate the positions of the children."
+        },
+        {
+          "page": 2,
+          "text": "We decided that the gaze target changes every three seconds."
+        },
+        {
+          "page": 3,
+          "text": "The robot gazes are autonomously controlled by the proposed gaze model described above."
+        },
+        {
+          "page": 3,
+          "text": "For this study, an operator assumed the speech recognition and behavior selector functions using a tele-operation system (Wizard of Oz [23]) and followed pre-determined rules."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Two Sota interactive humanoid robots, one reader and one listener; Sota is 28 cm tall, has eight degrees of freedom, voice synthesis, and a mouth LED that blinks with sound level.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Figure 3 shows Sota, an interactive humanoid robot characterized by its humanlike physical expressions. We used two Sota robots: a reader and a listener."
+        },
+        {
+          "page": 3,
+          "text": "Sota has eight DOFs: three in its head, one for the shoulders, elbows, and base. It is 28 cm tall and is equipped with a voice synthesis."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The study tested children’s storytelling with a Sota reader robot alone or alongside a Sota listener robot, whose presence was incorporated into the reader’s gaze model. Children preferred the two-robot condition and spoke less in it, but the paper does not separate gaze effects from the other differences between conditions.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5 — The paper describes gaze as a model for directing the reader robot’s gaze among children, another robot, a display, and the environment, and positions the listener as a side-participant. It reports preference and speech effects in the two-robot condition, explains the sensing and gaze implementation, and identifies the Sota embodiment; it does not establish an effect of embodiment.",
+      "quotes": []
+    }
+  ]
+}

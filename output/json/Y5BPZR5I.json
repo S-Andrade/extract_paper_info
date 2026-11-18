@@ -1,0 +1,230 @@
+{
+  "key": "Y5BPZR5I",
+  "title": "Person of Interest Detection Using Deep Learning in a Real-Time Faculty Receptionist Robot",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description with performance evaluation of a robotic POI detection module.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this work, we are exploring a perception module for receptionist robots to detect the POI, which can help to improve human-robot interaction (HRI)."
+        },
+        {
+          "page": 3,
+          "text": "Six test scenarios have been designed to evaluate the overall performance of the POI detection module."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Receptionist counter scenario; the paper does not report a physical study setting for evaluation.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Two types of interaction can be observed at the receptionist counter: one-to-one interaction and one-to-many interaction [2]."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "Technical testing of POI detection in scenarios with one or two people near the robot, varying distance, head pose, speech, and hand raising.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "i. A person is more than 1 meter distance from the robot. ii. A person is within 1 meter distance from the robot, has a non-forward head pose, or is not speaking. iii. A person is within 1 meter distance from the robot, has a forward head pose and is speaking. iv. A person is within 1 meter distance from the robot, and is raising a hand."
+        },
+        {
+          "page": 3,
+          "text": "v. Two people are within 1 meter distance from the robot, where one of them is raising their hand. vi. Two people are within 1 meter distance from the robot, with one having a forward head pose and speaking, while the other has a non-forward head pose or is not speaking."
+        },
+        {
+          "page": 4,
+          "text": "TABLE I shows the results of the test scenarios, where each scenario is tested three times."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "One robot with one or two people in the described test scenarios.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "v. Two people are within 1 meter distance from the robot, where one of them is raising their hand."
+        },
+        {
+          "page": 3,
+          "text": "vi. Two people are within 1 meter distance from the robot, with one having a forward head pose and speaking, while the other has a non-forward head pose or is not speaking."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "If a person is within a distance of less than one meter in front of the robot, the POI detection program will be activated."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "One or two people in each test scenario.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "v. Two people are within 1 meter distance from the robot, where one of them is raising their hand."
+        },
+        {
+          "page": 3,
+          "text": "vi. Two people are within 1 meter distance from the robot, with one having a forward head pose and speaking, while the other has a non-forward head pose or is not speaking."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Detection performance metrics: mAP50 for face and hand raise detection, MAE for head pose estimation, and success/failure outcomes across POI scenario trials.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The model performance is also evaluated based on the mean average precision (mAP) of the testing data."
+        },
+        {
+          "page": 3,
+          "text": "For the head pose estimation model, the model's performance is assessed based on the mean average error (MAE) of the testing data."
+        },
+        {
+          "page": 4,
+          "text": "The number of successful trials is 14, and the total number of trials is 18."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Face detection mAP50: 96.3%; hand raise detection mAP50: 99.4%; head pose estimation MAE: 3.58°; POI detection scenario accuracy: 77.78%.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The mAP50 for the face detection model is 96.3%, and the mAP50 for the hand raise detection model is 99.4%."
+        },
+        {
+          "page": 4,
+          "text": "Meanwhile, for the head pose estimation model, the MAE is 3.58°."
+        },
+        {
+          "page": 4,
+          "text": "Therefore, the accuracy obtained is 77.78%."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames its topic as person of interest (POI) detection, with the robot identifying and focusing on the person interacting with it; it does not explicitly define robotic gaze or robotic attention.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "During an interaction, the receptionist will identify the person of interest (POI) and focus on that person."
+        },
+        {
+          "page": 1,
+          "text": "Regardless of the type of interaction, the receptionist robot should focus on the person asking the question."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "POI detection is intended to select the person for the receptionist robot to focus on, including in one-to-many interaction. Raised hands receive priority; forward head pose combined with lip movement identifies a POI candidate.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "First, a person raising their hand is labelled as the POI priority."
+        },
+        {
+          "page": 1,
+          "text": "Second, a person with a forward head pose and lip movement is labelled as a POI candidate."
+        },
+        {
+          "page": 1,
+          "text": "Lastly, a person with a non-forward head pose, or no lip movement, is labelled as others."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The POI detection module achieved 77.78% accuracy across the tested scenarios. Speaking-related scenarios had failed trials, which the authors suggest may be due to an inaccurate lip-separation threshold. No human or interaction effects of gaze/attention are reported.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Therefore, the accuracy obtained is 77.78%."
+        },
+        {
+          "page": 4,
+          "text": "On the other hand, test scenarios 3 and 6, which include a person speaking, have failed trials. This may be caused by an inaccurate lip separation distance threshold used in determining lip movement."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "Autonomous perception system on a ROS-based robot: YOLOv8-nano detects faces and raised hands; SVR estimates head pose; lip movement is estimated using a mouth-lip separation threshold. Rules assign POI priority, candidate, or other status.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "It consists of four modules: face detection, hand raising detection, head pose estimation, and lip movement detection."
+        },
+        {
+          "page": 2,
+          "text": "YOLOv8-nano is used for face and hand raise detection, and SVR is used for head pose estimation."
+        },
+        {
+          "page": 2,
+          "text": "As an alternative, we assumed that lip movement detection can be aided by observing that if the lip separation distance exceeds 20% of the mouth's height, lip movement is present."
+        },
+        {
+          "page": 3,
+          "text": "In this project, we utilised the Jupiter Robot, an integrated and open AI applications development platform based on the Robot Operating System (ROS)."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Jupiter Robot, described as an integrated, open AI applications development platform based on ROS; physical features are not specified.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "In this project, we utilised the Jupiter Robot, an integrated and open AI applications development platform based on the Robot Operating System (ROS)."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The paper builds and evaluates a receptionist robot module that selects a person of interest using face and hand detection, head pose, and an estimated speaking state. It tests one- and two-person scenarios; the module reports 77.78% overall accuracy, with the authors noting speaking-related failures potentially tied to the lip-separation threshold.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ2; RQ4; RQ5 — It describes POI selection for one-to-many receptionist interactions, details the detection implementation, and names the Jupiter Robot platform. It does not study gaze behavior or its effects, and does not report how the robot’s embodiment influences the study.",
+      "quotes": []
+    }
+  ]
+}

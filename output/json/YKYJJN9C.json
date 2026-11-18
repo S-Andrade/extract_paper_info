@@ -1,0 +1,242 @@
+{
+  "key": "YKYJJN9C",
+  "title": "Joint Attention Estimation during Multi-party Facilitation Using Multi-Modal Fusion",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description and quantitative model evaluation.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this paper, we aim to address the above limitations by developing a multi-modal social gaze saliency method based on human-human interaction data in a multiparty facilitation scenario."
+        },
+        {
+          "page": 3,
+          "text": "The model is trained using supervised learning with ground truth joint attention heatmaps."
+        },
+        {
+          "page": 3,
+          "text": "The Euclidean distance between the estimated joint attention point (based on the maximum value in the heatmap) and the ground truth [11, 12] was computed."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Video data from facilitated and non-facilitated group discussions; the paper describes no robot-involving setting.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "There were 24 group discussions participated by 92 subjects."
+        },
+        {
+          "page": 2,
+          "text": "These discussions involved a diverse range of participants and facilitators, with groups categorized into facilitated and non-facilitated discussions."
+        },
+        {
+          "page": 3,
+          "text": "The dataset we used was carefully selected from 23 of the 24 music appreciation videos previously introduced."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "92 human subjects across 24 group discussions in the source dataset; the model dataset used 23 videos.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "There were 24 group discussions participated by 92 subjects."
+        },
+        {
+          "page": 3,
+          "text": "The dataset we used was carefully selected from 23 of the 24 music appreciation videos previously introduced."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Participants were in groups with facilitators who included musicians, music teachers, and general teachers. No ages or genders are stated.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Facilitators included musicians, music teachers, and general teachers."
+        },
+        {
+          "page": 2,
+          "text": "The varied composition of groups and facilitator types ensured a diverse and representative dataset."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants took part in group discussions, including music appreciation discussions, in facilitated or non-facilitated conditions. The paper evaluates a model on recorded discussion videos, not a robot interaction task.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "These discussions involved a diverse range of participants and facilitators, with groups categorized into facilitated and non-facilitated discussions."
+        },
+        {
+          "page": 3,
+          "text": "The dataset we used was carefully selected from 23 of the 24 music appreciation videos previously introduced."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Group sizes varied; the number of people per discussion is not specified.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Group sizes varied, and seating configurations encompassed two angles, fostering different interaction dynamics."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "n_humans",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Tobii Glasses 3 eye-tracking glasses and microphones; Theta fisheye camera; outsourced body-language annotations; YOLOv5-based head detector and L2CS gaze-estimation network. Model performance was evaluated with Euclidean distance and detection rate.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Tobii Glasses 3 devices were used to collect gaze behavior and speech data from each subject."
+        },
+        {
+          "page": 2,
+          "text": "The Theta fisheye camera was used to capture the 360 degrees view of each group discussion."
+        },
+        {
+          "page": 2,
+          "text": "The body language annotations were obtained through outsourcing, utilizing predefined body language classes."
+        },
+        {
+          "page": 3,
+          "text": "The Euclidean distance between the estimated joint attention point (based on the maximum value in the heatmap) and the ground truth [11, 12] was computed."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Key technical result: adding LSTM temporal dependency improved model performance in the reported comparisons; excluding gaze improved results in the ablation tests. The paper reports detection rates and distances but no statistical significance tests.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Results indicated that the inclusion of the LSTM module consistently improved performance across various metrics, highlighting its crucial role in enhancing joint attention estimation during social interactions."
+        },
+        {
+          "page": 4,
+          "text": "Surprisingly, the ablation tests demonstrated that the model’s performance improved when gaze was excluded from the inputs."
+        },
+        {
+          "page": 4,
+          "text": "With LSTM [t,a,l] 160.1 78.9 83.1 83.2 83.2"
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames the concept as joint attention estimation, describing joint attention as shared focus or attention among individuals.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Joint attention is the shared focus or attention of individuals in any event or activity."
+        },
+        {
+          "page": 1,
+          "text": "It is an intricate interplay of where people look at, what they say, and how they express themselves non-verbally during a multi-modal social exchange."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "Joint attention is defined as shared focus or attention among individuals; this paper models it using multimodal interaction data and predicts attention heatmaps.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Joint attention is the shared focus or attention of individuals in any event or activity."
+        },
+        {
+          "page": 2,
+          "text": "The output takes the form of predictions manifested as joint attention heatmaps."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "The paper describes joint attention as supporting shared understanding and communication, and as a target for estimating where group participants' shared attention is directed. It does not study a robot's gaze behavior in interaction.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Joint attention serves as a cornerstone for establishing shared understanding and facilitating seamless communication between humans and robots."
+        },
+        {
+          "page": 1,
+          "text": "Robots equipped with the ability to comprehend and respond to human joint attention cues can enhance collaboration, improve task efficiency, and contribute to a more natural interaction experience."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The paper reports model-performance effects, not measured effects of robot gaze or attention on people. LSTM inclusion improved performance across metrics, while excluding gaze improved performance in ablation tests.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Results indicated that the inclusion of the LSTM module consistently improved performance across various metrics, highlighting its crucial role in enhancing joint attention estimation during social interactions."
+        },
+        {
+          "page": 4,
+          "text": "The ablation results suggest that talking information, upper-body body language, and head position collectively provided sufficient information for effective joint attention estimation."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The model fuses talking status, gaze angles, upper-body body-language classes, and head positions through a Transformer encoder, then uses a three-layer LSTM over three consecutive frames and fully connected layers to produce joint-attention heatmaps. Inputs are derived from human-human discussion recordings; no robot sensing or control implementation is reported.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The binary classification of talking information is input into the Transformer encoder, capturing the state of participation during group discussions."
+        },
+        {
+          "page": 2,
+          "text": "Upper-body language is encoded as a vector, capturing 18 different classes of body language."
+        },
+        {
+          "page": 3,
+          "text": "The multi-layer LSTM module, consisting of three layers, processes the input sequences, allowing the model to capture complex patterns in joint attention over the three consecutive frames."
+        },
+        {
+          "page": 2,
+          "text": "To address real-time requirements, we introduce temporal dependence through Long Short-Term Memory (LSTM) networks, which enables the model to adapt to dynamic social scenarios by capturing evolving attention patterns over time."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The paper trains and evaluates a multimodal model to estimate shared attention in recorded human group discussions, using talking status, body language, head position, and gaze data. Temporal modeling with an LSTM improved reported performance, while ablations found that excluding gaze could improve performance; no robot embodiment or robot interaction was studied.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ4 — The paper defines joint attention as shared focus, describes its role in shared understanding and communication, and details a multimodal Transformer and LSTM estimation pipeline. It does not provide evidence about robot embodiment or the effects of robotic gaze in multiparty interaction.",
+      "quotes": []
+    }
+  ]
+}

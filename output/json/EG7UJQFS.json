@@ -1,0 +1,302 @@
+{
+  "key": "EG7UJQFS",
+  "title": "Footing in human-robot conversations: how robots might shape participant roles using gaze cues",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Controlled laboratory experiment; the authors also conducted preliminary observations of human conversation to inform gaze design.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "To gain a deeper understanding of how gaze cues might shape footing in human-robot conversations, we conducted a laboratory experiment in which we asked participants to converse with a humanlike robot, ATR’s Robovie R2."
+        },
+        {
+          "page": 3,
+          "text": "These observations involved placing naïve participants in conversational situations with different role structures and studying speakers’ gaze behavior."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Dedicated laboratory space with no outside distraction.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The experiment was run in a dedicated space with no outside distraction."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "72 subjects in 36 trials.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "A total of 72 subjects participated in the experiment in 36 trials."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "All-male pairs; native-Japanese-speaking university students from the Osaka area, ages 18–24 (mean 20.8). Familiarity with robots was relatively low (M=2.97, SD=1.67).",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Accordingly, in this study, we limited our subject profile for the observation to an all-male triad and experiment to all-male pairs with little variance in age."
+        },
+        {
+          "page": 5,
+          "text": "All subjects were native-Japanese-speaking university students recruited from the Osaka area."
+        },
+        {
+          "page": 5,
+          "text": "The ages of the subjects varied between 18 and 24 with an average of 20.8 years."
+        },
+        {
+          "page": 5,
+          "text": "Their familiarity with robots was relatively low (M=2.97, SD=1.67), so was their video gaming experience (M=2.92, SD=1.91)."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Pairs interacted with Robovie as a travel agent: they selected Spain or Turkey, heard travel-package and destination information, and answered questions about preferences and destination knowledge. Three gaze-role conditions assigned the second subject as an overhearer, bystander, or addressee. Average task duration was 7.5 minutes; total procedure averaged 25 minutes.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "We conducted a between-subjects experiment in which Robovie played the role of a travel agent and gave subjects information on travel packages."
+        },
+        {
+          "page": 4,
+          "text": "Throughout the interaction, the robot asked subjects questions regarding their travel preferences and their knowledge of the travel destination."
+        },
+        {
+          "page": 4,
+          "text": "We manipulated its gaze behavior in three conditions (Figure 4): In condition 1, the robot regarded one of the participants as an addressee and the other as an overhearer, ignoring the individual in the latter role."
+        },
+        {
+          "page": 4,
+          "text": "The task and the experiment procedure in total took an average of 7.5 and 25 minutes respectively."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three people per session: one robot and two human subjects.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "In condition 3, the robot regarded both participants as addressees."
+        },
+        {
+          "page": 4,
+          "text": "Figure 4 shows participants in the experiment."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "To gain a deeper understanding of how gaze cues might shape footing in human-robot conversations, we conducted a laboratory experiment in which we asked participants to converse with a humanlike robot, ATR’s Robovie R2 (see Figure 1)."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2 subjects per experimental session.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "In condition 1, the robot regarded one of the participants as an addressee and the other as an overhearer, ignoring the individual in the latter role."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Video and audio capture for behavioral measures; post-experiment questionnaire for recall and subjective measures, including custom seven-point Likert items and manipulation-check questions; ANCOVA/ANOVA and Pearson correlations for analysis.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "From the video and audio data, we measured the number of turns that subjects took to respond to the robot and the total time that they spent speaking."
+        },
+        {
+          "page": 5,
+          "text": "We measured subjects’ recall of the information presented by the robot using a post-experiment questionnaire."
+        },
+        {
+          "page": 5,
+          "text": "The subjective evaluation also included a question for manipulation check—we asked subjects how much they thought the robot looked towards them and towards the other subject."
+        },
+        {
+          "page": 5,
+          "text": "Seven-point Likert scales were used in all questionnaire items."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Addressees took more speaking turns and spoke longer than bystanders and overhearers (p<.01 and p=.01); addressees reported greater task attentiveness (p<.01) and groupness (p<.01); acknowledged addressees and bystanders liked the robot more than overhearers (p=.01). Recall did not differ significantly by role.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "Addressees took significantly more speaking turns (F[1,30]=17.58, p<.01) and spoke significantly longer (F[1,30]=7.41, p=.01) than bystanders and overhearers."
+        },
+        {
+          "page": 6,
+          "text": "Addressees rated themselves as attending to the conversation significantly more (F[1,29]=12.90, p<.01) than bystanders and overhearers did."
+        },
+        {
+          "page": 6,
+          "text": "Addressees and bystanders liked the robot significantly more than overhearers (F[1,30]=7.35, p=.01)."
+        },
+        {
+          "page": 6,
+          "text": "There were no significant differences across conditions in how well subjects recalled the information presented by the robot."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames robotic gaze as gaze cues used to signal and regulate conversational participant roles or footing, including addressee, bystander, and overhearer.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this paper, we study how a robot can establish the participant roles of its conversational partners using these cues."
+        },
+        {
+          "page": 3,
+          "text": "We designed the robot’s gaze behavior to signal three kinds of participant roles: Addressees are participants who take speaking turns and contribute to the conversation, and whom the robot addresses while speaking."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "Footing is described as the participant roles in conversation—who participates and in what capacity. The paper defines addressees, bystanders, and overhearers by their participation, address, and acknowledgment status.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "During conversations, speakers establish their and others’ participant roles (who participates in the conversation and in what capacity)—or “footing” as termed by Goffman—using gaze cues."
+        },
+        {
+          "page": 3,
+          "text": "Bystanders are acknowledged non-participants who do not take speaking turns (except during greetings and leave-taking) and whom the robot does not address while speaking, but whose presence it acknowledges during the conversation, particularly during greetings and leave-taking."
+        },
+        {
+          "page": 3,
+          "text": "Overhearers are unacknowledged non-participants who do not take speaking turns, whom the robot does not address while speaking, and whose presence it does not acknowledge at any point in the conversation."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze cues establish and maintain participant roles, select or signal addressees, and yield speaking turns to addressees; brief acknowledging gaze can signal a bystander’s presence without granting turns.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The direction of gaze plays an important role in establishing and maintaining conversational participant roles."
+        },
+        {
+          "page": 2,
+          "text": "In conversations that involve more than two people, the gaze of a speaker towards another participant can signal that the speaker is addressing that participant [24,37]."
+        },
+        {
+          "page": 4,
+          "text": "Based on the findings presented by Kendon [30] and Duncan [13] and our observations, we designed the robot’s gaze behavior to produce turn-yielding signals only for addressees."
+        },
+        {
+          "page": 3,
+          "text": "The addressees received the majority of gaze, between 71% and 76% of the time, and bystanders received 8% of the robot’s gaze, mostly in very short, acknowledging glances."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Subjects largely interpreted and followed turn-yielding gaze, with addressees participating more. Role assignment affected reported attentiveness, groupness, and liking, but not recall. Acknowledging gaze toward bystanders was associated with higher liking than ignoring overhearers.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The analysis showed that subjects correctly interpreted these signals 98.71% of the time (307 of 311 turn-yielding signals) and conformed to them by taking speaking turns 97.11% of the time (302 of 311 turns)."
+        },
+        {
+          "page": 6,
+          "text": "There were no significant differences across conditions in how well subjects recalled the information presented by the robot."
+        },
+        {
+          "page": 7,
+          "text": "Only using gaze cues, the robot manipulated who participated in and attended to a conversation, subjects’ feelings of groupness, and their liking of the robot."
+        },
+        {
+          "page": 8,
+          "text": "Bystanders, whose presence the robot acknowledged with simple non-turn-yielding gaze signals, evaluated the robot more positively than overhearers, for whom the robot did not produce these signals."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "Robovie used designed gaze behaviors based on communication theory and observations of human speakers. In the experiment, speech was scripted and the experimenter initiated turns from a preset utterance library; speech recognition was not used. Gaze was the manipulated behavior.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Designing the robot’s gaze cues to signal the three participant roles described above, we followed a theoretically and empirically grounded design methodology in which design decisions were informed by theories of human social communication and formal observations of how human speakers signal participant roles using gaze cues."
+        },
+        {
+          "page": 4,
+          "text": "We did not use speech recognition during the experiment."
+        },
+        {
+          "page": 4,
+          "text": "Instead, the experimenter initiated the robot’s turns in the conversation, selecting from among a preset sequence of utterances from a library."
+        },
+        {
+          "page": 4,
+          "text": "The manipulation in the robot’s gaze behavior was the only independent variable."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "ATR’s Robovie R2, described as a humanlike robot.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "To gain a deeper understanding of how gaze cues might shape footing in human-robot conversations, we conducted a laboratory experiment in which we asked participants to converse with a humanlike robot, ATR’s Robovie R2 (see Figure 1)."
+        },
+        {
+          "page": 1,
+          "text": "Figure 1. Robovie R-2, the humanlike robot we used in our study."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors state that eliminating gestures and body movement may have affected how participants perceived gaze signals; they propose future comparison of gaze with and without gestures.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "However, all aspects of nonverbal cues work together to create rich, humanlike behavior."
+        },
+        {
+          "page": 7,
+          "text": "Therefore, that we eliminated gestures and body movement might have affected how people perceived the robot’s gaze signals."
+        },
+        {
+          "page": 7,
+          "text": "We plan to conduct future studies that compare how gaze cues with and without gestures might affect human-robot conversations."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "In a lab experiment, pairs of people interacted with a travel-agent robot whose gaze signaled whether each person was an addressee, bystander, or overhearer. People generally followed the assigned roles; gaze-based role signaling affected participation, reported attentiveness, groupness, and robot liking, but not information recall.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper defines footing and participant roles, describes gaze’s role in allocating participation and turns, and reports behavioral and social effects. It details the gaze design and scripted implementation, identifies the Robovie R2 embodiment, and discusses how omitting gestures and body movement may have influenced perception of gaze.",
+      "quotes": []
+    }
+  ]
+}

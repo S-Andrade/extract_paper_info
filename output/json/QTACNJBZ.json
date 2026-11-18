@@ -1,0 +1,277 @@
+{
+  "key": "QTACNJBZ",
+  "title": "Human-Oriented Interaction With an Anthropomorphic Robot",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description with experiments evaluating person tracking, attention, gesture recognition, object attention, and emotion mimicry.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "Following this motivation, three different main scenarios have been set up to conduct experiments in."
+        },
+        {
+          "page": 9,
+          "text": "The robustness of the system interaction with several persons was tested in an experiment with two possible communication partners and conducted as described in Fig. 13(a)–(d)."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Office-like setting with common lighting conditions.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "All experiments were done in an office-like surrounding with common lighting conditions."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "28 participants in the emotion-recognition and facial-expression experiment; 11 were assigned to the control group. Participant counts for the other scenarios are not stated.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "For the experiment, 28 naive participants interacted with the robot from which 11 were chosen as a control group not knowing that independently from their utterances the robot always displayed the neutral short head movement."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Naive participants; other participant characteristics are not stated.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "For the experiment, 28 naive participants interacted with the robot from which 11 were chosen as a control group not knowing that independently from their utterances the robot always displayed the neutral short head movement."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Three technical evaluation scenarios: two people alternately address the robot, including one calling from outside its visual field; one person shows objects and points to them; and participants read a shortened version of Little Red Riding Hood aloud while the robot responds to prosody with facial expressions. The fairy-tale scenario disabled speech processing to isolate prosody.",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "A second person out of the visual field tries to get the attention of the robot by saying “BARTHOC, look at me” [Fig. 13(b)]."
+        },
+        {
+          "page": 9,
+          "text": "Another approach for evaluating the person memory in combination with other interaction modalities was showing objects to the robot as depicted in Fig. 14(a), resulting in a movement of the robot head that brings the person out of the field-of-view."
+        },
+        {
+          "page": 10,
+          "text": "For evaluating the emotion recognition and the generation of FEs, we created a setup in which multiple persons were invited to read out a shortened version of the fairy tale Little Red Riding Hood to the robot [see Fig. 14(b)]."
+        },
+        {
+          "page": 10,
+          "text": "For this experiment, the speech processing components were disabled to avoid a distortion of the robots reaction by content of the subject’s utterances, in contrast to the previously described scenarios where the overall system was operating."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Varied by scenario: the multiparty tracking scenario had two human communication partners and one robot; the fairy-tale scenario included multiple persons with one robot, with the exact group size per session unstated.",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "The robustness of the system interaction with several persons was tested in an experiment with two possible communication partners and conducted as described in Fig. 13(a)–(d)."
+        },
+        {
+          "page": 10,
+          "text": "For evaluating the emotion recognition and the generation of FEs, we created a setup in which multiple persons were invited to read out a shortened version of the fairy tale Little Red Riding Hood to the robot [see Fig. 14(b)]."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "The robustness of the system interaction with several persons was tested in an experiment with two possible communication partners and conducted as described in Fig. 13(a)–(d)."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "Two possible communication partners in the multiparty tracking scenario; multiple participants in the fairy-tale scenario, exact per-session number unstated.",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "The robustness of the system interaction with several persons was tested in an experiment with two possible communication partners and conducted as described in Fig. 13(a)–(d)."
+        },
+        {
+          "page": 10,
+          "text": "For evaluating the emotion recognition and the generation of FEs, we created a setup in which multiple persons were invited to read out a shortened version of the fairy tale Little Red Riding Hood to the robot [see Fig. 14(b)]."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "System performance counts/rates for recognition, tracking, and gesture recognition; a post-interaction custom questionnaire with three 5-point ratings of facial-expression fit, emotion recognition, and human-likeness; comparison of mimicry and neutral-response groups using a one-tailed t-test.",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "The robot was able to recognize and validate the sound as a human voice immediately in 70% of the 20 trials."
+        },
+        {
+          "page": 9,
+          "text": "The GR successfully recognized waving and pointing gestures from the remaining movements of a person in 94% cases with a false positive rate of 15%."
+        },
+        {
+          "page": 10,
+          "text": "After the interaction, a questionnaire about the interaction was given to the participants, to rate on three separate 5-point scales ranging from 0 to 4 the degree as to: 1) the FEs overall fit the situation, 2) BARTHOC recognized the emotional aspects of the story, and 3) whether its response came close to a human."
+        },
+        {
+          "page": 10,
+          "text": "The results presented in Fig. 15 show that the differences between the two test groups is not as high as it might have been expected, but averaging over the three ratings, the mimicry condition fares significantly better than the neutral confirmation condition [t(26) 1.8, p 0.05, one tailed]."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Key technical results: voice recognition/validation was immediate in 70% of 20 trials and rose to 90% when a second call was allowed; correct addressee response was 85% of 20 trials; gaze classification disturbed human-human conversation in 1 of 18 trials; mimicry ratings were significantly better than neutral confirmation (t(26)=1.8, p=0.05, one-tailed, as printed).",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "The robot was able to recognize and validate the sound as a human voice immediately in 70% of the 20 trials."
+        },
+        {
+          "page": 9,
+          "text": "The probability increased to 90% if a second call was allowed."
+        },
+        {
+          "page": 9,
+          "text": "In 85% of the 20 trials BARTHOC immediately recognized who wanted to interact with it using the SPLOC and estimation of the gaze direction by the face detector."
+        },
+        {
+          "page": 10,
+          "text": "The results presented in Fig. 15 show that the differences between the two test groups is not as high as it might have been expected, but averaging over the three ratings, the mimicry condition fares significantly better than the neutral confirmation condition [t(26) 1.8, p 0.05, one tailed]."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames the relevant behavior as attention control, person attention/tracking, and gaze-direction classification for identifying an addressee. It does not give a standalone definition of robotic gaze or robotic gaze-based attention.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "For a successful interaction, the basis of our system is constituted by a robust and continuous tracking of possible communication partners and an attention control for interacting, not only with one person like in the object demonstration but with multiple persons enabling us to also deploy the robot for, e.g., receptionist tasks."
+        },
+        {
+          "page": 4,
+          "text": "The gazing direction is evaluated for activating or deactivating the speech processing, since the robot should not react to people talking to each other in front of the robot, but only to communication partners facing the robot."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "Human gaze direction helps select the person addressing the robot and suppresses responses to people conversing with each other. Robot attention also shifts between a person and a referred object, supporting object demonstration and joint attention.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The gazing direction is evaluated for activating or deactivating the speech processing, since the robot should not react to people talking to each other in front of the robot, but only to communication partners facing the robot."
+        },
+        {
+          "page": 7,
+          "text": "Receiving the according command via the dialog, e.g., “This is an orange cup” in combination with a deictic gesture, the robot’s attention switches from its communication partner to the referred object."
+        },
+        {
+          "page": 7,
+          "text": "In return, the presented robot is able to perform pointing gestures to presented objects itself, thus achieving joint attention easily (see Fig. 10)."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The system enabled addressee-directed response and usually avoided disturbing human-human conversations; gaze classification caused one disturbance in 18 trials. The authors report that emotion mimicry was rated significantly better than neutral confirmation and increased acceptance by 50%.",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "Within 18 trials, the robot disturbed the communication of the persons in front of it only once."
+        },
+        {
+          "page": 10,
+          "text": "The results presented in Fig. 15 show that the differences between the two test groups is not as high as it might have been expected, but averaging over the three ratings, the mimicry condition fares significantly better than the neutral confirmation condition [t(26) 1.8, p 0.05, one tailed."
+        },
+        {
+          "page": 10,
+          "text": "However, taking the closeness to humans into account, the use of emotion recognition and mimicry increases the acceptance by 50%, encouraging us in continuing with interdisciplinary user studies and the research in a robotic platform for multimodal, human-oriented interaction."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "Autonomous real-time perception and attention: two eye cameras detect faces and classify horizontal face/gaze direction in 20° steps; two microphones and SPLOC estimate one or more sound-source directions. Face detections validate sound sources; memory-based tracking preserves trusted, stationary people temporarily outside view. The system combines reactive tracking and deliberative dialog through a three-layer hybrid architecture and XML-based module communication.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The eyes are vertically aligned and horizontally steerable autonomously for spatial fixations."
+        },
+        {
+          "page": 4,
+          "text": "As an extension to the frontal view detection proposed by Viola and Jones, we additionally classify the horizontal gazing direction of faces, as shown in Fig. 4, by using four instances of the classifier pyramids described earlier, trained for faces rotated by 20◦, 40◦, 60◦, and 80◦."
+        },
+        {
+          "page": 4,
+          "text": "For multiple sound source detection, not only the main energy value of the CSP result is taken, but also all values exceeding an adjustable threshold."
+        },
+        {
+          "page": 5,
+          "text": "If a person is trusted and not moving, the memory will keep the person’s position and return to it later according to the attention system."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "BARTHOC is an anthropomorphic humanoid torso robot, about adult-sized from the waist up, with a movable head, facial-expression actuators, two eye cameras, arms, and five-finger hands; two shoulder-mounted microphones support speech and speaker-direction detection.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "BARTHOC is able to move its upper body like a sitting human and corresponds to an adult person with a size of 75 cm from its waist upwards."
+        },
+        {
+          "page": 3,
+          "text": "To achieve human-like FEs, 10 DOFs are used in its face to control jaw, mouth angles, eyes, eye brows, and eye lids."
+        },
+        {
+          "page": 3,
+          "text": "Each eye contains a FireWire color video camera with a resolution of 640 480 pixels."
+        },
+        {
+          "page": 3,
+          "text": "For speech understanding and the detection of multiple speaker directions, two microphones are used, one fixed on each shoulder element as a temporary solution."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors state that anthropomorphic appearance and human-like sensors were chosen to support intuitive understanding and human-like interaction; they also note that appearance affects how people behave toward robots. The paper does not report a comparison isolating embodiment effects in the multiparty attention study.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "To foster a better and more intuitive understanding of the system, we propose a strong perception–production relation realized once by human-like sensors as video cameras integrated in the eyes and two mono-microphones, and sec- ondly, by a human-like outward appearance and the ability of showing facial expressions (FEs) and gestures as well."
+        },
+        {
+          "page": 2,
+          "text": "Regarding the observation that the way humans interact with each other in a teaching task strongly depends on the expectations they have regarding their communication partner, the outward appearance of the robot, and its interaction behavior are adopted inspired by [3], e.g., adults showing objects or demonstrating actions to children act differently from adults interacting with adults."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "This paper presents BARTHOC, an anthropomorphic robot with autonomous gaze-direction classification, speaker localization, and memory-based tracking for attention to multiple people. In tests, it usually responded to the intended addressee and rarely disturbed people talking to one another; the paper also reports better ratings for emotional mimicry than neutral responses.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper describes gaze-direction classification and attention control, their role in addressee selection and object-directed joint attention, and reports technical performance and interaction effects. It details sensing and control implementation and BARTHOC’s anthropomorphic embodiment, while discussing how appearance and human-like sensors motivated the system; it does not experimentally isolate embodiment effects.",
+      "quotes": []
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "key": "ZVWLSVIW",
+  "title": "Contingency scaffolds language learning",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Longitudinal comparative study of contingent versus non-contingent robot feedback strategies.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "To investigate the hypothesis, we compared language learning with a robot contingent feedback behavior versus robot non contingent feedback behavior."
+        },
+        {
+          "page": 1,
+          "text": "We used a longitudinal approach for the study to also verify the verbal feedback given by the robot."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "University of Hertfordshire experimental room/lab.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The whole study was processed at the University of Hertfordshire."
+        },
+        {
+          "page": 1,
+          "text": "In this graphic, the setting of the experimental room is depicted: 3 cameras were used for the recording of the scene."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "18 participants: 9 in the tutoring spotter condition and 9 in the non-tutoring spotter condition.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "There are 2 female and 7 male participants in the tutoring spotter condition, there is 1 female and 8 male participants in the non tutoring spotter condition."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Naive users; all fluent English speakers. Mean age was 24.6 in the tutoring spotter condition and 28.9 in the non-tutoring spotter condition. Tutoring spotter: 2 female, 7 male; non-tutoring spotter: 1 female, 8 male.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In our study the tutors (naive users) were asked to present 3 different sized cubes, see Fig. 2, and explain the colors and shapes of the markers on the cubes to the iCub robot."
+        },
+        {
+          "page": 1,
+          "text": "All participants were fluent English speakers."
+        },
+        {
+          "page": 3,
+          "text": "Over all, the balance of participants was given for both conditions average age in the tutoring spotter condition is 24,6, average age in the non tutoring spotter condition is 28,9, there are 2 female and 7 male participants in the tutoring spotter condition, there is 1 female and 8 male participants in the non tutoring spotter condition."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants explained the colors and shapes on three different-sized cubes to the iCub robot in three sessions, each lasting 2 minutes in total, with at least one day between sessions. The robot gave no verbal feedback in session one and verbal feedback in sessions two and three. Participants wore a headset; their utterances were transcribed between sessions.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The participants were asked to come three times to explain Deechee the same cubes for 2 minutes in total."
+        },
+        {
+          "page": 1,
+          "text": "Between the sessions there was at least one day."
+        },
+        {
+          "page": 1,
+          "text": "Thus there was no verbal feedback in the first session, but in the second and third."
+        },
+        {
+          "page": 2,
+          "text": "The participants were asked to ware a headset and we run a face and object tracking on a separate webcam."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Two per interaction session: one human tutor and one robot.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The participants were asked to present 3 different sized cubes, see Fig. 2, and explain the colors and shapes of the markers on the cubes to the iCub robot."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The robot was named Deechee and it is an iCub humanoid robot."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The participants were asked to present 3 different sized cubes, see Fig. 2, and explain the colors and shapes of the markers on the cubes to the iCub robot."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Manually transcribed video/audio using SAMPA phoneme annotations; automatic marker-based action segmentation; counts and frequencies of spoken words, including learning words; System Usability Scale questionnaire; video recording with three cameras, one of which was a Kinect.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The transcription was done based on each phoneme in the Speech Assessment Methods Phonetic Alphabet (SAMPA)."
+        },
+        {
+          "page": 2,
+          "text": "Furthermore we carried out an action segmentation based on the marker occurrence. The segmentation was done automatically with the detected markers."
+        },
+        {
+          "page": 3,
+          "text": "For the Language analysis we first present a descriptive approach to give a better insight in the data and after that we will present a statistic analysis of the data."
+        },
+        {
+          "page": 5,
+          "text": "The questionnaire comprised 10 questions for the System Usability Scale [13]."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "The learned-word percentage change from session one to session two showed a non-significant trend favoring contingent feedback: tutoring spotter 6.3 (SD 7.7, SE 2.4) versus non-tutoring spotter 0.26 (SD 9.8, SE 3.11), Mann–Whitney Z = -1.739, p = .082. The authors report more learning words overall and more total language production in the tutoring spotter condition; SUS results were not significantly different.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Between the two different conditions (non-tutoring spotter, tutoring spotter) we found a trend with a two-sided Mann-Whitney test (tutoring spotter: 6.3, SD 7.7, SE 2.4; non-tutoring spotter: 0.26, SD 9.8, SE 3.11, Z -1.739, p .082)."
+        },
+        {
+          "page": 5,
+          "text": "The results as shown in Fig. 10 are not significantly different."
+        },
+        {
+          "page": 6,
+          "text": "The overall results reveal that in the tutoring spotter condition we can find more learning words. In total the tutor spotter condition evokes more language production in the tutors."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames its subject as contingent robot behavior involving responsive eye gaze and looming/pointing feedback to support tutoring and language learning. It does not explicitly frame or define “robotic gaze-based attention” as a standalone concept.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In our previous studies, we have shown how responsive eye gaze and feedback on a looming detection is modifying the human tutoring behavior [1]."
+        },
+        {
+          "page": 2,
+          "text": "The tutoring spotter system was created in the ITALK project and is capable of giving contingent feedback in eye gaze and looming/pointing."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "Contingency is described mainly as a temporal pattern in which one event occurs in response to a previous event; the paper also describes spatial and intensity contingency. No explicit definition of robotic gaze-based attention is given.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The term contingency is considered mostly with reference to a temporal sequence of behavior and reaction [15]."
+        },
+        {
+          "page": 2,
+          "text": "While contingency mainly describes a temporal pattern, where one event occurs as an answer to a previous one, grounding relies on semantic information in the sense that one event (or speech act) needs to be grounded by an interaction partner through a signal of understanding."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Responsive gaze and pointing/looming feedback are presented as contingent feedback intended to support tutoring, signal participation, and help elicit scaffolding language from a human tutor. The study involves dyads, not multiparty interaction.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In our study, we hypothesized that robots can benefit from contingent behavior in a language learning process, similar to human children, when they are enabled to respond in a contingent manner and thus demonstrate that they participate in the interaction."
+        },
+        {
+          "page": 6,
+          "text": "Finally the trend in out statistical analysis is supporting our hypothesis that a contingent robot behavior elicits more scaffolding language support from a human tutor then a non contingent behavior."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The contingent tutoring-spotter condition was associated with more learning words overall and more tutor language production; learned-word percentage change showed a non-significant trend favoring that condition (p = .082). Participants in that condition also used “we” more frequently. These are dyadic interaction findings, not multiparty effects.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "We found that the learning words were used 342 times in the tutoring spotter condition in the session one, whereas in the non-tutoring spotter condition the learning words were used only 127 times in session one."
+        },
+        {
+          "page": 6,
+          "text": "What we did not expect to see at this point was that the participants were much more trying to build a ’we’ group with the robot in the tutoring spotter condition."
+        },
+        {
+          "page": 6,
+          "text": "The overall results reveal that in the tutoring spotter condition we can find more learning words. In total the tutor spotter condition evokes more language production in the tutors."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The tutoring spotter detects three gaze classes—gaze at robot, away, or at an object—and the robot responds by matching gaze or following the tutor’s gaze. It detects looming from spatial distance and points at the loomed-at object. The comparison system uses face/object tracking, a boredom filter that switches to random gaze, and occasional random pointing. Language feedback uses the same learning system in both conditions; verbal feedback begins in session two.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The robot is detecting 3 gazing classes, gaze at the robot, gaze away and gaze at an object and responsively react with the same behavior."
+        },
+        {
+          "page": 3,
+          "text": "In the tutoring spotter we implemented a detector for this kind of movement, by facilitating the spacial distance. The iCub robot would respond to a looming with a pointing towards the object which is loomed at."
+        },
+        {
+          "page": 3,
+          "text": "The non-tutoring spotter will saturate a ’boredom’ filter if the same face or object is seen for too long and the robot switches to random gaze."
+        },
+        {
+          "page": 1,
+          "text": "In the non-tutoring spotter condition the robot we used an implementation based on tracking the objects, the face of the participant to control the iCub’s behavior."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "The robot was Deechee, an iCub humanoid robot, equipped with a Kinect sensor for the tutoring spotter system.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The robot was named Deechee and it is an iCub humanoid robot."
+        },
+        {
+          "page": 2,
+          "text": "For the technical realization of the tutoring spotter we equipped the robot with a kinect sensor."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The study compared an iCub robot that responded contingently to a tutor’s gaze and looming actions with a non-contingent feedback condition while tutors taught it words for cube markers. The contingent condition elicited more language production and learning words, with a non-significant statistical trend in change in learned-word percentage; the study was dyadic rather than multiparty.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5 — The paper describes contingency and responsive robot gaze/pointing, their tutoring and language-support role, observed effects on tutors’ language, implementation details, and the iCub embodiment. It does not study multiparty interaction or discuss how embodiment influences the findings.",
+      "quotes": []
+    }
+  ]
+}

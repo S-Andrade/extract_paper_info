@@ -1,0 +1,271 @@
+{
+  "key": "D2F5UPFU",
+  "title": "Designing robot eyes for gaze communication",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description with experiments evaluating gaze readability and friendliness of robot-eye designs.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this paper, we propose a new robot face with rear-projected eyes for changing their appearance while simultaneously realizing the sight function by incorporating stereo cameras."
+        },
+        {
+          "page": 4,
+          "text": "We conducted two experiments on gaze reading and friendliness impression."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Online survey for the friendliness comparison and a face-to-face experimental setup for gaze reading; the paper does not explicitly name a lab or field setting.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "We developed a web-based system for collecting answers from participants."
+        },
+        {
+          "page": 4,
+          "text": "We asked the participant to stand in front of the robot head, face-to-face, with his/her head fixed on the mount."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "105 participants in the friendliness study; 36 participants in the gaze-reading study. The sample size for the later projected-eyes versus mechanical-eyes comparison is not stated.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "We asked 105 participants (all Japanese university students) to answer the question, \"These are robot faces. Which face do you think is more friendly?\""
+        },
+        {
+          "page": 5,
+          "text": "We divided the 36 participants into 3 groups."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "The friendliness study participants were Japanese university students. Other participant characteristics are not stated.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "We asked 105 participants (all Japanese university students) to answer the question, \"These are robot faces. Which face do you think is more friendly?\""
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants compared pairs of robot-eye images for friendliness. In a separate task, they identified which marker the robot appeared to look at across static and dynamic gaze conditions. Each gaze-reading participant saw five target markers with three iris sizes, 15 judgments total; gaze displays lasted five seconds with five-second intervals. A later comparison asked participants to rate projected versus mechanical eyes on questions about looking and expressiveness.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "We asked 105 participants (all Japanese university students) to answer the question, \"These are robot faces. Which face do you think is more friendly?\" for all pairs of combinations of the nine types of robot eyes."
+        },
+        {
+          "page": 4,
+          "text": "We then asked the participant to state at which marker the robot looked."
+        },
+        {
+          "page": 5,
+          "text": "Each participant experienced the robot gazing at 5 predetermined markers, using three iris sizes. Consequently, each participant was required to ID the marker in question 15 times in total."
+        },
+        {
+          "page": 6,
+          "text": "Participants saw each motion and were asked to give a rating from 1 to 7 for each question"
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "n_robots",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "n_humans",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Thurstone paired-comparison scaling (case III) for perceived friendliness; marker identification and average gaze-reading error for gaze accuracy; 1–7 ratings comparing projected and mechanical eyes.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "We evaluated the degree of apparent friendliness by using Thurstone's method of paired comparison."
+        },
+        {
+          "page": 4,
+          "text": "We then analyzed the data by using Thurstone's method of paired comparison, case III model, for scaling the impression of the robot eyes."
+        },
+        {
+          "page": 5,
+          "text": "We calculated the average errors for each design candidate for robot eyes shown in Fig. 1."
+        },
+        {
+          "page": 6,
+          "text": "Participants saw each motion and were asked to give a rating from 1 to 7 for each question"
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "The round outline with a large iris was reported as most suitable for gaze reading and friendliness. Dynamic gaze had lower average reading errors than static gaze; motion did not erase the pattern associated with eye shape. No inferential significance statistics are reported.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Thus, from this experiment we can conclude that the most friendly robot face is one with eyes featuring a round outline shape and a large iris (Fig. I-A)."
+        },
+        {
+          "page": 5,
+          "text": "From this experiment we can conclude that a robot's gaze is most readable by human users when performed by robot eyes with a round outline shape and a large iris (Fig. I-A)."
+        },
+        {
+          "page": 5,
+          "text": "As shown in Fig. 13 all of the average errors of dynamic gazes are smaller than that of static gazes."
+        },
+        {
+          "page": 5,
+          "text": "On the other hand, the errors of dynamic gaze demonstrated almost the same trend as those of static gaze, suggesting that motion is not sufficient to compensate for a shape disadvantage in gaze reading."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The authors frame robot gaze as nonverbal gaze communication: robot eyes should both see and show gaze, enabling gaze reading, eye contact, and joint attention. The paper does not frame or define multiparty robotic attention.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "For human beings, one of the most important aspects of non-verbal communication is gaze, utilized, for example, to establish eye contact and joint attention."
+        },
+        {
+          "page": 1,
+          "text": "Therefore we consider it important for robot eyes to not only be able \"to see\" but also to be able \"to show\" for gaze communication."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper gives no formal definition of robotic gaze, robotic attention, or gaze-based attention. It describes gaze communication as showing gaze so that users can read it, including to establish eye contact and joint attention.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Human eyes not only serve the function of enabling us \"to see\" something, but also perform the vital role of allowing us \"to show\" our gaze for non-verbal communication, such as through establishing eye contact and joint attention."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze is presented as a nonverbal communication channel that can establish eye contact and joint attention; the introduction also cites its role in turn-taking. Multiparty interaction is not studied.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "For human beings, one of the most important aspects of non-verbal communication is gaze, utilized, for example, to establish eye contact and joint attention."
+        },
+        {
+          "page": 1,
+          "text": "Gaze has been shown to play an important role in tum-taking in the field of conversational analysis [3]."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Eye shape and iris size affected gaze-reading accuracy and perceived friendliness: round eyes with a large iris performed best. Moving gaze improved average reading errors relative to static gaze. In the later comparison, projected eyes were preferred on looking-at-something and expressiveness ratings.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Clearly, the eyes with round and ellipse outline shapes received a higher score."
+        },
+        {
+          "page": 5,
+          "text": "This suggests that eyes with a larger iris area with respect to the sclera are more suitable for gaze reading."
+        },
+        {
+          "page": 5,
+          "text": "As shown in Fig. 13 all of the average errors of dynamic gazes are smaller than that of static gazes."
+        },
+        {
+          "page": 6,
+          "text": "The CG projection eyes were preferred to the mechanical eyes for the questions, \"Which eyes do you think are more \"looking at\" something?\" (Looking) and \"Which eyes do you think have more expressiveness?\" (Expressiveness)."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "Computer-generated eyes were rear-projected onto hemisphere screens by laser projectors. Two cameras and stereo triangulation estimated a target's 3D position; coordinate correspondences enabled the eyes to be rotated independently toward it. The paper describes a system implementation, not a Wizard-of-Oz setup.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "For the latter function we employ projectors to display various types of eye images generated by computer graphics."
+        },
+        {
+          "page": 2,
+          "text": "The eye images, generated by CG, are projected onto the hemisphere screen via rear-projection."
+        },
+        {
+          "page": 3,
+          "text": "We use the images captured by the two cameras to estimate the target position in 3D by using the stereo triangulation."
+        },
+        {
+          "page": 4,
+          "text": "Finally, the CG models of the eyes are rotated toward the target object independently."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "A custom robot head used a removable mask, projected eyes on hemispherical screens, mirrors, laser projectors, and cameras. The system was also embedded in a Robovie-R ver.3 robot.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The diameter of the face mask is 25cm."
+        },
+        {
+          "page": 2,
+          "text": "The diameter of the eyeballs, which serve as the screens for the projected eyes, is 5cm."
+        },
+        {
+          "page": 2,
+          "text": "Each of the eyes consists of a projector, a mirror and a screen."
+        },
+        {
+          "page": 5,
+          "text": "Fig. 14 shows the head of the robot (Robovie-R ver.3 by Vstone) before and after the system was embedded."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The projected eye system allowed changes in eye appearance, accurate gaze representation, and smooth, speedy movement; the authors report that projected eyes appeared more lively than the original mechanical eyes. No multiparty embodiment effects were studied.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Finally, our method can also represent high-speed eye movement because it does not use any driving mechanism."
+        },
+        {
+          "page": 5,
+          "text": "In contrast to the original Rovobie eyes, our projected eyes give a more lively impression, especially when they are textured and move speedily and smoothly."
+        },
+        {
+          "page": 6,
+          "text": "The CG projection eyes were preferred to the mechanical eyes for the questions, \"Which eyes do you think are more \"looking at\" something?\" (Looking) and \"Which eyes do you think have more expressiveness?\" (Expressiveness)."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper presents projected robot eyes with stereo cameras and tests how eye shape, iris size, and gaze movement affect gaze reading and perceived friendliness. Round eyes with a large iris performed best, and dynamic gaze had smaller average reading errors than static gaze; the experiments involved individual participants rather than multiparty interaction.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ4; RQ5 — The paper describes gaze as showing gaze for nonverbal communication and explains a projector-and-camera implementation on a custom head and Robovie-R. It evaluates eye appearance and gaze readability, but does not study multiparty interaction, so it does not directly answer RQ2, RQ3, or RQ6 in that context.",
+      "quotes": []
+    }
+  ]
+}

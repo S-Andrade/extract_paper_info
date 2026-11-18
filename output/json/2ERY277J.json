@@ -1,0 +1,269 @@
+{
+  "key": "2ERY277J",
+  "title": "Gaze Behavioral Adaptation Towards Group Members for Providing Effective Recommendations",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Between-subjects experimental study (as stated in the abstract); the Methods section describes a within-subjects, repeated-measures experiment.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "To gain a deeper understanding of how the robot gaze behavior might influence and shape the human perception of the interaction and the decision-making process in small groups, we conducted a between-subjects experimental study using a humanoid robot in a movie recommendation scenario."
+        },
+        {
+          "page": 6,
+          "text": "We designed a user study as a within-subjects, repeated measures experiment, where the independent variable, in each condition, is the different robot gaze behavior used for providing the recommendation to a group of users."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Movie recommendation study with groups seated around a robot at a table; the paper does not explicitly label the setting as a laboratory or field study.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "The three members of the group were seated at a table around Nao, respectively in front of Nao, at its left and at its right (see Fig. 1)."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "30 participants in 10 groups.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "We considered 10 groups, each one composed of 3 members."
+        },
+        {
+          "page": 6,
+          "text": "In detail, 25 male and 5 female were involved, with an average age of 20 6."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Italian high-school or master students; 25 male and 5 female; average age stated as “20 6”; all had moderate familiarity with robotics applications.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "All the participants were Italians and high-school or master students."
+        },
+        {
+          "page": 6,
+          "text": "In detail, 25 male and 5 female were involved, with an average age of 20 6."
+        },
+        {
+          "page": 6,
+          "text": "Finally, all the participants had a moderate familiarity with robotics applications."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Each group received three movie recommendations, presented using three gaze behaviors. Participants rated movies, gave individual and consensus group accept/reject responses, completed a short satisfaction questionnaire after each condition, and stated a preferred interaction mode.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "the recommendation system generates three recommendations selecting movies, if possible, that were rated with 3 or more stars by two group members and with 2 or less star by the remaining one (the weakest component, i.e. the one the robot will fixate longer/more times according to the selected gaze model); the movies will be recommended to the groups through the three different gaze behaviors;"
+        },
+        {
+          "page": 7,
+          "text": "for each of the three recommended movie, the group completed the following tasks: (c.1) provide an acceptance/reject response (for each individual and for the whole group) for the proposed movies (please note that when a group decision has to be made, the group has to reach a consensus on the answer); (c.2) complete a short satisfaction questionnaire after each interaction with the different conditions."
+        },
+        {
+          "page": 7,
+          "text": "finally, each user was requested to express a preference regarding a single interaction mode among the three proposed behaviors."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "4 people per interaction group: one robot and three humans.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "We considered 10 groups, each one composed of 3 members."
+        },
+        {
+          "page": 7,
+          "text": "The three members of the group were seated at a table around Nao, respectively in front of Nao, at its left and at its right (see Fig. 1)."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "The used robot was a NAO T14 robot model, consisting in a humanoid torso with 14 degrees of freedom (2 for the head and 12 for the arms) developed by Softbank."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "3",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "We considered 10 groups, each one composed of 3 members."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Custom questionnaire (including familiarity, personal and group acceptance, persuasiveness, naturalness, and preference items); acceptance/reject responses; statistical analyses of acceptance and questionnaire responses. No named validated scale or video/eye-tracking measure is stated.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "The proposed questionnaire is organized into three specific sections: an initial section containing personal and topic related information (Q1. How familiarized are you with robotic applications? (1 to 5), Q2. How familiarized are you with the movie domain? (1 to 5)); a second section is repeated after each experimental condition (Q3. Did you accept the recommended movie? (Personal acceptance), Q4. Did the group accept the recommended movie? (Group acceptance), Q5. How persuasive was the robot? (1 to 5), Q6. The robot motions were natural (5) or unnatural (1)); a final section is at the end of the test session (Q7. Which mode of interaction did you prefer? {A, B, C})."
+        },
+        {
+          "page": 7,
+          "text": "provide an acceptance/reject response (for each individual and for the whole group) for the proposed movies"
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Personal acceptance was strongly associated with group acceptance (F(1, 90)=53.083, p<0.001; ρ=0.613, p<0.001). In a two-way ANOVA, gaze behavior and personal acceptance had significant main effects on group acceptance, but their interaction was not significant. Acceptance rates were 52% for standard gaze, 67% for longer gaze toward the lowest-rated member, and 75% for more frequent gaze toward that member. Gaze behavior did not significantly correlate with reported persuasiveness or perceived naturalness; plot length had a weak positive correlation with perceived naturalness (ρ=0.2, p=0.05).",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "Naturally, one of the factor with the biggest impact on the group acceptance is the personal acceptance (one-way ANOVA with F(1, 90) 53.083 and p 0.001, and Sperman ρ 0.613 with p 0.001)."
+        },
+        {
+          "page": 8,
+          "text": "Results show that both the considered factors have a significant main effect on the group acceptance, but there is no interaction effect between the two or the interaction is additive."
+        },
+        {
+          "page": 8,
+          "text": "In detail, for the cases of a standard gaze behavior, half of the proposed movies (52%) could be accepted by the groups. In the case of long gazes towards the user with the lowest evaluation of the movie, we obtained that in 67% of the recommendations the group could accept the recommendation. Finally, the best results (75%) are obtained in the case of frequent gazes towards the user with the lowest evaluation of the movie."
+        },
+        {
+          "page": 9,
+          "text": "Moreover, there is no statistically significant correlation between the presented gaze behavior and the reported persuasiveness (ρ −0.040 with p 0.7), and between the presented gaze behavior and the perceived naturalness of the interaction (ρ 0.038 with p 0.721)."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames gaze as a non-verbal social cue that can convey attention and influence group decision-making and acceptance during recommendations. It examines gaze frequency, fixation duration, and head-turn allocation toward group members.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Here, we focus on the role of modeling the robot gaze while providing recommendations to a group of users."
+        },
+        {
+          "page": 2,
+          "text": "Moreover, the modulation of the gaze behavior may help a robot in showing a persuasive behavior [4], not via explicit communication (gesture, speech), but via implicit manipulation of social cues."
+        },
+        {
+          "page": 4,
+          "text": "Considering the results of [6] on focusing the attention on a favorite participant in group and the experiments of [1,11] showing a correlation between frequent fixations and perceived attention, we hypothesize that a participant, who is gazed at more frequently and for a longer time, will perceive his/her role in the group as more significant in addition to eliciting his/her attention towards the robot."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "The gaze behavior is used to direct and distribute the robot’s attention among group members during a recommendation, especially by giving more or more frequent gaze to the member who rated the recommended movie lowest. The authors aim to elicit that member’s attention and influence group decision-making and acceptance.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "This could positively impact the group decision-making process, helping the person, whose satisfaction on the recommended item is not good, in deciding in favor of the other members of the group."
+        },
+        {
+          "page": 5,
+          "text": "In this model (S), each section has a fixed gaze time of three seconds (tgaze(S) 3 s), as suggested in [1]. The goal is to distribute the total reading-time of the plot and the head turnings of the robot among the n users."
+        },
+        {
+          "page": 5,
+          "text": "In this case, the goal is to convince the user who rated the suggested movie with the lowest value by assigning a longer fixation (tgaze(L) 7s) to him/her in each round."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Gaze behavior produced different group acceptance rates when considered with personal acceptance; frequent gaze toward the lowest-rated member yielded the highest observed rate. Participants did not report significant differences in perceived naturalness or persuasiveness and preferred standard gaze overall.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "In detail, for the cases of a standard gaze behavior, half of the proposed movies (52%) could be accepted by the groups. In the case of long gazes towards the user with the lowest evaluation of the movie, we obtained that in 67% of the recommendations the group could accept the recommendation. Finally, the best results (75%) are obtained in the case of frequent gazes towards the user with the lowest evaluation of the movie."
+        },
+        {
+          "page": 9,
+          "text": "Moreover, there is no statistically significant correlation between the presented gaze behavior and the reported persuasiveness (ρ −0.040 with p 0.7), and between the presented gaze behavior and the perceived naturalness of the interaction (ρ 0.038 with p 0.721)."
+        },
+        {
+          "page": 9,
+          "text": "Regarding question Q7, results showed that the participants expressed a preference towards the standard gaze behavior."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "Three heuristic gaze models vary the robot’s head turns and gaze duration: standard gaze allocates equal gaze time to all members; longer gaze assigns a 7-second fixation to the lowest-rated member and 3 seconds to others; frequent gaze inserts a second non-adjacent section for that member, doubling their gaze time and head turns. A face-tracking module tracks participants’ positions and movements; head orientation provides gaze because the robot cannot move its eyes.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Each round is composed of n sections, each one corresponding to the gaze towards a single member of the group and with a time duration Tround(b) defined as:"
+        },
+        {
+          "page": 5,
+          "text": "In this case, the goal is to convince the user who rated the suggested movie with the lowest value by assigning a longer fixation (tgaze(L) 7s) to him/her in each round."
+        },
+        {
+          "page": 5,
+          "text": "In this model, each round is divided into n 1 sections and two non-adjacent sections are linked to the same user who gave the lowest rate to the recommended movie. As a result of this division, the weakest component of the group is fixated twice the time and gets twice the number of head turnings with respect to the other users."
+        },
+        {
+          "page": 6,
+          "text": "Nao robot does not allow eye movements, so gaze is obtained by the head orientation. However, according to [5], head orientation is fundamental to recognize gaze in human-robot multi-party settings. A face tracking module has been enabled in order to obtain an accurate gaze towards the actual position of the participants [15]."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Softbank NAO T14 humanoid robot with a torso, 14 degrees of freedom (two for the head and 12 for the arms), no eye movement, and LEDs positioned in its eyes to reproduce blinking.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "The used robot was a NAO T14 robot model, consisting in a humanoid torso with 14 degrees of freedom (2 for the head and 12 for the arms) developed by Softbank."
+        },
+        {
+          "page": 6,
+          "text": "Nao robot does not allow eye movements, so gaze is obtained by the head orientation."
+        },
+        {
+          "page": 6,
+          "text": "A blinking effect has been reproduced, using Nao’s led positioned in its eyes, making the robot look more human-like."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The robot’s lack of eye movement meant gaze was implemented through head orientation; the paper states that head orientation is fundamental for recognizing gaze in multiparty human-robot settings. No further effect of embodiment on study outcomes is reported.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "Nao robot does not allow eye movements, so gaze is obtained by the head orientation. However, according to [5], head orientation is fundamental to recognize gaze in human-robot multi-party settings."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The authors tested three ways for a NAO robot to distribute gaze while recommending movies to groups of three people, targeting the member who rated a movie lowest with longer or more frequent gaze. Group acceptance was highest with more frequent gaze toward that member, while participants did not significantly distinguish the gaze behaviors in perceived naturalness or persuasiveness and tended to prefer standard gaze.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper describes gaze as a non-verbal cue for conveying attention and shaping group decisions, reports acceptance and perception outcomes, details gaze models and face tracking, and identifies the NAO platform and its head-based gaze. It gives limited evidence on how embodiment influenced the study: eye-movement limitations led to head-orientation gaze.",
+      "quotes": []
+    }
+  ]
+}

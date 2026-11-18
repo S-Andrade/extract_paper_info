@@ -1,0 +1,325 @@
+{
+  "key": "TVMH7TEF",
+  "title": "Data-Driven Control of Eye and Head Movements for Triadic Human-Robot Interactions",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description with two online third-person subjective evaluations and objective model evaluation.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "To question these two hypothesis, this paper presents the design of the proposed end2end control model and its subjective evaluation through two online experiments."
+        },
+        {
+          "page": 9,
+          "text": "Gaze target predictions are evaluated with the F1_score metric, and head trajectory prediction with the Root Mean Squared Error (RMSE)."
+        },
+        {
+          "page": 11,
+          "text": "To compare these two models, we decided to conduct an online pairwise preference test."
+        },
+        {
+          "page": 17,
+          "text": "Firstly, these evaluations were carried out with third-person viewers, instead of persons interacting with the robot as proposed by Mishra et al [46] for the evaluation of their gaze control."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Online evaluations using videos replayed with a virtual Furhat robot; training data came from immersive teleoperation interactions.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Both were conducted with a (virtual) Furhat [22] robot."
+        },
+        {
+          "page": 4,
+          "text": "The originality of this corpus consists in the use of immersive teleoperation to control the robot and endow it with smooth, human-like behavior."
+        },
+        {
+          "page": 17,
+          "text": "Finally, to simplify the process, the replay and capture of video clips was carried out on the virtual Furhat, and not on the physical robot."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "Study 1: 50 participants in final results (54 completed; 4 excluded). Study 2: 87 participants in final results (90 completed; 3 excluded).",
+      "quotes": [
+        {
+          "page": 12,
+          "text": "Among the 54 subjects who completed the experiment, 4 were removed from the final results after failing the attention checks, resulting in a total of 50 subjects with an average age of 34 ± 10 years."
+        },
+        {
+          "page": 15,
+          "text": "Among the 90 subjects who completed the experiment, 3 were removed from the final results for not following the instructions, 1 subject in the evaluation block 2, and 2 subjects in block 3."
+        },
+        {
+          "page": 15,
+          "text": "The remaining 87 subjects have an average age of 35 ± 11 years."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Online evaluators were native French speakers from France, Belgium, or Switzerland, recruited through Prolific; desktop participation only. Study 1 had gender balance and average age 34 ± 10; Study 2 had gender balance and average age 35 ± 11.",
+      "quotes": [
+        {
+          "page": 12,
+          "text": "We recruited 54 subjects through the crowdsourcing platform Prolific, with a gender balance, all native French speakers from France, Belgium or Switzerland only."
+        },
+        {
+          "page": 12,
+          "text": "Only desktop users were permitted to participate."
+        },
+        {
+          "page": 15,
+          "text": "We recruited 90 subjects on the crowdsourcing platform Prolific2, i.e 30 subjects for each evaluation block, with a gender balance."
+        },
+        {
+          "page": 15,
+          "text": "The remaining 87 subjects have an average age of 35 ± 11 years."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "A robot facilitator animates a collaborative game in which two humans identify the most frequently quoted words for a theme. Evaluators watched clips to compare head movements or identify whom the robot addressed; evaluations were online and third-person.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The aim of the game for both players is to find out which words are the most quoted from a pool of people for a given theme."
+        },
+        {
+          "page": 4,
+          "text": "As facilitator, the robot monitors the game flow by giving the theme and scores, and inciting players to collaborate and propose answers."
+        },
+        {
+          "page": 11,
+          "text": "The participants are then required to view the two videos in their entirety, which are played simultaneously on top of each other in order to facilitate a comparative analysis of the robots."
+        },
+        {
+          "page": 14,
+          "text": "Over the whole clip, who do you think the robot is addressing when it speaks?"
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three agents per interaction: one robot and two humans. Online video evaluators watched as third-party observers, not as members of the interaction.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "To train our model, we use original motion capture data from a collaborative game between two human players and a robot that is immersively teleoperated by a human pilot [12, 13]."
+        },
+        {
+          "page": 17,
+          "text": "Firstly, these evaluations were carried out with third-person viewers, instead of persons interacting with the robot as proposed by Mishra et al [46] for the evaluation of their gaze control."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "To train our model, we use original motion capture data from a collaborative game between two human players and a robot that is immersively teleoperated by a human pilot [12, 13]."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2 human players in each interaction, with the robot pilot teleoperating the robot.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "To train our model, we use original motion capture data from a collaborative game between two human players and a robot that is immersively teleoperated by a human pilot [12, 13]."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Model performance used gaze-target F1 score and head-angle RMSE. Subjective evaluation used online pairwise preference questions and addressee identification plus confidence ratings; statistical analyses included GLMM/logistic regression and ordinal regression. Gaze/head behavior was recorded and annotated, including eye and head trajectories.",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "Gaze target predictions are evaluated with the F1_score metric, and head trajectory prediction with the Root Mean Squared Error (RMSE)."
+        },
+        {
+          "page": 11,
+          "text": "Q1: Which of these 2 robots would you prefer to interact with? Q2: Which of these 2 robots is the most attentive to its interlocutors? Q3: Which of these 2 robots shows the most engagement with its interlocutors?"
+        },
+        {
+          "page": 14,
+          "text": "For the first question, three answers are possible: the player on the A side, the player on the B side, or both players."
+        },
+        {
+          "page": 14,
+          "text": "For the second question, 4 answers are possible: very confident, fairly confident, not very confident, extremely non-confident."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "The context-aware model’s head movements were preferred over the heuristic model and rated as more attentive and engaging (all three comparisons significant). Addressee identification matched the imposed bias in 78% of cases (overall F1 = 0.78); confidence was significantly associated with agreement.",
+      "quotes": [
+        {
+          "page": 13,
+          "text": "The robot with head movements generated by our model is preferred to the one with head movements generated by the heuristic model, and it is perceived as more engaged and attentive."
+        },
+        {
+          "page": 13,
+          "text": "We found significant results for each of the three questions q1 (z = 2.68, pvalue = 0.003), q2 (z = 1.78, pvalue = 0.037), q3 (z = 3.13, pvalue = 0.0008)."
+        },
+        {
+          "page": 16,
+          "text": "The overall F1_score calculated from these results is 0.78 with an accuracy of 78%."
+        },
+        {
+          "page": 16,
+          "text": "Finally, we applied a likelihood ratio test with the Anova function of the R software which allowed us to find a significant impact of the Agreement variable on the level of confidence (chisq(1) = 32.7, p-value < 0.0001)."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames gaze as an important non-verbal cue that helps regulate turn-taking, manage conversational roles, and communicate the robot’s addressee. It treats gaze as coordinated eye and head movement.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The importance of gaze in human-robot interaction (HRI) is well documented, particularly for its contribution in regulating turn-taking and managing roles in conversations."
+        },
+        {
+          "page": 2,
+          "text": "The gaze can be used to indicate to whom you are addressing when you speak, and whether you want to hold or yield the floor [24, 25]."
+        },
+        {
+          "page": 2,
+          "text": "Indeed gaze is a combination of chest, head and eye movements [17], and each of these three segments of attention conveys its own communicative information."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze indicates whom the robot is addressing, helps regulate speaking turns and floor holding/yielding, and supports conversational role management and participation.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The gaze can be used to indicate to whom you are addressing when you speak, and whether you want to hold or yield the floor [24, 25]."
+        },
+        {
+          "page": 2,
+          "text": "The influence of the gaze on turn-taking and participation regulation in the conversation have also been highlighted in Human-Robot Interaction (HRI) [8]."
+        },
+        {
+          "page": 13,
+          "text": "In this role, the robot is expected to either address both players or a single one, to encourage collaboration and promote balanced participation."
+        },
+        {
+          "page": 16,
+          "text": "It can be concluded that this bias has a real impact on the prediction of the robot’s behavior, and that this impact is perceived and enables the robot to convey its communicative intentions: to whom it wants to address, simply with its gaze."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Evaluators preferred the context-aware model’s head movements, rating the robot as more attentive and engaged than the heuristic condition. Manipulating the addressee input affected gaze/head predictions, and evaluators identified the intended addressee with 78% accuracy; confidence was lower when their answer disagreed with the bias.",
+      "quotes": [
+        {
+          "page": 13,
+          "text": "The robot with head movements generated by our model is preferred to the one with head movements generated by the heuristic model, and it is perceived as more engaged and attentive."
+        },
+        {
+          "page": 14,
+          "text": "We can see that the head is more centered when the bias is set to “Both”, i.e. when the robot is instructed to address both players."
+        },
+        {
+          "page": 16,
+          "text": "In summary, 78% of the time, the evaluators’ answers match the addressee bias given as input, the chance level being 33%."
+        },
+        {
+          "page": 16,
+          "text": "It can be seen that although subjects are quite confident in their answers, proportions of high and very high confidence levels decrease when answers are not aligned with the addressee bias."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "A causal, data-driven CNN-LSTM sequence-to-sequence model predicts discrete gaze targets and continuous head trajectories from robot speech/activity and addressee, users’ speech and gaze, and dyad identity. It was trained on annotated immersive teleoperation data; the model was evaluated via offline predictions and replayed video clips on virtual Furhat.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The proposed control is a data-driven end-to-end model that incrementally i.e. causal model with no information on the future maps robot’s intentions and partners’ observed behaviors to the robot’s eye targets and head movements via machine learning."
+        },
+        {
+          "page": 7,
+          "text": "For the proposed model, we chose a sequence-to-sequence architecture (seq2seq) because of its ability to simultaneously predict discrete gaze targets and continuous head trajectories."
+        },
+        {
+          "page": 8,
+          "text": "The training phase is performed on 100 epochs, the first 50 with a learning rate set to 0.005 and the next 50 with a learning rate of 0.001."
+        },
+        {
+          "page": 7,
+          "text": "The input features are multimodal signals that have already been annotated in the RoboTrio corpus."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Training corpus: teleoperated iCub robot with articulated jaw, redesigned eyes, three head degrees of freedom and three eye degrees of freedom. Video evaluations replayed the behavior on a virtual Furhat robot.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The robot used in this corpus is the iCub robot, which has been modified to improve its communicative functions by adding an articulated jaw [59] and redesigning its eyes [60]."
+        },
+        {
+          "page": 4,
+          "text": "Thanks to the degrees of freedom of its head (3) and eyes (3), this robot is able to replicate the movements of a human pilot wearing a virtual reality headset equipped with a binocular eyetracker."
+        },
+        {
+          "page": 2,
+          "text": "Both were conducted with a (virtual) Furhat [22] robot."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors state that differences in robot embodiment limited their ability to assess gaze relative to evaluators: the virtual Furhat replay could be affected by the Mona-Lisa effect, although targets in the conversation were distinct and fixed. They plan to implement the model on physical Furhat for real-time evaluation.",
+      "quotes": [
+        {
+          "page": 17,
+          "text": "Finally, to simplify the process, the replay and capture of video clips was carried out on the virtual Furhat, and not on the physical robot."
+        },
+        {
+          "page": 18,
+          "text": "The Mona-Lisa effect [81], known to affect the perception of an agent’s gaze when displayed in 2D, can be pointed out."
+        },
+        {
+          "page": 18,
+          "text": "However, the evaluators were not asked to judge the robot’s gaze relative to them, but relative to its behavior in the conversation, where the targets of attention are very distinct and fixed."
+        },
+        {
+          "page": 18,
+          "text": "Future work will focus on implementing this model on the physical Furhat robot, to validate its use in real-time, and to obtain an autonomous robot facilitator."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper trains a CNN-LSTM model on teleoperated robot interactions to generate gaze targets and head movements for a robot facilitating a collaborative game with two people. In online video evaluations, context-aware head movements were preferred, and gaze/head behavior communicated the intended addressee with 78% accuracy.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper frames gaze as a cue for turn-taking and addressee/role management, reports evaluator preferences and addressee recognition, details a data-driven gaze and head control model, and describes iCub and virtual Furhat embodiments. It also discusses limitations related to virtual robot replay and plans evaluation on physical Furhat.",
+      "quotes": []
+    }
+  ]
+}

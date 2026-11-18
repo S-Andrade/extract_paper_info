@@ -1,0 +1,318 @@
+{
+  "key": "SQQ4GFM3",
+  "title": "Generation of head movements of a robot using multimodal features of peer participants in group discussion conversation",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system-development study with machine-learning model evaluation and a video-based subjective evaluation experiment.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this study, the focus was on the generation of two of these behaviors regarding the head of the robot."
+        },
+        {
+          "page": 17,
+          "text": "Therefore, a second subject experiment was conducted to evaluate the perception of predicted head movements in the aspects of naturalness and realism."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Controlled group-discussion recording experiment and online video evaluation; the human discussion corpus was recorded in a laboratory-style setup around a square table, while evaluators watched clips via a dedicated website.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "The participants sat around a 1.2 1.2-m square table."
+        },
+        {
+          "page": 18,
+          "text": "The composed video clips with Sota and the other three subjects shown at the same time were viewed and evaluated by the recruited evaluators."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "40 human participants in the group-discussion data collection; 140 human evaluators in the subjective video study.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "Forty college students were recruited for the data recording of this experiment."
+        },
+        {
+          "page": 18,
+          "text": "In all, 140 subjects (84 male and 56 female, average age 39.3 with S.D. 8.8) were recruited as anonymous evaluators from a cloud sourcing service, Lancers."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Data-collection participants were Japanese college students in their third or fourth year, native Japanese speakers, ages not stated; 30 male and 10 female. Evaluators were 84 male and 56 female, mean age 39.3 years (SD 8.8).",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "Thirty were male, 10 were female, all were native Japanese speakers, and the discussions were in Japanese."
+        },
+        {
+          "page": 6,
+          "text": "For making sure that the participants had enough knowledge and motivation in the experimental sessions, students who had finished their job hunting or ones who were job hunting were recruited—that is, the third- or fourth-year students in college."
+        },
+        {
+          "page": 18,
+          "text": "In all, 140 subjects (84 male and 56 female, average age 39.3 with S.D. 8.8) were recruited as anonymous evaluators from a cloud sourcing service, Lancers."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Four-person groups discussed collaboratively for 15 minutes to rank 15 celebrities for a college festival. The robot models were evaluated in video clips of about one minute, in which Sota replaced one participant and showed model-generated, human-recorded, or statistical head movements.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Then, the participants engaged in a 15-min discussion to decide collaboratively the ranked order as a group."
+        },
+        {
+          "page": 5,
+          "text": "The goal of the discussion task was to decide the ranked order of 15 celebrities by considering cost and audience attraction."
+        },
+        {
+          "page": 17,
+          "text": "Each video clip was cut from the middle part of the original experimental video data with a length of approximately 1 min."
+        },
+        {
+          "page": 18,
+          "text": "Each participant evaluated three sessions (nine video clips), and each session was evaluated by seven evaluators."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Four people in each human data-collection discussion group. For the evaluated robot clips, Sota appeared with three human participants (four participants total).",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "They were divided into 10 groups, each one with four people."
+        },
+        {
+          "page": 18,
+          "text": "The composed video clips with Sota and the other three subjects shown at the same time were viewed and evaluated by the recruited evaluators."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "One Sota robot in each evaluated clip; the human group-discussion corpus itself used no robot.",
+      "quotes": [
+        {
+          "page": 18,
+          "text": "Twenty of them were randomly selected and were replaced by the video of Sota, while the audio track was still the subject’s original voice."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "Four humans per original discussion session; three humans alongside Sota in each robot evaluation clip.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "They were divided into 10 groups, each one with four people."
+        },
+        {
+          "page": 18,
+          "text": "The composed video clips with Sota and the other three subjects shown at the same time were viewed and evaluated by the recruited evaluators."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Manual video coding of attention targets and nods; multimodal sensor/audio/video recordings and extracted features; model performance metrics (precision, recall, F-measure, accuracy); evaluators' 1–10 ratings of attention appropriateness, nod timing, and overall naturalness; Friedman tests.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "One coder then manually coded the attention targets of all of the participants by observation of the video corpus with the annotation tool Elan [48]."
+        },
+        {
+          "page": 13,
+          "text": "The periods when the participants were nodding were manually labeled (Table 6)."
+        },
+        {
+          "page": 18,
+          "text": "The naturalness of Sota’s head movements in reacting to the other three subjects’ behavior was evaluated in the following three aspects with scores from one to ten."
+        },
+        {
+          "page": 19,
+          "text": "Values in the test column are the results of a Friedman test."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Attention prediction achieved overall F-measures of 0.460 (speaking), 0.580 (listening), and 0.528 (idling); nod prediction achieved overall F-measures of 0.645 (speaking) and 0.685 (listening). In the subjective evaluation, no significant differences were reported for attention or overall impression; the proposed model was best at nodding, but the paper does not provide a significance result for that comparison in the supplied text.",
+      "quotes": [
+        {
+          "page": 12,
+          "text": "Overall 0.464 0.460 0.460"
+        },
+        {
+          "page": 12,
+          "text": "Overall 0.580 0.581 0.580"
+        },
+        {
+          "page": 12,
+          "text": "Overall 0.536 0.529 0.528"
+        },
+        {
+          "page": 14,
+          "text": "Overall 0.669 0.656 0.645"
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames gaze-related behavior as the robot’s visual attention or attentional focus, operationalized as selecting an attention target and timing target shifts. It treats the target as a device-independent focus that can be rendered by robot head movement.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "We propose a general model to generate reactive and spontaneous head motions to show an autonomous robot’s visual attention during a group discussion, where all participants play equal roles in making decisions."
+        },
+        {
+          "page": 6,
+          "text": "In this particular study, the focus was on the modeling of the attention target of the robot, rather than direct interpretation of gaze direction or the head orientation of the robot."
+        },
+        {
+          "page": 7,
+          "text": "The possible attention targets of the participants were considered to be one of the other participants and the discussion material."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The authors define the robot’s attention target as an abstract, device-independent alternative to imitating detailed human gaze or head movements: the robot should attend to the same target at the same time as a human would. They treat the attention target as the combination of head direction and eye gaze direction.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Therefore, the attention target is treated as the overall combination of head direction and gaze direction of the eyeballs of the robot."
+        },
+        {
+          "page": 6,
+          "text": "The research issue was transformed from the imitation of detailed human movements to a simpler, abstract, and device-independent one: how to make the robot pay attention to the same target at the same time as a human would."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "The modeled attention behavior lets the robot direct its focus among discussion partners and the shared material, with behavior varying across speaking, listening, and idling. The paper also situates gaze as a potential communication signal for addresseehood and turn management, while the proposed behaviors are primarily spontaneous reactions.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "The robot can participate in group discussion sessions as one of the following roles of participation: speaker, addressee, or overhearer."
+        },
+        {
+          "page": 3,
+          "text": "Nodding is another spontaneous and intentional behavior to convey social signals in conversation. It contributes to regulating the flow of speaking turns and showing acknowledgment, and it serves as one of the back channels [15]."
+        },
+        {
+          "page": 2,
+          "text": "Vertegaal [16] reported that gaze is a reliable predictor of addresseehood."
+        },
+        {
+          "page": 2,
+          "text": "It is thought that, if the robot can perform such spontaneous behaviors in responding to other participants, its believability can be improved."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The study evaluated perceived naturalness of the robot’s attention target and nod timing in video clips. The proposed model was rated best for nodding; attention and overall impression did not significantly differ among conditions. No direct effect on human interaction or group outcomes was measured.",
+      "quotes": [
+        {
+          "page": 18,
+          "text": "Attention target and the timing to switch targets: Does Sota pay attention to appropriate targets and switches its attention to focus on the next target at appropriate timings, considering the context of the discussion?"
+        },
+        {
+          "page": 19,
+          "text": "The proposed model was best at performing nodding."
+        },
+        {
+          "page": 19,
+          "text": "However, there were no significant differences among the three conditions in the attention model and overall impression."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "Support vector machine models predicted attention targets and nods from peer participants’ multimodal features. Attention models used separate speaking, listening, and idling conditions; outputs were integrated with a dialog manager and robot controller. Sota motion filters accommodated hardware limits; the evaluation used leave-one-subject-out models on video clips.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "A nonlinear support vector machine (SVM) with a Gaussian kernel was used to develop the prediction models for the three situations."
+        },
+        {
+          "page": 3,
+          "text": "The outputs are the timings and the target shifts (when to look at whom), while the inputs are the low-level signals and contextual features extracted only from the peer participants."
+        },
+        {
+          "page": 15,
+          "text": "These two modules determine the timings of the robot’s spontaneous head turns (changes of attention focuses) and nodding."
+        },
+        {
+          "page": 16,
+          "text": "Therefore, a filter with a 0.7-s window was applied to the outputs of the model."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "VStone Sota, a 28 cm desktop humanoid with an upper body, three head degrees of freedom (roll, pitch, yaw), horizontal torso rotation, and no moving facial parts; LEDs behind the eyes and mouth can light up.",
+      "quotes": [
+        {
+          "page": 16,
+          "text": "Sota is a desktop humanoid robot designed for communication partner applications."
+        },
+        {
+          "page": 16,
+          "text": "It has only an upper body, and its height is 28 cm."
+        },
+        {
+          "page": 16,
+          "text": "Its head has three DOFs (roll-pitch-yaw), and its torso can rotate in the horizontal direction (yaw)."
+        },
+        {
+          "page": 16,
+          "text": "Its head has a relatively simple structure, and there are no moving parts on its face, but the light-emitting diodes behind its eyes and mouth can be lighted."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The robot’s limited degrees of freedom and lack of movable eyeballs motivated modeling attention targets instead of detailed gaze direction. Sota’s switching time and inability to interrupt movement required filtering and action sequencing; the authors note that its small physical size may affect a fully implemented system, but assume the effect was limited in the video study.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Because of the limited degrees of freedom (DOFs) compared with a human, a robot may not be able to perform subtle gaze behaviors."
+        },
+        {
+          "page": 16,
+          "text": "Including a steady 0.1 s to show a certain attention target for a minimum period, direction changing could not be realized within 0.7 s in the case of Sota."
+        },
+        {
+          "page": 17,
+          "text": "Because of the control mechanism of Sota, after one movement command sent to it, the command cannot be interrupted and switched to another movement."
+        },
+        {
+          "page": 20,
+          "text": "The robot used in our experiment was physically small."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper trained SVM models to generate a robot’s attention target and nods from other participants’ multimodal behavior in four-person group discussions. Attention prediction was moderate and performed better while listening or idling, while video evaluators found no significant condition differences in attention or overall naturalness; the proposed model received the highest nodding rating.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper defines robotic attention as target selection represented through head and gaze direction, describes its interaction roles, and evaluates perceived naturalness and prediction performance. It details the sensing, SVM models, control integration, Sota embodiment, and how its mechanical limits shaped the implementation.",
+      "quotes": []
+    }
+  ]
+}

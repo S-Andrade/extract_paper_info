@@ -1,0 +1,256 @@
+{
+  "key": "G73QHHPL",
+  "title": "Probing the Inductive Biases of a Gaze Model for Multi-party Interaction",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description with model evaluation and embedding analysis using cross-validation and input-swapping tests.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "This paper will first describe the construction of the gaze model for a game animator robot facing two players."
+        },
+        {
+          "page": 2,
+          "text": "To best evaluate the model, we performed a 9-fold cross-validation."
+        },
+        {
+          "page": 4,
+          "text": "We then tested the predictions of our model by swapping the dyad number given as input."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "A collaborative game interaction recorded in the RoboTrio2 corpus; the paper does not explicitly identify the setting as a lab or field study.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The dataset used is the RoboTrio2 corpus [4], a collaborative game with two human players, animated by an iCub robot [16] that is immersively teleoperated [2]."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "Two human players per session across 11 sequences (11 player pairs); the total number of unique human participants is not stated.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The dataset is composed of 11 sequences of around 20 minutes each (total of 4 hours), with 9 themes played in each."
+        },
+        {
+          "page": 2,
+          "text": "For each sequence, the robot’s pilot, a man, is the same, but the player pairs are different and separated by gender, with male or female pairs."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "The same male pilot participated in each sequence; the player pairs differed and were either male or female pairs. Ages and prior robot experience are not reported.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "For each sequence, the robot’s pilot, a man, is the same, but the player pairs are different and separated by gender, with male or female pairs."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Two players collaboratively played a word-association game: they identified words most quoted from a theme while the pilot gave themes and scores and encouraged collaboration. Eleven sequences lasted about 20 minutes each, with nine themes per sequence.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In this game, the players have to find out which words are the most quoted from a theme word. While giving the themes and scores, the pilot has to encourage them to collaborate and provide answers."
+        },
+        {
+          "page": 2,
+          "text": "The dataset is composed of 11 sequences of around 20 minutes each (total of 4 hours), with 9 themes played in each."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three people (two human players and one human pilot) plus one robot in each interaction session.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The dataset used is the RoboTrio2 corpus [4], a collaborative game with two human players, animated by an iCub robot [16] that is immersively teleoperated [2]."
+        },
+        {
+          "page": 2,
+          "text": "For each sequence, the robot’s pilot, a man, is the same, but the player pairs are different and separated by gender, with male or female pairs."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The dataset used is the RoboTrio2 corpus [4], a collaborative game with two human players, animated by an iCub robot [16] that is immersively teleoperated [2]."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "3 per interaction: two players and one human pilot who teleoperated the robot and transmitted their voice.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The robot transmits the voice of a human pilot located in an adjacent room and reproduces the pilot movements (eyes, head, lips)."
+        },
+        {
+          "page": 1,
+          "text": "The dataset used is the RoboTrio2 corpus [4], a collaborative game with two human players, animated by an iCub robot [16] that is immersively teleoperated [2]."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Pilot attention behavior was recorded and automatically annotated for gaze targets using Gaussian mixture models; user speech and gaze and pilot address were annotated. Model outcomes were evaluated with gaze-target F1 score and head-angle RMSE; social cues were analyzed with Spearman correlations.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The pilot’s attention behaviour is recorded, along with the sound and two HD videos filming the players."
+        },
+        {
+          "page": 2,
+          "text": "For training data, the pilot’s gaze has been automatically annotated using Gaussian models mixture (GMM)."
+        },
+        {
+          "page": 2,
+          "text": "Features were annotated manually for verbal features, and automatically for users’ gazes and the pilot’s address [5]."
+        },
+        {
+          "page": 4,
+          "text": "Each prediction is then evaluated, by calculating an F1-score for the gaze targets, and the RMSE value for each of the 3 head angles."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Key technical results: mean gaze-classification F1-score was 0.57 ± 0.01; mean head-generation RMSE was 3.0° ± 0.1 with predicted gaze and 2.1° ± 0.1 with real gaze. Dyad-number swaps changed prediction performance, with some gaze-target F1 scores falling below 0.45; correlations linked the embedding horizontal axis to players’ speaking time and looking at the robot. The authors caution that the correlational analysis cannot establish causality.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The mean F1-score for gaze classification is 0.57 ± 0.01 and the mean RMSE for head generation is 3.0°±0.1 with predicted gaze, and 2.1° 0.1 with real gaze."
+        },
+        {
+          "page": 3,
+          "text": "The horizontal axis seems to be strongly correlated with two social cues: the percentage of time during the interaction when at least one of the two players was speaking, and the percentage of time when at least one of the players was looking at the robot."
+        },
+        {
+          "page": 4,
+          "text": "Regarding the impact on gaze target prediction performance, no dyad appears to differ clearly from the others, but performance can drop to F1-scores below 0.45 for some swaps, well below the average at 0.57."
+        },
+        {
+          "page": 4,
+          "text": "Note that “causal” regression is a method that attempts to explain what our model might have captured, but cannot prove causality."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames gaze as a non-verbal cue and studies a robot gaze-management model for multiparty interaction, including learned gaze targets and head movements.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Even if gaze is one of the most studied non-verbal cues for Human-Robot Interaction (HRI) [1], gaze generation is still mostly restricted to highly controlled scenarios."
+        },
+        {
+          "page": 1,
+          "text": "In this paper, we propose to build a gaze management model for a robot in multi-party interaction, based on neural networks."
+        },
+        {
+          "page": 1,
+          "text": "This section describes the construction of our robot’s gaze model whose aim is to continuously generate gaze targets and meaningfull head movements [5]."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "The modeled gaze behavior is intended to support robot behavior in a collaborative game, including adapting to players’ involvement to encourage collaboration and balance participation. The paper does not define a specific interactional function such as turn-taking.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "To encourage collaboration, he may need to adapt his behavior to balance participation if one player is more engaged than the other."
+        },
+        {
+          "page": 4,
+          "text": "This result is particularly interesting, and seems to provide an inductive bias for actively adapting the model according to the players’ involvement in the interaction, which is a necessity for a robot animator."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The paper evaluates model performance and reports that dyad-number inputs affect gaze and head predictions. It does not report measured effects of robot gaze behavior on the human players or interaction outcomes.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The dyad number bias has a real impact on the performance of our model."
+        },
+        {
+          "page": 4,
+          "text": "Swapping two dyad numbers that are distant from each other in the map induces a significant drop in performance, whereas swapping dyads that are close to each other results in a smaller drop in performance."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "A cascaded causal CNN/LSTM model predicts gaze targets and then head movements. Inputs are multimodal robot and user activity features passed through embedding layers, plus a three-dimensional dyad-number embedding. The corpus data came from an immersively teleoperated robot; the proposed model itself is evaluated as a predictive model.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The gaze model proposed here (see Figure 1) is a cascaded model composed of causal Convolutional Neural Network (CNN) and Long Short-Term Memory (LSTM) layers, where the first sub-model predicts gaze targets."
+        },
+        {
+          "page": 2,
+          "text": "This output is given as input to the second sub-model which predicts head movements."
+        },
+        {
+          "page": 2,
+          "text": "All inputs are passed through an embedding layer."
+        },
+        {
+          "page": 2,
+          "text": "In addition to these inputs, we decided to bias the model with the dyad number (the 11 pairs of players) facing the robot."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "The study used an iCub robot, immersively teleoperated by a human pilot; it reproduced the pilot’s eye, head, and lip movements.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The dataset used is the RoboTrio2 corpus [4], a collaborative game with two human players, animated by an iCub robot [16] that is immersively teleoperated [2]."
+        },
+        {
+          "page": 1,
+          "text": "The robot transmits the voice of a human pilot located in an adjacent room and reproduces the pilot movements (eyes, head, lips)."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The paper builds and analyzes an embedding-based model that predicts an iCub robot’s gaze targets and head movements during a two-player collaborative game. Its learned dyad representations correlate with player speaking and gaze behavior, and changing the dyad input affects prediction performance; the study does not test effects of robot gaze on the players.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ4; RQ5 — The paper characterizes gaze as a non-verbal cue, describes its intended adaptive role in a collaborative multiparty game, details the model implementation, and reports use of an iCub robot. It does not provide an explicit definition of gaze-based attention or evidence about its effects on human participants or embodiment influence.",
+      "quotes": []
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "key": "CCYZAB95",
+  "title": "\"i'll Be There Next\": A Multiplex Care Robot System that Conveys Service Order Using Gaze Gestures",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Ethnographic observational study and three controlled experiments examining a care robot’s gaze and gestures in multiparty service interactions.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We conducted three experiments to gauge a combination of gestures and gazes performed by our robot."
+        },
+        {
+          "page": 4,
+          "text": "Over the course of 4 years (2008–2012), we recorded over 200 hours of footage."
+        },
+        {
+          "page": 3,
+          "text": "We videotaped the experiments and analyzed the video data."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "An elderly day care center in rural western Japan for the ethnographic observation; experiments with university students at Saitama University in Japan.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "We conducted an ethnographic study at a facility located in the countryside of western Japan (Nara)."
+        },
+        {
+          "page": 16,
+          "text": "Like the aforementioned experiments, all of the participants were from Saitama University in Japan (68 male, 50 female; average age 20.4 (SD 2.8))."
+        },
+        {
+          "page": 18,
+          "text": "This trial also took place at Saitama University with 63 students as participants (39 male, 24 female; average age 20.8 (SD 2.1))."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "Experiment 1: 40 participants (39 successful data sets); Experiment 2: 118 significant cases; Experiment 3: 63 students, 39 of whom are reported across the three conditions (13 per condition).",
+      "quotes": [
+        {
+          "page": 13,
+          "text": "The experiment consisted of 40 participants (10 male, 30 female; age average 20.6 (SD 1.0))."
+        },
+        {
+          "page": 13,
+          "text": "Because one participant raised his hand at the same time as Person A raised her hand, we had 39 sets of successful data."
+        },
+        {
+          "page": 16,
+          "text": "The significant number of cases was as follows: 18 cases of pattern 1, 18 cases of pattern 2, 14 cases of pattern 3, 18 cases of pattern 4, 17 cases of pattern 5, 16 cases of pattern 6, and 17 cases of pattern 7, for a total number of 118 significant cases."
+        },
+        {
+          "page": 18,
+          "text": "This trial also took place at Saitama University with 63 students as participants (39 male, 24 female; average age 20.8 (SD 2.1))."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Experiment 1 participants were undergraduate students, 10 male and 30 female, mean age 20.6 (SD 1.0). Experiment 2 participants were 68 male and 50 female, mean age 20.4 (SD 2.8). Experiment 3 participants were students, 39 male and 24 female, mean age 20.8 (SD 2.1). Ethnography observed care workers and elderly clients.",
+      "quotes": [
+        {
+          "page": 13,
+          "text": "All of the participants were undergraduate students at Saitama University in Japan."
+        },
+        {
+          "page": 13,
+          "text": "The experiment consisted of 40 participants (10 male, 30 female; age average 20.6 (SD 1.0))."
+        },
+        {
+          "page": 16,
+          "text": "Like the aforementioned experiments, all of the participants were from Saitama University in Japan (68 male, 50 female; average age 20.4 (SD 2.8))."
+        },
+        {
+          "page": 18,
+          "text": "This trial also took place at Saitama University with 63 students as participants (39 male, 24 female; average age 20.8 (SD 2.1))."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants acted as the second requester while a mobile robot delivered snacks or tea to two or more people. They raised a hand to request service while the robot was already moving toward another person; the robot used different gaze and gesture patterns to acknowledge the request and indicate service order. Experiment 2 tested seven gesture patterns; Experiment 3 compared three action sequences.",
+      "quotes": [
+        {
+          "page": 12,
+          "text": "We devised a situation where the robot (MCR) delivered snacks to two people in a room."
+        },
+        {
+          "page": 13,
+          "text": "Person B was instructed to call the robot by hand-raising once the robot started to move."
+        },
+        {
+          "page": 16,
+          "text": "In this experiment, we tested all the patterns in order to examine the ways in which different combinations of gestures might affect participants’ responses."
+        },
+        {
+          "page": 18,
+          "text": "In this experiment, in order to find out if the different order of the robot’s behavior solicited different reactions from human participants, we implemented three patterns of movements to the robot: (i) turn&gaze→stop→nod, (ii) turn&gaze→nod (without stopping), and (iii) nod→turn gaze (Table III)."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Experiments used multiparty scenarios with the robot and two or three human participants/users. In Experiment 1, Person A was a virtual user and Person B the target subject; Experiment 2 included three participants.",
+      "quotes": [
+        {
+          "page": 13,
+          "text": "Person A is a virtual user acting as a control within the experiment. Person B was our target subject who only knew that the robot would deliver snacks when called."
+        },
+        {
+          "page": 14,
+          "text": "In Experiment 2, in order to identify the most effective types of robot behaviors to recognize service order, we set the following conditions: three participants were included in a setting to test various responses to the robot."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 12,
+          "text": "We devised a situation where the robot (MCR) delivered snacks to two people in a room."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "Two people/users in Experiment 1 (one was a virtual control); Experiment 2 tested a setting with three participants. The paper does not state a consistent human count per session for every experiment.",
+      "quotes": [
+        {
+          "page": 13,
+          "text": "Person A is a virtual user acting as a control within the experiment. Person B was our target subject who only knew that the robot would deliver snacks when called."
+        },
+        {
+          "page": 14,
+          "text": "In Experiment 2, in order to identify the most effective types of robot behaviors to recognize service order, we set the following conditions: three participants were included in a setting to test various responses to the robot."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Video recordings analyzed for participant behavior; post-experiment questionnaire/survey; statistical tests of coded behavioral responses. No named questionnaire or scale is reported.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "We videotaped the experiments and analyzed the video data."
+        },
+        {
+          "page": 3,
+          "text": "We asked all participants to complete a questionnaire immediately following the experiment."
+        },
+        {
+          "page": 12,
+          "text": "We analyzed the ways in which participants reacted to the robot from our video recordings. We also conducted a survey that gathered participants’ accounts of the activity."
+        },
+        {
+          "page": 13,
+          "text": "A Fisher’s exact test shows that there are significant differences between the two cases (two-sided test p 0.0000)."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "In Experiment 1, participants in the gaze condition more often raised their hand once and lowered it shortly afterward than participants in the no-gaze condition (17/19 vs. 0/20; Fisher’s exact test, two-sided p 0.0000). In Experiment 2, gaze alone led 80% of participants to lower their hands; gaze elicited this response significantly more than hand-raising or nodding. Adding nodding after gaze reduced the response to 30% (p 0.0136).",
+      "quotes": [
+        {
+          "page": 14,
+          "text": "In the group that experienced robot gazing, 17 of the 19 participants raised their hands once and then lowered them shortly afterward."
+        },
+        {
+          "page": 13,
+          "text": "A Fisher’s exact test shows that there are significant differences between the two cases (two-sided test p 0.0000)."
+        },
+        {
+          "page": 17,
+          "text": "When the robot turned its gaze toward them (pattern 3), 80% of the participants lowered their hands."
+        },
+        {
+          "page": 18,
+          "text": "However, when the robot turned its head and nodded, this number dropped to 30%. A Fisher’s exact test shows that there are significant differences between the two cases (two-sided test p 0.0136)."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames gaze as a resource for conveying service order through two gaze functions, Type A and Type B, in multiparty interaction.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Type A: The gaze signals that the nurse will attend to a particular client next."
+        },
+        {
+          "page": 5,
+          "text": "Type B: The gaze signals that the nurse is asking a client to wait until she completes her current activity."
+        },
+        {
+          "page": 1,
+          "text": "In this article, we discuss our findings from an ethnographic study at an elderly care center where we observed the utilization of two different functions of human gaze to convey service order (i.e., “who is served first and who is served next”)."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "Type A gaze projects that a particular client will be attended next; Type B gaze asks a client to wait until the current activity is completed, projecting that the client will be served afterward.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The addressed elderly person then understands the nurse’s projection that he/she will be attended to next in sequence."
+        },
+        {
+          "page": 5,
+          "text": "The client understands the nurse’s projection that he/she will be attended to next, once the nurse finishes her activities."
+        },
+        {
+          "page": 8,
+          "text": "Type A gaze is not only about gaze movement to a particular person, it also involves simultaneous movement of the lower body turning in the same direction."
+        },
+        {
+          "page": 8,
+          "text": "Therefore, Type B gaze communicates to the gaze recipient that he or she needs to wait until the current activity is completed."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze communicates acknowledgement of a request and service order: who is being served now, who will be served next, and who should wait. Its meaning depends on other bodily orientation and movement, and can help people anticipate the next action.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "In multiparty settings, in particular, it is especially important to communicate who will be served next."
+        },
+        {
+          "page": 11,
+          "text": "The next person will then sense that the robot will bring tea and snacks to him next, and that person is more likely to accept the service order provision."
+        },
+        {
+          "page": 17,
+          "text": "From this result, we can imply that the robot moving its head to direct its gaze effectively serves multiple functions, such as (1) displays that the participant’s request is recognized, (2) displays that the first person to make a request will be served first, and (3) displays that the next person to receive service will be the participant in question."
+        },
+        {
+          "page": 4,
+          "text": "Gaze is a key resource for interactions and affords the construction of projectability in interaction, that is, the ability to provide for anticipation of possible aspects of talk or social action, which are yet to come about [Streeck 1995]."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Gaze acknowledgement was associated with participants lowering their hands and waiting without repeating their request; the authors interpret this as recognition of acknowledgement and service order. Combined gaze and nodding could instead lead to misinterpretation that service would be immediate. The authors report that gaze alone was more effective than hand-raising or nodding for prompting hand lowering.",
+      "quotes": [
+        {
+          "page": 14,
+          "text": "This result shows that most participants were content to wait without raising their hands again until the robot finished providing service to Person A."
+        },
+        {
+          "page": 14,
+          "text": "This implies that several successful recognitions were performed as detailed below: (1) Participants recognized that the robot received their requests. (2) Participants recognized that Person A would be served first. (3) Participants recognized that the robot would serve them next."
+        },
+        {
+          "page": 18,
+          "text": "One of the reasons for this is that combined gestures overemphasize and therefore become identified with only Function 2 (the robot recognizes the request) and not Function 5 (Please Wait)."
+        },
+        {
+          "page": 19,
+          "text": "Such a sequence of “first gaze then nod” might have increased the possibility of misunderstanding that the robot will serve immediately toward the person who raised a hand secondly."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The robot’s head gaze was controlled by a neck pan-tilt mount, with user-request recognition handled by Wizard of Oz input in the experiments. Robot movement and gaze direction were autonomously computed from user positions; other gestures played prerecorded motions. The robot acknowledged a second request by momentarily stopping and turning its gaze toward that person, then continued toward the first requester.",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "We installed a pan-tilt mount (PTU-D46-17, Directed Perception) inside the neck for head motion."
+        },
+        {
+          "page": 12,
+          "text": "For recognizing a user’s request, we applied WoZ to avoid recognition errors."
+        },
+        {
+          "page": 12,
+          "text": "Turning the direction of the robot’s head is autonomously computed and controlled based on the position of the user with respect to the robot. Other robot behaviors such as hand motions are performed by playing prerecorded motions."
+        },
+        {
+          "page": 13,
+          "text": "For the first set, the robot stopped momentarily and turned its gaze toward Person B when Person B raised his/her hand to seek service."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "MCR was a mobile robot built on a Segway platform, with eight upper-body joints, a rotating waist joint, a pan-tilt head mount, a skirt concealing mechanical parts, and a human face.",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "We adapted a Segway mobile robot (RMP50, Segway Japan) as the mobile platform so that the robot could move smoothly."
+        },
+        {
+          "page": 9,
+          "text": "Eight joints were installed in the upper body to enable the robot to move its arms in ways similar to humans."
+        },
+        {
+          "page": 9,
+          "text": "The robot is equipped with a rotational joint inside its waist section so that it can change its upper-body orientation separately from its lower-body orientation."
+        },
+        {
+          "page": 10,
+          "text": "We chose a human face because it was critical to see where the face was looking."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors state that the human face made gaze direction visible, and the separately orientable upper and lower body enabled the robot to reproduce the bodily orientation distinctions central to Type B gaze. The paper does not directly compare effects across embodiments.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "As for the robot’s appearance, we used a skirt to hide the robot’s mechanical parts. We chose a human face because it was critical to see where the face was looking."
+        },
+        {
+          "page": 9,
+          "text": "The robot is equipped with a rotational joint inside its waist section so that it can change its upper-body orientation separately from its lower-body orientation."
+        },
+        {
+          "page": 17,
+          "text": "In this pattern, the robot kept its torso orientated toward the first person requesting its service, while it turned its head toward the second person."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The authors observed care workers using gaze and body orientation to show who would be served next and who should wait, then implemented related behaviors on a mobile care robot. In experiments, gaze toward a waiting requester often led participants to lower their hands and wait, while combining gaze with a nod sometimes suggested they would be served immediately.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper defines two gaze functions for indicating next service and waiting, describes their role in managing multiparty service order, and measures how robot gaze and gesture patterns affect participants’ responses. It details the robot’s sensing and control, describes its physical embodiment, and discusses how visible gaze and separable body orientations supported the implementation.",
+      "quotes": []
+    }
+  ]
+}

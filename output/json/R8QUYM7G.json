@@ -1,0 +1,223 @@
+{
+  "key": "R8QUYM7G",
+  "title": "Vision-based attention estimation and selection for social robot to perform natural interaction in the open world",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description with on-site experiments.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this paper, a novel vision system is proposed to estimate attention of people from rich visual clues for social robot to perform natural interactions with multiple participants in public environments."
+        },
+        {
+          "page": 2,
+          "text": "We have conducted on-site experiments with the robot receptionist in various interaction scenarios."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "On-site experiments in public environments; the specific venue is not stated.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this paper, a novel vision system is proposed to estimate attention of people from rich visual clues for social robot to perform natural interactions with multiple participants in public environments."
+        },
+        {
+          "page": 2,
+          "text": "We have conducted on-site experiments with the robot receptionist in various interaction scenarios."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "The system was tested in a scenario with multiple people observing and testing the robot, discussing with each other, and interacting with the robot. A person approached, moved to a central position, looked and smiled at the robot, and spoke to it; after a dialogue, he turned to discuss his experience with another person.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The sequence demonstrates scenarios of three persons in the view who observe and test the robot, and discuss with one another in front of the robot."
+        },
+        {
+          "page": 2,
+          "text": "He looks and smiles at the robot, as shown in the third image. The robot then noticed him, rotated to face him, and detected his smiling face and speaking lip motion for greeting."
+        },
+        {
+          "page": 2,
+          "text": "After having a dialogue with the robot, he is quite happy and turns his head to discuss with person ID:0 on his experience (after frame 121), so that one can observe the great drop of attention level."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "The example sequence shows three humans and one robot; the number of humans in other experimental sessions is not stated.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The sequence demonstrates scenarios of three persons in the view who observe and test the robot, and discuss with one another in front of the robot."
+        },
+        {
+          "page": 1,
+          "text": "The vision system is implemented on a robotic receptionist “EVE” and encouraging results have been obtained."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The vision system is implemented on a robotic receptionist “EVE” and encouraging results have been obtained."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "3 in the example test sequence; overall participant count is not stated.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The sequence demonstrates scenarios of three persons in the view who observe and test the robot, and discuss with one another in front of the robot."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "The paper reports attention levels calculated from visual detections and recognition outputs, and compares experimental results with human judgments. It does not name a questionnaire, interview, or separate behavioral coding instrument.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The results match with human judgements on the scenarios of interactions and dialogues."
+        },
+        {
+          "page": 2,
+          "text": "The visual clues are fused by using weighted sum to compute the attention level for the person Hi AL(Hi) = ∑8 j=1 wjfj(Hi), (6) where the weights can be selected empirically."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "The paper reports that results matched human judgments and describes a decrease in the third person's attention level after he turned to speak with another participant; statistical significance is not reported.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The results match with human judgements on the scenarios of interactions and dialogues."
+        },
+        {
+          "page": 2,
+          "text": "After having a dialogue with the robot, he is quite happy and turns his head to discuss with person ID:0 on his experience (after frame 121), so that one can observe the great drop of attention level."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames attention as a quantitative estimate derived from visual clues, including distance, direction, motion, body pose, face, gaze, lip motion, and facial expression.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "A computational approach is proposed to generate a quantitative estimation of human attention."
+        },
+        {
+          "page": 2,
+          "text": "The visual clues are fused by using weighted sum to compute the attention level for the person Hi AL(Hi) = ∑8 j=1 wjfj(Hi), (6) where the weights can be selected empirically."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper does not provide a single verbal definition; it specifies attention through weighted visual cues, including distance, direction, movement, pose, and recognition evidence from face, gaze, speech, and expression.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Obviously, when there are several people around, the person closer to and directly facing the robot is the one who is most likely to talk to the robot."
+        },
+        {
+          "page": 2,
+          "text": "The visual clues are fused by using weighted sum to compute the attention level for the person Hi AL(Hi) = ∑8 j=1 wjfj(Hi), (6) where the weights can be selected empirically."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Attention estimation supports selecting whom the robot should address: in the described sequence, the robot turns to face the person it notices, then greets him.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "He looks and smiles at the robot, as shown in the third image. The robot then noticed him, rotated to face him, and detected his smiling face and speaking lip motion for greeting."
+        },
+        {
+          "page": 1,
+          "text": "Obviously, when there are several people around, the person closer to and directly facing the robot is the one who is most likely to talk to the robot."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "In the example, the robot noticed and turned toward a person who looked and smiled at it and spoke; the attention level dropped when he turned to discuss his experience with another person. The paper does not report a controlled comparison or statistical effect.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The robot then noticed him, rotated to face him, and detected his smiling face and speaking lip motion for greeting."
+        },
+        {
+          "page": 2,
+          "text": "After having a dialogue with the robot, he is quite happy and turns his head to discuss with person ID:0 on his experience (after frame 121), so that one can observe the great drop of attention level."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "An autonomous vision system combines multi-person detection and tracking, upper-body pose recognition, face and gaze detection, lip-motion speaking recognition, and facial-expression recognition. It computes a weighted sum of eight visual cues; weights may be selected empirically.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The vision detection and recognition modules include multi-person detection and tracking, upper-body pose recognition, face and gaze detection, lip motion analysis for speaking recognition, and facial expression recognition."
+        },
+        {
+          "page": 1,
+          "text": "Meanwhile, our recently developed novel gaze detection algorithm [4] is used to detect a pair of eyes looking at the robot."
+        },
+        {
+          "page": 2,
+          "text": "The visual clues are fused by using weighted sum to compute the attention level for the person Hi AL(Hi) = ∑8 j=1 wjfj(Hi), (6) where the weights can be selected empirically."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "A robotic receptionist named EVE; further physical features are not stated.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The vision system is implemented on a robotic receptionist “EVE” and encouraging results have been obtained."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The paper presents a vision system that estimates each person's attention to a receptionist robot from multiple visual cues and combines them into an attention level. In an example with three people, the robot turned toward and greeted a person who looked, smiled, and spoke to it; the estimated attention fell when he turned to talk with another person.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5 — The paper operationalizes human attention through visual cues, shows how the estimate supports selecting and facing a person in a multiparty scene, and describes an observed attention-level change. It also reports the vision implementation and identifies the receptionist robot platform; it does not explain how embodiment influenced the study.",
+      "quotes": []
+    }
+  ]
+}

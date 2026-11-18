@@ -1,0 +1,260 @@
+{
+  "key": "LVW9A4XZ",
+  "title": "A gaze control of socially interactive robots in multiple-person interaction | Robotica",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Experimental technical/system study with performance evaluation of a proposed gaze-control model.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Interaction experiments with performance evaluation are given to verify that the proposed model is suitable to assess intended behaviors of individuals and perform gaze behavior about multiple persons."
+        },
+        {
+          "page": 10,
+          "text": "A series of experiments were designed to show how much the gaze control model with perception modules works in the interaction situation with multiple people."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Controlled test environment; the paper does not specify a laboratory or field setting.",
+      "quotes": [
+        {
+          "page": 15,
+          "text": "The weighting factor of the proposed model were also configured through a heuristic method in a given experimental environment without suggesting clear basis."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "The paper reports 10 people for individual feature evaluation, 20 people for multimodal feature evaluation, and 15 participants for the three-person scenario experiment; it does not state the number of unique participants across experiments.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "To evaluate the performance of the individual recognizer, 10 people participated in the experiment."
+        },
+        {
+          "page": 11,
+          "text": "A total 20 people participated in the recognizable behavior combination of 20 cases in MPIs."
+        },
+        {
+          "page": 12,
+          "text": "For this experiment, the 15 participants were involved in interaction with the robot after forming three-person teams."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "Participants displayed planned interaction-intent behaviors, responded to the robot’s questions, and took part in robot dialogue. The system evaluated these behaviors and selected a gaze target among multiple people.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "They each repeated the behaviors indicating interaction intent, and the inverse case for human behavioral cues, 10 times."
+        },
+        {
+          "page": 12,
+          "text": "While performing the actual experiment, participants appropriately responded to the robot’s questions according to their own ideas and performed the planned behaviors if the robot was not gazing."
+        },
+        {
+          "page": 10,
+          "text": "Dialog contents of the robot is entirely automated using a finite number of pre-scripted stories including each registered participant where it conducts linguistic utterances from the pre-entered 600 dialog scripts and 100 interjections via text-to-speech, lip-sync, and voice synthesizer modules."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "The scenario experiment used groups of three participants and one robot (four agents total). Other group sizes are not specified.",
+      "quotes": [
+        {
+          "page": 12,
+          "text": "For this experiment, the 15 participants were involved in interaction with the robot after forming three-person teams."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "The robot’s gaze decision through the computational model is implemented with an interactive robot platform, MERO."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "3 in the scenario experiment; other interaction group sizes are not specified.",
+      "quotes": [
+        {
+          "page": 12,
+          "text": "For this experiment, the 15 participants were involved in interaction with the robot after forming three-person teams."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "System recognizer performance and gaze-target selection were evaluated against intended behaviors, participant evaluations, and human decision-making criteria. The paper does not name a standardized questionnaire or scale.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "In the following experiments, the individual and multimodal features are evaluated by whether or not to match with intended behaviors given by the participants, and the gaze control model is evaluated by a quantitative analysis of human-interaction intent in the gaze decision process through the pre-set scenario."
+        },
+        {
+          "page": 11,
+          "text": "As shown in Fig. 9(b), the designated target selected by the proposed model exhibited an average concordance rate of 85.6% in the comparison with their own evaluation of the participants."
+        },
+        {
+          "page": 13,
+          "text": "In order to check the influence of each feature in the MPI, participants set the priority of eight features in advance, and they re-evaluated the priority from personal opinion after experiencing social interaction with robot."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Key technical results: 93.3% success in the three-person scenario, 85.6% average concordance with participants’ target evaluations, and improved recognition after temporal confidence reasoning (TCR). The paper does not report inferential statistical significance tests.",
+      "quotes": [
+        {
+          "page": 12,
+          "text": "Total experiments showed a success rate of 93.3%."
+        },
+        {
+          "page": 11,
+          "text": "As shown in Fig. 9(b), the designated target selected by the proposed model exhibited an average concordance rate of 85.6% in the comparison with their own evaluation of the participants."
+        },
+        {
+          "page": 11,
+          "text": "In particular, misidentification rate of facial expression is 14.88%, which is an 8.91% p improvement."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "Social gaze control for selecting an interaction partner or interlocutor in multiparty interaction; gaze is also framed as a signal of conversational attention.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In particular, as one of the most salient signals in human–robot interaction (HRI), robot gaze can be an excellent predictor of conversational attention and support communicative mechanisms such as turn-taking, synchronized speech, and suitable engagement actions."
+        },
+        {
+          "page": 2,
+          "text": "Main interest of this paper is to propose a reliable gaze control model that performs gaze behavior effectively in the social interaction with multiple persons."
+        },
+        {
+          "page": 3,
+          "text": "In order to face this issue, this paper examines social gaze behavior of the robot in the MPIs by incorporating of multimodal perceptual features from the interaction design with gaze control criteria."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper does not provide a formal definition of robotic gaze, robotic attention, or gaze-based attention; it describes robot gaze as a predictor of conversational attention and defines its proposed system’s purpose as selecting a suitable interlocutor.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "This paper proposes a computational model for selecting a suitable interlocutor of socially interactive robots in a situation interacting with multiple persons."
+        },
+        {
+          "page": 1,
+          "text": "In particular, as one of the most salient signals in human–robot interaction (HRI), robot gaze can be an excellent predictor of conversational attention"
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze selects and visibly directs attention to an interlocutor based on interaction intent, supports engagement and attentive listening, and may support communicative mechanisms such as turn-taking.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In this regard, the robot easily identify the person who displays the greatest level of interaction intent by conducting socially acceptable decision-making and explicitly express attention to the designated target in a given situation by gaze control."
+        },
+        {
+          "page": 9,
+          "text": "To achieve attentive listening by gaze control, the factor of communicative intimacy was configured to depend on the number of interlocutors’ responses, which indicate liking and disliking by providing relational questions."
+        },
+        {
+          "page": 1,
+          "text": "robot gaze can be an excellent predictor of conversational attention and support communicative mechanisms such as turn-taking, synchronized speech, and suitable engagement actions."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The model selected the designated target with 93.3% success in the scenario experiment and had 85.6% average concordance with participants’ target evaluations in multimodal cases. Participants rated some cues, especially body leaning, as stronger indicators of interaction intent after the interaction; the paper reports no inferential tests for these findings.",
+      "quotes": [
+        {
+          "page": 12,
+          "text": "Total experiments showed a success rate of 93.3%."
+        },
+        {
+          "page": 11,
+          "text": "As shown in Fig. 9(b), the designated target selected by the proposed model exhibited an average concordance rate of 85.6% in the comparison with their own evaluation of the participants."
+        },
+        {
+          "page": 14,
+          "text": "On the contrary, the behaviors of body gesture xg, movement xm, and proximity xp were more clearly elevated, and the percentage increase in the body leaning xl showed the highest (44.2%) level of interaction intent."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "An autonomous, multimodal system extracts behavioral cues, applies temporal confidence reasoning and weighted feature scoring, combines this with physical-space and communicative-intimacy factors, and directs the robot’s gaze to the highest-scoring participant. The robot uses pre-scripted dialogue; the paper does not report Wizard-of-Oz control.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Each feature represents the perceptual information extracted by the multiple sensors of visual, auditory, and spatial modality, and a quantitative appraisal for each feature is used to the foundation for performing a gaze control of the robot targeted at multiple people."
+        },
+        {
+          "page": 8,
+          "text": "The weighted sum method, which is the best known and simplest multi-criteria decision analysis, is used to evaluate human-interaction intent quantitatively."
+        },
+        {
+          "page": 9,
+          "text": "In MPIs, the designated interlocutor is achieved through the selection of the maximum appraisal value for each participant as follows:"
+        },
+        {
+          "page": 10,
+          "text": "From this configuration, gaze control process for multiple persons is performed in five steps: (a) human detection, (b) self-presentation, (c) face identification, (d) social interaction, and (e) interlocutor selection (see Fig. 7)."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "MERO is a stationary robotic head with a webcam, four microphones, a Kinect sensor, a 4-DOF neck, and 17-DOF face modules for eyebrows, eyelids, pupils, and lips.",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "As a stationary robotic head type, MERO is mainly designed by product designers based on what a sample target group of people perceived to be an aesthetically pleasing, human-friendly external appearance."
+        },
+        {
+          "page": 9,
+          "text": "A webcam on the robot head, four microphones on the base, and a Kinect sensor located at a certain distance from the robot along the Z-axis are attached on the robot system in order to have a reliable perception"
+        },
+        {
+          "page": 9,
+          "text": "the robot is equipped to perform human tracking, shifts in gaze, head gestures, and facial expressions through 4-DOF neck and 17-DOF face modules (eyebrow, eyelid, pupil, and lip)."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The paper presents and evaluates a stationary robotic head that selects whom to look at in multiparty interaction using visual, auditory, and spatial cues, along with physical distance and conversational intimacy. It reports 93.3% success in a three-person scenario and 85.6% average agreement with participants’ target evaluations; the paper does not report a specific effect of the robot’s embodiment on these results.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5 — The paper frames robotic gaze as conversational attention and partner selection, describes its role and reported performance in multiparty interaction, details the sensing and decision model, and identifies the MERO robot embodiment. It does not explain how embodiment influenced the study.",
+      "quotes": []
+    }
+  ]
+}

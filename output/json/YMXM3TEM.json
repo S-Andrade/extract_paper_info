@@ -1,0 +1,265 @@
+{
+  "key": "YMXM3TEM",
+  "title": "Comparison of Human-Human and Human-Robot Turn-Taking Behaviour in Multiparty Situated Interaction",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Experimental study comparing human-human and human-robot turn-taking behavior in a multiparty situated interaction.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this paper, we present an experiment where two human subjects are given a team-building task to solve together with a robot."
+        },
+        {
+          "page": 1,
+          "text": "The symmetrical setup allows us to compare human-human and human-robot turn-taking behaviour in the same interactional setting."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "A controlled, seated interaction around a round table; the paper does not explicitly name the setting as a laboratory.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The experimental setup (as described in the Introduction) was designed around a round table at which the two human subjects and the robot were placed."
+        },
+        {
+          "page": 2,
+          "text": "Subjects were seated on static chairs at fixed locations to have the triad placed in an equilateral triangle pattern."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "8 human participants, in four pairs.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Eight subjects aged 23-41, divided into four pairs, participated in the data collection."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Participants were 23–41 years old; three were female and five male. Mean age was 30.5 (SD 5.42).",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Eight subjects aged 23-41, divided into four pairs, participated in the data collection."
+        },
+        {
+          "page": 2,
+          "text": "The mean age was 30.5, with a standard deviation of 5.42. Three of the participants were female and five male."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Pairs of humans collaborated with a robot on an adapted Desert Survivor team-building exercise: discussing and ranking items for survival after a hypothetical plane crash. They completed three iterations of five items; recorded interactions averaged 6.5 minutes per iteration (78 minutes total, excluding instructions).",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The team is to collaboratively prioritize a set of items based on their usefulness for survival in a desert after a hypothetical plane crash."
+        },
+        {
+          "page": 2,
+          "text": "The adapted “Desert Survivor” exercise comprised three iterations of five unique items to discuss and rank, each iteration starting with the robot asking the subjects to open a numbered envelope containing the items."
+        },
+        {
+          "page": 2,
+          "text": "The recorded interactions, excluding instructions, lasted a total of 78 minutes with an average iteration length of 6.5 minutes (SD 1.37)."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "3 participants per interaction: two humans and one robot.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this paper, we present an experiment where two human subjects are given a team-building task to solve together with a robot."
+        },
+        {
+          "page": 2,
+          "text": "Subjects were seated on static chairs at fixed locations to have the triad placed in an equilateral triangle pattern."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1 robot per interaction.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this paper, we present an experiment where two human subjects are given a team-building task to solve together with a robot."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2 humans per interaction.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this paper, we present an experiment where two human subjects are given a team-building task to solve together with a robot."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Head pose tracking with Microsoft Kinect sensors; manually transcribed audio and robot utterance logs; turn-change and pragmatic-function annotation; response-gap timing. No named questionnaire or scale is reported.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Each subject was monitored by a Microsoft Kinect sensor, responsible for tracking the head pose of its subject as well as the angle to the most prominent audio source."
+        },
+        {
+          "page": 2,
+          "text": "Each channel of the recorded audio was automatically segmented into Inter Pausal Units (IPUs) with a maximum of 500ms internal silence and then manually transcribed."
+        },
+        {
+          "page": 2,
+          "text": "A turn change was defined as two neighbouring turns by two different speakers, with a maximum overlap of 0.5 seconds and maximum gap of three seconds between the two turns."
+        },
+        {
+          "page": 3,
+          "text": "To this end, we used Amazon Mechanical Turk to assign labels to the two turns involved in each of the 682 detected turn changes."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Humans yielding to the robot looked at the next speaker more often than when yielding to another human (χ²=9.25, df=3, p=0.026). In human-human turn changes, head-pose targets differed by pragmatic label pair (χ²(6, N=204)=28.3722, p<0.001); the corresponding difference was not significant for human-robot changes (χ²(6, N=203)=9.1038, p=0.168). Gap lengths differed across the three speaker combinations (χ²=9.5593, df=2, p=0.008), with Robot-Human significantly different from the other two; robot response time was described as close to that of humans.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "A chi-squared test also shows that when a human yields the turn to the robot, it looks at the next speaker more often, compared to when yielding a turn to a human (χ2= 9.25, dF=3, p=0.026)."
+        },
+        {
+          "page": 4,
+          "text": "The difference in proportions for the target of visual attention among different labels in a human-human turn change is significant, χ2(6, N=204)=28.3722, p<0.001. This is however not the case with human-robot turn changes, χ2(6, N=203)=9.1038, p=0.168."
+        },
+        {
+          "page": 5,
+          "text": "A Kruskal-Wallis test showed that the three combinations of speakers had different gap lengths (χ2=9.5593, dF=2, p=0.008). An adjusted follow-up multiple comparison test identified the Robot-Human as significantly different from the other two."
+        },
+        {
+          "page": 5,
+          "text": "The results indicate that the response time for wizard-controlled robot was quite close to a human in the same situation."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames gaze and head pose as visual attention resources for coordinating turn-taking and joint attention in situated multiparty interaction. It does not give a formal definition of “robotic gaze” or “robotic attention.”",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "An obvious signal that humans use for yielding the turn in a face-to-face setting is to gaze at the next speaker."
+        },
+        {
+          "page": 2,
+          "text": "Thus, eye gaze acts as an important coordination device to achieve joint attention in situated interaction."
+        },
+        {
+          "page": 2,
+          "text": "In this study we instead rely on head pose tracking, which is a more simple and robust approach."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze/head pose helps coordinate turn-taking by indicating or selecting a next speaker, while also directing attention toward objects under discussion and supporting joint attention. The authors also describe listener gaze toward a referent as a cue for verifying common ground.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The most obvious signal is to use gaze to select the next speaker."
+        },
+        {
+          "page": 2,
+          "text": "Thus, eye gaze acts as an important coordination device to achieve joint attention in situated interaction."
+        },
+        {
+          "page": 2,
+          "text": "In the same way, listeners naturally look at the referent during speech comprehension [14], and their gaze can therefore be used as a cue by the speaker to verify common ground."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Human attention patterns varied with turn type: statement-agreement exchanges showed more directed attention and gaze back from the agreeing addressee, while question-answer attention was less directed. People attended more clearly to the robot as addressee, and robot-directed questions received slower human responses than human-directed questions. The authors suggest gaze behavior may make it easier to detect when a human addresses the robot.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "This is quite different from statements followed by an agreement, where the speaker more clearly attends to one interlocutor, seeking agreement. The addressee, in turn, gazes back while giving the agreement."
+        },
+        {
+          "page": 5,
+          "text": "In general, they attend much more clearly to the addressee when yielding the turn to the robot, regardless of the type of exchange."
+        },
+        {
+          "page": 5,
+          "text": "Looking at gap length, we could also see that questions asked by the robot are not answered as quickly as questions asked by a human."
+        },
+        {
+          "page": 5,
+          "text": "If the goal is not to create a fully human-like robot, this could of course be exploited, since it makes the detection of when the human is actually addressing the robot easier."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The robot's gaze was automated using head pose and eye movement, while speech was Wizard-of-Oz controlled: a wizard selected predefined utterances and decided when the robot spoke. When speaking about an item, the robot looked at the table; otherwise, it looked toward the participant associated with the most prominent audio source detected by the Kinect sensors.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The robot in the experiment was the back-projected human-like robot head Furhat, which is capable of combining head pose and eye gaze to direct attention."
+        },
+        {
+          "page": 2,
+          "text": "The gaze of the robot was automated, whereas the speech was controlled by a wizard."
+        },
+        {
+          "page": 2,
+          "text": "When speaking, the gaze was directed either towards a subject or, while speaking about an item, towards the table. When not speaking, the robot’s gaze was directed towards the participant coinciding with the most prominent audio source detected by the Kinect sensors."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Furhat, a back-projected human-like robot head.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The robot in the experiment was the back-projected human-like robot head Furhat, which is capable of combining head pose and eye gaze to direct attention."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The paper reports that human behavior differed toward the robot and suggests this could reflect the robot’s behavior or participants’ expectations. It does not explicitly attribute these effects to the robot’s physical embodiment.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The results also indicate that the robot is not triggering the same behaviour. This could be due to the robot’s behaviour or due to the subjects’ expectations of the system."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The study compared turn-taking and head-pose attention in conversations between two people and a Furhat robot during a collaborative survival-ranking task. People directed attention more clearly toward the robot when yielding turns, and response timing differed when humans answered the robot; gaze patterns also varied with the kind of exchange.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper frames gaze/head pose as a cue for turn-taking and joint attention, and examines its role and observed effects in human-human and human-robot exchanges. It describes the robot’s sensing and gaze control and identifies the Furhat embodiment, but does not explicitly isolate embodiment as a causal influence.",
+      "quotes": []
+    }
+  ]
+}

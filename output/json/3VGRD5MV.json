@@ -1,0 +1,269 @@
+{
+  "key": "3VGRD5MV",
+  "title": "Non-Verbal Cues on Robot-Group Persuasion",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Experimental user study.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "As a result, we have conducted a user study that attempts to measure the effects of non-verbal cues on robot-group persuasion and compare it to individual persuasion in a hypothetical game scenario."
+        },
+        {
+          "page": 2,
+          "text": "As such, our goal with this paper is to provide a new line of research in group persuasion."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "In-person, controlled room-based experiment with a humanoid robot; participants interacted with the robot at a table. The paper does not explicitly label the setting as a laboratory.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Participants sat in a room alone with the robot to avoid any human interference in the experiment."
+        },
+        {
+          "page": 3,
+          "text": "To guarantee that the robot’s cues were visible to all participants in the group setting, the three participants plus the robot were all distributed around a table with a laptop facing the participants for answer submission."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "72 participants total: 36 in individual interactions and 36 in group interactions.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "There were a total of 72 participants, half in the individual setting and half in the group setting, and evenly divided by the four conditions (Control, Gestures, Gaze, and Gaze+Gestures)."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Participants were at least 18, fluent in Portuguese, and had never played the Desert Survival Problem. Most were young and studied or worked in engineering; 47% were female and 53% male.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "There were three requirements to participate in the experiment: participants must be 18 years or older, speak fluent Portuguese as this was the language used by the robot, and never have played the Desert Survival Problem."
+        },
+        {
+          "page": 4,
+          "text": "It is clear that there is a predominance of young people with a background in engineering."
+        },
+        {
+          "page": 4,
+          "text": "Female 47% Male 53%"
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants completed the Desert Survival Problem with Vizzy: first they individually ranked survival objects, then submitted a group answer (in group sessions), while the robot made nine suggestions intended to change their rankings. Interactions were limited by a time limit; duration is not specified.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Participants were asked to solve the Desert Survival Problem in collaboration with Vizzy the robot."
+        },
+        {
+          "page": 3,
+          "text": "Before the study starts, each participant was asked to submit an individual answer to the desert survival problem."
+        },
+        {
+          "page": 3,
+          "text": "Then, all participants will gather in a room with the robot and submit one group answer."
+        },
+        {
+          "page": 3,
+          "text": "The robot made nine suggestions throughout the interaction, using direct language, as this strategy has shown the best results in persuasion [1][3]."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Individual condition: 1 human and 1 robot. Group condition: 3 humans and 1 robot.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In the individual condition only one participant interacts with the robot. In the group condition, a group of three participants interacts with the robot."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1 robot per interaction session.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In the individual condition only one participant interacts with the robot. In the group condition, a group of three participants interacts with the robot."
+        },
+        {
+          "page": 2,
+          "text": "Thus, it has to compete with the social influence caused by humans, which, from the limitations of the previous studies, does seem to overpower that of the robot."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "1 human in the individual condition; 3 humans in the group condition.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In the individual condition only one participant interacts with the robot. In the group condition, a group of three participants interacts with the robot."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Behavioral compliance count (accepted robot suggestions out of nine); post-experiment questionnaire assessing anger feelings on a 5-point Likert scale and negative cognitions from written opinions; five custom 5-point Likert items about robot perception.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "This compliance was measured as the number of requests accepted by the participants out of the total of nine requests always made by the robot."
+        },
+        {
+          "page": 4,
+          "text": "Feelings of Anger can be measured through a 5- point Likert scale rating the frequency of the following feel- ings: Irritation, Anger, Annoyance, and Aggravation; where 1 corresponds to “did not experience this feeling at all” and 5 to “Frequently experienced this feeling”."
+        },
+        {
+          "page": 4,
+          "text": "Negative cognitions may be measured by asking participants to write all their opinions about the robot, rating them as positive, neutral, or negative, and counting how many negative opinions each participant had."
+        },
+        {
+          "page": 4,
+          "text": "Participants were also asked to evaluate their agreement with five sentences regarding the robot’s behaviour (see Table II) using a 5-point Likert scale, where 1 is Totally Disagree and 5 is Completely Agree."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "In group sessions, gestures increased compliance versus no gestures (p<0.001); gaze plus gestures also increased compliance versus no cues (p=0.010). Gaze reduced irritation versus no cues (p=0.012). In the no-cue condition, groups had lower compliance than individuals (p=0.019) and higher irritation (p=0.043).",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "For the group setting, the compliance was significantly higher in both the Gestures (M 5.00, SD 0.00, p 0.001) and Gaze+Gestures (M 4.00, SD 0.82, p 0.010) conditions than in the No Cue condition (M 2.67, SD 0.94) (see Fig. 5, left)."
+        },
+        {
+          "page": 5,
+          "text": "The irritation was significantly smaller in the Gaze condition (M 1.56, SD 0.50, p 0.012) than in the No Cue condition (M 2.56, SD 0.83) (see Fig. 5, right)."
+        },
+        {
+          "page": 5,
+          "text": "Indeed, the compliance of the Individual setting (M 4.33, SD 1.63) was significantly higher than that of the Group setting (M 2.67, SD 0.94, p 0.019) (See Fig.4, left)."
+        },
+        {
+          "page": 5,
+          "text": "The Group Irritation (M 2.55, SD 0.83) was significantly higher than the Individual one (M 1.78, SD 0.72, p 0.043) (See Fig.4, right)."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames gaze as a robot non-verbal social cue used in persuasion, specifically gaze behaviour directed toward participants or the group to elicit attention and support robot-group persuasion. It does not define “robotic attention” as a separate concept.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "This study focuses on how non-verbal cues, specifically gaze and hand gestures, affect the persuasiveness of a social robot."
+        },
+        {
+          "page": 3,
+          "text": "The gaze behaviour had three stages: when no-one was talking, the robot looked at the laptop; when a participant spoke, the robot looked at them, looking back at the laptop once they finished; when the robot wanted to make a suggestion, it would look at the participant to elicit their attention (in the group setting, it would look around at the group), look back at the laptop, start speaking, and then redirect its look to the participant, as if awaiting for an answer."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "The robot's gaze was used to direct attention toward a speaking participant or the group before a suggestion, and to return attention to the participant as if awaiting an answer.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "When a participant spoke, the robot looked at them, looking back at the laptop once they finished; when the robot wanted to make a suggestion, it would look at the participant to elicit their attention (in the group setting, it would look around at the group), look back at the laptop, start speaking, and then redirect its look to the participant, as if awaiting for an answer."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "In group interactions, gaze reduced irritation, while gestures increased compliance. Participants in groups showed lower compliance and higher irritation than individuals in the no-cue condition.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "Specifically, it was verified that a robot’s gestures improve compliance by the group, and the gaze behaviour decreases psychological reactance."
+        },
+        {
+          "page": 5,
+          "text": "The irritation was significantly smaller in the Gaze condition (M 1.56, SD 0.50, p 0.012) than in the No Cue condition (M 2.56, SD 0.83) (see Fig. 5, right)."
+        },
+        {
+          "page": 5,
+          "text": "Indeed, the compliance of the Individual setting (M 4.33, SD 1.63) was significantly higher than that of the Group setting (M 2.67, SD 0.94, p 0.019) (See Fig.4, left)."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "Speech and gaze were controlled using a Wizard-of-Oz approach; gestures were linked to each speech command. Gaze shifted among the laptop, a speaking participant, and the group or participant during suggestions. Gestures included greeting waves and pointing to the answer sheet.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "A Wizard-of-Oz approach was used for the speech and gaze of the robot."
+        },
+        {
+          "page": 3,
+          "text": "The gestures were associated to each speech command."
+        },
+        {
+          "page": 3,
+          "text": "The gestures used consisted of waving when greeting the group and pointing at the laptop with the answer sheet when requesting changes (see Fig.3)."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Vizzy, described as a humanoid robot with head and eye gaze and hands used for gestures.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "An experiment was performed where Vizzy, a humanoid robot (shown in Fig.3), tried to persuade participants into changing their answers throughout the Desert Survival Problem."
+        },
+        {
+          "page": 1,
+          "text": "We have designed a protocol to include non-verbal cues in the social robot Vizzy (head and eye gaze, hand gestures) and test them in a series of experiments using the paradigm of the ”Desert Survival Challenge”."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "In the individual setup, Vizzy faced the participant directly, so baseline gaze was already directed at them; the authors suggest this may explain why gaze perception and naturality did not differ statistically across conditions. The paper also notes gaze movement was noticed through movement naturality ratings.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "For the individual setting, the participant sat on one side of the table with the laptop and the robot was placed on the other side, directly in front of the participant (see Fig.1, right side, and Fig.2)."
+        },
+        {
+          "page": 5,
+          "text": "This probably happened because the robot was placed directly in front of the participant, meaning its gaze was already directed at them in the No Cue condition."
+        },
+        {
+          "page": 5,
+          "text": "Indeed, when analyzing the Movement Naturality, there is a significant difference between the No Cue (M 1.78, SD 1.03) and the Gaze (M 3.78, SD 1.13, p 0.005) conditions, meaning the participants did notice the Gaze movement."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The study tested Vizzy’s gaze and hand gestures while it tried to persuade individuals or groups of three to change their Desert Survival rankings. In groups, gestures increased compliance and gaze reduced irritation, while groups were less compliant and more irritated than individuals in the no-cue condition.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper describes gaze as a non-verbal persuasion cue, reports its attention-directing role and measured effects in group interaction, and explains its Wizard-of-Oz implementation on humanoid Vizzy. It also discusses how the robot’s front-facing placement shaped gaze perception in the individual condition.",
+      "quotes": []
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "key": "UCQJ4VV4",
+  "title": "Towards an Engagement-Aware Attentive Artificial Listener for Multi-Party Interactions",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Mixed human–human observational analysis and controlled human–robot experiment evaluating a data-driven attentive-listener system against a baseline.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We are comparing our system to a baseline system that does not differentiate between different listener types in its behavior generation."
+        },
+        {
+          "page": 5,
+          "text": "We are using the gaze and back-channel distributions gathered from the human-human analysis to implement and evaluate an attentive-listener system for human-robot interaction."
+        },
+        {
+          "page": 13,
+          "text": "In each interaction, one robot system was using the baseline system, and one robot system was using the attentive-listening one."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Laboratory human–robot interaction, plus an online crowd-sourced observer-rating study and human–human corpus analysis.",
+      "quotes": [
+        {
+          "page": 11,
+          "text": "Figure 4 illustrates the room set-up that was optimized to facilitate multi-party interaction."
+        },
+        {
+          "page": 14,
+          "text": "We set-up a crowd-sourced perception experiment to capture the third-party observer judgements."
+        },
+        {
+          "page": 17,
+          "text": "While the use of different sensor technologies allows us to send the visual focus of attention and speech activity information in real-time to our systems, the set-up is very much restricted to a laboratory setting currently."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "12 participants in the human–robot study; 21 crowd-workers rated observer videos. The human–human corpus contained five sessions; the paper does not report the total number of corpus participants.",
+      "quotes": [
+        {
+          "page": 13,
+          "text": "We recruited a total number of 12 participants (9 male, three female)from a pool of students and staff at the Royal Institute of Technology, KTH via e-mail advertisement."
+        },
+        {
+          "page": 14,
+          "text": "Ratings were distributed over a total of 21 crowd-workers who were recruited via the crowd-sourcing platform crowd- flower."
+        },
+        {
+          "page": 5,
+          "text": "Five sessions were recorded. Each session lasted for about an hour."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Human–robot study participants were 12 KTH students or staff (9 male, 3 female); crowd observers were English-speaking US workers with the highest trust-score level. Ages and prior robot experience are not stated.",
+      "quotes": [
+        {
+          "page": 13,
+          "text": "We recruited a total number of 12 participants (9 male, three female)from a pool of students and staff at the Royal Institute of Technology, KTH via e-mail advertisement."
+        },
+        {
+          "page": 14,
+          "text": "Only English speaking workers from the United States, with the highest trust score level, were included in the study."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants retold Cinderella and discussed a favorite movie while two robots listened; they then completed a social-presence questionnaire and indicated which robot seemed more attentive. Duration is not stated.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "Participants were given three tasks in total. First, they were asked to retell the story of Cinderella. Afterwards, they would be asked to talk about their favorite movie. Finally, they were asked to fill out the social presence questionnaire and to indicate whether they perceived one of the robots to be more attentive."
+        },
+        {
+          "page": 10,
+          "text": "The robots contribute to the storytelling scenario through active listening."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Four people and robots in each human–robot interaction: one moderator, two robots, and one participant.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "Each interaction included one moderator, two social robots and one participant."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "2",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "Each interaction included one moderator, two social robots and one participant."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2 humans per human–robot session: one moderator and one participant.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "Each interaction included one moderator, two social robots and one participant."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Social Presence Questionnaire (modified to include an attentive-listening item); participant head rotation as a proxy for visual attention; third-party video ratings of robot attentiveness; human–human audio/video-derived gaze, speech activity, back-channel, and head-nod measures.",
+      "quotes": [
+        {
+          "page": 13,
+          "text": "For this, we chose the Social Presence Questionnaire (Harms and Biocca, 2004)."
+        },
+        {
+          "page": 14,
+          "text": "We used participant’s head rotation as a proxy for estimating their focus of attention towards each of the robots."
+        },
+        {
+          "page": 14,
+          "text": "There were seven ratings of workers per video segment, which resulted in a total of 420 judgements."
+        },
+        {
+          "page": 7,
+          "text": "These include speaking turns and vocal back-channel, head nods and gaze patterns."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Participants spent more time gazing at the attentive-listener robot than the baseline robot (one-way ANOVA, F(1,1028)=8.554, p<0.01). Third-party observers selected the attentive-listener robot as more attentive in 55/60 cases (proportion 0.92, binomial test, p<0.001). Social-presence ratings trended higher for the attentive system, but the sample was too small for statistical tests.",
+      "quotes": [
+        {
+          "page": 14,
+          "text": "Finally, a one-way ANOVA revealed that the robot configuration affected the gaze duration of the participant F (1,1028) �8.554 (p 0.01)."
+        },
+        {
+          "page": 15,
+          "text": "A binominal test revealed that the proportion of 0.92 of observers identifying the robot running our attentive listener system as more attentive was significantly higher than the expected 0.5, p 0.001."
+        },
+        {
+          "page": 14,
+          "text": "As this article’s focus is on the perception and modeling of listening behavior in a group and the perception of non- addressees, we did not focus on maximizing the number of first party-participants. Therefore, the number of first-party- participants is not sufficient to carry out statistical tests."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "Attentive listening is framed as multimodal listener behavior, including gaze and feedback, used to signal attentiveness and engagement in multiparty interaction. The paper does not provide a standalone definition of robotic gaze or robotic attention.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Attentive listening serves the function to gather information for oneself, but at the same time, it also signals to the speaker that he/she is being heard."
+        },
+        {
+          "page": 2,
+          "text": "In addition to feedback behavior also gaze is an important cue to estimate the listener’s engagement in the conversation."
+        },
+        {
+          "page": 10,
+          "text": "The robots demonstrate their active listening through a combination of gaze and audio- visual feedback behavior."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper defines an attentive listener as the person most likely to speak after the current speaker; it describes engagement (in its chosen interpretation) as interest and attentiveness.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "Attentive Listener (ALi): An attentive listener is the person who is most likely to start speaking after the current speaker."
+        },
+        {
+          "page": 4,
+          "text": "Other studies attribute more of an affective dimension to engagement and use engagement more synonymously with “interest” and “attentiveness” (cf. Oertel et al. (2020))."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze and multimodal feedback signal listening and attentiveness, distribute attention according to listener role, and can influence the speaker’s visual attention and participant roles.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Attentive listening serves the function to gather information for oneself, but at the same time, it also signals to the speaker that he/she is being heard."
+        },
+        {
+          "page": 16,
+          "text": "The fact that the robot’s behavior influenced the participant’s focus of attention lends further support to the findings of Mutlu et al. (2009a) and Admoni et al. (2013) who found that the robot’s gazing behavior influences participants behavior and might be used for directing participant roles or turn management."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The attentive-listener system received more participant gaze and was judged more attentive by third-party observers than the baseline. In human–human data, gaze received from the speaker and mutual gaze varied by listener category, with attentive listeners receiving/sharing more than side participants and bystanders.",
+      "quotes": [
+        {
+          "page": 14,
+          "text": "It can be observed that the participants spent more time directed towards the robot realizing behavior of the attentive listener system than the baseline system."
+        },
+        {
+          "page": 15,
+          "text": "observers identified the baseline-model version as the more attentive listener in only five out of 60 cases."
+        },
+        {
+          "page": 8,
+          "text": "The ALi received a significantly more proportionate amount of gaze from the speaker than the SPa, and the SPa more than the Bys."
+        },
+        {
+          "page": 8,
+          "text": "The ALi shared significantly more mutual gaze with the speaker than the SPa and the SPa significantly more than the Bys."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "A rule-based listener-category model used real-time speech activity, head-rotation-derived gaze targets, and wizard-marked feedback-relevance points. The attentive system generated category-specific gaze and back-channel distributions from human–human data; the baseline used flat distributions, with speaker-gaze reciprocity. Back-channels were restricted to continuers.",
+      "quotes": [
+        {
+          "page": 11,
+          "text": "A listener category is only changed if a robot is being gazed at for more than 2 s."
+        },
+        {
+          "page": 11,
+          "text": "She was tasked to indicate feedback-relevance-points (FRP) by pressing a button."
+        },
+        {
+          "page": 12,
+          "text": "Gaze and feedback behavior generation is dependent on the listener category assignment, and distributions are extracted per 15-second-intervals."
+        },
+        {
+          "page": 12,
+          "text": "Specifically, We restricted the use of back-channels to continuers (back-channels that indicate to the speaker to continue talking) only, and we used two levels of continuers."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Two back-projected robot heads with neck servos; they differed only in hat and name tag and used the same voice.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "We used two back-projected robot heads for our experiment."
+        },
+        {
+          "page": 10,
+          "text": "Their only differentiating features were their hat and the name-tag attached underneath the robot head. They were using the same voice."
+        },
+        {
+          "page": 10,
+          "text": "Additionally, the physical servos of the robot’s neck allow for realizing head nods and lip synchronization for audio-backchannels could be insured."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "Back-projection and physical neck servos were chosen to support fine-grained, rapid gaze changes, head nods, and lip-synchronized audio back-channels, which the authors considered important for perceiving subtle behavior and identifying gaze targets.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "Our decision for the use of back-projection technology was made because of its capability of realizing fine-grained gaze changes in quick succession."
+        },
+        {
+          "page": 10,
+          "text": "Additionally, the physical servos of the robot’s neck allow for realizing head nods and lip synchronization for audio-backchannels could be insured."
+        },
+        {
+          "page": 10,
+          "text": "Accurate and detailed non- verbal behavior realization is essential for a task such as ours, where a human must be able to perceive even subtle gaze changes and be able to identify the robot’s gaze target undoubtedly."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper analyzed human–human listener gaze and feedback in multiparty interaction, then used those patterns to build an attentive-listener system with two robot heads. Participants looked longer at the data-driven attentive robot, and third-party observers judged it more attentive than the baseline.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper frames attentive listening as multimodal gaze and feedback that signals attention, and examines how gaze varies across listener roles and affects participant attention and observer judgments. It details sensing and behavior generation, describes the back-projected robot heads, and explains how their capabilities enabled the study’s fine-grained gaze and feedback behaviors.",
+      "quotes": []
+    }
+  ]
+}

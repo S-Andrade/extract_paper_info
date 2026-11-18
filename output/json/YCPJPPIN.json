@@ -1,0 +1,273 @@
+{
+  "key": "YCPJPPIN",
+  "title": "Expression of Personality by Gaze Movements of an Android Robot in Multi-Party Dialogues",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description with observational gaze analysis and subjective evaluation experiments.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this study, we describe an improved version of our proposed model to generate gaze movements (eye and head movements) of a dialogue robot in multi-party dialogue situations, and investigated how the impressions change for models created by data of speakers with different personalities."
+        },
+        {
+          "page": 4,
+          "text": "We conducted subjective experiments to evaluate how the impressions of personality changes by using the gaze models of different speakers for generating gaze behaviors in a robot."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Controlled, video-based subjective experiments using an android robot; the setting is not explicitly named as a lab.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Video clips were created for each motion type, and characters were added in the left and right sides of the video, with line bars displayed around the characters to visualize which of the speakers is talking."
+        },
+        {
+          "page": 6,
+          "text": "We then put the video images side by side, and attached the speech signals of the dialogue data in the same way for Experiment 1."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "18 participants in the subjective experiments; the gaze dataset included 17 speakers.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The dataset used in the present analysis contains 17 amle and female speakers."
+        },
+        {
+          "page": 6,
+          "text": "Eighteen male and female subjects (with ages from 20s to 50s) participated in the experiment."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Subjective experiment participants were male and female, ages 20s to 50s. The analyzed dialogue dataset had 17 male and female speakers; two were selected based on distinct personality impressions (one relatively extroverted female and one relatively introverted male).",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "Eighteen male and female subjects (with ages from 20s to 50s) participated in the experiment."
+        },
+        {
+          "page": 3,
+          "text": "Among the 17 speakers in the database, for the present analysis, we selected two speakers with distinct personality impressions."
+        },
+        {
+          "page": 3,
+          "text": "The selected speakers are a female speaker with a relatively extroverted impression (Person A), and a male speaker with a relatively introverted impression (Person B)."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants rated video clips of three-party dialogue gaze behaviors for perceived personality and naturalness. The modeled scenario used dialogue sections around 40 seconds long from recorded free conversations.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "There are 14 dialogue sessions in total, and each session is consisted of 10-20 minutes of free conversations."
+        },
+        {
+          "page": 5,
+          "text": "We selected dialogue sections (around 40 seconds long) for Person A and Person B, from the three-party dialogue dataset, and recorded the motions generated in the android Nikola."
+        },
+        {
+          "page": 6,
+          "text": "Participants are asked to rate their impressions of the videos of each method individually on a 7-point scale (1: very introverted, 4: neutral, 7:very extraverted)."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three humans in the source dialogue; one robot was used to generate the target speaker's gaze behaviors for evaluation videos.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The three speakers seat in the vertices of an equilateral triangle with sides around 2 meters."
+        },
+        {
+          "page": 5,
+          "text": "For controlling the gaze behaviors in a dialogue scenario, we controlled the following actuators: eyeball pitch, left eyeball yaw, right eyeball yaw, upper eyelids, head pitch and head yaw."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "In this study, we adopted the android Nikola for evaluating the gaze behaviors."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "3 people in each recorded dialogue session.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The three speakers seat in the vertices of an equilateral triangle with sides around 2 meters."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Manual gaze-event segmentation and turn-taking labels; a 7-point perceived-extraversion rating and naturalness ratings; statistical analysis with one-way ANOVA and repeated-measures one-way ANOVA.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Gaze events are manually segmented for each speaker, based on the images captured by the RGB-D cameras."
+        },
+        {
+          "page": 5,
+          "text": "The speech intervals and turn-taking labels available in the dataset were used as input for the proposed system."
+        },
+        {
+          "page": 6,
+          "text": "Participants are asked to rate their impressions of the videos of each method individually on a 7-point scale (1: very introverted, 4: neutral, 7:very extraverted)."
+        },
+        {
+          "page": 7,
+          "text": "As expected, significant differences through repeated measures one-way ANOVA were achieved between the motions generated by models PA-M and PB-M for the voice of Person A, as shown in Figure 10(a)."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Perceived personality differed significantly between the Person A and Person B gaze models for Person A's voice in Experiment 2; the Person B model was rated lower (more introverted) than Person A's model. No statistical significance was found in Experiment 1, and Experiment 2's Person B voice comparison was also not significant. Naturalness means exceeded 4 for all generated motions.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "Although statistical significance could not be observed by one-way ANOVA, the mean scores of perceived personality shows that the gaze behaviors generated by the model of Person B are lower than those of Person A, for the voices of both Person A and Person B."
+        },
+        {
+          "page": 7,
+          "text": "As expected, significant differences through repeated measures one-way ANOVA were achieved between the motions generated by models PA-M and PB-M for the voice of Person A, as shown in Figure 10(a)."
+        },
+        {
+          "page": 7,
+          "text": "The results for naturalness show that all motions are scored with mean values higher than 4."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames its topic as generating human-like gaze behaviors in interactive robots and expressing robot personality through gaze behavior. It does not explicitly define “robotic attention” or “gaze-based attention.”",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this study, we aim on not only generating human- like gaze behaviors in a humanoid robot, but also consider the expression of the robot’s personality through the gaze behaviors."
+        },
+        {
+          "page": 1,
+          "text": "Eye gaze has several im- portant functions in facilitating dialogue such as: to provide feedback, communicate emotional information, and regulate dialogue flow."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "The paper describes gaze as providing dialogue feedback, communicating emotional information, and regulating dialogue flow. In its system, gaze target selection accounts for dialogue roles and turn-taking, including selection of a dialogue partner or gaze aversion.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Eye gaze has several im- portant functions in facilitating dialogue such as: to provide feedback, communicate emotional information, and regulate dialogue flow."
+        },
+        {
+          "page": 2,
+          "text": "These studies show that there is a strong correlation between turn-taking and gaze, and that the gaze control system needs to be analyzed and implemented differently for turn-taking and other sections."
+        },
+        {
+          "page": 2,
+          "text": "The first step is to decide where to direct the gaze, that is, to decide which dialogue partner to look at, or to avert the gaze towards directions other than the dialogue partners."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Changing gaze-model parameters associated with speakers with distinct personalities changed perceived personality to some extent. In Experiment 2, partner-perspective camera views made it clearer whether the robot was gazing at a dialogue partner or averting its gaze.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "Judging if gazing is directed to a dialogue partner or averted to other directions become much clearer when the camera views are in dialogue partner perspective."
+        },
+        {
+          "page": 7,
+          "text": "Regarding the personality impressions, it was found that changing the gaze model parameters of subjects with distinct personalities are for some extent effective to change the impressions of personality traits."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "A three-phase system senses dialogue roles and turn-taking, generates gaze target, duration, and aversion pattern, then controls robot actuators. The analysis used manually annotated turn-taking and gaze events; gaze models were derived from dialogue data for two speakers with distinct personality impressions.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The proposed system is divided into three phases: dialogue situation sensing, gaze motion generation, and gaze motion control, as shown in Figure 1."
+        },
+        {
+          "page": 2,
+          "text": "Thus, in the analysis of the present study, we used manually annotated turn-taking in- formation."
+        },
+        {
+          "page": 3,
+          "text": "The next step is to calculate the duration of the gaze. The distributions of the gaze durations are also thought to be dependent on the personality and the roles of the dialogue participants."
+        },
+        {
+          "page": 3,
+          "text": "The “look” function is implemented by splitting the target looking angle by half for the eyeballs and half for the head."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Android robot Nikola, with 32 face degrees of freedom and 3 neck degrees of freedom; gaze control used eye and head actuators.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "In this study, we adopted the android Nikola for evaluating the gaze behaviors."
+        },
+        {
+          "page": 4,
+          "text": "Nikola has 32 DOFs for the face and 3 DOFs for the neck, which allow the generation of several emotional facial expressions."
+        },
+        {
+          "page": 4,
+          "text": "For controlling the gaze behaviors in a dialogue scenario, we controlled the following actuators: eyeball pitch, left eyeball yaw, right eyeball yaw, upper eyelids, head pitch and head yaw."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors report that front-view video made it difficult to perceive whether the robot was looking at a dialogue partner or averting its gaze because partners were positioned to the left and right; partner-perspective camera views made that distinction clearer.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "We then suspected that with the front view camera images used in the experiment, it was difficult to perceive if the robot is looking at a dialogue partner or averting the gaze, since the dialogue partners are in the left and right sides."
+        },
+        {
+          "page": 7,
+          "text": "Judging if gazing is directed to a dialogue partner or averted to other directions become much clearer when the camera views are in dialogue partner perspective."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper models gaze target, duration, and aversion patterns from three-party conversation data and uses the models to generate gaze in the android Nikola. Viewers perceived personality differences between the models, with a significant difference for Person A's voice when videos showed the robot from dialogue-partner perspectives.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper describes gaze’s dialogue functions, models role- and turn-taking-aware gaze in three-party dialogue, and reports perceived personality and camera-view effects. It details the gaze-control implementation and Nikola embodiment, including how camera perspective affected judgments of gaze direction.",
+      "quotes": []
+    }
+  ]
+}

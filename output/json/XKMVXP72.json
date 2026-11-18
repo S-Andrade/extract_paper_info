@@ -1,0 +1,202 @@
+{
+  "key": "XKMVXP72",
+  "title": "Modelling situated human-robot interaction using IrisTK",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description and demonstration paper.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this demonstration we show how situated multi-party human-robot interaction can be modelled using the open source framework IrisTK."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Public exhibition at the Swedish National Museum of Science and Technology.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this demonstration, we will show a system that was implemented using IrisTK, and which was exhibited at the Swedish National Museum of Science and Technology, in November 15-23, 2014."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "373 interactions; number of participants is not stated.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "During the 9 days the system was exhibited at the Swedish National Museum of Science and Technology, we recorded data from 373 interactions with the system."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "Two visitors collaboratively sort cards on a touch table with Furhat according to a criterion, discussing the solution with the robot. Furhat uses a randomized belief model, so visitors must decide whether to trust its belief.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The two visitors and Furhat are given the task of sorting the cards according to some criterion."
+        },
+        {
+          "page": 1,
+          "text": "This is a collaborative game, which means that the visitors have to discuss the solution together with Furhat."
+        },
+        {
+          "page": 1,
+          "text": "Instead, Furhat's behaviour is motivated by a randomized belief model."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Two humans and one robot per interaction.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "As can be seen in Figure 1, two visitors at a time can play a collaborative game together with the robot head Furhat (Al Moubayed et al., 2013)."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "As can be seen in Figure 1, two visitors at a time can play a collaborative game together with the robot head Furhat (Al Moubayed et al., 2013)."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "As can be seen in Figure 1, two visitors at a time can play a collaborative game together with the robot head Furhat (Al Moubayed et al., 2013)."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "System event and audio logging; no outcome measurement instrument is described.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "To this end, IrisTK provides many tools for easily logging all events in the system, as well as the audio."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames attention as a target maintained by Furhat, with focus of attention signaled through head pose and eye gaze. It describes joint attention to objects under discussion but gives no formal definition of robotic gaze or attention.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The application is interesting from a research perspective, as it involves both multi-party interaction, as well as joint attention to the objects under discussion."
+        },
+        {
+          "page": 2,
+          "text": "The Attention Flow keeps Furhat’s attention to a specified target (a user or a card), even when the target is moving, by consulting the Situation model."
+        },
+        {
+          "page": 3,
+          "text": "Furhat has an animated face back-projected on a translucent mask, as well as a mechanical neck, which allows Furhat to signal his focus of attention using a combination of head pose and eye-gaze."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "Furhat directs attention toward a specified user or card and can signal its focus of attention through head pose and eye gaze. The paper also describes joint attention to objects under discussion.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The Attention Flow keeps Furhat’s attention to a specified target (a user or a card), even when the target is moving, by consulting the Situation model."
+        },
+        {
+          "page": 3,
+          "text": "Furhat has an animated face back-projected on a translucent mask, as well as a mechanical neck, which allows Furhat to signal his focus of attention using a combination of head pose and eye-gaze."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "implementation",
+      "value": "A Kinect tracks user head location and rotation, and hands; a Situation model combines sensor data and card positions in a shared 3D coordinate system. A parallel Attention Flow module consults the Situation model, transforms the target's 3D position into neck and gaze movement, and directs Furhat's attention.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "A Kinect camera (V1 or V2) can be used to track the location and rotation of the two users’ heads, as well as their hands."
+        },
+        {
+          "page": 2,
+          "text": "The task of the Situation model is to take all sensor data and merge them into a common coordinate system, assign speech events to the right users based on the spatial configuration, and produce higher-level events."
+        },
+        {
+          "page": 2,
+          "text": "The Attention Flow keeps Furhat’s attention to a specified target (a user or a card), even when the target is moving, by consulting the Situation model."
+        },
+        {
+          "page": 3,
+          "text": "The 3D position of the target is then transformed into neck and gaze movement of Furhat (again taking Furhat’s position in the 3D space into account)."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Furhat robot head: an animated face back-projected on a translucent mask and a mechanical neck, enabling head pose and eye gaze movements.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Furhat has an animated face back-projected on a translucent mask, as well as a mechanical neck, which allows Furhat to signal his focus of attention using a combination of head pose and eye-gaze."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors state that a screen-based animated agent cannot achieve mutual gaze with only one user or let users infer its gaze target in shared space; they therefore describe a robot as the preferable solution for multiparty interaction.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "While this solution suffice when only one person is interacting with the system, it does not work so well for multi-party interaction, due to the Mona Lisa effect (Al Moubayed et al., 2013), which means that it is impossible to achieve mutual gaze with only one of the users, or for users to infer the target of the agent's gaze in the shared space (such as the cards on the table)."
+        },
+        {
+          "page": 3,
+          "text": "The preferable solution is to instead use a robot."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper demonstrates IrisTK in a museum card-sorting game where two visitors interact with Furhat. Its attention module tracks a user or card and converts the target’s position into the robot’s neck and gaze movement; the paper reports no measured effects of that gaze behavior.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ4; RQ5; RQ6 — The paper describes attention to users and cards, its role in the shared activity, its sensing and control implementation, and the Furhat embodiment. It notes how a screen agent’s embodiment limits mutual gaze and gaze-target inference in multiparty settings. It does not define a formal gaze concept or report effects of gaze/attention behavior.",
+      "quotes": []
+    }
+  ]
+}

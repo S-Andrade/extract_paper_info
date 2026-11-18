@@ -1,0 +1,301 @@
+{
+  "key": "7RQRZPRW",
+  "title": "Data-Driven Generation of Eyes and Head Movements of a Social Robot in Multiparty Conversation",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description and evaluation: the authors developed data-driven gaze and head-movement models, evaluated their performance, and ran an online perception study.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We here propose and evaluate data-driven gaze control models for a robot game animator in a three-party interaction."
+        },
+        {
+          "page": 7,
+          "text": "A subjective evaluation is therefore necessary to validate the viability of our proposed attention control."
+        },
+        {
+          "page": 9,
+          "text": "For the perception evaluation, 21 clips of interaction were selected and extracted, 2 per game sequence plus 1 for the initial training example."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Online perception study of video clips; the underlying interactions were three-party collaborative-game sessions collected using immersive teleoperation.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "To train and evaluate our models, we use multimodal data from three-party interactions in a collaborative game context."
+        },
+        {
+          "page": 9,
+          "text": "For the evaluation, we used the HEMVIP [15] method."
+        },
+        {
+          "page": 9,
+          "text": "We recruited 30 participants via the crowdsourcing platform Prolific1, all native French speakers, with an equal representation of men and women."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "30 raters in the online perception study; the training and evaluation corpus comprised 11 recorded game sequences.",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "We recruited 30 participants via the crowdsourcing platform Prolific1, all native French speakers, with an equal representation of men and women."
+        },
+        {
+          "page": 3,
+          "text": "We use 11 recorded and annotated game sequences, with different pairs of players, but keeping the robot’s pilot the same."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "The online raters were native French speakers, with equal representation of men and women. The corpus used different pairs of human players and the same robot pilot; their demographics are not stated.",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "We recruited 30 participants via the crowdsourcing platform Prolific1, all native French speakers, with an equal representation of men and women."
+        },
+        {
+          "page": 3,
+          "text": "We use 11 recorded and annotated game sequences, with different pairs of players, but keeping the robot’s pilot the same."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Two human players collaborated in a word-scoring game while a robot animator reported themes, invited proposed words, and reported scores. Online raters judged short clips of robot behavior and gaze for relevance to context.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The game is scored by finding the most quoted words for a given theme (previously played online by human players)."
+        },
+        {
+          "page": 3,
+          "text": "The animator must report the themes, invites the players to propose words, and then reports the scores for the proposed words."
+        },
+        {
+          "page": 3,
+          "text": "A sequence consists of 9 rounds (new theme word), and 5 collected answers per theme."
+        },
+        {
+          "page": 9,
+          "text": "The evaluation instruction given to the subjects was this: “Rate the videos based on the relevance of the robot’s behavior and gaze relative to the context”."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three-party interaction: one robot and two human players.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "This setup allows to interact with two human players through the robot sensors and actuators."
+        },
+        {
+          "page": 1,
+          "text": "We here propose and evaluate data-driven gaze control models for a robot game animator in a three-party interaction."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "This animator is in fact an iCub robot [19] controlled by a human pilot through immersive teleoperation [5]."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2 players per interaction; the robot was controlled by a human pilot.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "This setup allows to interact with two human players through the robot sensors and actuators."
+        },
+        {
+          "page": 3,
+          "text": "This animator is in fact an iCub robot [19] controlled by a human pilot through immersive teleoperation [5]."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Objective technical measures: gaze-target classification accuracy/F1 and head-angle MSE, using nine-fold cross-validation. Subjective outcome: HEMVIP video ratings from 0 to 100; ratings were analyzed with beta regression and pairwise comparisons. A closing survey about robot familiarity and general feeling was also collected.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "To best evaluate the performance of our models, we used the K-fold cross validation method."
+        },
+        {
+          "page": 6,
+          "text": "The average accuracy of the attention target classification model is 52.9 1.4%. The average MSE of the head angle generation model is 7.93 0.51."
+        },
+        {
+          "page": 9,
+          "text": "On each page, the subjects compare 4 renderings of the same interaction segment. They must rate each video between 0 and 100."
+        },
+        {
+          "page": 9,
+          "text": "At the end, they have to fill in a survey about their familiarity with the robots and their general feeling."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "The gaze-target model achieved average accuracy of 52.9 ± 1.4%; the head-angle model's average MSE was 7.93 ± 0.51. Control type significantly affected video ratings (χ²(3)=16.511, p=0.0008), with Shifted Ground Truth differing significantly from each other control. LSTM and heuristic controls did not differ significantly, nor did Simulated Ground Truth from those two controls.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "The average accuracy of the attention target classification model is 52.9 1.4%. The average MSE of the head angle generation model is 7.93 0.51."
+        },
+        {
+          "page": 9,
+          "text": "A likelihood ratio test shows that the type of control significantly impacts the rating score (chisq(3) 16.511, p 0.0008)."
+        },
+        {
+          "page": 9,
+          "text": "The only significant differences were found between ShiftedGT and the other three controls."
+        },
+        {
+          "page": 10,
+          "text": "Despite a small supportive bias for LstmModel, no significant difference was found between the proposed control LstmModel and the control HeuristicModel."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames its subject as robotic gaze control and attention control in multiparty HRI, including prediction of gaze targets and generation of head movements.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "This study introduces a unique method to control the robot gaze in a multi-party interaction by combining two Long Short-Term Memory (LSTM) models, one to predict the attention targets of the robot, and one to generate the corresponding head movements."
+        },
+        {
+          "page": 4,
+          "text": "In order to make the attention control of our robot as natural as possible, we propose to generate both attention targets and head movements."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "The paper describes gaze as a social cue that regulates conversation, including turn-taking and identifying the next speaker or current addressee. The proposed model predicts where the robot should direct attention based on interaction context and communication intent.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Indeed, in addition to transmitting emotions, it is a powerful regulator of conversations [16,27]."
+        },
+        {
+          "page": 1,
+          "text": "This function is particularly important in multiparty conversations, for turn-taking management and role detection, such as who will be the next speaker, or who is the current addressee [13,32]."
+        },
+        {
+          "page": 6,
+          "text": "Removing the Intent feature has the biggest impact on gaze prediction, which can be explained by the importance of intentions in determining whether the robot should look at the tablet (theme announcement, scores) or specific/both players (ask for proposal, validation) when speaking."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "In the online ratings, the proposed LSTM gaze control was rated as appropriate as the original behavior, but it showed no significant advantage over the heuristic control for context-aware head movement generation. The authors report no significant differences between Simulated Ground Truth and the LSTM or heuristic controls.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "The subjective evaluation revealed that despite a moderate objective performance, the proposed control was rated as appropriate as the original behavior in the data set."
+        },
+        {
+          "page": 10,
+          "text": "The difference between the head movements generated by a context-aware model and a non-context-aware model is not perceived."
+        },
+        {
+          "page": 10,
+          "text": "Despite the scores obtained by SimulatedGT, there is no significant difference between this hypothesized high anchor and the two controls, HeuristicModel, and LstmModel."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "Two cascaded LSTM models predict gaze target and head angles from multimodal inputs about robot-pilot activity and the two users; the head model also receives pilot-gaze features. Pilot gaze was classified from recorded movements, verbal features were manually annotated, and user gaze features automatically annotated. The training data came from an iCub teleoperated by a human pilot; evaluation clips were rendered on a virtual Furhat. Four control conditions were compared.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "More precisely, we used Long Short-Term Memory networks to predict gaze target and context-aware head movements given robot’s communication intents and observed activities of its human partners."
+        },
+        {
+          "page": 5,
+          "text": "In addition to these 17 input channels, the model generating head angles also receives pilot gaze features, adding 4 channels for a total of 21."
+        },
+        {
+          "page": 5,
+          "text": "Verbal features were annotated manually, while users gaze features were automatically annotated using GMM."
+        },
+        {
+          "page": 7,
+          "text": "To do so, we replay sequence of game interactions on a virtual Furhat robot [2] with different gaze and head behaviors."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "The interaction corpus was collected with an iCub humanoid robot whose head and eyes were controlled via immersive teleoperation; all head and eye movements, including vergence, were reproduced in real time with 3+3 degrees of freedom. Perception clips used a virtual Furhat robot.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "This animator is in fact an iCub robot [19] controlled by a human pilot through immersive teleoperation [5]."
+        },
+        {
+          "page": 3,
+          "text": "All head and eye movements of the pilot, including vergence, are reproduced in real time by the operated robot (3+3 Degrees of Freedom, aka DoF)."
+        },
+        {
+          "page": 7,
+          "text": "To do so, we replay sequence of game interactions on a virtual Furhat robot [2] with different gaze and head behaviors."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors note that the physical robot was not used for the perception evaluation; future work proposes testing with raters facing the physical robot to examine engagement. The cited comparison to Huang et al. also notes that their robot could not move its head and eyes, unlike the robot context discussed here.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "This lack of context may create a misunderstanding of the robot’s behavior, which mimics the behavior of a knowledgeable human who was participating in the interaction."
+        },
+        {
+          "page": 10,
+          "text": "Future work will aim to identify the reasons for this non-perception of differences."
+        },
+        {
+          "page": 10,
+          "text": "but also conducting a new perception evaluation with raters facing the physical robot for checking the engagement hypothesis."
+        },
+        {
+          "page": 3,
+          "text": "their robot could not move its head and its eyes."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The authors trained cascaded LSTM models to predict a robot animator’s gaze targets and head movements in a three-party word game. Online raters found the predicted gaze control viable, while context-aware head movement generation was not rated significantly differently from a heuristic control.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper frames gaze as a conversational regulator, describes its role in turn-taking and addressee selection, and reports perception-rating effects. It details the sensing and LSTM control approach, identifies iCub and virtual Furhat embodiments, and discusses limitations related to third-party evaluation and physical-robot testing.",
+      "quotes": []
+    }
+  ]
+}

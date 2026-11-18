@@ -1,0 +1,201 @@
+{
+  "key": "REKWID5T",
+  "title": "A Gaze Controller for Coordinating Mutual Gaze During Conversational Turn-Taking in Human-Robot Interaction",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system proposal with a planned experimental evaluation; no completed outcome study is reported.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "This report proposes a method for modelling conversational mutual gaze from human interaction data in a way that allows the resulting gaze controller to be used in combination with any dialog manager that controls turn-taking."
+        },
+        {
+          "page": 2,
+          "text": "The performance of the gaze controller is evaluated through a series of experiments involving a human-robot face-to-face dialog."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Planned face-to-face human–robot dialogue setting; specific venue is not stated.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The performance of the gaze controller is evaluated through a series of experiments involving a human-robot face-to-face dialog."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "Face-to-face dialogue between a human and the robot. The report describes the evaluation as planned and gives no interaction duration or dialogue topic.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The performance of the gaze controller is evaluated through a series of experiments involving a human-robot face-to-face dialog."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Dyadic: one human and one robot.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We restrict the interactions studied to two-person face-to-face conversations in which no physically present objects are acted on or discussed."
+        },
+        {
+          "page": 2,
+          "text": "The performance of the gaze controller is evaluated through a series of experiments involving a human-robot face-to-face dialog."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The goal of this research is the generation of a gaze coordination controller for a complex set of naturalistic movements of the eyes and face of the iCub robotic platform, including timing properties of these movements, to allow for their synchronisation with human interaction signals during dyadic conversation."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We restrict the interactions studied to two-person face-to-face conversations in which no physically present objects are acted on or discussed."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Planned measures include TIPI, Godspeed Questionnaire, Inclusion of Other in Self Scale, structured interviews, dyads-adjusted Entitativity Scale, Need Threat Scale, shared cognition and social validation scale, dialogue success and fluidity, and participants’ ability to pick up each other’s turn-taking signals. Eye tracking is used to obtain human gaze direction input.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "As in our previous human-human interaction studies[5], the human participant fills out a short personality questionnaire (TIPI) prior to the interaction."
+        },
+        {
+          "page": 2,
+          "text": "After the interaction, the participants are asked to evaluate the perceived personality and intelligence of the robot and the naturalness of the interaction using the Godspeed Questionnaire [1], the Inclusion of Other in Self Scale and structured interviews."
+        },
+        {
+          "page": 2,
+          "text": "Additionally, we are evaluating the conversational fluidity with the help of the for dyads adjusted Entitactivity Scale [8], the Need Threat Scale [14], and a combination of the shared cognition and social validation scale [12, 9, 13]."
+        },
+        {
+          "page": 2,
+          "text": "We are recording the ability of the participants to correctly pick up the turn-taking signals of the robot and vice versa."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames its subject as conversational mutual gaze, coordinated with turn-taking in dyadic human–robot interaction. It explicitly distinguishes this from joint attention and multiparty interaction, which it excludes from the study.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In contrast, our research is concerned with studying the impact of mutual gaze in conversational dyads."
+        },
+        {
+          "page": 1,
+          "text": "We restrict the interactions studied to two-person face-to-face conversations in which no physically present objects are acted on or discussed."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "Mutual gaze is coordinated with turn-taking and is intended to support naturalistic interaction dynamics; the broader background also identifies gaze as a cue for regulating turn-taking.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Recent research on the role of gaze during verbal interaction in HRI, such as that of Mutlu et al. [10], has investigated multiple functions of gaze in conversation, including cuing and regulating turn-taking."
+        },
+        {
+          "page": 1,
+          "text": "Accompanying robot speech with gaze acts that support mutual gaze will improve the naturalistic qualities of the interaction dynamics the iCub will induce in the hu- man user."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "No measured effects are reported; the evaluations and outcomes are described as planned or expected.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "It also describes a set of experimental measures that will be used to investigate the effect of the gaze controller on people’s impressions of the robot and the quality of the interaction."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "A proposed data-driven gaze controller is trained from human–human dyadic conversational interaction data. It receives dialogue state and speech-event input from a dialogue manager, plus human gaze direction from an eye tracker, and produces gaze motion in a human face-centric coordinate system. The proposed model uses a semi-Markov or time-indexed HMM/POMDP variant; the robot platform is iCub.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The gaze controller will be data driven and based on a large data set collected during human-human dyadic conversational interaction."
+        },
+        {
+          "page": 2,
+          "text": "The gaze controller receives input from the dialog man- ager in the form of conversational events such as the onset and end of human and robot speech along with the human’s gaze direction data from an eye tracker."
+        },
+        {
+          "page": 2,
+          "text": "The output is gaze motion expressed in a human face-centric coordinate system."
+        },
+        {
+          "page": 2,
+          "text": "For this reason, we employ a semi-markov or time- indexed HMM or POMDP variant [6]."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "iCub robotic platform, with naturalistic eye and face movements.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The goal of this research is the generation of a gaze coordi- nation controller for a complex set of naturalistic movements of the eyes and face of the iCub robotic platform, including timing properties of these movements, to allow for their syn- chronisation with human interaction signals during dyadic conversation."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "This report proposes a data-driven mutual-gaze controller for iCub that coordinates gaze with dialogue turn-taking in one-to-one face-to-face conversation. It outlines a planned comparison with iCub’s saliency-based gaze controller and lists measures of impressions and interaction quality, but reports no results.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ4; RQ5",
+      "quotes": []
+    }
+  ]
+}

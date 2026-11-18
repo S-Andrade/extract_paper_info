@@ -1,0 +1,205 @@
+{
+  "key": "XHAA3MSJ",
+  "title": "A soft-computing-based approach to artificial visual attention using human eye-fixation paradigm: toward a human-like skill in robot vision",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description with experimental validation on image benchmarks and a NAO robot.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Focusing on the dilemma of artificial visual attention (AVA) for robots’ visual perception, in this work we propose a model for AVA exploiting the statistical foundation of visual saliency detection."
+        },
+        {
+          "page": 14,
+          "text": "The VA3V has been embedded into a NAO robot, an Aldebaran Robotics humanoid robot equipped with Aptina MT9M114 camera, producing middle-level quality images with 640x480 resolution."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Image-benchmark evaluation and a robot demonstration in which NAO watched images projected on a screen.",
+      "quotes": [
+        {
+          "page": 15,
+          "text": "The robot has been placed in front of a screen and a subset of images, from the above-mentioned testing dataset, have been projected on the screen allowing the robot watch them one-by-one."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "The system generated attention maps from images, compared them with human eye-fixation maps, and was tested on NAO while it viewed projected images. This was not a human–robot interaction task.",
+      "quotes": [
+        {
+          "page": 14,
+          "text": "The VA3V has been embedded into a NAO robot, an Aldebaran Robotics humanoid robot equipped with Aptina MT9M114 camera, producing middle-level quality images with 640x480 resolution."
+        },
+        {
+          "page": 15,
+          "text": "The robot has been placed in front of a screen and a subset of images, from the above-mentioned testing dataset, have been projected on the screen allowing the robot watch them one-by-one."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "n_robots",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "n_humans",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Image datasets with eye-fixation maps; technical saliency and fixation-prediction metrics including AUCJ, AUCB, KLdiv, NSS, and sAUC; simulated robot eye-fixation points compared with ground-truth fixation areas.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "For such comparison we make use of the MIT1003 database (Judd et al. 2012), holding natural outdoor and indoor pictures (as stimuli) and the corresponding eye-fixation data, encoded into grayscale eye-fixation maps where the intensity of each pixel matches up the eye-fixation probability."
+        },
+        {
+          "page": 10,
+          "text": "The measure has been performed through both the AUCJ, AUCB and K Ldiv indicators (previously presented and discussed) and extended with two additional metrics customarily present in comparative evaluations: i.e., SAUC (Shuffled AUC: Borji et al. 2013) and NSS (Normalized Scanpath Saliency: Peters et al. 2005)."
+        },
+        {
+          "page": 18,
+          "text": "Both two figures illustrate images provided by the robot’s vision system (i.e., what NAO sees) where simulated eye-fixation points, conformably to the above-mentioned definition) are reported as “green marks.” The ground-true eye-fixation areas corresponding to humans’ visual mechanism are reported in the middle column."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "With tuned parameters, 23% of patterns met the paper’s 50% concentration criterion and 58% met its 30% criterion, compared with 3% and 6% for arbitrary parameters and 0% for a random process. The reported MIT300 metrics for VA3V were AUCJ 0.80, AUCB 0.79, KLdiv 1.34, NSS 0.99, and sAUC 0.61.",
+      "quotes": [
+        {
+          "page": 18,
+          "text": "Table 8 compares T Pk% values corresponding to the VA3V system operating with tuned parameters, with arbitrary (e.g., not tuned) parameters and a random process for k 50 (χ50% 1.0) and k 30(χ30% 0.5)."
+        },
+        {
+          "page": 18,
+          "text": "T P50% (χ ≥1.0) 23% 3% 0% T P30% (χ ≥0.5) 58% 6% 0%"
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The authors frame the system as artificial visual attention intended to produce human-like gazing through a human eye-fixation paradigm.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The eye-fixation paradigm has been considered as a keystone of the human-like gazing attribute, molding the robot’s visual behavior toward the human’s one."
+        },
+        {
+          "page": 3,
+          "text": "Hybridization of the two above-mentioned mechanisms, leading to a system able to tune its parameters in order to fit human-like gazing of the inspected environment, is the main novelty of the presented work."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper identifies visual attentiveness as a controllable parameter of artificial visual attention, linked to attention perimeter and grain.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "In other words, we identify the parameter p as a key parameter controlling a kind of the system’s “artificial visual attentiveness” (or system’s “artificial visual attention”)."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "The intended role is to make the robot’s visual conduct more like a human’s, helping it identify relevant visual items and support cooperation and interaction. The paper does not study multiparty interaction.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Actually, by acquiring some kind of artificial human-like visual attention, the resulted system becomes able to adapt its visual conduct to the human’s needs (or targets) in order to gain an improved awareness about the shared environment and to achieve more accurate cooperation and interaction with him (or her)."
+        },
+        {
+          "page": 3,
+          "text": "Then the proposed bio-inspired model of visual attention, in term of controllable artificial attention, is advantageous to achieve a flexible detection and extraction of relevant visual items within the assumption of diversity and disparity of the sought items that a complex landscape may contain."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The authors report that tuned parameters improved alignment between simulated robot fixation points and human ground-truth fixation areas in the image test, while arbitrary settings often failed to detect salient objects.",
+      "quotes": [
+        {
+          "page": 18,
+          "text": "It is pertinent to note the higher accuracy of simulated eye-fixation points’ distribution regarding the ground-true eye-fixation area (matching the ground-true eye-fixation areas in both levels of difficulty), when the robot’s VA3V-based vision operates using tuned parameters."
+        },
+        {
+          "page": 18,
+          "text": "In contrast to this, robot’s VA3V-based vision operating with arbitrary set parameters fails the salient object’s detection, except for firsts images (e.g., the three firsts rows) in Fig. 11 where the complexity is low."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The system computes global and local saliency maps, fuses and filters them into a visual attention map, and uses a genetic algorithm to tune parameters toward human eye-fixation patterns. It was embedded on NAO; its fixation direction was simulated by pointing the robot’s arm.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "In contrast with the aforementioned concept, although based on saliency detection concept, the visual attention-based Autonomous Artificial Vision (VA3V) approach we propose in this paper gets underway the integration of human-like visual attention by launching an eye-fixation mechanism based tuning of the saliency detection process."
+        },
+        {
+          "page": 8,
+          "text": "This is done through a Genetic Algorithm (GA) based evolutionary process shoving the saliency detection toward the human-like eye-fixation behavior."
+        },
+        {
+          "page": 9,
+          "text": "The visual attention map (VAM), results from an adaptive-threshold-based purging following equation (8), operated on the map issued from filtering operation."
+        },
+        {
+          "page": 15,
+          "text": "Although, the NAO’s camera is not a moving camera, remaining far from the sophistication inherent to the human’s eye, the robot’s eye-fixation could be simulated by the straight-line direction (Fig. 10) pointed by NAO’s arm"
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "A NAO humanoid robot by Aldebaran Robotics with an Aptina MT9M114 camera.",
+      "quotes": [
+        {
+          "page": 14,
+          "text": "The VA3V has been embedded into a NAO robot, an Aldebaran Robotics humanoid robot equipped with Aptina MT9M114 camera, producing middle-level quality images with 640x480 resolution."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The NAO camera was fixed rather than moving, so the authors simulated eye fixation by pointing the robot’s arm toward a screen location.",
+      "quotes": [
+        {
+          "page": 15,
+          "text": "Although, the NAO’s camera is not a moving camera, remaining far from the sophistication inherent to the human’s eye, the robot’s eye-fixation could be simulated by the straight-line direction (Fig. 10) pointed by NAO’s arm"
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper presents VA3V, a saliency-based artificial visual-attention system whose parameters are tuned with a genetic algorithm to make its attention maps resemble human eye-fixation patterns. It evaluates the system on benchmark images and embeds it in a NAO robot viewing projected images, reporting better fixation alignment with tuned settings; it does not study multiparty human–robot interaction.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ4; RQ5; RQ6 — The paper describes its artificial visual-attention framing, the saliency-map and genetic-tuning implementation, and its NAO robot setup, including how the fixed camera led to simulated fixation via arm pointing. It does not provide evidence about multiparty interaction roles or effects.",
+      "quotes": []
+    }
+  ]
+}

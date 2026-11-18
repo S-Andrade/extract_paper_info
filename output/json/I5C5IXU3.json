@@ -1,0 +1,317 @@
+{
+  "key": "I5C5IXU3",
+  "title": "Effects of gaze control strategies on the impression of robot's internal states",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Two video-based evaluation experiments and an analysis of human three-party conversation data; the paper also describes a gaze-generation system.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "We used a three-party conversation dataset [2], which has also been used in gaze analysis of previous studies [11,38]."
+        },
+        {
+          "page": 8,
+          "text": "We generated 11 patterns of combined head and eye movements (e.g. head 0:eye 10, head 1:eye 9,..., head 10:eye 0; Figure 6) and presented each pattern as a video stimulus (Figure 7)."
+        },
+        {
+          "page": 11,
+          "text": "Two-way mixed ANOVA was conducted to analyze the effects of gaze control types (within-subjects) and robot types (between-subjects) on the impressions of the robot’s thinking behavior and the robot’s extroversion."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Online, video-based crowdsourced evaluations; the human conversation dataset consisted of recorded free-topic conversations. A physical laboratory or field setting for the evaluations is not stated.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "The dataset consists of multiple sessions of free-topic conversations lasting approximately 25 to 40 min."
+        },
+        {
+          "page": 8,
+          "text": "Participants took part in the video-based stimulus experiment via crowdsourcing, using their own devices."
+        },
+        {
+          "page": 9,
+          "text": "We recruited 100 participants thorough a crowd service, and divided them into two groups of 50 participants each."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "100 participants in User Study 1 and 100 different participants in User Study 2; 200 participants total across both studies. The analyzed conversation dataset’s total participant count is not stated.",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "We recruited 100 participants thorough a crowd service, and divided them into two groups of 50 participants each."
+        },
+        {
+          "page": 11,
+          "text": "We recruited 100 participants thorough a crowd service, and divided them into two groups of 50 participants each. The participants in this experiment are different from those in the User Study 1."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "User Study 1: Group A had 32 men and 18 women, mean age 41.2 (SD 7.3); Group B had 35 men and 15 women, mean age 41.4 (SD 9.8). User Study 2: both groups had 26 men and 24 women; mean age 41.5 (SD 8.1) for Group A and 43.5 (SD 10.7) for Group B. Prior robot experience is not stated.",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "Group A (32 males, 18 females; 41.2 7.3 years old): Viewed only CommU’s videos Group B (35 males, 15 females; 41.4 9.8 years old): Viewed only Nikola’s videos"
+        },
+        {
+          "page": 11,
+          "text": "Group A (26 males, 24 females; 41.5 8.1 years old): Viewed only CommU’s videos Group B (26 males, 24 females; 43.5 10.7 years old): Viewed only Nikola’s videos"
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants watched video stimuli depicting robots in a triadic dialogue and rated perceived extroversion; in the second study, they rated perceived thinking and extroversion for dialogue videos with thinking intervals. The robot shifted gaze between two people positioned ±30 degrees to its left and right. Study 1 videos lasted about 40 seconds; Study 2 videos lasted about 40–50 seconds.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "In this study, we assume a scenario in which a robot shifts its gaze between two people positioned at ±30 degrees to its left and right, respectively."
+        },
+        {
+          "page": 9,
+          "text": "Each video lasted approximately forty seconds."
+        },
+        {
+          "page": 11,
+          "text": "Two dialogue scenarios were prepared including intervals where the robot is thinking during its utterances."
+        },
+        {
+          "page": 11,
+          "text": "The videos lasted approximately forty to fifty seconds."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three participants per depicted interaction: one robot and two human dialogue partners. The paper describes this as a triadic dialogue; the human dataset involved three human participants.",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "We created videos in which each robot appeared to be one of the three participants in a triadic dialogue."
+        },
+        {
+          "page": 11,
+          "text": "Each robot was depicted participating in a triadic dialogue, acting as either speaker or listener."
+        },
+        {
+          "page": 5,
+          "text": "The three participants were seated at the vertices of an equilateral triangle, about two meters side."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "One robot per depicted interaction; the paper evaluated two robot platforms across separate participant groups.",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "We created videos in which each robot appeared to be one of the three participants in a triadic dialogue."
+        },
+        {
+          "page": 11,
+          "text": "Each robot was depicted participating in a triadic dialogue, acting as either speaker or listener."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "Two human dialogue partners per robot interaction; the paper’s source conversation dataset involved three human participants.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "In this study, we assume a scenario in which a robot shifts its gaze between two people positioned at ±30 degrees to its left and right, respectively."
+        },
+        {
+          "page": 5,
+          "text": "The three participants were seated at the vertices of an equilateral triangle, about two meters side."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Custom seven-point Likert questionnaire ratings of extroversion in Study 1 and thinking and extroversion in Study 2; video/audio-visual annotation of thinking intervals and gaze behavior in the conversation dataset; NEO-FFI for personality assessment. Statistical analyses included mixed ANOVA and Mann–Whitney U tests.",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "For each video, participants provided ratings using a seven-point Likert scale on the following item: Personality (Extroversion): ‘Did the robot appear introverted or extroverted?’ (1 very introverted, 4 difficult to decide, 7 very extroverted)"
+        },
+        {
+          "page": 11,
+          "text": "Using a 7-point Likert scale, participants rated each video on: Thinking: ‘Did you feel that the robot behaved as it was thinking during its utterances?’ (1 strongly disagree, 4 difficult to decide, 7 strongly agree) Extroversion: ‘Did the robot appear introverted or extroverted?’ (1 very introverted, 4 difficult to decide, 7 very extroverted)"
+        },
+        {
+          "page": 5,
+          "text": "Furthermore, the NEO-FFI questionnaire [39,40] was used to assess personality traits from a third-person perspective, focusing on the Big Five dimensions."
+        },
+        {
+          "page": 5,
+          "text": "This annotation process was initially performed by one annotator and subsequently verified by another, both of whom have expertise in dialogue data annotation."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Higher head-to-eye ratio (more head movement) increased extroversion ratings; gaze-control type significantly affected perceived thinking and extroversion, with the thinking-aware model scoring higher. Human conversation analysis found significantly different gaze-aversion duration distributions across interval conditions. Statistics are reported in the quotes.",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "As the proportion of head movement increased, subjective ratings of extroversion tended to increase."
+        },
+        {
+          "page": 11,
+          "text": "Significant main effects were observed for gaze control type in both thinking (F(1, 98) 51.92, p .01, f 0.72) and extroversion (F(1, 98) 18.85, p .01, f 0.43)."
+        },
+        {
+          "page": 12,
+          "text": "The results confirmed that gaze aversion during cognitive processing effectively conveyed the impression of thinking, and that appropriate gaze aversion could enhance perceptions of extroversion as well."
+        },
+        {
+          "page": 6,
+          "text": "The comparison between Excluding thinking intervals and During thinking intervals (Recall) showed a significant difference as well (U 719, 196.5, p .001, p 1.91 10−30)."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames robotic gaze as a means of expressing internal cognitive states and personality, with gaze behavior in multiparty dialogue organized around participants’ dialogue roles and gaze aversion during thinking.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "This study aims to investigate how robots can express internal states through gaze control during multiparty conversations, with a particular focus on the impressions of extroversion and thinking behaviors."
+        },
+        {
+          "page": 5,
+          "text": "Our ultimate goal is to allow a robot to nonverbally communicate its engagement in cognitive processing through its gaze behavior."
+        },
+        {
+          "page": 5,
+          "text": "The system targets the control of gaze behavior in three-party conversations."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze is controlled according to dialogue roles to direct attention among speaker, addressee, and side participant; gaze aversion during thinking signals cognitive processing, and gaze behavior also contributes to impressions of extroversion.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "At the core of the system is the Main Layer, which dynamically determines the appropriate gaze target based on the dialogue roles."
+        },
+        {
+          "page": 5,
+          "text": "When the system estimates that a participant is engaged in thinking, gaze behavior transitions to reflect this cognitive state such as by breaking eye contact or suspending gaze."
+        },
+        {
+          "page": 3,
+          "text": "Collectively, these studies underscore the importance of considering dialogue roles in the gaze control mechanisms of dialogue robots."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "More head movement increased perceived extroversion; with low HER, the humanlike Nikola was rated more introverted than CommU. Thinking-aware gaze control increased perceived thinking and slightly increased extroversion. In the human data, gaze aversion was more frequent and longer during thinking, with upward aversion particularly associated with recall.",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "As the proportion of head movement increased, subjective ratings of extroversion tended to increase."
+        },
+        {
+          "page": 12,
+          "text": "Analysis of human conversational data demonstrated that, during cognitive processing, both the duration and frequency of gaze aversion increases."
+        },
+        {
+          "page": 12,
+          "text": "The results confirmed that gaze aversion during cognitive processing effectively conveyed the impression of thinking, and that appropriate gaze aversion could enhance perceptions of extroversion as well."
+        },
+        {
+          "page": 12,
+          "text": "Additionally, under conditions of low HER, CommU elicited a significantly higher impression of extroversion compared to Nikola, a finding likely attributable to CommU’s relatively larger eyes and reduced dominance of gaze control."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "A dialogue-role based gaze model selects gaze targets; a personality adjustment layer and thinking layer modify behavior; a synthesis layer determines target, duration, aversion, direction, and head-to-eye ratio. Gaze motions were model controlled in video stimuli, with speech-driven lip and pitch motion. No sensing or Wizard-of-Oz operation is described.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "To accommodate such individual differences, the system adjusts the output of the Main Layer based on each participant’s Personality, enabling the generation of more personalized gaze behaviors."
+        },
+        {
+          "page": 5,
+          "text": "The final gaze behavior is determined by the Synthesis Layer, which integrates outputs from both the Main Layer and the Thinking Layer."
+        },
+        {
+          "page": 9,
+          "text": "The robot motions were controlled so that lip motion and head pitch motion is automatically controlled based on speech-driven methods [1,2], and the head yaw and eyeball pitch and yaw movements related to gazing are controlled by the dialogue-role based gaze control model [11]."
+        },
+        {
+          "page": 10,
+          "text": "This model uses different distribution parameters for the dialogue-role-based model in thinking and non-thinking intervals, determined from the multi-party dialogue data analyzes."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "The study used CommU, a stylized, deformed social conversational robot, and Nikola, a highly humanlike android. CommU has large exaggerated eyes with strong black-white contrast; Nikola has smaller, more realistic eyes.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "two robots with distinct appearances a highly human-like android robot Nikola and a stylized, deformed-type robot CommU"
+        },
+        {
+          "page": 10,
+          "text": "We employed both a stylized social conversational robot (CommU) and a humanlike android robot (Nikola), as in User Study 1."
+        },
+        {
+          "page": 10,
+          "text": "CommU, as a stylized robot with large, exag- gerated eyes and strong black white contrast"
+        },
+        {
+          "page": 10,
+          "text": "Nikola, being a highly human-like android with smaller, more realistic eyes"
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "At low HER, Nikola was perceived as more introverted than CommU; authors suggest CommU’s larger, high-contrast eyes may make it seem to be looking at observers across a wider range of gaze directions, reducing sensitivity to HER variation. The paper reports no significant robot-type differences in Study 2 at HER 0.5.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "CommU, as a stylized robot with large, exag- gerated eyes and strong black white contrast, may create a persistent impression of being looked at across a broad range of eye directions."
+        },
+        {
+          "page": 10,
+          "text": "In contrast, Nikola, being a highly human-like android with smaller, more realistic eyes, is likely to produce more perceptually salient gaze shifts, making variations in HER more impactful."
+        },
+        {
+          "page": 12,
+          "text": "Regarding the robot types, no significant differences were found in both thinking and extroversion impressions."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper analyzed human triadic conversation data and tested gaze-control videos for two robots, varying head-to-eye ratio and whether gaze aversions were timed to thinking. More head movement and thinking-aware gaze aversion increased perceived extroversion, while thinking-aware gaze also made the robots seem more as if they were thinking; effects of low head-to-eye ratios differed by robot appearance.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper frames gaze as a way to express internal state and personality, and describes role-based gaze allocation in triadic dialogue. It measures effects on perceived thinking and extroversion, details a layered gaze-control model, and compares a stylized robot with a humanlike android, including appearance-related differences in gaze impressions.",
+      "quotes": []
+    }
+  ]
+}

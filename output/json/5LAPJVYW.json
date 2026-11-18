@@ -1,0 +1,250 @@
+{
+  "key": "5LAPJVYW",
+  "title": "Social balancing effect of eye contact",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Experimental study.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this paper, we conduct an experiment in a conversational interaction among two humans and an android and report that observing eye contacts between the robot and a confederate affected the subject’s recognition of the android as attracted to a balanced state."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "A controlled experimental room configured to simulate a job interview.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The experimental room was 3 meters wide and 3.7 meters long."
+        },
+        {
+          "page": 2,
+          "text": "The scene of a job interview was replicated as an example situation of interaction among three people in this experiment."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "30 participants.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We hired 30 Japanese adults (Mean=21.2, SD=2.01[y]) from a temporary employment agency."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Japanese adults; mean age 21.2 years (SD 2.01); 15 participants per condition, with eight men and seven women in each condition.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We hired 30 Japanese adults (Mean=21.2, SD=2.01[y]) from a temporary employment agency. Fifteen subjects were assigned for condition 1 (eight males and seven females). The remaining 15 subjects were assigned for condition 2 (eight males and seven females)."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants acted as job interviewers, asking eight prepared questions of a confederate interviewee and rating each answer from 5 to 7. In condition 1 the interviewee made eye contact with both participant and android; in condition 2 the interviewee looked away from the android at the corresponding times. No duration is stated.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Eight general questions were prepared, which were supposed to appear also in real situations of job interview."
+        },
+        {
+          "page": 3,
+          "text": "The subject was also told to grade answers from the interviewee from one to seven. In this experiment, we supposed that the relationship between the subject and the interviewee was positive in both conditions for simplicity."
+        },
+        {
+          "page": 3,
+          "text": "In both conditions, when the interviewee answered questions, he established eye contact with the subject. However, in condition 1, the interviewee also established eye contact with the android."
+        },
+        {
+          "page": 3,
+          "text": "In condition 2, the interviewee looked towards the opposite of the android the same timing of looking at the android in condition 1"
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three agents per session: one participant, one confederate, and one android.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this paper, we report results of an experiment in a conversational interaction among two humans, that is a subject and a confederate, and an android robot"
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1 android robot per session.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this paper, we report results of an experiment in a conversational interaction among two humans, that is a subject and a confederate, and an android robot"
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2 humans per session: a participant and a confederate.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this paper, we report results of an experiment in a conversational interaction among two humans, that is a subject and a confederate, and an android robot"
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "A custom post-interaction questionnaire measured impressions and perceived relationships, including eye contact. Recorded video was observed and coded for gaze duration and counts, eye-contact duration and counts, and synchronized nods; inter-rater reliability was assessed with Cohen’s kappa.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The questionnaire consisted of items to guarantee that the sessions satisfied the assumed experimental settings, and items to measure the impression toward the android that was assumed to be influenced by the difference of the conditions"
+        },
+        {
+          "page": 4,
+          "text": "Therefore, we measure the total duration when subjects gaze the android, the number of times the subjects look at the android, the time and the number of eye contacts between the subject and the android, and the number of the synchronized nod between the subject and the andoroid."
+        },
+        {
+          "page": 4,
+          "text": "We calculate the average of Cohen’s kappa from the data author measured and data two other observer measured in order to confirm the reliability of author’s observation."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Participants who perceived eye contact between the interviewee and android reported a more positive impression of the android than those in the no-eye-contact condition (questionnaire item a, p < .01). They also rated the interviewee as having a more positive impression of the android (item c, p < .01). Participant gaze and synchronized behavior toward the android did not differ significantly between conditions.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "A t-test revealed a significant difference between conditions (t(26) 0.0008, p .01). It is shown that the score in condition 1 is significantly higher than that in condition 2."
+        },
+        {
+          "page": 4,
+          "text": "As a result, we found a significant difference(t(26) 6.09 10−5, p .01) between conditions. It is shown that the score in condition 1 is significantly higher than that in condition 2."
+        },
+        {
+          "page": 4,
+          "text": "A t-test confirmed no significant difference between conditions about the time and the number that the subjects are looking at android, the time and the number of times that the subject and the android are establishing eye contact, and the number of times that the subject are nodding while the android is nodding."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The authors frame eye contact as synchronized nonverbal behavior and study its “social balancing effect” in triadic interaction, using Heider’s balance theory.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this paper, we investigate what we call ’social balancing effect’ of synchronized nonverbal behavior: social relationships can be attracted to a balanced state due to the synchronized behavior between two agents."
+        },
+        {
+          "page": 2,
+          "text": "In this paper, we focus on eye contact as a representative of synchronized non-verbal behavior."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper describes social balancing effect as social relationships being attracted to a balanced state because of synchronized behavior between two agents. Eye contact is treated as a representative synchronized nonverbal behavior.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this paper, we investigate what we call ’social balancing effect’ of synchronized nonverbal behavior: social relationships can be attracted to a balanced state due to the synchronized behavior between two agents."
+        },
+        {
+          "page": 2,
+          "text": "In this paper, we focus on eye contact as a representative of synchronized non-verbal behavior."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Observed eye contact between the other two agents served as a cue for the participant to perceive their relationship and influenced the participant’s social cognition toward the android in the triadic interaction.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We predict that the relationship between the third person and the self is changed so that the triadic relationships become balanced in Heider’s balance theory through observing eye contacts between the third person and the communication target (i.e., the second person)."
+        },
+        {
+          "page": 6,
+          "text": "Through the experiment with two humans and a robot, focusing on eye contact as a representative synchronized actions, we could validate our hypothesis: observing eye contact between other agents affect one’s social cognition toward either of them."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Observing eye contact between the confederate and android was associated with a more positive impression of the android. The paper reports no significant condition differences in the participant’s gaze at or eye contact with the android, or in synchronized nodding with it.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Therefore, it seemed that subjects who observed eye-contact between the interviewee and the android formed more positive im- pressions toward the android than those who did not observe it."
+        },
+        {
+          "page": 6,
+          "text": "It is worth highlighting that even though the subject and the confederate did not talk to the android at all and, moreover, there is no difference between conditions about the subject’s behavior and the synchronized behavior between the subjects and the android, the subjects’ feeling towards android was changed only by observing eye contact, that is synchronized behavior."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The android’s actions were prepared in advance and triggered by a remote operator (Wizard of Oz). The confederate’s gaze was trained and varied by condition; in condition 1 they made eye contact with the android, and in condition 2 the confederate looked toward the opposite side.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The actions of the android were made in advance and were executed by an operator who monitored the interaction in a remote operator room."
+        },
+        {
+          "page": 3,
+          "text": "These motions were triggered by an operator who monitored the interview from a remote control box, that is, Wizard of OZ."
+        },
+        {
+          "page": 3,
+          "text": "The interviewee was trained to be able to establish eye contact with the same timing in all subjects."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Repliee Q2, a humanlike android resembling a Japanese woman, with movements driven by pneumatic actuators.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "An android called Repliee Q2 was used in this experiment. Its appearance is very human- like and resembles a real existing Japanese woman."
+        },
+        {
+          "page": 2,
+          "text": "Its movements are driven by pneumatic actuators to inhibit driving noise that might make subjects feel uncomfortable in interaction."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors state that the humanlike android appearance was part of the setup’s rationale for presenting it as a human-modeled recording device. They do not report a comparison testing how embodiment influenced the results.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "In addition, the in- structor told him or her to play the role of an interviewer in a test situation of job interview."
+        },
+        {
+          "page": 3,
+          "text": "The instructor told the subject a dummy purpose for the experiment: he or she had to evaluate a novel device, IA recorder (Intelligent Android recorder) that modeled human appearance and recorded conversation."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "In a simulated job interview with one participant, a confederate, and a humanlike android, the researchers varied whether the confederate made eye contact with the android. Participants in the eye-contact condition reported a more positive impression of the android, supporting the authors’ proposed social balancing effect in triadic interaction.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5. The paper frames observed eye contact as synchronized nonverbal behavior that can attract triadic relationships toward a balanced state, and examines its role and effect on impressions of the android. It describes a Wizard-of-Oz implementation and the Repliee Q2 embodiment; it does not examine how embodiment influences the findings.",
+      "quotes": []
+    }
+  ]
+}

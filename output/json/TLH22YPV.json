@@ -1,0 +1,225 @@
+{
+  "key": "TLH22YPV",
+  "title": "Determining robot gaze according to participation roles in multiparty conversations",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Observational analysis of human multiparty conversations with a technical system implementation; the paper describes a prototype and does not report a human–robot user study.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "First, we collected face-to-face multiparty conversations to analyze human attentional behaviors."
+        },
+        {
+          "page": 3,
+          "text": "We used the results of the gaze-transition analysis described above to develop models that were implemented in a humanoid robot, named Robovie-R3 (Figure 3)."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Face-to-face group conversations in an unspecified setting; the paper does not identify it as a lab or field setting.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "A group of four people was asked to have a conversation about where to go on the weekend."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "18 university students participated in the conversation data collection: 11 male and 7 female, organized into six groups of three, each joined by a guide. The number of unique guides is not stated; the paper says the models were based on one guide.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The experiment included 11 male and 7 female university students."
+        },
+        {
+          "page": 2,
+          "text": "Participants were divided into six groups of three people. A fourth member, well acquainted with possible weekend destinations (hereafter referred to as the “guide”), joined each group."
+        },
+        {
+          "page": 4,
+          "text": "Because we could not recruit multiple guides, the current models are based on data obtained from only one guide."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Male and female university students; three participants per group plus a guide familiar with possible weekend destinations. Ages and prior robot experience are not stated.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The experiment included 11 male and 7 female university students."
+        },
+        {
+          "page": 2,
+          "text": "A fourth member, well acquainted with possible weekend destinations (hereafter referred to as the “guide”), joined each group."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Face-to-face conversation about where to go on the weekend; participants could ask the guide questions about locations. Each group had three sessions. The robot prototype was implemented using the models, but no human–robot interaction task or test is described.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "A group of four people was asked to have a conversation about where to go on the weekend."
+        },
+        {
+          "page": 2,
+          "text": "Any of the three participants could ask the guide questions about the various locations. Each group conversed in three sessions, and the 18 conversations from the 6 groups were collected for analysis."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Four humans in each data-collection conversation (three participants and one guide); the prototype robot group size during interaction is not reported.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Participants were divided into six groups of three people. A fourth member, well acquainted with possible weekend destinations (hereafter referred to as the “guide”), joined each group."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "n_humans",
+      "value": "Four humans per data-collection conversation: three participants and a guide. No human–robot session size is reported.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Participants were divided into six groups of three people. A fourth member, well acquainted with possible weekend destinations (hereafter referred to as the “guide”), joined each group."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Video recordings, headset microphones, cap-mounted web cameras, AR markers, Julius adintool speech-recognition software, and ELAN video annotation were used to collect and annotate speech intervals and gaze direction. No questionnaires or participant outcome measures are reported.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The overall interactions were recorded on video. In addition, each participant’s speech was recorded using headset microphones, and each participant’s point of view was recorded using a web camera mounted on a cap worn by the participant."
+        },
+        {
+          "page": 2,
+          "text": "The speech intervals were detected using Julius adintool speech-recognition software, and the gaze direction during each speech interval was registered using ELAN, a video-annotation tool."
+        },
+        {
+          "page": 2,
+          "text": "Furthermore, we used the AR-marker recognition results to report the gaze direction."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames gaze as an important nonverbal feedback signal and treats attentional behavior as varying with participation role. It develops role-specific gaze-transition models for speakers, addressees, and side participants.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Gaze is an important nonverbal feedback signal in multiparty face-to-face conversations."
+        },
+        {
+          "page": 1,
+          "text": "Such behavior differs depending on the participation roles [2, 3]."
+        },
+        {
+          "page": 1,
+          "text": "To build a robot that can convey the appropriate attentional behavior in human-robot multiparty conversations, this paper analyzes human attentional behaviors in multiparty conversations, and establishes gaze-transition models for speakers, addressees, and side participants."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze conveys nonverbal feedback and attentional behavior associated with participation roles. The system uses gaze to identify an addressee and to produce role-dependent robot gaze behavior.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Gaze is an important nonverbal feedback signal in multiparty face-to-face conversations."
+        },
+        {
+          "page": 2,
+          "text": "Therefore, in order to introduce a communication robot as a participant in multiparty interactions with human users, it is indispensable to generate the appropriate gaze and attentional behavior that corresponds to the robot’s role at any given time."
+        },
+        {
+          "page": 3,
+          "text": "We assume that a speaker will look directly at the addressee upon speaking. Hence, the system identifies the addressee by recognizing the target for the speaker’s gaze when the speaker begins talking."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "implementation",
+      "value": "The system recognizes the speaker from Kinect microphone-array speech detection and estimated source angle, identifies the addressee from the speaker’s gaze target using AR markers, and identifies the side participant as neither speaker nor addressee. It selects gaze targets and durations from role-specific transition models and turns the robot’s head toward the next target using Kinect skeleton head positions.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "A microphone array in the Kinect sensor is used to detect speech sounds and to estimate the audio-source angle. When speech sounds are detected, the system assumes that the participant closest to the audio-source angle is the speaker."
+        },
+        {
+          "page": 3,
+          "text": "Hence, the system identifies the addressee by recognizing the target for the speaker’s gaze when the speaker begins talking. We used AR markers in front of each participant to recognize the target of the gaze."
+        },
+        {
+          "page": 3,
+          "text": "Once the participation roles are recognized, the robot’s gaze is determined by referring the gaze-transition models obtained from our data analyses."
+        },
+        {
+          "page": 4,
+          "text": "The head gaze is maintained for the time period provided by the model. If the speech continues past a certain time period, the robot has the opportunity to change its gaze and determines the direction for this change by referring once again to the transition model."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Robovie-R3, described as a humanoid robot; it has cameras installed in its eyes and a controllable head direction.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "We used the results of the gaze-transition analysis described above to develop models that were implemented in a humanoid robot, named Robovie-R3 (Figure 3)."
+        },
+        {
+          "page": 3,
+          "text": "When the robot acts as the speaker, the cameras installed in the robot’s eyes are used to find the AR markers."
+        },
+        {
+          "page": 3,
+          "text": "For this purpose, we use the head position in the Kinect skeleton data."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The authors analyzed human face-to-face conversations to build gaze-transition models for speakers, addressees, and side participants, then implemented the models in the humanoid Robovie-R3 prototype. The paper reports the analysis and implementation, but no human–robot interaction effects or system performance results.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ4; RQ5 — The paper characterizes gaze as nonverbal feedback and describes its role in role-dependent multiparty attention, then details the sensing, gaze-transition models, and humanoid robot embodiment. It does not report effects of robot gaze on people or interaction, nor how embodiment influences those effects.",
+      "quotes": []
+    }
+  ]
+}

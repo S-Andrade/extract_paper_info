@@ -1,0 +1,243 @@
+{
+  "key": "H3VHADB2",
+  "title": "Optimization of a Robotics Gaze Control System",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description with a training experiment and performance evaluation.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "To validate the proposed methodology, a robotic head with a projected face that simulates the movement of the eyes has been developed."
+        },
+        {
+          "page": 10,
+          "text": "The experiment consisted in obtaining the optimal weights during training with three people interacting with the robot."
+        },
+        {
+          "page": 10,
+          "text": "The results of the winning person are consistent with the choice made during the learning phase, being satisfactory in 99.03% of the test cases."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "sample_size",
+      "value": "Three people participated in training. The system was also tested in operation with more than eight participants, but the paper does not state a total sample size.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In our experimentation, training is carried out by three people who interact with each other and with the robot."
+        },
+        {
+          "page": 11,
+          "text": "At normal operation time, the system works with 3 or more people, having even performed some test with more than 8 participants."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "Three people interacted with one another and the robot while following a pre-established sequence of actions; a teacher annotated which person should receive the robot’s attention. The complete sequence contained 726 states.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In our experimentation, training is carried out by three people who interact with each other and with the robot."
+        },
+        {
+          "page": 8,
+          "text": "The training is carried out by three people. At the same time, an external user (teacher) observes the interaction and annotates the time instants when a person should be the focus of attention."
+        },
+        {
+          "page": 9,
+          "text": "The persons followed a list of actions previously established, as shown in Table 1. The complete list of actions had 726 states."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Training sessions involved three humans and one robot. Operational tests included three or more humans and one robot; some tests had more than eight participants.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In our experimentation, training is carried out by three people who interact with each other and with the robot."
+        },
+        {
+          "page": 11,
+          "text": "At normal operation time, the system works with 3 or more people, having even performed some test with more than 8 participants."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "To validate the proposed methodology, a robotic head with a projected face that simulates the movement of the eyes has been developed."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "Three humans during training; operational use is described with three or more people, including tests with more than eight participants.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In our experimentation, training is carried out by three people who interact with each other and with the robot."
+        },
+        {
+          "page": 11,
+          "text": "At normal operation time, the system works with 3 or more people, having even performed some test with more than 8 participants."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "A teacher manually annotated the person who should be the focus of attention. The paper evaluates the system using winning-person agreement and reports the percentage of satisfactory test cases; no named questionnaire or human-subject scale is described.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "At the same time, an external user (teacher) observes the interaction and annotates the time instants when a person should be the focus of attention."
+        },
+        {
+          "page": 10,
+          "text": "The results of the winning person are consistent with the choice made during the learning phase, being satisfactory in 99.03% of the test cases."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "The system’s winning-person choice matched the learning-phase choice satisfactorily in 99.03% of test cases. No statistical significance test is reported.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "The results of the winning person are consistent with the choice made during the learning phase, being satisfactory in 99.03% of the test cases."
+        },
+        {
+          "page": 12,
+          "text": "Although the main aim of this work has been to obtain the weights of our neural network, the head has quantitatively behaved as we expected in operation time in 99.03% of cases"
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames gaze control as selecting whom to attend to in a multiparty conversation, using a competitive network to determine a focus of attention and transition between participants.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In particular, the decision of who to pay attention to in a multi-party conversation is a way of improving a robot’s naturalness in human-robot interaction."
+        },
+        {
+          "page": 12,
+          "text": "This gaze control system uses a competitive network which receives a large number of visual, auditory or presence stimuli. It allows a smooth transition, changing the focus of attention between participants, avoiding erratic movements."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper describes gaze control as determining a stable focus of attention from different stimuli, and specifically treats deciding who to pay attention to in a multiparty conversation as a central problem. It does not give a formal definition of “robotic gaze” or “robotic attention.”",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "An approach to this problem consists in using a competitive neural network that receives different stimuli and returns a stable determination of the focus of attention that must be followed with the robot’s eyes."
+        },
+        {
+          "page": 1,
+          "text": "In particular, the decision of who to pay attention to in a multi-party conversation is a way of improving a robot’s naturalness in human-robot interaction."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "The gaze behavior selects a person as the robot’s focus of attention, tracks conversational attention among participants, and supports naturalness; habituation is used to prevent one person from monopolizing attention.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The main challenges in a conversation are the management of attention and turn-taking between partners, controlling the gaze and adopting the right conversational roles [1]."
+        },
+        {
+          "page": 12,
+          "text": "In addition, it has habituation capabilities to avoid someone from hoarding the conversation."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The authors report smooth transitions between participants and natural behavior; the system’s selected winner was satisfactory in 99.03% of test cases. The paper also states that the method improved perceived naturalness and realism, without reporting a separate human-subject measure for those perceptions.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "The network created smooth transitions between the focus of attention, resulting in a natural behavior but, at the same time, considering properly which stimuli were more important according to the obtained weights."
+        },
+        {
+          "page": 12,
+          "text": "The proposed method significantly improved the sensation of naturalness and realism of the robotic head."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "An autonomous competitive neural network combines seven weighted binary stimuli: field of view, speaking, direct gaze, continuous movement, remembered off-screen person with incoming audio, another person’s visual focus of attention, and proxemics. Weights were optimized from sequential training data with teacher annotations; the robot uses combined neck and eye movement, and a Kalman filter to estimate off-screen positions.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "These stimuli have a binary value, indicat- ing whether they are present or not, and are balanced by a weight, wx."
+        },
+        {
+          "page": 5,
+          "text": "Itk6 shows that a person k is in the VFOA of other people, but is not situated in the robot’s FOV (see Fig. 2)."
+        },
+        {
+          "page": 8,
+          "text": "The process is modeled as an optimization problem, where the aim is to obtain the optimal weights that maximize the sum of the distances between the winners and the losers at each time instant t, as shown in Eq. 9."
+        },
+        {
+          "page": 11,
+          "text": "When a participant disappears from the robot’s FOV, the head is able to estimate the position using a Kalman filter [19]."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "A self-developed robotic head with a projected face on a 3D facial display, simulating eye movement; gaze direction combines neck and eye movement.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "To validate the proposed methodology, a robotic head with a pro- jected face that simulates the movement of the eyes has been developed."
+        },
+        {
+          "page": 2,
+          "text": "The result of the competition makes the robot set the focus on the person, using the combined movement of neck and eyes."
+        },
+        {
+          "page": 12,
+          "text": "The computed weights were integrated into the gaze control system of a self-developed robotic head with combined body and eye movement"
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The paper optimizes stimulus weights for a competitive gaze-control network and evaluates it with a robotic head in multiparty interactions. The network produced smooth attention shifts and matched the teacher-annotated focus choice in 99.03% of test cases; the paper does not report a separate measure of how the robot’s embodiment affected outcomes.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5 — The paper describes gaze control as selecting whom to attend to, explains its role in managing attention and conversation, reports system performance and claimed naturalness effects, details the sensing and control implementation, and describes the robotic head embodiment. It does not directly examine how embodiment influences the study.",
+      "quotes": []
+    }
+  ]
+}

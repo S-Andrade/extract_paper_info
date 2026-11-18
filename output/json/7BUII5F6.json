@@ -1,0 +1,188 @@
+{
+  "key": "7BUII5F6",
+  "title": "Less is More: Adaptive Feature Selection and Fusion for Eye Contact Detection",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description with evaluation on an existing dataset.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We evaluate the proposed method on the official eye contact detection datasets, which achieves promising results of 0.8174 and 0.79 on the validation and test sets, respectively."
+        },
+        {
+          "page": 4,
+          "text": "We evaluate our proposed method on the official MPIIGroupInteraction dataset [22], which consists of 22 group interactions and 78 German-speaking participants."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Evaluation using the MPIIGroupInteraction dataset; the paper does not specify a lab or field setting for the original interactions.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "We evaluate our proposed method on the official MPIIGroupInteraction dataset [22], which consists of 22 group interactions and 78 German-speaking participants."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "78 participants in the dataset.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "We evaluate our proposed method on the official MPIIGroupInteraction dataset [22], which consists of 22 group interactions and 78 German-speaking participants."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "German-speaking participants; age and gender are not stated.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "We evaluate our proposed method on the official MPIIGroupInteraction dataset [22], which consists of 22 group interactions and 78 German-speaking participants."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Automated eye-contact detection in facial images from multiparty group interactions, classified into left, right, frontal, and no eye contact. No robot interaction task is described.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "The challenge task is formulated to predict four categories (i.e., left, right, frontal and no eye contact), while the previous methods [29, 35] output whether the subject is looking at a target or not."
+        },
+        {
+          "page": 4,
+          "text": "Specifically, the dataset contains 4504 training samples, 1672 validation samples and 1848 testing samples for eye contact detection."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "n_robots",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "n_humans",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Overall classification accuracy; OpenFace toolkit for facial detection and alignment.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "As the eye contact detection task can be formulated as single-label classification, the overall accuracy is used to evaluate the eye contact detection performance."
+        },
+        {
+          "page": 4,
+          "text": "We use the OpenFace toolkit [1] to detect and align facial images."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "FSFNet achieved 0.8174 validation accuracy and 0.79 test accuracy; at token keep rate r=0.6, FSF blocks used 24% of the baseline GFLOPs while validation accuracy increased from 0.8135 to 0.8174.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We evaluate the proposed method on the official eye contact detection datasets, which achieves promising results of 0.8174 and 0.79 on the validation and test sets, respectively."
+        },
+        {
+          "page": 5,
+          "text": "As shown in Table 2, when 𝑟= 0.6, it boosts the performance from 0.8135 to 0.8174, but with only 24% GFLOPs in FSF blocks compared with the baseline model."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames the topic as eye-contact detection in multiparty conversations and describes it as relevant to human-robot interaction; it does not present a robot gaze or attention behaviour study.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Detecting eye contact is essential for embodied robots to engage in natural interactions with humans, enhancing the intuitiveness and comfort of these exchanges."
+        },
+        {
+          "page": 1,
+          "text": "Eye contact is a fundamental aspect of non-verbal communication that helps in establishing and maintaining social bonds."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "Eye contact detection is described as identifying direct gaze at a camera or another person.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Eye contact detection focuses on identifying direct gaze at a camera or another person, whereas gaze estimation aims to determine the direction of gaze within a broader visual scene."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Eye contact helps conversation participants understand when they are being addressed or when it may be their turn to speak.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "It helps participants in a multi-party conversation to understand when they are being addressed or when it might be their turn to speak."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "implementation",
+      "value": "The system detects and aligns participant faces with OpenFace, extracts facial feature maps using the first three stages of a pretrained ResNet50, then uses FSF Transformer blocks to rank tokens by [CLS] attention scores and retain top-k tokens for classification into four eye-contact categories.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "As shown in Figure 1, we first detect and align the facial regions by OpenFace to remove redundant background information."
+        },
+        {
+          "page": 3,
+          "text": "The initial three stages of ResNet50[4], pre-trained on the MS-Celeb-1M face recognition dataset [11], are utilized as the backbone to extract visual feature maps."
+        },
+        {
+          "page": 4,
+          "text": "We rank the scores in descending order and keep the tokens corresponding to the top-k scores, which we call the attentive tokens."
+        },
+        {
+          "page": 3,
+          "text": "After the FSF blocks, the final [CLS] token is through the squeeze-and-excitation module to make predictions (i.e., left, frontal, right and no eye contact)."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "This paper presents FSFNet, a computer-vision system that detects eye contact types in facial images from multiparty conversations, evaluated on the MPIIGroupInteraction dataset. It reports 0.8174 validation accuracy and 0.79 test accuracy, but does not study a robot’s gaze behaviour or its effects on people.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ4 — The paper characterizes eye contact as direct gaze and describes its role in indicating addressee status and potential turn-taking. It details a computational detection method, but does not study a robot’s gaze-based attention, embodiment, or its effects.",
+      "quotes": []
+    }
+  ]
+}

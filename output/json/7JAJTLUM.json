@@ -1,0 +1,302 @@
+{
+  "key": "7JAJTLUM",
+  "title": "Designing engagement-aware agents for multiparty conversations",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical system description with machine-learning model development and a laboratory user experiment.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We conducted a Wizard-of-Oz experiment, where a physically embodied agent provided guidance information to multiple persons."
+        },
+        {
+          "page": 7,
+          "text": "To evaluate how the engagement-aware behaviors were perceived by users, we carried out a laboratory experiment in which participants interacted with the receptionist agent that worked in either engagement-aware or engagement-unaware mode."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Laboratory experiment; the paper does not report a field deployment.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "To evaluate how the engagement-aware behaviors were perceived by users, we carried out a laboratory experiment in which participants interacted with the receptionist agent that worked in either engagement-aware or engagement-unaware mode."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "28 participants in the user evaluation; 23 participants in the data collection experiment.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "We conducted the experiment with 23 participants in 9 sessions, each session having 2 to 4 persons."
+        },
+        {
+          "page": 7,
+          "text": "We recruited 28 participants (16 males, 12 females) who were divided into 10 groups (2 groups with 2 subjects, 6 groups with 3 subjects, and 2 groups with 4 subjects)."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "In the user evaluation: 16 males and 12 females, mean age 28.8 years (SD=5.7), range 22–45; reported low familiarity with social robots (M=2.14, SD=1.01 on a 1–5 scale).",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "We recruited 28 participants (16 males, 12 females) who were divided into 10 groups (2 groups with 2 subjects, 6 groups with 3 subjects, and 2 groups with 4 subjects)."
+        },
+        {
+          "page": 7,
+          "text": "The average age was 28.8 years (SD=5.7), ranging from 22 to 45 years."
+        },
+        {
+          "page": 7,
+          "text": "The participants’ familiarity with social robots was low (M=2.14, SD=1.01, on a scale of 1 to 5)."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Groups consulted the receptionist agent for office-building guidance on meeting-room directions, dining, or transportation. The user evaluation used the same scenario, with participants randomly choosing among three topics; each subject’s interaction lasted about 2–3 minutes. The data-collection phase was Wizard-of-Oz; the evaluation agent operated autonomously in engagement-aware or engagement-unaware mode.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Multiple participants were involved in the interaction, each consulting on one of three issues, namely (1) the direction to a meeting room, (2) dining information, and (3) means of transportation to a downtown place."
+        },
+        {
+          "page": 7,
+          "text": "The scenario of the human-agent interaction was identical to that in the data collection phase, i.e., the agent provided guidance information to multiple participants."
+        },
+        {
+          "page": 7,
+          "text": "The participants randomly chose one of three topics concerning the information consultation and were debriefed about the function of the agent."
+        },
+        {
+          "page": 9,
+          "text": "This was exacerbated by the nature of the interaction, namely, information consultation, which did not leave much space for establishing intimate relationships and building rapport."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "User evaluation groups contained 2–4 humans and one robot per interaction session.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "We recruited 28 participants (16 males, 12 females) who were divided into 10 groups (2 groups with 2 subjects, 6 groups with 3 subjects, and 2 groups with 4 subjects)."
+        },
+        {
+          "page": 3,
+          "text": "We used a physically embodied receptionist agent called Olivia (Figure 2)"
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "One robot per interaction session.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "We used a physically embodied receptionist agent called Olivia (Figure 2)"
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "Two to four humans per session in the user evaluation; 2–4 in each data-collection session.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "We recruited 28 participants (16 males, 12 females) who were divided into 10 groups (2 groups with 2 subjects, 6 groups with 3 subjects, and 2 groups with 4 subjects)."
+        },
+        {
+          "page": 4,
+          "text": "We conducted the experiment with 23 participants in 9 sessions, each session having 2 to 4 persons."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Video and vision-system recordings; ELAN video annotation by two human experts; custom 7-point Likert questionnaire; information-recall questions; visual-feature and model metrics; statistical t-tests.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The interaction procedure was recorded by both the agent’s vision system and a high resolution digital video camera."
+        },
+        {
+          "page": 4,
+          "text": "Next, the videos were analyzed using annotation software ELAN (http://tla.mpi.nl/tools/tla-tools/elan/)."
+        },
+        {
+          "page": 7,
+          "text": "There are six subjective measures, each evaluated on a 7-point Likert scale."
+        },
+        {
+          "page": 7,
+          "text": "Task performance (O3): Measured as the recall of information: the number of correct answers that a subject got in 5 questions related to the information provided by the agent."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Engagement-aware behavior increased participants’ gaze toward the agent (78.8% vs. 73.7%, p=.038), perceived conversation smoothness (p=.001), perceived humanness (p=.001), and perceived intelligence (p=.039). The paper also reports significant manipulation-check differences for gaze appropriateness (p=.011) and perceived awareness of intentions (p=.004).",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "The average eye gaze towards the agent when the subjects were listening to the agent was 78.8% in the engagement-aware condition and 73.7% in the engagement-unaware condition."
+        },
+        {
+          "page": 8,
+          "text": "Further, we found significant effect of the agent behavior on the self-reported engagement [S1: t(26)=1.740, p<.094] and the perceived smoothness of conversation [S2: t(26)=3.653, p=.001]."
+        },
+        {
+          "page": 8,
+          "text": "In particular, users perceived the engagement-aware agent to be more human-like [S3: t(26) 3.558, p=.001], more intelligent [S4: t(26) 2.179, p=.039], and they were more satisfied with the agent’s service as a receptionist [S6: t(26) 2.012, p=.055]."
+        },
+        {
+          "page": 7,
+          "text": "The participants felt the agent’s gaze behavior was more appropriate in the engagement-aware condition (M=5.518, SD=0.805) than in the engagement-unaware condition (M=4.580, SD=0.994), t(26) 2.741, p .011."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "Engagement-aware agent behavior, including adjusting direction of attention and managing the conversational floor based on users’ estimated attention saliency and engagement intentions.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Next, we design a novel engagement-aware behavior model for the agent to adjust its direction of attention and manage the conversational floor based on the estimated users’ engagement."
+        },
+        {
+          "page": 2,
+          "text": "Second, we designed a new behavioral model that allowed the agent to perform engagement-aware activities adjusting its direction of attention based on the participants’ attention saliency and triggering floor-exchanges based on their engagement intentions."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The authors define engagement evaluation as estimating involvement in a conversation and whether a participant intends to enter or leave it. They define attention saliency as how much attention a participant deserves from the agent.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "There are two interrelated issues in building engagement- sensitive agents: (1) engagement evaluation, which refers to the estimation of how much a participant is involved in a conversation [28, 36], and whether a participant has an intention to enter or leave a conversation [7, 29], and (2) engagement-based behavior design, which refers to the design of agent behaviors that accommodate the engagement state and intentions of the users."
+        },
+        {
+          "page": 4,
+          "text": "For the first aspect, the annotators were instructed to rate on a scale of 0-10 concerning “how much a participant deserves attention from the agent”."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Attention saliency guides selection of whom the agent attends to; engagement intentions cue conversational-floor exchange, including starting, entering, taking, releasing, or ending a conversation.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "In principle, the agent directs its attention to the participant with the highest attention saliency."
+        },
+        {
+          "page": 6,
+          "text": "When an engagement intention is detected, a floor-change request is triggered."
+        },
+        {
+          "page": 2,
+          "text": "It serves as an important clue for the agent to prioritize the participants and make decisions on who should have the conversational floor."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Compared with random gaze and floor changes, engagement-aware behavior improved gaze appropriateness, gaze toward the agent, conversation smoothness, perceived humanness, and intelligence. It did not significantly change information recall or physical proximity; intimacy, self-reported engagement, and satisfaction were reported with marginal p-values.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "The average eye gaze towards the agent when the subjects were listening to the agent was 78.8% in the engagement-aware condition and 73.7% in the engagement-unaware condition."
+        },
+        {
+          "page": 8,
+          "text": "However, the task performance (O3) were identical in both conditions, i.e., there was no significant difference in the participants’ recall of information [O3: t(26)= 0.799, p=.432]."
+        },
+        {
+          "page": 8,
+          "text": "The agent behavior did not have a significant effect on the proximity (O4), i.e., the physical distance between the agent and participants were identical in both conditions [O4: t (26) 0.894, p=.379]."
+        },
+        {
+          "page": 8,
+          "text": "In particular, users perceived the engagement-aware agent to be more human-like [S3: t(26) 3.558, p=.001], more intelligent [S4: t(26) 2.179, p=.039], and they were more satisfied with the agent’s service as a receptionist [S6: t(26) 2.012, p=.055]."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "A stereo-camera vision system extracts eight visual features for linear-regression attention-saliency estimation and changing visual-cue features for SVM engagement-intention detection. The agent directs gaze toward the highest-saliency participant and uses detected intentions to trigger floor changes. Data-collection behavior was Wizard-of-Oz; the evaluation agent operated autonomously.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The vision head had a stereo camera (Point Gray BB2) which provided a pair of color and disparity images."
+        },
+        {
+          "page": 2,
+          "text": "We built a linear regression model to evaluate the attention saliency, and a support vector machine (SVM) to detect the engagement intentions, each based on a set of carefully selected visual cues."
+        },
+        {
+          "page": 6,
+          "text": "In principle, the agent directs its attention to the participant with the highest attention saliency."
+        },
+        {
+          "page": 7,
+          "text": "However, instead of controlled by a human operator, the agent worked autonomously to control its direction of attention and utterance."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Physically embodied receptionist agent Olivia with a vision head and stereo camera, pan/tilt head and torso motion, and speech output using a female American English voice. Arm gestures were available but not activated.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "We used a physically embodied receptionist agent called Olivia (Figure 2) that consisted of a vision head, a motion system, and a speech system."
+        },
+        {
+          "page": 3,
+          "text": "The motion system allowed for pan and tilt motion of the agent’s head (2 DOFs) and torso (2 DOFs)."
+        },
+        {
+          "page": 3,
+          "text": "The speech system utilized the Loquendo 7.52 text-to-speech (TTS) software to generate a female voice with an American English accent."
+        },
+        {
+          "page": 4,
+          "text": "Although arm gestures were available in the motion system, they were not activated in the study to avoid distractions and potential compounding effects."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The agent’s movable head and torso enabled it to change its direction of attention through head and body pose. Arm gestures were deliberately not activated to avoid distraction and confounding effects; the paper does not report a comparative test of embodiment effects.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "Thus, the agent could change its direction of attention by adjusting the head and body poses."
+        },
+        {
+          "page": 4,
+          "text": "Although arm gestures were available in the motion system, they were not activated in the study to avoid distractions and potential compounding effects."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper developed a physically embodied receptionist agent that estimated each person’s attention saliency and engagement intentions from visual cues, then used gaze direction and floor management in multiparty conversations. In a laboratory comparison with random gaze and floor changes, engagement-aware behavior improved several attention and user-experience measures, while information recall and physical proximity did not differ significantly.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper defines engagement evaluation and attention saliency, explains how gaze-based attention and intention estimates support participant selection and floor management, and reports effects on communication and user experience. It also describes the sensing, models, behavior control, and Olivia’s physical embodiment, including how its head and torso enabled attention direction.",
+      "quotes": []
+    }
+  ]
+}

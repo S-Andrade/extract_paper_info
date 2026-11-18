@@ -1,0 +1,171 @@
+{
+  "key": "NS5FCQUW",
+  "title": "Combining synchrony and shape detection to sustain the robot focus of attention on a selected human partner",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Experimental technical/system-description study.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The model combining synchrony detection and shape recognition has been experimentally tested with a mobile robot in an real indoor environment."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Real indoor environment.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The experiments were performed in a real indoor environment (See Figure 1)."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "A human moved an arm in front of the robot so it could learn a preferred interaction frequency; the robot then selected, learned to recognize, and tracked the partner during synchronized and unsynchronized phases.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "First, the human partner moves his arm in front of the robot to make it learn a preferred frequency of interaction."
+        },
+        {
+          "page": 1,
+          "text": "After initiating the interaction on the basis of synchrony, the robot will automatically learn to recognize the selected partner and maintain its attention with the human during unsynchronized phases of interaction."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "n_robots",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "n_humans",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "measurement_tools",
+      "value": "The paper describes technical focus-strategy predictions and recognition/tracking outputs; it does not report human-subject outcome instruments.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Fig. 5. Evolution of the prediction of each focus strategy."
+        },
+        {
+          "page": 2,
+          "text": "Starting from t 80, the robot is able to recognize and track the partner shape (black curve, Figure 2)."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "The reported key technical result is that after learning, the robot recognizes and tracks the partner shape; no statistical tests are reported.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Starting from t 80, the robot is able to recognize and track the partner shape (black curve, Figure 2)."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames the topic as the robot’s visual focus of attention on a selected human partner, sustained through synchrony detection and shape recognition.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The present study deals with the problematic of attentional mechanism allowing to initiate and to maintain Human Robot Interactions (HRI) by orienting the robot’s visual focus on interacting human partners."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "Attention selects and localizes a preferred human partner and maintains the robot’s focus during active and static interaction phases, enabling re-engagement.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "After initiating the interaction on the basis of synchrony, the robot will automatically learn to recognize the selected partner and maintain its attention with the human during unsynchronized phases of interaction."
+        },
+        {
+          "page": 2,
+          "text": "In conclusion, by combining two attentional mechanisms (synchrony detection and shape recognition), our neural model gives minimal capabilities to a mobile robot to focus and track a selected partner during different phases of interaction (active and static) allowing the emergence of abilities to re-engage the interaction."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The system tracked the selected partner across interaction phases and enabled the robot to re-engage interaction; no effects on human participants are reported.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "In conclusion, by combining two attentional mechanisms (synchrony detection and shape recognition), our neural model gives minimal capabilities to a mobile robot to focus and track a selected partner during different phases of interaction (active and static) allowing the emergence of abilities to re-engage the interaction."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "An autonomous neural model combines synchrony detection with learned visual shape recognition. A pan-tilt camera supplies visual input, and a neural field combines the strategies to locate the partner.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "To deal with the problematic of initiating the HRI, we proposed, in our recent works, a neural model permitting to focus the robot visual attention on a selected partner on the basis of synchrony detection between its own dynamics and the human movements."
+        },
+        {
+          "page": 2,
+          "text": "After acquiring the capability to recognize the partner, the robot can focus its attention by using both synchrony detection and shape recognition. A neural field is used to combine the two strategies [3]."
+        },
+        {
+          "page": 1,
+          "text": "For the visual perception, a pan- tilt camera controlled with a SSC-32 card through a serial communication."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Robosoft Robulab 10 mobile robot with four wheels, a proximity sensor, an embedded computer, and a pan-tilt camera (only pan rotation used).",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Our experimental setup is composed by a Robosoft robulab 10 equipped with four wheels (two for directions and two for stabilization), a proximity sensors for obstacle avoidance, an embedded computer, and for the visual perception, a pan- tilt camera controlled with a SSC-32 card through a serial communication. Only the ”pan” rotation of the camera is used."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "tldr",
+      "value": "The authors tested a mobile robot system that used synchrony to select a human partner and learned the partner’s visual shape to sustain attention when movement stopped. The robot could recognize and track the selected partner during active and static phases, supporting re-engagement; the paper does not report a multiparty group study or human outcome measures.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ4; RQ5 — The paper frames attention as orienting and maintaining the robot’s visual focus on a selected partner, describes its role in selecting and tracking that partner, and details a synchrony-plus-shape implementation on a mobile robot. It does not directly study multiparty interaction or explain how embodiment influences the findings.",
+      "quotes": []
+    }
+  ]
+}

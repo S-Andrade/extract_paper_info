@@ -1,0 +1,259 @@
+{
+  "key": "KBZL3LHR",
+  "title": "Facilitation of telepresence robot turn-takings by gesture exaggeration",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system description with preliminary module-performance experiments.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "In this paper, we propose a telepresence robot for taking turns in multi-party teleconferences."
+        },
+        {
+          "page": 4,
+          "text": "We conducted the preliminary test."
+        },
+        {
+          "page": 5,
+          "text": "We conducted the test for confirming the performance of the nod recognition module."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Preliminary recognition tests were conducted in a closed room; the planned multiparty conversation experiment had not yet been conducted.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "This test was conducted in a closed room."
+        },
+        {
+          "page": 5,
+          "text": "In the next step, we will conduct an experiment that makes a subject to attend a multi-party conversation via proposed system."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "Three subjects participated in the sound-data tests; four subjects participated in the nod-detection test.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "A total of three subjects (male, age range from 21 to 25) participated in the test."
+        },
+        {
+          "page": 5,
+          "text": "A total of 4 subjects (male, age range from 21 to 25) participated in the test."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Male participants aged 21 to 25.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "A total of three subjects (male, age range from 21 to 25) participated in the test."
+        },
+        {
+          "page": 5,
+          "text": "A total of 4 subjects (male, age range from 21 to 25) participated in the test."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants produced back-channels and read short sentences aloud for sound recognition; for nod recognition, they performed single and repeated nods, plus specified head movements. The multiparty teleconference scenario was proposed but not tested.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "We got subjects to make back-channels at 10 times."
+        },
+        {
+          "page": 4,
+          "text": "We got subjects to read short sentences aloud."
+        },
+        {
+          "page": 5,
+          "text": "In the case of single nod data, we got subjects to make a single nod motion at 10 times."
+        },
+        {
+          "page": 5,
+          "text": "In multi nod data, we got subjects to make two or three continuous nod motions at 10 times."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "n_robots",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "n_humans",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Kinect-based sound-pressure, face-tracking, and skeletal-tracking data; manually labeled sound and motion segments were compared with module detections.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We utilized above three kinds of data (skeletal tracking data, facial tracking data and sound pressure) as input and constructed the recognition modules."
+        },
+        {
+          "page": 4,
+          "text": "We manually labeled speaking terms in speaking sound data."
+        },
+        {
+          "page": 5,
+          "text": "We manually labeled the end of each nod in single nod data and multi nod data."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "The recognition modules mostly detected the targeted cues in preliminary tests. Back-channel detection correctly identified 9, 10, and 10 instances for the three subjects; nod detection was mostly successful, with more false negatives for one participant whose nods were slighter. No statistical significance tests were reported.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Most back-channels were successfully detected."
+        },
+        {
+          "page": 5,
+          "text": "Most nod motions were successfully detected."
+        },
+        {
+          "page": 5,
+          "text": "In the result of the multi nod data, there were comparatively many FN in subject A because the nods of subject A were slighter than other subjects."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The authors frame gaze and body direction as attention directions and as cues of recipiency, which can be exaggerated by the telepresence robot.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Gaze directions and body directions belong to attention directions."
+        },
+        {
+          "page": 2,
+          "text": "We called these cues as cues of recipiency."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "Cues of recipiency are non-verbal cues used to obtain the address; they indicate that the listener is receiving and interested.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We enumerated following non-verbal cues that was assumed to obtain the address."
+        },
+        {
+          "page": 2,
+          "text": "Cues of recipiency argue the speaker that the listener is receiving and has an interests"
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Attention directions and response cues help a remote participant become the addressee, a step toward becoming the next speaker and taking a turn.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Therefore, becoming addressee is previous step to become speaker and take turns."
+        },
+        {
+          "page": 2,
+          "text": "By expressing these non-verbal cues, it is expected to get more addresses from the speaker."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The effect of exaggerated cues on becoming the addressee or taking turns was not experimentally evaluated; the authors identify this as future work.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Then, we will confirm how exaggerated cues affect becoming the addressee and taking turns."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "Kinect provides skeletal tracking, facial tracking, and sound pressure. Software detects speaking to switch between speaker and recipient modes; recipient mode detects back-channels, attention time, and nods, then generates exaggerated motion commands for the robot.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "According to the result of speaking recognition, the system switched the expression modes, which are speaker mode and recipient mode."
+        },
+        {
+          "page": 3,
+          "text": "Then, based on these cues, the system generated exaggerated motion."
+        },
+        {
+          "page": 4,
+          "text": "When the attention time was more than 3 seconds, the module generated the motion that got the robot to turn the body to the attended participant."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "A KHR-3HV desktop-sized humanoid robot with two 4-DOF arms, a 2-DOF waist, a 3-DOF neck, and a small display for the remote operator’s face.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We employed KHR-3HV that is a desktop sized humanoid robot by Kondo Kagaku Company as the robot ’s platform."
+        },
+        {
+          "page": 2,
+          "text": "Accordingly, the robot had two 4 DOF arms which enables various kinds of hand gestures."
+        },
+        {
+          "page": 2,
+          "text": "It also had a 2 DOF waist, which allows leaning forwarding motions and changing body directions."
+        },
+        {
+          "page": 2,
+          "text": "For expressing head motions and looking directions, it had a 3 DOF neck."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors state that embodied robots make people feel stronger presence than visions, and that the robot’s movable body parts enable expressive gestures; effects of embodiment were not tested in this study.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "While it is said that embodied robots make people feel stronger presence than visions [2]."
+        },
+        {
+          "page": 1,
+          "text": "Therefore, we think robots could be used for conveying the presences to remote sites."
+        },
+        {
+          "page": 2,
+          "text": "Therefore, it was impossible to convey expressive head and hand gestures."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper presents a telepresence robot that detects a remote participant’s attention directions, nods, and back-channels and exaggerates them as robot motions to help the participant become an addressee and take turns in multiparty teleconferences. Preliminary tests evaluated cue-recognition modules, but the effect on multiparty interaction was left for future work.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ4; RQ5; RQ6 — The paper describes gaze and body direction as attention-direction cues of recipiency, explains their intended role in addressee selection and turn-taking, and details the sensing and robot implementation. It describes the robot embodiment and its expressive capabilities, but does not test embodiment effects or interaction outcomes.",
+      "quotes": []
+    }
+  ]
+}

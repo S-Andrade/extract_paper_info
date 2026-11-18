@@ -1,0 +1,298 @@
+{
+  "key": "3VRL94B3",
+  "title": "Robotic Gaze Responsiveness in Multiparty Teamwork",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Experimental study: autonomous gaze-behaviour implementation and online third-person video evaluation.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "We designed an experimental study to evaluate the impact of a robot’s gaze responsiveness on the perceived teamwork of its team."
+        },
+        {
+          "page": 4,
+          "text": "We video-recorded these short interactions, where human actors performed the scripts and the robot responded autonomously according to the experimental condition."
+        },
+        {
+          "page": 4,
+          "text": "Human raters were then collected in an online recruitment platform and were asked to watch the videos and rate the perceived teamwork."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Online evaluation of videos recorded in a staged teamwork setup around a table.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "The evaluation was done through a third-person perspective, in which participants were asked to watch videos of a human-robot team interaction and to rate their perceptions of teamwork regarding each video."
+        },
+        {
+          "page": 5,
+          "text": "The procedure of our experiment, including the video recordings with the recruited actors, was approved by the Ethical Committee of the Instituto Superior Técnico."
+        },
+        {
+          "page": 6,
+          "text": "Participants were recruited through Prolific and asked to answer a survey to assess their perceptions, from a third-person perspective, on the gaze behaviours of a human-robot team."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "300 recruited; 244 included in the statistical analysis after exclusions.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "We collected a sample of 300 participants stating that were fluent in English in their Prolific profiles."
+        },
+        {
+          "page": 6,
+          "text": "18.7% were excluded as a result of failing at least 1 of the attention checks, which left us with 244 participants to run the statistical analysis."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Participants stated they were fluent in English; ages 22–66 (M = 26.3, SD = 10.0); 43% female, 56% male, 1% preferred not to answer. Two human actors performed the scripts and were volunteers.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "We collected a sample of 300 participants stating that were fluent in English in their Prolific profiles."
+        },
+        {
+          "page": 6,
+          "text": "Their age distribution ranges from 22 to 66 (MAge 26.3 10.0), and 43% identify with the female gender, 56% with male and 1% preferred not to answer."
+        },
+        {
+          "page": 5,
+          "text": "The two actors were volunteers and signed the consent form regarding data management and usage."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants watched five randomly selected short, silent video scenes from a coordination task inspired by The Mind, in which two humans and one robot coordinate card-play actions using non-verbal cues. Robot gaze condition varied by responsiveness strategy and response delay; a no-response control was included. Survey completion averaged around 8.5 minutes.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Our experimental setup was inspired by a card game called The Mind 5, which is a coordination game where gaze acts as an implicit coordination tool."
+        },
+        {
+          "page": 6,
+          "text": "Each participant was randomly assigned to one of the experimental conditions and watched 5 randomly selected videos of 10 possible scenes."
+        },
+        {
+          "page": 6,
+          "text": "They were also told: “the goal of the team is to successfully perform a coordination task. Coordination is achieved in silence and, therefore, the videos you will see have no sound”."
+        },
+        {
+          "page": 6,
+          "text": "Participants received 1 GBP upon completion,8 and the average time to complete the survey was around 8.5 min."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Three teammates per interaction: two humans and one robot.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Weperformedanevaluationwith300participantsrecruited in an online recruitment platform, to assess the perception of coordination and teamwork of a triadic teamwork interaction between 2 humans and 1 robot, from a third-person perspective."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1 robot per interaction.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Weperformedanevaluationwith300participantsrecruited in an online recruitment platform, to assess the perception of coordination and teamwork of a triadic teamwork interaction between 2 humans and 1 robot, from a third-person perspective."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "2 humans per interaction.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "Weperformedanevaluationwith300participantsrecruited in an online recruitment platform, to assess the perception of coordination and teamwork of a triadic teamwork interaction between 2 humans and 1 robot, from a third-person perspective."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Video-based third-person ratings using items from Hoffman’s subjective human–robot fluency metric (fluency, teammate traits, work alliance), plus three coordination items based on questions for singing ensembles. Attention checks and manipulation-check items were also used. Statistical comparisons used non-parametric tests.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "To assess the perception of teamwork we have used items of the subjective human-robot fluency metric proposed by Hoffman [21], namely the fluency, teammate traits, and work alliance measures."
+        },
+        {
+          "page": 6,
+          "text": "Coordination was assessed with 3 items (α 0.93) and captures the perceived synchronization or, in other words, the sense of gazing at the right time."
+        },
+        {
+          "page": 6,
+          "text": "To control for the quality of the sample, there were 3 attention checks after each video, with numbers from 1 to 5 as possible answers for the following questions: “How many robots are around the table?”; “How many people are around the table?”; and “How many members does the team have?”"
+        },
+        {
+          "page": 7,
+          "text": "As a result, we ran non-parametric statistical tests."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Both attentive gaze (AG) and responding gaze (RG) improved perceived fluency, work alliance, and positive teammate traits versus control. AG improved perceived coordination versus control; RG did not significantly do so. Shorter reaction delay improved all four assessed teamwork dimensions. No significant interaction between gaze strategy and delay was found.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "For the perceived coordination of the team, the pairwise comparisons revealed a significant difference between AG and control (U 16720.5, Z −4.271, p 0.001)."
+        },
+        {
+          "page": 7,
+          "text": "For the perceived fluency of the team, the pairwise comparisons revealed a significant difference between AG and control (U 11477.5, Z −8.359, p 0.001) and between RG and control (U 13228.5, Z −5.352, p 0.001)."
+        },
+        {
+          "page": 7,
+          "text": "For the perceived work alliance of the team, the pairwise comparisons revealed a significant difference between between AG and control (U 17747.5, Z −3.469, p 0.001)andRGandcontrol(U 15959.5, Z −2.958, p 0.003)."
+        },
+        {
+          "page": 7,
+          "text": "For all the dependent variables, the perception of teamwork was higher when the delay was shorter."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "Robotic gaze responsiveness: the robot perceives teammates’ gaze and produces a corresponding gaze reaction. The paper studies two heuristics, Attentive Gaze and Responding Gaze.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We propose two strategies or heuristics to endow robotic teammates with gaze responsiveness: the Attentive Gaze (AG) that responds to any gaze by the teammates; and the Responding Gaze (RG) that only responds to gazes towards the robot itself."
+        },
+        {
+          "page": 2,
+          "text": "These strategies are based on two cognitive functions of gaze, monitoring and communicative, respectively."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "Gaze responsiveness is defined as perceiving others’ gaze behaviours and the robot’s corresponding gaze reaction or response.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "To further explore this claim, we developed a gaze responsiveness mechanism, which corresponds to the perception of the gaze behaviours by others and the corresponding gaze reaction, or response, by the robot."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "The authors frame gaze as a monitoring and communication mechanism that can support intention prediction, information sharing, joint attention, common ground, synchrony, and implicit coordination in collaborative multiparty work.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We claim that gaze, composed of eye and head orientation, might have a crucial role in intention prediction and information sharing, which would, in turn, help the human- robot team to reach coordinated behaviour."
+        },
+        {
+          "page": 3,
+          "text": "In a collaborative setting it can aid shared attention and help to establish common ground [42]."
+        },
+        {
+          "page": 3,
+          "text": "In a coordination task (as is a conversation), gaze direction functions as a monitoring and communication mechanism, as a floor-claiming device."
+        },
+        {
+          "page": 3,
+          "text": "We argue that such gaze responsiveness by robotic teammates can foster coordinated behaviour and enhance teamwork."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "In third-person video ratings, responsive gaze was associated with better perceived teamwork: AG and RG improved fluency, work alliance, and teammate traits over control; AG also improved coordination. Shorter robot response delays increased ratings across all dimensions. The study measured perceptions, not objective team performance.",
+      "quotes": [
+        {
+          "page": 7,
+          "text": "For the perceived coordination of the team, the pairwise comparisons revealed a significant difference between AG and control (U 16720.5, Z −4.271, p 0.001)."
+        },
+        {
+          "page": 7,
+          "text": "For the perceived teammate traits of the robot, the pairwise comparisons revealed a significant difference between between AG and control (U 14018.5, Z −6.369, p 0.001) and RG and control (U 13891, Z −4.768, p 0.001)."
+        },
+        {
+          "page": 7,
+          "text": "For all the dependent variables, the perception of teamwork was higher when the delay was shorter."
+        },
+        {
+          "page": 9,
+          "text": "It is also worth mentioning that a scaffold of our approach is that gaze direction depends on eye and head orientation, which is well established in the literature."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "Autonomous robot perception and response. Human gaze behaviours were detected using OpenFace Head Pose Live at 25 fps; gaze targets were classified by comparing head pose and gaze direction with a prior calibration. Robot gaze targets were predefined static angles; modules ran on Thalamus, with animation and behavior planning from SERA. AG responded to gazes toward any target, while RG responded only when a teammate looked at the robot.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Human gaze behaviours are detected by the Head Pose Live program of the OpenFace library [45], which publishes the head pose and gaze direction at a rate of 25 fps."
+        },
+        {
+          "page": 4,
+          "text": "To classify the gaze target of each human, their current headpose and gaze direction are compared to a pre- vious calibration of the interaction setup."
+        },
+        {
+          "page": 4,
+          "text": "The gaze targets of the robot are also set beforehand and they remain at static angles, assuming neither the humans nor the shared screen will change their position during the interaction."
+        },
+        {
+          "page": 4,
+          "text": "All modules of the robotic agent run on top of Thalamus middleware [46]. The animation engine and behaviour planner used are part of the SERA ecosystem [47]."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "EMYS robotic head, an autonomous robotic teammate. The setup included cameras for sensing each human teammate and tablets for human input and a shared screen.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "The EMYS robotic head [51] operates autonomously in all conditions, according to the behaviour described in Section 3."
+        },
+        {
+          "page": 6,
+          "text": "The cameras used to perceive human A and human B are a Papalook PA452 and an Intel RealSence Depth Camera D415, respectively."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors used the EMYS head and chose an external camera perspective to make the robot’s gaze direction visible in the recordings. They do not state a broader effect of embodiment on the study or outcomes.",
+      "quotes": [
+        {
+          "page": 6,
+          "text": "That per- spective was chosen to highlight where the robot was looking at."
+        },
+        {
+          "page": 9,
+          "text": "Although recent findings support similar perceptions of gaze behaviours by first- and third-person evaluations [54], a legitimate generalisation of our results would require not only an additional first-person evaluation but also a longer interaction, where other modalities may interact with gaze behaviours."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The study implemented two autonomous gaze-response strategies for an EMYS robot head and evaluated them through online ratings of silent videos showing a two-human, one-robot coordination task. Both strategies improved perceived fluency, work alliance, and robot teammate traits versus no response; only attentive gaze significantly improved coordination, and shorter response delays increased ratings across all measured dimensions.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper defines gaze responsiveness and describes its proposed monitoring and communicative functions, reports effects on perceived teamwork in triadic interaction, and details autonomous sensing and response implementation on an EMYS robotic head. It notes that camera perspective was selected to show the robot’s gaze, but does not directly test broader embodiment effects.",
+      "quotes": []
+    }
+  ]
+}

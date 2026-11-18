@@ -1,0 +1,289 @@
+{
+  "key": "72L7RI2C",
+  "title": "Recognizing the visual focus of attention for human robot interaction",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical/system evaluation of VFOA recognition models, evaluated on meeting and robot-recorded datasets.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "In this context the contributions of the paper are the investigation of two models to dynamically estimate the reference pose, within a VFOA recognition task, and their evaluation on 3 datasets (meeting and robotics domain."
+        },
+        {
+          "page": 8,
+          "text": "For our experiments we use three sets of data."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Recorded multiparty meeting sessions and two video datasets recorded with a Nao humanoid robot, including a robot quiz/vernissage scenario.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "All of the meetings are recorded under the same condition and with similar configuration as shown in Figure 6, with 4 people (Person left Pl and Person right Pr seen on the image, and two organizers O1 and O2 seating in front of them) discussing statements displayed on slides."
+        },
+        {
+          "page": 9,
+          "text": "In the second dataset (D1) we have a video recorded by our robot, Nao."
+        },
+        {
+          "page": 9,
+          "text": "In the third dataset (D2) comes a vernissage data recording. There we have one session during which people participate in a quiz given by the robot."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "The paper reports dataset sizes and meeting participant counts, but does not state the total number of distinct participants across the study.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "In the first dataset we have the recordings of 8 meeting sessions with a total duration of 145 minutes."
+        },
+        {
+          "page": 8,
+          "text": "with 4 people (Person left Pl and Person right Pr seen on the image, and two organizers O1 and O2 seating in front of them)"
+        },
+        {
+          "page": 9,
+          "text": "The total duration of this video is 22 minutes."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "task",
+      "value": "In meetings, participants discussed statements displayed on slides. In Nao dataset D1, two participants sat in front of the robot and referred to a booklet. In D2, people participated in a robot-led quiz during vernissage recordings.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "with 4 people (Person left Pl and Person right Pr seen on the image, and two organizers O1 and O2 seating in front of them) discussing statements displayed on slides."
+        },
+        {
+          "page": 9,
+          "text": "In this case there are two participants seating in front of Nao as shown in Fig. 6."
+        },
+        {
+          "page": 9,
+          "text": "Each of the participants have 3 visual targets: the other participant, Nao and a booklet which they refer to during the recording."
+        },
+        {
+          "page": 9,
+          "text": "There we have one session during which people participate in a quiz given by the robot."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Meeting recordings had four people and no robot is reported as present in that setting. Nao dataset D1 had two participants and one robot; D2 describes two participants and one robot.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "with 4 people (Person left Pl and Person right Pr seen on the image, and two organizers O1 and O2 seating in front of them)"
+        },
+        {
+          "page": 9,
+          "text": "In this case there are two participants seating in front of Nao as shown in Fig. 6."
+        },
+        {
+          "page": 9,
+          "text": "As shown in Fig. 6, there are 5 main VFOA targets in this recording: Robot (NAO) Person1 (partner), Painting1, Painting2, Painting3."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "One Nao robot in each robot interaction dataset; no robot is specified in the meeting dataset.",
+      "quotes": [
+        {
+          "page": 9,
+          "text": "In the second dataset (D1) we have a video recorded by our robot, Nao."
+        },
+        {
+          "page": 9,
+          "text": "There we have one session during which people participate in a quiz given by the robot."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "Four people in each described meeting configuration; two participants in Nao D1; D2 describes a participant and a partner.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "with 4 people (Person left Pl and Person right Pr seen on the image, and two organizers O1 and O2 seating in front of them)"
+        },
+        {
+          "page": 9,
+          "text": "In this case there are two participants seating in front of Nao as shown in Fig. 6."
+        },
+        {
+          "page": 9,
+          "text": "Robot (NAO) Person1 (partner), Painting1, Painting2, Painting3."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Head pose was measured using flock-of-birds sensors for meeting data and tracked head poses from a tracking/head-pose estimation method for both Nao datasets. The outcome metric was frame-based recognition rate (FRR), compared against labeled VFOA ground truth.",
+      "quotes": [
+        {
+          "page": 8,
+          "text": "For this dataset we have ground truth head poses, captured from flock of bird sensors which will be used for analysis."
+        },
+        {
+          "page": 9,
+          "text": "For this dataset, we do not have ground truth head poses and analysis are done using the tracked head poses [2] which does joint tracking and head pose estimation [1]."
+        },
+        {
+          "page": 9,
+          "text": "As performance measure we use ”Frame based Recognition Rate (FRR)” which corresponds to the percentage of frames during which the VFOA has been correctly recognized."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Key technical result: G1 generally outperformed the fixed-reference baseline in meeting data and Nao D1, especially in mismatched meeting conditions and for the left participant in D1. G2 performed nearly identically to G1; the paper does not report significance tests. In Nao D2, G1 was better for the right participant but worse for the left.",
+      "quotes": [
+        {
+          "page": 12,
+          "text": "As can be seen, the first model outperforms the baseline. This is particularly true in more mismatched conditions, when parameters are learned from another seat rather than the same seat, thus exhibiting a better adaptation capacity."
+        },
+        {
+          "page": 12,
+          "text": "Despite the quite different setting (situation, number of gaze targets, use of estimated head pose vs ground truth head pose), the conclusions are similar to the meeting data. More precisely, model G1 outperforms the baseline, particularly for people on the left with a large difference, and model G2 performs almost the same as model G1."
+        },
+        {
+          "page": 13,
+          "text": "As it is shown in the table for person on the right we get better results using our model G1 whereas for the person on the left this is not true."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames visual focus of attention (VFOA) as a discrete version of gaze and studies recognizing human VFOA as a cue for multiparty human–robot interaction; it does not study robot gaze behavior.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We address the recognition of people’s visual focus of attention (VFOA), the discrete version of gaze that indicates who is looking at whom or what."
+        },
+        {
+          "page": 1,
+          "text": "As a good indicator of addressee-hood (who speaks to whom, and in particular is a person speaking to the robot) and of people’s interest, VFOA is an important cue for supporting dialog modelling in Human-Robot interactions involving multiple persons."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "VFOA is defined as who is looking at whom or what.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We address the recognition of people’s visual focus of attention (VFOA), the discrete version of gaze that indicates who is looking at whom or what."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Human VFOA is presented as a cue for addressee-hood, interest, following discourse, and understanding interaction between people; it can support dialog modeling and robot interaction.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "As a good indicator of addressee-hood (who speaks to whom, and in particular is a person speaking to the robot) and of people’s interest, VFOA is an important cue for supporting dialog modelling in Human-Robot interactions involving multiple persons."
+        },
+        {
+          "page": 2,
+          "text": "VFOA is an important cue for supporting interactions and dialog modeling: it is a good indicator of addresseehood (who speaks to whom, and in particular is a person speaking to the robot), but also a good cue to understand interaction between people or their level of interest."
+        },
+        {
+          "page": 2,
+          "text": "For instance, in a Museum scenario, if people are looking at the painting currently explained by Nao (our project robot), they are probably following the discourse."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The paper evaluates recognition performance, not effects of robot gaze on people. It reports that implicit dynamic head-reference estimation can improve VFOA recognition over a fixed reference in several settings; unsupervised adaptation did not improve results over G1.",
+      "quotes": [
+        {
+          "page": 13,
+          "text": "We have shown that the implicit estima- tion of the head reference has a positive impact on performance."
+        },
+        {
+          "page": 1,
+          "text": "Evaluated on a public dataset and on data recorded with the humanoid robot Nao, the method exhibit better adaptivity and versatility produc- ing equal or better performance than a state-of-the-art approachm, while the proposed unsupervised adaptation does not improve results."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The system estimates human VFOA from head pose, using an HMM with Gaussian target models. Its gaze model maps target direction and head-reference direction to expected head pose; G1 estimates reference from the temporal average head pose, while G2 adds an unsupervised, temporally continuous reference variable. Nao data used tracked head poses.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "A basic solution for inferring the VFOA from head poses is to model the distri- bution of head poses with a K component Gaussian mixture model where K is the number of existing targets."
+        },
+        {
+          "page": 5,
+          "text": "More precisely, the means of the Gaussians corresponding to each specific target can be set as a fixed linear combination of the target direction and the head reference direction."
+        },
+        {
+          "page": 6,
+          "text": "Therefore we can set the reference value at each frame R0 t to the average of the person’s head pose over a previous time window:"
+        },
+        {
+          "page": 7,
+          "text": "By adding Rt as a hidden variable to the model we would then infer the reference values around R0 t such that the predicted means µhead t can best fit the observations."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "The robot platform used in the interaction recordings is the humanoid robot Nao.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "Evaluated on a public dataset and on data recorded with the humanoid robot Nao"
+        },
+        {
+          "page": 2,
+          "text": "if people are looking at the painting currently explained by Nao (our project robot)"
+        },
+        {
+          "page": 9,
+          "text": "In the second dataset (D1) we have a video recorded by our robot, Nao."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The paper reports that the choice of robot direction as the fixed reference was suitable for the person on the right in D1 but not for the person on the left, given the participants’ body configuration. It does not discuss the influence of the robot's physical body features.",
+      "quotes": [
+        {
+          "page": 12,
+          "text": "The main reason for this behavior is that considering the participants body configuration Nao’s direction is quite a suitable choice for the reference for the person on the right but it cannot perform as a good reference estimation for the person on the left."
+        },
+        {
+          "page": 13,
+          "text": "As we have seen, in the robot interaction ap- plication, the same strategy (looking at Nao) does not produce good results in all conditions."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The paper develops and evaluates models for recognizing people’s visual focus of attention from head pose in meetings and Nao robot recordings. Estimating the head reference direction from temporal head pose averages generally improved recognition over a fixed reference, while the unsupervised adaptation model performed similarly to the average-based model.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ4; RQ5; RQ6 — The paper defines human VFOA and describes its role as a multiparty interaction cue, details head-pose/HMM implementations, evaluates them in settings involving the humanoid Nao, and reports how use of Nao’s direction as a reference worked differently depending on participant body configuration. It does not measure effects of robot gaze behavior on people or interaction.",
+      "quotes": []
+    }
+  ]
+}

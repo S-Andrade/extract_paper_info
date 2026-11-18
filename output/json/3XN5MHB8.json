@@ -1,0 +1,296 @@
+{
+  "key": "3XN5MHB8",
+  "title": "A Gesture-Centric Android System for Multi-Party Human-Robot Interaction",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Technical system description with field evaluation and a separate questionnaire study.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "We conducted multi-party HRI experiments for 1,662 subjects in total."
+        },
+        {
+          "page": 12,
+          "text": "Experiments were conducted for four weekdays in the Heijo palace site, Japan."
+        },
+        {
+          "page": 14,
+          "text": "In this section, we controlled only one condition, the motion parameterization."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "Field evaluation at the Heijo palace site in Japan; separate questionnaire study at a university open house.",
+      "quotes": [
+        {
+          "page": 12,
+          "text": "Experiments were conducted for four weekdays in the Heijo palace site, Japan."
+        },
+        {
+          "page": 14,
+          "text": "All subjects were visitors who attended an open house day of our university and voluntarily answered a questionnaire at the end of the communication."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "1,662 visitors in the field experiments; 42 participants in the impression questionnaire study.",
+      "quotes": [
+        {
+          "page": 12,
+          "text": "1,662 visitors in total were took part in these experiments as the subjects."
+        },
+        {
+          "page": 14,
+          "text": "Experiments were conducted with 42 subjects of various age groups (20 subjects for the I+NP condition and 22 subjects for the I+P condition)."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "Field subjects were visitors spanning various age groups; the questionnaire participants were university open-house visitors. The system used one speaking subject at a time, with attendee count uncontrolled.",
+      "quotes": [
+        {
+          "page": 12,
+          "text": "Subjects were in various age groups and had a similar age distribution on each day."
+        },
+        {
+          "page": 12,
+          "text": "We assumed that among the subjects, only one subject would be allowed to speak to the Actroid at a time."
+        },
+        {
+          "page": 12,
+          "text": "We regarded a single person as a special case of multi-party HRI; we did not control the number of attendees at one time."
+        },
+        {
+          "page": 14,
+          "text": "All subjects were visitors who attended an open house day of our university and voluntarily answered a questionnaire at the end of the communication."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "The robot acted as a receptionist in question-and-answer and daily conversation. The questionnaire study let subjects interact freely for a few minutes; for the field evaluation the robot was tested with four system conditions differing in motion interruptivity and parameterization.",
+      "quotes": [
+        {
+          "page": 12,
+          "text": "We used the Actroid as a receptionist and used question and answer (Q A) communication, such as Q: “Where is the bathroom?” A: “It is on your right.”"
+        },
+        {
+          "page": 12,
+          "text": "The Actroid can also communicate dozens of daily conversations such as Q: “How old are you?” A: “I was born three years ago. And you?”"
+        },
+        {
+          "page": 11,
+          "text": "Combining these conditions, there are four comparative systems, UI+NP, I+NP, UI+P, and I+P."
+        },
+        {
+          "page": 15,
+          "text": "We let subjects interact freely, without suggesting anything (such as sitting position or timing during the communication process)."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "The field evaluation did not control the number of attendees at a time; the authors assumed one person would speak to the robot at a time. The questionnaire sessions used one Actroid and subjects seated on one of three seats; an exact session headcount is not stated.",
+      "quotes": [
+        {
+          "page": 12,
+          "text": "We assumed that among the subjects, only one subject would be allowed to speak to the Actroid at a time."
+        },
+        {
+          "page": 12,
+          "text": "We regarded a single person as a special case of multi-party HRI; we did not control the number of attendees at one time."
+        },
+        {
+          "page": 15,
+          "text": "Subjects sat down on one of three seats placed in front of the Actroid and then communicated with each other for a few minutes."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "In this research, we use an android Actroid-SIT made by Kokoro Company, Ltd."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Speaker/non-speaker counts and speaker ratio; communication residence time measured from speaking onset until the microphone was returned; Semantic Differential questionnaire with 28 antonym pairs on a 1–7 Likert scale; statistical tests and factor analysis.",
+      "quotes": [
+        {
+          "page": 12,
+          "text": "The subject in the table is the number of people who approach the Actroid, the speaker is the number of subjects who voluntarily spoke to the Actroid, and the non-speaker is the number of subjects who did not speak to the Actroid."
+        },
+        {
+          "page": 13,
+          "text": "Residence time is defined as the duration from the moment when a subject starts speaking to the moment when the subject puts his/her microphone back onto its stand."
+        },
+        {
+          "page": 15,
+          "text": "We used the Semantic Differential (SD) method (Osgood Tannenbaum, 1957) for the evaluation of human impressions of the Actroid."
+        },
+        {
+          "page": 15,
+          "text": "After the communication with the Actroid was finished, each subject answered a questionnaire with 28 antonymous adjective pairs on a Likert scale from one to seven points (i.e., one: the worst, seven: the best), for an SD profile."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Motion parameterization was associated with higher speaker counts (χ²(3)=62.765, p<.01; residual analysis showed significantly more speakers in UI+P and I+P). Interruptibility increased residence time (F(1,856)=39.22, p<.01, η²=.044). In the impression study, I+P scored significantly higher than I+NP on activity, sophistication, and speediness (p<.01), and friendliness (p<.1).",
+      "quotes": [
+        {
+          "page": 13,
+          "text": "A chi-square test was revealed significant differences among conditions (χ2(3) 62.765, p .01, φ 0.194)."
+        },
+        {
+          "page": 14,
+          "text": "A significant main effect in interruptible was revealed (F(1, 856) 39.22, p .01, η2 .044)."
+        },
+        {
+          "page": 15,
+          "text": "A student t-test revealed that activity (p .01), sophistication (p .01), speediness (p .01), and friendliness (p .1) scores in I+P condition were significantly higher than ones in I+NP condition."
+        },
+        {
+          "page": 17,
+          "text": "With our HRI system, the speaker ratio was over 60%, while that of conventional systems was less than 50%. The residence time of communication was longer in our HRI system."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "The paper frames gaze as planned head and eye motion, integrated with gesture adjustment and speaker/object location to support multi-party communication and eye-to-eye contact.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "By extending our already developed real-time gesture planning method, we propose a gesture adjustment suitable for human demand through motion parameterization and gaze motion planning, which allows communication through eye-to-eye contact."
+        },
+        {
+          "page": 2,
+          "text": "The system can communicate smoothly with multiple people by rapidly switching from person to person and adjusting a gesture to the location of a speaker and/or object as shown in Figure 1."
+        },
+        {
+          "page": 17,
+          "text": "In addition, our system can generate facial expression with five emotions, including gaze motion based on the knowledge of social animals."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "",
+      "quotes": []
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze helps the robot face and track a speaker, while gaze motion is combined with gesture adjustment to support switching attention among people and directing behavior toward a speaker or object.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "gesture #1 performs to track a speaker’s direction by combining gaze, as described in Section 3.3.2."
+        },
+        {
+          "page": 2,
+          "text": "The system can communicate smoothly with multiple people by rapidly switching from person to person and adjusting a gesture to the location of a speaker and/or object as shown in Figure 1."
+        },
+        {
+          "page": 15,
+          "text": "As shown in Figure 13, the head and body of the Actroid faced the speaker’s direction by motion parameterization."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "The paper reports that parameterized motion increased the proportion of visitors who spoke to the robot, and interruptibility increased communication duration. Parameterization also produced more positive impressions on several factors; the authors attribute easier approach to positive impressions, but evaluate the impression effect after approach.",
+      "quotes": [
+        {
+          "page": 13,
+          "text": "These results implicitly indicates that motion parameterization increases speaker ratio."
+        },
+        {
+          "page": 14,
+          "text": "Thus, we confirmed that the motion interruptivity makes HRI a more durable form of communication."
+        },
+        {
+          "page": 15,
+          "text": "A student t-test revealed that activity (p .01), sophistication (p .01), speediness (p .01), and friendliness (p .1) scores in I+P condition were significantly higher than ones in I+NP condition."
+        },
+        {
+          "page": 17,
+          "text": "With our HRI system, the speaker ra- tio was over 60%, while that of conventional systems was less than 50%. The residence time of communication was longer in our HRI system."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "A camera-based speaker detector found faces and detected microphone color to identify the speaker; the system used a pre-designed Reconfigurable Motion Database for interruptible, parameterized gesture planning. Gaze control computed head and eye angles using a sharing rate and eye convergence. Modules communicated through a Redis Key-Value Store; episode rules selected reactions. Speech recognition and keyword extraction were also used.",
+      "quotes": [
+        {
+          "page": 10,
+          "text": "It is difficult to detect a speaker (i.e., the person who is speaking) only with only facial information. Therefore, we assumed a person who has a microphone is the speaker."
+        },
+        {
+          "page": 4,
+          "text": "The RMDB has the following two main features: motion interruptivity and motion parameterization."
+        },
+        {
+          "page": 7,
+          "text": "The sharing rate Dx Ex Vx indicates the ratio of eye movement to head movement in gaze motion."
+        },
+        {
+          "page": 8,
+          "text": "We used a Redis 2, which is one of the Key-Value Store implementations, and let it perform as a web server."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Actroid-SIT, a human-like android with 42 degrees of freedom: 29 for body gesture and 13 for facial expression; pneudraulic actuators.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The Actroid has a human-like figure (as shown in Figure 2) and total of 42 degree of freedoms (DOFs) (29 DOFs for body gesture and 13 DOFs for facial expression, as shown in Table 1)."
+        },
+        {
+          "page": 3,
+          "text": "Since the Actroid is driven by pneudraulic actuators, damage caused by an accidental collision is much less than with other motor-driven rigid robots."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The authors state that appearance and body gestures affect human impressions, and motivate a human-like android embodiment in part by concern about the Uncanny Valley. The paper does not isolate or experimentally compare embodiment effects.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "In HRI, we consider human impressions affected by the appearance of a robot as well as by the robot’s body gestures."
+        },
+        {
+          "page": 2,
+          "text": "We focused on body gesture planning by especially considering human-likeness and interactivity, which are strongly required for androids to avoid the Uncanny Valley (Mori, 1970; White, McKay, Pollick, 2007)."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The authors developed a human-like android system that combines planned gaze with adjustable and interruptible gestures for interaction with multiple people. In field evaluations, parameterized motion was linked to more visitors speaking to the robot, and interruptible motion to longer communication; the separate impression study found higher ratings on several factors with parameterization.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper describes gaze as planned head and eye motion and explains its role in tracking/facing speakers and targeting gestures. It reports interaction and impression outcomes, details sensing and motion control, identifies the Actroid-SIT embodiment, and discusses how appearance and body gestures relate to impressions, though it does not isolate embodiment effects.",
+      "quotes": []
+    }
+  ]
+}

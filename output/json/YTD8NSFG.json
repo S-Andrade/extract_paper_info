@@ -1,0 +1,270 @@
+{
+  "key": "YTD8NSFG",
+  "title": "Picking favorites: The influence of robot eye-gaze on interactions with multiple users",
+  "fields": [
+    {
+      "field": "study_type",
+      "value": "Experimental study; 2 × 2 mixed factorial design.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "We conducted a 2 (object-oriented vs. person-oriented gaze) x 2 (‘favored’ vs. ‘not favored’ by the robot) mixed factorial design study, where a robot guide talked about two artworks to groups of three participants."
+        }
+      ]
+    },
+    {
+      "field": "study_setting",
+      "value": "University of Twente laboratory arranged as a museum-like exhibition, with two artwork posters.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "A 2 (person-oriented [only looking at participants] vs. object-oriented [also looking at artworks] gaze) x 2 (‘favored’ [looked at more] vs. ‘not favored’ [looked at less] by the robot) mixed factorial design (N=57) study was carried out in a museum-like lab setting where a robot talked about two artworks to groups of three participants."
+        },
+        {
+          "page": 3,
+          "text": "The experiment was performed in a lab at the University of Twente."
+        }
+      ]
+    },
+    {
+      "field": "sample_size",
+      "value": "57 participants.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "57 Participants, students and staff members of the university, took part in the experiment (mean age was 25.6 (sd 7.585); 41 male, 16 female)."
+        }
+      ]
+    },
+    {
+      "field": "participant_characteristics",
+      "value": "University students and staff; mean age 25.6 years (SD 7.585); 41 male and 16 female; 78.9% studied or worked in IT; 91.2% reported little or no robot experience; 56.1% had prior knowledge of one or both artworks.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "57 Participants, students and staff members of the university, took part in the experiment (mean age was 25.6 (sd 7.585); 41 male, 16 female)."
+        },
+        {
+          "page": 3,
+          "text": "Of the participants 78.9% studied or worked in IT. 91.2% of the participants reported having little or no experience with robots. Slightly more than half (56.1%) of the participants had some previous knowledge about one or both artworks."
+        }
+      ]
+    },
+    {
+      "field": "task",
+      "value": "Participants in groups of three listened to the robot tell stories about two artworks, with gaze varied by condition; sessions lasted approximately 30 minutes.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The robot told a story about both artworks to groups of three participants."
+        },
+        {
+          "page": 3,
+          "text": "In the person-oriented gaze condition, the robot alternated its gaze between the three participants, as described above. In the object-oriented gaze condition, the robot also turned toward (“gazed at”) the artwork it was talking about."
+        },
+        {
+          "page": 3,
+          "text": "Each session took approximately 30 minutes."
+        }
+      ]
+    },
+    {
+      "field": "group_size",
+      "value": "Four per session: one robot and three human participants.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The robot told a story about both artworks to groups of three participants."
+        }
+      ]
+    },
+    {
+      "field": "n_robots",
+      "value": "1",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The platform used in the experiment was a Magabot- robot1."
+        }
+      ]
+    },
+    {
+      "field": "n_humans",
+      "value": "3 participants per interaction group.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The robot told a story about both artworks to groups of three participants."
+        }
+      ]
+    },
+    {
+      "field": "measurement_tools",
+      "value": "Questionnaire using Source Credibility, Godspeed, and Social Presence subscales; video annotation of attention direction and compliance; participant positioning/proximity; knowledge questions about story and artworks.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "To measure Trust in the robot we used the sociability, competence, composure and character subscales of the 15 item Source Credibility Scale of McCroskey [20]. In addition, the subscales Anthropomorphism, Likeability, and Perceived Safety of the Godspeed Scale of Bartneck et al. [21] were used."
+        },
+        {
+          "page": 3,
+          "text": "The subscales Attentional Allocation and Co-Presence of the Social Presence Measure of Harms and Biocca [22] were used to measure perceived attention received from the robot and given to the robot and perceived co-presence with the robot."
+        },
+        {
+          "page": 4,
+          "text": "Next to the questionnaires, we used video recordings to measure the visitors’ attention more objectively. We annotated and analyzed the videos to examine where the participants looked at specific moments during the experiment."
+        },
+        {
+          "page": 4,
+          "text": "To obtain insight into the recall of details of the stories and the artworks, the participants had to answer some knowledge questions individually, as part of the questionnaire."
+        }
+      ]
+    },
+    {
+      "field": "significant_measures",
+      "value": "Object-oriented gaze drew participants’ attention toward the robot rather than the artwork at explicit and implicit compliance moments (F[1,35] = 25.395, p = 0.000; F[1,35] = 21.902, p = 0.000). Favored participants reported more attention received from and given to the robot (F[1,53] = 91.740, p = 0.000), and greater perceived presence/awareness (F[1,53] = 37.786, p = 0.000). At explicit compliance moments, participants looked more at the artwork in the person-oriented than object-oriented condition (F[1,35] = 5.218, p = 0.029).",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "Instead, we found that participants in the object-oriented mode paid more attention to the robot at explicit compliance moments (F[1,35] 25.395 p 0.000) and at implicit compliance moments (F[1,35] 21.902, p 0.000) than participants in the person-oriented mode."
+        },
+        {
+          "page": 5,
+          "text": "Results indeed showed that favored participants perceived more attention received from the robot and more attention given to the robot (F[1,53] 91.740, p= 0.000) than non- favored participants."
+        },
+        {
+          "page": 5,
+          "text": "Also, favored participants found the robot more present and felt the robot to be more aware of their presence (F[1,53] 37.786, p 0.000) than their non- favored colleagues."
+        },
+        {
+          "page": 5,
+          "text": "In the person-oriented mode, the participants looked more at the artwork when the robot told them explicitly to do so than participants in the object- oriented mode (F[1,35] 5.218, p 0.029)."
+        }
+      ]
+    },
+    {
+      "field": "framing",
+      "value": "Robot gaze is framed as a non-verbal cue for indicating or engaging in shared attention toward an object, directing visitors’ attention, and distributing attention among group members.",
+      "quotes": [
+        {
+          "page": 2,
+          "text": "For the purpose of this study, we focus on robot gaze behavior as a way of indicating or engaging in shared attention toward an object of interest."
+        },
+        {
+          "page": 1,
+          "text": "Particularly gaze is an important behavior that human tour guides use to keep people engaged, distribute their attention across a group, indicate objects of interest and direct peoples’ attention [7], [8]."
+        }
+      ]
+    },
+    {
+      "field": "framing_definition",
+      "value": "The paper does not provide a formal definition of robotic gaze or robotic attention; it describes the gaze conditions operationally.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "In the person-oriented gaze condition, the robot alternated its gaze between the three participants, as described above. In the object-oriented gaze condition, the robot also turned toward (“gazed at”) the artwork it was talking about."
+        }
+      ]
+    },
+    {
+      "field": "framing_role",
+      "value": "Gaze is used to direct visitors toward artworks and establish shared attention, while gaze toward people distributes the robot’s attention among group members and can signal favoritism.",
+      "quotes": [
+        {
+          "page": 1,
+          "text": "The robot gazed toward the artworks at specific moments in the story where a human guide would usually point to direct the visitors’ attention to the artwork and establish joint gaze and shared attention toward the artwork."
+        },
+        {
+          "page": 2,
+          "text": "We are particularly interested to find out whether multiple users do indeed engage in shared attention with a robot that displays object-oriented gaze and whether this influences their experience of the interaction."
+        },
+        {
+          "page": 3,
+          "text": "However, the robot focused on the person on the left, and alternated its attention at eight moments during the story to the persons in the middle and on the right for 1 to 2 seconds."
+        }
+      ]
+    },
+    {
+      "field": "effects",
+      "value": "Object-oriented gaze attracted attention to the robot but failed to produce shared attention toward the artwork; favored participants perceived more attention and awareness from the robot and tended to like it more. The object-oriented condition also yielded a more human-like perception and closer participant proximity at the halfway point; recall did not differ by gaze condition.",
+      "quotes": [
+        {
+          "page": 4,
+          "text": "This means we successfully drew people’s attention with the object-oriented gaze behavior but were not successful in creating shared attention toward the art object."
+        },
+        {
+          "page": 5,
+          "text": "Also, these participants (M 1.39m) stood significantly closer to the robot halfway through the interaction (F[1,53] 4.167, p 0.046) than participants in person-oriented gaze condition (M 1.58m)."
+        },
+        {
+          "page": 5,
+          "text": "Results indeed showed that favored participants perceived more attention received from the robot and more attention given to the robot (F[1,53] 91.740, p= 0.000) than non- favored participants."
+        },
+        {
+          "page": 6,
+          "text": "For robots interacting with multiple users, we found that participants that received more attention from the robot liked the robot better."
+        }
+      ]
+    },
+    {
+      "field": "implementation",
+      "value": "The robot’s gaze was controlled remotely by an experimenter in a Wizard-of-Oz setup. It turned its front and moved its displayed eyes toward participants or artworks; gaze durations and favoring schedule are described.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The robot turned its front toward the point it was looking at as well as moving its eyes to that side to indicate it was looking at a specific participant or at one of the artworks."
+        },
+        {
+          "page": 3,
+          "text": "The robot was remote controlled by one of the experimenters in a Wizard- of-Oz setting."
+        },
+        {
+          "page": 3,
+          "text": "In the object-oriented gaze condition, the robot also turned toward (“gazed at”) the artwork it was talking about. The duration of the gaze was 2 to 6 seconds."
+        },
+        {
+          "page": 3,
+          "text": "However, the robot focused on the person on the left, and alternated its attention at eight moments during the story to the persons in the middle and on the right for 1 to 2 seconds."
+        }
+      ]
+    },
+    {
+      "field": "embodiment",
+      "value": "Magabot robot with a table structure and basic custom shell without anthropomorphic features; laptop on top displayed anthropomorphic eyes.",
+      "quotes": [
+        {
+          "page": 3,
+          "text": "The platform used in the experiment was a Magabot- robot1. It came with a table-structure and a custom-made shell was used."
+        },
+        {
+          "page": 3,
+          "text": "The custom-made shell was very basic and had no anthropomorphic features. A laptop showing anthropomorphic eyes was placed on top of the structure of the platform."
+        }
+      ]
+    },
+    {
+      "field": "embodiment_influence",
+      "value": "The paper suggests robot movement may have distracted participants and drawn their attention to the robot rather than the artwork; it does not attribute this effect specifically to the robot’s body design.",
+      "quotes": [
+        {
+          "page": 5,
+          "text": "Perhaps the robot’s movements distracted people and drew their attention toward the robot rather than engaging them in shared attention toward the object."
+        },
+        {
+          "page": 6,
+          "text": "Limitations of the current experimental set-up mostly involved the difficulty in establishing exactly where each of the participants was gazing."
+        }
+      ]
+    },
+    {
+      "field": "tldr",
+      "value": "The study tested a Magabot guide telling three-person groups about two artworks, varying whether it gazed only at participants or also at the artwork and whether it favored one person. Artwork-directed gaze drew attention toward the robot instead of reliably creating shared attention to the artwork, while favored participants perceived more attention from the robot and tended to like it more.",
+      "quotes": []
+    },
+    {
+      "field": "rqs",
+      "value": "RQ1; RQ2; RQ3; RQ4; RQ5; RQ6 — The paper frames robot gaze as a cue for directing attention, shared attention, and distributing attention in a group; it reports observed attention and attitude effects, details its Wizard-of-Oz gaze implementation and Magabot embodiment, and discusses movement-related distraction.",
+      "quotes": []
+    }
+  ]
+}
